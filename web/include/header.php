@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Myriad">
+	<meta name="keywords" content="Myriad, Myriadcoin, Altcoin, Crypto, Cryptocurrency, Bitcoin, SHA256, Scrypt, Mining, Wallet, MYR, BTC, Blockchain, AuxPow, Merge Mining">
+    <meta name="author" content="MyriadTeam">
     <link rel="icon" href="/favicon.ico">
 
 <?php
