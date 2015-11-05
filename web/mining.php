@@ -16,13 +16,149 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<h2>Mining Software</h2>
-			<p class="text-justify">Break out by Algo and then by vendor etc</p>
+			<dl>
+				<dt>SHA256d</dt>
+				<dd>Use any SHA256d compatible ASIC<hr></dd>
+				<dt>Scrypt</dt>
+				<dd>Use any Scrypt compatible ASIC<hr></dd>
+				<dt>Myr-Groestl</dt>
+				<dd>
+					<ul>
+						<li>sgminer for OpenCL GPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/index.php?topic=632503.0" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://www.nicehash.com/index.jsp?p=software#amdgpu" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/sgminer-dev/sgminer" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>sgminer --algorithm myriadcoin-groestl --no-extranonce -o {pool-URL} -O Username:Password</code></div>
+						</li>
+						<li>ccminer for CUDA GPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/?topic=770064" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://github.com/tpruvot/ccminer/releases/latest" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/tpruvot/ccminer" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>ccminer -a myr-gr -o {pool-URL} -O Username:Password</code></div>
+						</li>
+						<li>cpuminer-multi for CPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/?topic=841401" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://github.com/tpruvot/cpuminer-multi/releases/latest" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/tpruvot/cpuminer-multi" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>cpuminer -a myr-gr -o {pool-URL} -O Username:Password</code></div>
+						</li>						</ul>
+					<hr>
+				</dd>				
+				<dt>Skein</dt>
+				<dd>
+					<ul>
+						<li>cgminer for OpenCL GPU mining
+							<ul>
+								<li><a href="https://www.dropbox.com/s/uhbp9r6m8zzqnke/cgminer_skein.zip">Windows 32 bit</a></li>
+								<li><a href="https://github.com/reorder/cgminer_skein" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>cgminer --skein -o {pool-URL} -O Username:Password</code></div>
+						</li>
+						<li>cpuminer-multi for CPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/?topic=841401" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://github.com/tpruvot/cpuminer-multi/releases/latest" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/tpruvot/cpuminer-multi" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>cpuminer -a skein -o {pool-URL} -O Username:Password</code></div>
+						</li>
+					</ul>
+					<hr>
+				</dd>
+				<dt>Qubit</dt>
+				<dd>
+					<ul>
+						<li>sgminer for OpenCL GPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/index.php?topic=632503.0" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://www.nicehash.com/index.jsp?p=software#amdgpu" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/sgminer-dev/sgminer" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>sgminer --algorithm qubitcoin --no-extranonce -o {pool-URL} -O Username:Password</code></div>
+						</li>
+						<li>ccminer for CUDA GPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/?topic=770064" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://github.com/tpruvot/ccminer/releases/latest" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/tpruvot/ccminer" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>ccminer -a qubit -o {pool-URL} -O Username:Password</code></div>
+						</li>
+						<li>cpuminer-multi for CPU mining
+							<ul>
+								<li><a href="https://bitcointalk.org/?topic=841401" target="_blank">BitcoinTalk Thread</a></li>
+								<li><a href="https://github.com/tpruvot/cpuminer-multi/releases/latest" target="_blank">Windows Binaries</a></li>
+								<li><a href="https://github.com/tpruvot/cpuminer-multi" target="_blank">GitHub Source</a></li>
+							</ul>
+							Suggested Command Line
+							<div class="well well-sm"><code>cpuminer -a qubit -o {pool-URL} -O Username:Password</code></div>
+						</li>					
+					</ul>
+				</dd>
+			</dl>			
 		</div>
-		<div class="col-lg-4">
+		
+		<div class="col-lg-6">
 			<h2>Pools</h2>
-			<p class="text-justify">P2Pool nodes</p>
-			<p class="text-justify">Other pools</p>
-			<p class="text-justify">Merge Mining Pools?</p>
+			<h3>P2Pool nodes</h3>
+			<dl>
+				<dd>Myr-Groestl</dd>
+				<dt>
+					<ul>
+						<li><a href="http://birdonwheels5.no-ip.org:5578" target="_blank">East Coast U.S.A.</a></li>
+					</ul>
+					<hr>
+				</dt>
+				<dd>Skein</dd>
+				<dt>
+					<ul>
+						<li><a href="http://mine4free.noip.me:5589" target="_blank">UK</a></li>
+						<li><a href="http://birdonwheels5.no-ip.org:5589" target="_blank">East Coast U.S.A.</a></li>
+						<li><a href="http://tanukifu.ddns.net:5589" target="_blank">U.S.A.</a></li>
+						<li><a href="http://nz.nutty.one:5589" target="_blank">New Zealand</a></li>
+					</ul>
+					<hr>
+				</dt>
+				<dd>Qubit</dd>
+				<dt>
+					<ul>
+						<li><a href="http://birdonwheels5.no-ip.org:5567" target="_blank">East Coast U.S.A.</a></li>
+						<li><a href="http://tanukifu.ddns.net:5567" target="_blank">U.S.A.</a></li>
+						<li><a href="http://nz.nutty.one:5567" target="_blank">New Zealand</a></li>
+					</ul>
+				</dt>				
+			</dl>
+			<hr>
+			<h3>Other pools</h3>
+			<hr>
+			<h3>Merge Mining Pools</h3>
+			<dl>
+				<dd>SHA256d</dd>
+				<dt>
+					<ul>
+						<li><a href="https://www.multipool.us/" target="_blank">MultiPool</a></li>
+					</ul>
+					<hr>
+				</dt>
+				<dd>Scrypt</dd>
+				<dt>
+					<ul>
+					</ul>
+				</dt>
+			</dl>
 		</div>
 	</div>
 	  
