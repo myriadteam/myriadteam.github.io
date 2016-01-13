@@ -115,6 +115,20 @@
 			<h2>Pools</h2>
 			<h3>P2Pool nodes</h3>
 			<dl>
+				<dd>SHA256d</dd>
+				<dt>
+					<ul>
+						<li><a href="http://birdonwheels5.no-ip.org:5578/static/" target="_blank">Bird's pool</a></li>
+					</ul>
+					<hr>
+				</dt>
+				<dd>Scrypt</dd>
+				<dt>
+					<ul>
+						<li><a href="http://p2pool.e-pool.net:8878/static/" target="_blank">E-pool</a></li>
+					</ul>
+					<hr>
+				</dt>
 				<dd>Myr-Groestl</dd>
 				<dt>
 					<ul>
