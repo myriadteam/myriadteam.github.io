@@ -8,7 +8,7 @@
 	</div>
 
 	<div class="row">
-		<h3 class="text-center">Latest version is 0.9.2.16, released August 29th 2015. See <a href="https://redd.it/3iu2m8" target="_blank"> announcement &amp; upgrade notes</a>.</h3>
+		<h3 class="text-center">Latest version is 0.9.2.17, released November 7th 2015. See <a href="https://redd.it/3ruuq5" target="_blank"> announcement &amp; upgrade notes</a>.</h3>
 	</div>
 	
 	<div class="row">
@@ -17,10 +17,10 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.16/myriadcoin.0.9.2.16.win32.zip" target="_blank">32-bit ZIP (15.5 MB)</a></li>
-						<li><a href="http://myriad.nutty.one/files/MyriadSetup-0.9.2.16-win32.exe" target="_blank">32-bit Installer (11.4 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.16/myriadcoin.0.9.2.16.win64.zip" target="_blank">64-bit ZIP (16.0 MB)</a></li>
-						<li><a href="http://myriad.nutty.one/files/MyriadSetup-0.9.2.16-win64.exe" target="_blank">64-bit Installer (12.0 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.17/myriadcoin.0.9.2.17.win32.zip" target="_blank">32-bit ZIP (15.5 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.17/MyriadSetup-0.9.2.17-win32.exe" target="_blank">32-bit Installer (11.5 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.17/myriadcoin.0.9.2.17.win64.zip" target="_blank">64-bit ZIP (16.0 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.17/MyriadSetup-0.9.2.17-win64.exe" target="_blank">64-bit Installer (12.0 MB)</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
@@ -46,7 +46,7 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/github.png" width="48" height="48"> GitHub
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.9.2.16.zip" target="_blank">Latest Release (0.9.2.16)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.9.2.17.zip" target="_blank">Source Code (0.9.2.17)</a></li>
 						<li><a href="https://github.com/myriadteam/myriadcoin" target="_blank">Git Repository</a></li>
 					</ul>
 			</ul>

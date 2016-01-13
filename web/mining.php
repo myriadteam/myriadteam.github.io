@@ -128,7 +128,6 @@
 						<li><a href="http://mine4free.noip.me:5589" target="_blank">UK</a></li>
 						<li><a href="http://birdonwheels5.no-ip.org:5589" target="_blank">East Coast U.S.A.</a></li>
 						<li><a href="http://tanukifu.ddns.net:5589" target="_blank">U.S.A.</a></li>
-						<li><a href="http://nz.nutty.one:5589" target="_blank">New Zealand</a></li>
 					</ul>
 					<hr>
 				</dt>
@@ -137,7 +136,6 @@
 					<ul>
 						<li><a href="http://birdonwheels5.no-ip.org:5567" target="_blank">East Coast U.S.A.</a></li>
 						<li><a href="http://tanukifu.ddns.net:5567" target="_blank">U.S.A.</a></li>
-						<li><a href="http://nz.nutty.one:5567" target="_blank">New Zealand</a></li>
 					</ul>
 				</dt>				
 			</dl>

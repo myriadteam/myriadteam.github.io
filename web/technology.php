@@ -33,7 +33,10 @@
 		</div>
 		<div class="col-lg-4">
 			<h2>Distribution</h2>
-			<p class="text-justify">Block time / Release type / no pre-mine yada yada yada.</p>
+			<p class="text-justify">Myriad was released to the wild on February 23, 2014 at 18:30 UTC. 
+			The <a href="http://insight-myr.cryptap.us/block/cb41589c918fba1beccca8bc6b34b2b928b4f9888595d7664afd6ec60a576291" target="_blank">first mined block</a> came 4 minutes later, thus establishing that there was no premine.</p>
+			<p class="text-justify">The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR.</p>
+			<p class="text-justify">For the first 1,401,000 blocks, the target blocktime was 30 seconds, or 150 seconds per algorithm. This has now been increased to 60 seconds, or 300 seconds per algorithm.</p>
 		</div>
 	</div>
 
