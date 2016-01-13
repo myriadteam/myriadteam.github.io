@@ -52,7 +52,7 @@
 							<div class="well well-sm"><code>cpuminer -a myr-gr -o {pool-URL} -O Username:Password</code></div>
 						</li>						</ul>
 					<hr>
-				</dd>				
+				</dd>
 				<dt>Skein</dt>
 				<dd>
 					<ul>
@@ -105,12 +105,12 @@
 							</ul>
 							Suggested Command Line
 							<div class="well well-sm"><code>cpuminer -a qubit -o {pool-URL} -O Username:Password</code></div>
-						</li>					
+						</li>
 					</ul>
 				</dd>
-			</dl>			
+			</dl>
 		</div>
-		
+
 		<div class="col-lg-6">
 			<h2>Pools</h2>
 			<h3>P2Pool nodes</h3>
@@ -137,7 +137,7 @@
 						<li><a href="http://birdonwheels5.no-ip.org:5567" target="_blank">East Coast U.S.A.</a></li>
 						<li><a href="http://tanukifu.ddns.net:5567" target="_blank">U.S.A.</a></li>
 					</ul>
-				</dt>				
+				</dt>
 			</dl>
 			<hr>
 			<h3>Other pools</h3>
@@ -147,6 +147,7 @@
 				<dd>SHA256d</dd>
 				<dt>
 					<ul>
+						<li><a href="http://www.zpool.ca/" target="_blank">zpool - The miners multipool</a></li>
 						<li><a href="https://www.multipool.us/" target="_blank">MultiPool</a></li>
 					</ul>
 					<hr>
@@ -154,12 +155,21 @@
 				<dd>Scrypt</dd>
 				<dt>
 					<ul>
+						<li><a href="http://www.zpool.ca/" target="_blank">zpool - The miners multipool</a></li>
 					</ul>
+					<hr>
+				</dt>
+				<dd>Qubit</dd>
+				<dt>
+					<ul>
+						<li><a href="http://www.zpool.ca/" target="_blank">zpool - The miners multipool</a></li>
+					</ul>
+					<hr>
 				</dt>
 			</dl>
 		</div>
 	</div>
-	  
+
 <?php
  	include 'include/footer.php';
 ?>
