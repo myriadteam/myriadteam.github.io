@@ -1,5 +1,5 @@
 		<footer class="footer">
-			<p class="text-center small">&copy; 2015, Myriad Developers</p>
+			<p class="text-center small">&copy; 2015-2016, Myriad Developers</p>
 		</footer>
 
 	</div> <!-- /container -->
