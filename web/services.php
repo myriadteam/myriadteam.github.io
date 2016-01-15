@@ -12,14 +12,13 @@
 			<h2>Information & Resources</h2>
 			<ul>
 				<li><a href="http://birdonwheels5.no-ip.org/" target="_blank">Insight Explorer (1)</a></li>
-				<li><a href="https://insight-myr.cryptap.us/" target="_blank">Insight Explorer (2)</a></li>
+				<li><a href="http://insight-myr.cryptap.us/" target="_blank">Insight Explorer (2)</a></li>
 				<li><a href="http://myriad.nutty.one/home" target="_blank">Network Status</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-4">
 			<h2>Exchanges</h2>
 			<ul>
-				<li><a href="https://www.cryptsy.com/markets/view/200" target="_blank">Cryptsy</a></li>
 				<li><a href="https://poloniex.com/exchange/btc_myr" target="_blank">Poloniex</a></li>
 				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-MYR" target="_blank">Bittrex</a></li>
 			</ul>
