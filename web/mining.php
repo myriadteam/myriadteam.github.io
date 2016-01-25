@@ -161,6 +161,7 @@
 				<dt>
 					<ul>
 						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
+						<li><a href="https://myriadcoin-groestl.miningpoolhub.com/" target="_blank">Mining Pool Hub</a></li>
 					</ul>
 					<hr>
 				</dt>
@@ -168,6 +169,14 @@
 				<dt>
 					<ul>
 						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
+						<li><a href="https://myriadcoin-qubit.miningpoolhub.com/" target="_blank">Mining Pool Hub</a></li>
+					</ul>
+					<hr>
+				</dt>
+				<dd>Skein</dd>
+				<dt>
+					<ul>
+						<li><a href="https://myriadcoin-skein.miningpoolhub.com/" target="_blank">Mining Pool Hub</a></li>
 					</ul>
 					<hr>
 				</dt>
