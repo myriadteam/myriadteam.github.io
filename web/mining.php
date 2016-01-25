@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<h2>Getting Started</h2>
-			<p class="text-justify">TODO: download wallet, download miner of right type, find a pool, fire away...</p>
+			<p class="text-justify">Download wallet, download miner of right type, find a pool, fire away...</p>
 		</div>
 	</div>
 	<div class="row">
@@ -156,6 +156,22 @@
 			<hr>
 			<h3>Other pools</h3>
 			<hr>
+			<dl>
+				<dd>Myr-Groestl</dd>
+				<dt>
+					<ul>
+						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
+					</ul>
+					<hr>
+				</dt>
+				<dd>Qubit</dd>
+				<dt>
+					<ul>
+						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
+					</ul>
+					<hr>
+				</dt>
+			</dl>
 			<h3>Merge Mining Pools</h3>
 			<dl>
 				<dd>SHA256d</dd>
