@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-    <loc>http://myriad-web.nutty.one/home</loc>
-	<loc>http://myriad-web.nutty.one/technology</loc>
-	<loc>http://myriad-web.nutty.one/wallets</loc>
-	<loc>http://myriad-web.nutty.one/mining</loc>
-	<loc>http://myriad-web.nutty.one/services</loc>
-	<loc>http://myriad-web.nutty.one/social</loc>
+    <loc>http://myriadcoin.org/home</loc>
+	<loc>http://myriadcoin.org/technology</loc>
+	<loc>http://myriadcoin.org/wallets</loc>
+	<loc>http://myriadcoin.org/mining</loc>
+	<loc>http://myriadcoin.org/services</loc>
+	<loc>http://myriadcoin.org/social</loc>
   </url>
 </urlset>
