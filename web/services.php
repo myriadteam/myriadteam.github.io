@@ -26,7 +26,7 @@
 		<div class="col-lg-4">
 			<h2>Other</h2>
 			<ul>
-			
+				<li><a href="https://cryptap.us/myr/faucet/" target="_blank">Faucet</a></li>
 			</ul>
 		</div>
 	</div>
