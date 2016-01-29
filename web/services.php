@@ -27,6 +27,7 @@
 			<h2>Other</h2>
 			<ul>
 				<li><a href="https://cryptap.us/myr/faucet/" target="_blank">Faucet</a></li>
+				<li><a href="http://coinmarketcap.com/currencies/myriadcoin/" target="_blank">Coinmarketcap</a></li>
 			</ul>
 		</div>
 	</div>
