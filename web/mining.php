@@ -10,10 +10,11 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<h2>Getting Started</h2>
-			<p class="text-justify">Download a <a href="/wallet">wallet</a>, download a miner of the right type, find a pool and fire away...</p>
+			<p class="text-justify">Download a <a href="/wallets">wallet</a>, download a miner of the right type, find a pool and fire away...</p>
 			<h2>Mining Tutorial Video</h2>
 			<p class="text-justify">
 			Watch on <a href="https://www.youtube.com/watch?v=961LFNZjLlY" target="_blank">Youtube</a>.</p>
+			<hr>
 		</div>
 	</div>
 	<div class="row">
