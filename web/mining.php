@@ -161,6 +161,13 @@
 			<h3>Other pools</h3>
 			<hr>
 			<dl>
+				<dd>SHA256d</dd>
+				<dt>
+					<ul>
+						<li><a href="http://myrsha256.miningfield.com/" target="_blank">Miningfield</a></li>
+					</ul>
+					<hr>
+				</dt>
 				<dd>Myr-Groestl</dd>
 				<dt>
 					<ul>
