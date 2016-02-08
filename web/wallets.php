@@ -36,7 +36,6 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/android.png" width="48" height="48"> Android
 					<ul>
-						<li><strong>Out Of Date!</strong></li>
 						<li><a href="https://play.google.com/store/apps/details?id=hashengineering.myriadcoin.wallet" target="_blank">Google Play-Store</a></li>
 					</ul>
 			</ul>
@@ -68,6 +67,8 @@
 				<li><a href="https://cryptap.us/myr/brainwallet" target="_blank">Brain Wallet</a></li>
 				<li>&nbsp;</li>
 				<li><a href="https://cryptap.us/myr/paperwallet.html" target="_blank">Paper Wallet</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://hydra-myr.cryptap.us/" target="_blank">Copay (beta)</a></li>
 			</ul>
 		</div>
 	</div>
