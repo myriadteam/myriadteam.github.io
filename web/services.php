@@ -23,7 +23,6 @@
 				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-MYR" target="_blank">Bittrex</a></li>
 				<li><a href="https://www.cryptopia.co.nz/Exchange?market=MYR_BTC" target="_blank">Cryptopia</a></li>
 				<li><a href="https://safecex.com/market?q=MYR/BTC" target="_blank">Safecex</a></li>
-				<li><a href="https://banx.io/trade?c=MYR&p=BTC" target="_blank">Banx.io</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-4">
