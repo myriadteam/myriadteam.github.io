@@ -31,6 +31,7 @@
 			<ul>
 				<li><a href="https://cryptap.us/myr/faucet/" target="_blank">Faucet</a></li>
 				<li><a href="http://coinmarketcap.com/currencies/myriadcoin/" target="_blank">Coinmarketcap</a></li>
+				<li><a href="https://www.reddit.com/r/myriadcoin/comments/47pww5/testnet_nodes_and_faucet/" target="_blank">Testnet Information</a></li>
 			</ul>
 		</div>
 	</div>
