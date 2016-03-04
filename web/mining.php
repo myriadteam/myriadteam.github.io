@@ -138,6 +138,7 @@
 					<ul>
 						<li><a href="http://nz.nutty.one:5567" target="_blank">New Zealand</a></li>
 					</ul>
+					<hr>
 				</dt>
 				<dd>Run Your Own Node</dd>
 				<dt>
