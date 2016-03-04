@@ -119,6 +119,13 @@
 			<h2>Pools</h2>
 			<h3>P2Pool nodes</h3>
 			<dl>
+				<dd>Myr-Groestl</dd>
+				<dt>
+					<ul>
+						<li><a href="http://nz.nutty.one:5545" target="_blank">New Zealand</a></li>
+					</ul>
+					<hr>
+				</dt>
 				<dd>Skein</dd>
 				<dt>
 					<ul>
@@ -130,6 +137,12 @@
 				<dt>
 					<ul>
 						<li><a href="http://nz.nutty.one:5567" target="_blank">New Zealand</a></li>
+					</ul>
+				</dt>
+				<dd>Run Your Own Node</dd>
+				<dt>
+					<ul>
+						<li><a href="https://github.com/nzsquirrell/p2pool-myriad" target="_blank">Grab the P2Pool code &amp; instructions from here</a></li>
 					</ul>
 				</dt>
 			</dl>
