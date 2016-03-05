@@ -1,4 +1,5 @@
 <?php
+	require_once('include/language.php');
 	require_once('include/header.php');
 ?>
 	<div class="jumbotron">

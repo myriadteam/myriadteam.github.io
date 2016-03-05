@@ -11,27 +11,42 @@
     <link rel="icon" href="/favicon.ico">
 
 <?php
-	$path = pathinfo($_SERVER['SCRIPT_FILENAME'],PATHINFO_FILENAME);
+
+	$languages = array("en","es","de");
+	$titles = array();
+	$titles['en']['default'] = 'Myriad. A Coin For Everyone';
+	$titles['en']['technology'] = 'Myriad: Technology';
+	$titles['en']['wallets'] = 'Myriad: Wallets';
+	$titles['en']['mining'] = 'Myriad: Mining';
+	$titles['en']['services'] = 'Myriad: Services';
+	$titles['en']['social'] = 'Myriad: Social';
+	
+	$titles['es']['default'] = 'Myriad. Una moneda para todo el mundo';
+	$titles['es']['technology'] = 'Myriad: Tecnología';
+	$titles['es']['wallets'] = 'Myriad: Carteras';
+	$titles['es']['mining'] = 'Myriad: Minería';
+	$titles['es']['services'] = 'Myriad: Servicios';
+	$titles['es']['social'] = 'Myriad: Social';
+	
+	$titles['de']['default'] = 'Myriad. Eine Münze für Jedermann';
+	$titles['de']['technology'] = 'Myriad: Technologie';
+	$titles['de']['wallets'] = 'Myriad: Portemonnaies';
+	$titles['de']['mining'] = 'Myriad: Bergbau';
+	$titles['de']['services'] = 'Myriad: Dienstleistungen';
+	$titles['de']['social'] = 'Myriad: Sozial';
+	
 	
 	switch ($path)
 	{
 		case 'technology':
-			$title = 'Myriad: Technology';
-			break;
 		case 'wallets':
-			$title = 'Myriad: Wallets';
-			break;
 		case 'mining':
-			$title = 'Myriad: Mining';
-			break;
 		case 'services':
-			$title = 'Myriad: Services';
-			break;
 		case 'social':
-			$title = 'Myriad: Social';
+			$title = $titles[$lang][$path];
 			break;
 		default:
-			$title = 'Myriad. A Coin For Everyone';
+			$title = $titles[$lang]['default'];
 			break;
 	}
 ?>
@@ -43,7 +58,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+	
+	
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -52,9 +69,30 @@
   </head>
 
   <body>
-
+<?php
+//echo $debug;
+?>
     <div class="container">
 
+	  <div>
+		<p class="text-right">
+<?php
+	
+	foreach ($languages as $l)
+	{
+		if($l == $lang)
+		{
+			print '<a class="language" href="/' . $l . '/' . $path . '" data-language="' . $l . '"><img src="/images/lang/' . $l . '.png" width="16" height="11" style="border=2;" /></a> ';
+		}
+		else
+		{
+			print '<a class="language" href="/' . $l . '/' . $path . '" data-language="' . $l . '"><img src="/images/lang/' . $l . '.png" width="16" height="11" /></a> ';
+		}
+	}
+?>
+		</p>
+	  </div>
+	  
       <div class="masthead">
 	  
 		<nav class="navbar navbar-inverse navbar-fixed-top visible-xs">
@@ -73,27 +111,27 @@
 <?php
 	$navclass = $path=='home' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/home">Home</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/home">Home</a></li>
 <?php
 	$navclass = $path=='technology' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/technology">Technology</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/technology">Technology</a></li>
 <?php
 	$navclass = $path=='wallets' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/wallets">Wallets</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/wallets">Wallets</a></li>
 <?php
 	$navclass = $path=='mining' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/mining">Mining</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/mining">Mining</a></li>
 <?php
 	$navclass = $path=='services' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/services">Services</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/services">Services</a></li>
 <?php
 	$navclass = $path=='social' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/social">Social</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/social">Social</a></li>
 					</ul>
 				</div>
 			</div>
@@ -106,27 +144,29 @@
 <?php
 	$navclass = $path=='home' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/home">Home</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/home">Home</a></li>
 <?php
 	$navclass = $path=='technology' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/technology">Technology</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/technology">Technology</a></li>
 <?php
 	$navclass = $path=='wallets' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/wallets">Wallets</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/wallets">Wallets</a></li>
 <?php
 	$navclass = $path=='mining' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/mining">Mining</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/mining">Mining</a></li>
 <?php
 	$navclass = $path=='services' ? 'active' : '';
 ?>
-			<li class="<?php echo $navclass; ?>"><a href="/services">Services</a></li>
+			<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/services">Services</a></li>
 <?php
 	$navclass = $path=='social' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/social">Social</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/social">Social</a></li>
           </ul>
         </nav>
       </div>
+
+	  

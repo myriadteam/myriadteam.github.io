@@ -14,6 +14,9 @@
   ga('create', 'UA-69532365-1', 'auto');
   ga('send', 'pageview');
 
+ 
+	
+  
 </script>
 
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
