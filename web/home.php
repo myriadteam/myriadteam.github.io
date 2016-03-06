@@ -16,11 +16,11 @@
 
 	<div class="row">
 		<div class="col-lg-4">
-			<h2>Open To Anyone</h2>
-			<p class="text-justify">Myriad puede ser minado con CPU, GPU, &amp; y ASIC. Anyone can mine with whatever hardware they have available.</p>
+			<h2>Abierto a todos</h2>
+			<p class="text-justify">Myriad puede ser minado con CPU, GPU, &amp; y ASIC. Cualquiera puede minar con el hardware que este disponible.</p>
 		</div>
 		<div class="col-lg-4">
-			<h2>Secure</h2>
+			<h2>Seguro</h2>
 			<p class="text-justify">5 algoritmos independientes, SHA256d, Scrypt, Myr-Groestl, Skein &amp; Qubit - cada una soporta el 20% de la red,
                                     cada algoritmo se ajusta de manera independiente, que hace que las recompensas por bloque sean igualitarias para
                                     todos, una resistencia excepcional de un 51% debido a la comunicacion de 5 algoritmos independientes.
