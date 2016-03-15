@@ -13,6 +13,7 @@
 <?php
 
 	$languages = array("en","es");
+	$langnames = array("en" => "English", "es" => "Espanol");
 	$titles = array();
 	$titles['en']['default'] = 'Myriad. A Coin For Everyone';
 	$titles['en']['technology'] = 'Myriad: Technology';
@@ -67,20 +68,13 @@
 ?>
     <div class="container">
 
-	  <div>
+	  <div class="hidden-xs">
 		<p class="text-right">
 <?php
 	
 	foreach ($languages as $l)
 	{
-		if($l == $lang)
-		{
-			print '<a class="language" href="/' . $l . '/' . $path . '" data-language="' . $l . '"><img src="/images/lang/' . $l . '.png" width="16" height="11" style="border=2;" /></a> ';
-		}
-		else
-		{
-			print '<a class="language" href="/' . $l . '/' . $path . '" data-language="' . $l . '"><img src="/images/lang/' . $l . '.png" width="16" height="11" /></a> ';
-		}
+		print '<a href="/' . $l . '/' . $path . '"><img src="/images/lang/' . $l . '.png" width="16" height="11" title="' . $langnames[$l] . '"/></a> ';
 	}
 ?>
 		</p>
@@ -101,6 +95,20 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
+					
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+<?php
+	
+	foreach ($languages as $l)
+	{
+		print '<li><a href="/' . $l . '/' . $path . '">' . $langnames[$l] . '</a></li>';
+	}
+?>							
+							</ul>
+						</li>
+					
 <?php
 	$navclass = $path=='home' ? 'active' : '';
 ?>
