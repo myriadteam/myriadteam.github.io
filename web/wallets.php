@@ -134,9 +134,9 @@
 				<li><a href="https://cryptap.us/myr/electrum/" target="_blank"><img src="/images/electrum.png" width="48" height="48"> Electrum
 					<ul>
 						<li><a href="https://github.com/cryptapus/electrum-myr" target="_blank">GitHub</a></li>
-						<li><a href="https://cryptap.us/myr/electrum/Electrum_myr-2.4.4.zip" target="_blank">Linux</a></li>
-						<li><a href="https://cryptap.us/myr/electrum/electrum-myr-20151009-cf0dff25e0e-setup.exe" target="_blank">Windows</a></li>
-						<li><a href="https://cryptap.us/myr/electrum/electrum_myr-2.4.4-macosx.dmg" target="_blank">Mac OSX</a></li>
+						<li><a href="https://cryptap.us/myr/electrum/Electrum_myr-2.6.2.tar.gz" target="_blank">Linux</a></li>
+						<li><a href="https://cryptap.us/myr/electrum/electrum-myr-2.6.2-setup.exe" target="_blank">Windows</a></li>
+						<li><a href="https://cryptap.us/myr/electrum/electrum_myr-2.6.2-macosx.dmg" target="_blank">Mac OSX</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
