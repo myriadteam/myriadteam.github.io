@@ -132,4 +132,5 @@
 		}
 	}
 	
+	require_once('translations.php');
 ?>
