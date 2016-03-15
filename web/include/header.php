@@ -12,7 +12,7 @@
 
 <?php
 
-	$languages = array("en","es","de");
+	$languages = array("en","es");
 	$titles = array();
 	$titles['en']['default'] = 'Myriad. A Coin For Everyone';
 	$titles['en']['technology'] = 'Myriad: Technology';
@@ -27,13 +27,6 @@
 	$titles['es']['mining'] = 'Myriad: Minería';
 	$titles['es']['services'] = 'Myriad: Servicios';
 	$titles['es']['social'] = 'Myriad: Social';
-	
-	$titles['de']['default'] = 'Myriad. Eine Münze für Jedermann';
-	$titles['de']['technology'] = 'Myriad: Technologie';
-	$titles['de']['wallets'] = 'Myriad: Portemonnaies';
-	$titles['de']['mining'] = 'Myriad: Bergbau';
-	$titles['de']['services'] = 'Myriad: Dienstleistungen';
-	$titles['de']['social'] = 'Myriad: Sozial';
 	
 	
 	switch ($path)

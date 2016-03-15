@@ -97,13 +97,7 @@
 			$nlang = 'en';
 			foreach ($langs as $l => $val)
 			{
-				if (strpos($l, 'de') === 0)
-				{
-					// show german
-					$nlang = 'de';
-					break;
-				}
-				else if (strpos($l, 'es') === 0)
+				if (strpos($l, 'es') === 0)
 				{
 					// show spanish
 					$nlang = 'es';
