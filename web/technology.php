@@ -38,7 +38,7 @@
 			<p class="text-justify"><?php echo translate("The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR.", $lang); ?></p>
 			<p class="text-justify"><?php echo translate("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds
 			per algorithm, effective at block 1,401,001. At the time, Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds. 
-			In addition to enabling aux-PoW on Scrypt and SHA256d, the increase of target block time lead to greater consistency on the network, without affecting fairness of distribution.", $lang); ?></p>
+			In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead to greater consistency on the network, without affecting fairness of distribution.", $lang); ?></p>
 		</div>
 	</div>
 
