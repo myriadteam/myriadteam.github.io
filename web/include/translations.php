@@ -18,7 +18,7 @@ function translate($text, $lang)
 			case "Secure":
 				return "Seguro";
 				
-			case "A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein or Qubit —
+			case "A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
 				each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
 				While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
 				The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks.":
