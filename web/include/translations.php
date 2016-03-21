@@ -11,20 +11,23 @@ function translate($text, $lang)
 			case "Open To Anyone":
 				return "Abierto a todos";
 				
-			case "Myriad can be mined with CPUs, GPUs, &amp; ASICs. Anyone can mine with whatever hardware they have available.":
+			case "Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
+				SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs &amp; CPUs.":
 				return "Myriad puede ser minado con CPU, GPU, &amp; y ASIC. Cualquiera puede minar con el hardware que este disponible.";
 				
 			case "Secure":
 				return "Seguro";
 				
-			case "5 Independent Algorithms - SHA256d, Scrypt, Myr-Groestl, Skein &amp; Qubit - each sharing 20% of the network. Each algorithm's difficulty is adjusted
-			independently, ensuring block rewards are competed for equally. Exceptional resistance to 51% attacks due to the combination of 5 independent algorithms.
-			Security has been further enhanced by allowing merge-mining of SHA256d and Scrypt, allowing Myriad to benefit from the massive hash power available.":
+			case "A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
+				each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
+				While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
+				The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks.":
 				return "5 algoritmos independientes, SHA256d, Scrypt, Myr-Groestl, Skein &amp; Qubit - cada una soporta el 20% de la red,
                                     cada algoritmo se ajusta de manera independiente, que hace que las recompensas por bloque sean igualitarias para
-                                    todos, una resistencia excepcional de un 51% debido a la comunicacion de 5 algoritmos independientes.
+                                    todos, una resistencia excepcional de un 51% debido a la comunicacion de 5 algoritmos independientes.";
                                     
-                                    La seguridad ha aumentado gracias al permitir la mineria fusionada con Scrypt y SHA256d, permitiendo a Myriad
+                        case "Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available.":
+                                return "La seguridad ha aumentado gracias al permitir la mineria fusionada con Scrypt y SHA256d, permitiendo a Myriad
                                     beneficiarse del gran poder de hash.";
 									
 			case "Fair Distribution":
@@ -44,7 +47,7 @@ function translate($text, $lang)
 			case "Two rounds of the SHA256 hashing algorithm, first used by the pioneer cryptocurrency Bitcoin.":
 				return "Dos rondas del algoritmo de hash SHA256, utilizados por primera vez por el pionero de las criptomonedas Bitcoin.";
 			
-			case "Designed to be a CPU only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin.":
+			case "Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin.":
 				return "Diseñado para ser un unico algoritmo con contraseña para CPU, ahora extraido con ASIC en muchas criptomonedas alternativas, empezando por Litecoin.";
 			
 			case "A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition.":
@@ -84,7 +87,9 @@ function translate($text, $lang)
 			case "The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR.":
 				return "La recompensa inicial fue de 1000 MYR, esta se reduce a la mitad cada 967680 bloques (aproximadamente 48 semanas). Existe un suministro total de 2 billones de MYR.";
 			
-			case "For the first 1,401,000 blocks, the target blocktime was 30 seconds, or 150 seconds per algorithm. This has now been increased to 60 seconds, or 300 seconds per algorithm.":
+			case "Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds per algorithm, effective at block 1,401,001. At the time,
+				Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds. In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead 
+				to greater consistency on the network, without affecting fairness of distribution.":
 				return "Para los primeros 1401000, el tiempo de objetivo por bloque fue de 30 segundos, o 150 segundos por algoritmo. Esto ahora fue cambiado a 60 segundos por bloque, o 300 segundos por algoritmo.";
 			
 			case "Myriad's History":
@@ -101,7 +106,7 @@ function translate($text, $lang)
 			
 			case "Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. 
 			Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
-			and allows users to merge-mine on all five of its algos.":
+			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo.":
 				return "Myriad ha dado varios projectos derivados, como por ejemplo Saffroncoin, y tambien a proyectos con 5 algoritmos PoW. 
 			Digitalcoin and Digibyte son algunos de los ejemplos de tener 3 o 5 algoritmos PoW respectivamente, Unitus tambien tiene 5 algoritmos PoW que comparte algunos algoritmos con Myriad
 			y permite a los usuarios tener mineria fusionada con estos.";
