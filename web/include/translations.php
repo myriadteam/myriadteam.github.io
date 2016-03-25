@@ -249,7 +249,7 @@ function translate($text, $lang)
 				return "Dizajnita esti pasvorta haketa algoritmo nur por centraj procesoroj, nun oni minas ĝin per ASICoj por multaj ĉifrovalutoj. Litecoin estis la unua.";
 			
 			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
-				return "Speciala kreaĵo por Myriad, variaĵo de la haketa algoritmo Grøstl, kiu estas unu el la 5 finalistoj en la haketa konkurso NIST SHA-3.";
+				return "Speciale kreita por Myriad estas variaĵo de la haketa algoritmo Grøstl, unu el la 5 finalistoj en la haketa konkurso NIST SHA-3.";
 			
 			case clean("Another  of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin."):
 				return "Alia finalisto de la haketa konkurso NIST SHA-3, unue uzata de Skeincoin.";
@@ -299,7 +299,7 @@ function translate($text, $lang)
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256 and Scrypt for ASIC miners,
 			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256 and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
-				return "8bitcoder forkis Myriad de Zetacoin, kaj lanĉis ĝin en Februaro 2014. Ĝi estas la unua ĉifromono kiu uzas kvin laborpruvajn algoritmojn.
+				return "8bitcoder forkis Miriadon de Zetacoin, kaj lanĉis ĝin en Februaro 2014. Ĝi estas la unua ĉifrovaluto kiu uzas kvin laborpruvajn algoritmojn.
 			kiel strategion por pliigi la sekurecon k larĝigi la ministaron — SHA256d k Scrypt por ministoj kun ASICoj,
 			Skein k Myr-Groestl por ministoj kun grafiksprocesoroj, kaj Qubit por ministoj kun aŭ grafiksprocesoroj aŭ centraj procesoroj. Huntercoin, lanĉita malfrue en 2013, estis fakte
 			la unua valuto kiu uzas multajn laborpruvajn algoritmojn (SHA256d k Scrypt), tamen ĝia fokuso ne estis pri minado, sed pri blokĉen-bazita ludo kiu produktas la vastan plejmulton de la moneroj.";
@@ -307,15 +307,15 @@ function translate($text, $lang)
 			case clean("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. 
 			Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
 			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo."):
-				return "Multaj valutoj jam imitas Myriad. Unue estis Saffroncoin, kiu ankaŭ uzas 5 laborpruvajn algoritmojn. 
-			Aliaj valutoj forkiĝas imite. Digitalcoin nun havas 3 laborpruvajn algoritmojn, kaj Digibyte havas 5. Unitus estas alia valuto kun 5 laborpruvaj algoritmoj. Kelkaj estas la samaj kiel en Myriad.
+				return "Multaj valutoj jam imitas Miriadon. Unue estis Saffroncoin, kiu ankaŭ uzas 5 laborpruvajn algoritmojn. 
+			Aliaj valutoj forkiĝas imite. Digitalcoin nun havas 3 laborpruvajn algoritmojn, kaj Digibyte havas 5. Unitus estas alia valuto kun 5 laborpruvaj algoritmoj, kaj kelkaj el ili samas kiel en Myriad.
 			Unitus ankaŭ ebligas kunligitan minadon je ĉiuj siaj 5 algoritmoj. Auroracoin k Verge ankaŭ anoncis siajn planojn forki sin al multaj algoritmoj.";
 			
 			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256 and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
 			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
 				return "Aŭguston 2015, Myriad malmole forkiĝis por ebligi kunligitan minadon je SHA256d k Scrypt. La celo estis plibonigi la sekurecon kaj atingi pli stabilan haketpotencon je tiuj du algoritmoj.
-			Tiutempe, la celtempo de la blokoj por ĉiu algoritmo estis ŝanĝita de 2.5 minutoj al 5 minutoj. Entute, unu bloko nun troviĝas proksimume ĉiun minuton anstataŭ ĉiujn 30 sekundojn).
+			Tiutempe, la celtempo de la blokoj por ĉiu algoritmo estis ŝanĝita de 2.5 minutoj al 5 minutoj. Entute, unu bloko nun troviĝas proksimume ĉiun minuton anstataŭ ĉiujn 30 sekundojn.
 			Tiu ŝanĝo signifas ke novaj moneroj daŭros miniĝi dum pluaj 20 jaroj, ne 10 jaroj, kiel intencita dekomence.";
 			
 			
@@ -331,11 +331,11 @@ function translate($text, $lang)
 			case clean("Getting Started"):
 				return "Kiel komenci";
 			case clean("Download a "):
-				return "Elŝutu ";
+				return "Elŝuti ";
 			case clean("wallet"):
 				return "monujon";
 			case clean(", download a miner of the right type, find a pool and fire away..."):
-				return ", elŝutu minilon ĝustaspecan, trovu mingrupon, kaj ek!...";
+				return ", elŝuti minilon ĝustaspecan, trovi mingrupon, kaj ek!...";
 			case clean("Mining Tutorial Video"):
 				return "Filma Leciono pri Minado";
 			case clean("Watch on "):
@@ -365,7 +365,7 @@ function translate($text, $lang)
 			case clean("Merge Mining Pools"):
 				return "Mingrupoj por Kunligita Minado";
 			case clean("zpool - The miners multipool"):
-				return "zpool - Mingrupo de multaj ĉifromonoj";
+				return "zpool - Mingrupo de multaj ĉifrovalutoj";
 			case clean("MultiPool"):
 				return "MultiPool";
 				
