@@ -390,6 +390,12 @@ function translate($text, $lang)
 				return "Uzu ian ajn ASIC taŭga por Scrypt";
 			case clean("sgminer for OpenCL GPU mining"):
 				return "sgminer por grafiksprocesora minado en OpenCL";
+			case clean("ccminer for CUDA GPU mining"):
+				return "ccminer por CUDA-grafiksprocesora minado");
+			case clean("cpuminer-multi for CPU mining"):
+				return "cpuminer-multi por minado per centra procesoro";
+			case clean("cgminer for OpenCL GPU mining"):
+				return "cgminer por OpenCL-grafiksprocesora minado"
 			case clean("BitcoinTalk Thread"):
 				return "Fadeno ĉe BitcoinTalk (angle)";
 			case clean("Windows Binaries"):
@@ -404,6 +410,8 @@ function translate($text, $lang)
 				return "P2Pool-nodoj";
 			case clean("Run Your Own Node"):
 				return "Starigu Vian Propran Nodon";
+			case clean("Other pools"):
+				return "Aliaj mingrupoj";
 			case clean("Merge Mining Pools"):
 				return "Mingrupoj por Kunligita Minado";
 			case clean("zpool - The miners multipool"):
