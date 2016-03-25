@@ -103,6 +103,12 @@
 					$nlang = 'es';
 					break;
 				}
+				else if (strpos($l, 'eo') === 0)
+				{
+					// show esperanto
+					$nlang = 'eo';
+					break;
+				}
 				else if (strpos($l, 'en') === 0)
 				{
 					// show english
