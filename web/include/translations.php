@@ -326,6 +326,48 @@ function translate($text, $lang)
 			case clean(" announcement &amp; upgrade notes."):
 				return "anoncon k sciigojn pri la ĝisdatigo.";
 				
+			case clean("Desktop"):
+				return "Surtabla komputilo";
+				
+			case clean(" Windows"):
+				return "Vindozo";
+			
+			case clean("32-bit Installer (11.5 MB)"):
+				return "32-bita Instalilo (11.5 MB)";
+				
+			case clean("64-bit Installer (11.5 MB)"):
+				return "64-bita Instalilo (11.5 MB)";
+				
+			case clean("Mobile"):
+				return "Poŝtelefono";
+				
+			case clean("Android"):
+				return "Android";
+			
+			case clean("Source"):
+				return "Fonto";
+				
+			case clean("Source Code (0.9.2.17)"):
+				return "Fontkodo (0.9.2.17)";
+				
+			case clean("Other"):
+				return "Aliaj";
+			
+			case clean("Linux"):
+				return "Linukso";
+				
+			case clean("Windows"):
+				return "Vindozo";
+			
+			case clean("JSWallet"):
+				return "JSMonujo";
+				
+			case clean("Brain Wallet"):
+				return "Cerba Monujo";
+			
+			case clean("Paper Wallet"):
+				return "Papera Monujo";
+				
 			// mining
 			
 			case clean("Getting Started"):
@@ -373,6 +415,18 @@ function translate($text, $lang)
 			// services
 			case clean("Information &amp; Resources"):
 				return "Informado k risurcoj";
+								
+			case clean("Insight Explorer (1)"):
+				return "Insight Esplorilo (1)";
+			
+			case clean("Insight Explorer (2)"):
+				return "Insight Esplorilo (2)";
+				
+			case clean("Abe Explorer"):
+				return "Abe Esplorilo";
+			
+			case clean("Network Status"):
+				return "Reta Statuso";
 				
 			case clean("Exchanges"):
 				return "Monŝanĝejoj";
@@ -386,6 +440,12 @@ function translate($text, $lang)
 			case clean("Testnet Information"):
 				return "Informo pri testnet";
 				
+			case clean("cryptap.us Myriad page"):
+				return "Myriad-paĝo cryptap.us";
+				
+			case clean("Reddit/IRC myrbot information"):
+				return "Informo pri myrbot por Reddit/IRC";
+			
 			default:
 				return $text;
 		}
