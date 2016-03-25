@@ -255,14 +255,14 @@ function translate($text, $lang)
 				return "Alia finalisto de la haketa konkurso NIST SHA-3, unue uzata de Skeincoin.";
 			
 			case "Originally a CPU only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO.":
-				return "Originale algoritmo nur por CPU, Qubit estas kombinaĵo de 5 konkursantoj de la haketa konkurso NIST SHA-3 - Luffa, Cubehash, SHAvite, SIMD and ECHO.";
+				return "Originale algoritmo nur por CPU, Qubit estas kombinaĵo de 5 konkursantoj de la haketa konkurso NIST SHA-3 - Luffa, Cubehash, SHAvite, SIMD k ECHO.";
 			
 			case "Merge Mining":
 				return "Kunligita Minado";
 			
 			case "Since block 4002000, merge mining has been allowed on the Sha256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
 			by coins using these algorithms, further securing the Myriad blockchain.":
-				return "Ekde la 4002000a bloko, kunligita minado estis ebligita je la algoritmoj Sha256d k Scrypt. Nun Myriad povas utiligi la enorman haketpotencon trovebla
+				return "Ekde la 4002000a bloko, kunligita minado estis ebligita je la algoritmoj SHA256d k Scrypt. Nun Myriad povas utiligi la enorman haketpotencon trovebla
 			ĉe valutoj kiuj uzas tiujn algoritmojn. Tio sekurigas la blokĉenon de Myriad eĉ plu.";
 			
 			case "Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
@@ -307,14 +307,14 @@ function translate($text, $lang)
 			case "Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. 
 			Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
 			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo.":
-				return "Multaj valutoj jam imitas Myriad. Unue estis Saffroncoin, kiu ankaŭ uzis 5 laborpruvajn algoritmojn. 
-			Aliaj valutoj forkas imite. Digitalcoin nun havas 3 laborpruvajn algoritmojn, kaj Digibyte havas 5. Unitus estas alia valuto kun 5 laborpruvaj algoritmoj. Kelkaj estas la samaj kiel en Myriad.
-			Unitus ankaŭ ebligas kunligitan minadon je ĉiuj siaj 5 algoritmoj. Auroracoin k Verge ankaŭ anoncis siajn planojn forki al multaj algoritmoj.";
+				return "Multaj valutoj jam imitas Myriad. Unue estis Saffroncoin, kiu ankaŭ uzas 5 laborpruvajn algoritmojn. 
+			Aliaj valutoj forkiĝas imite. Digitalcoin nun havas 3 laborpruvajn algoritmojn, kaj Digibyte havas 5. Unitus estas alia valuto kun 5 laborpruvaj algoritmoj. Kelkaj estas la samaj kiel en Myriad.
+			Unitus ankaŭ ebligas kunligitan minadon je ĉiuj siaj 5 algoritmoj. Auroracoin k Verge ankaŭ anoncis siajn planojn forki sin al multaj algoritmoj.";
 			
 			case "In August 2015 Myriad hard-forked to allow merge-mining on its SHA256 and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
 			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years.":
-				return "Aŭguston 2015, Myriad malmole forkis por ebligi kunligitan minadon je SHA256d k Scrypt. La celo estis plibonigi la sekurecon kaj atingi pli stabilan haketpotencon je tiuj du algoritmoj.
+				return "Aŭguston 2015, Myriad malmole forkiĝis por ebligi kunligitan minadon je SHA256d k Scrypt. La celo estis plibonigi la sekurecon kaj atingi pli stabilan haketpotencon je tiuj du algoritmoj.
 			Tiutempe, la celtempo de la blokoj por ĉiu algoritmo estis ŝanĝita de 2.5 minutoj al 5 minutoj. Entute, unu bloko nun troviĝas proksimume ĉiun minuton anstataŭ ĉiujn 30 sekundojn).
 			Tiu ŝanĝo signifas ke novaj moneroj daŭros miniĝi dum pluaj 20 jaroj, ne 10 jaroj, kiel intencita dekomence.";
 			
