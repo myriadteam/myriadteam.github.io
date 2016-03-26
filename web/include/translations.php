@@ -121,7 +121,7 @@ function translate($text, $lang)
 			Digitalcoin and Digibyte son algunos de los ejemplos de tener 3 o 5 algoritmos PoW respectivamente, Unitus tambien tiene 5 algoritmos PoW que comparte algunos algoritmos con Myriad
 			y permite a los usuarios tener mineria fusionada con estos.";
 			
-			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA25d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
+			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
 			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
 				return "En Agosto de 2015 Myriad ha tenido una gran actualizacion que permite la mineria fusionada con los algoritmos SHA256d y Scrypt en un esfuerzo por aumentar la seguridad y tener velocidad de hashrate estable en esos dos algoritmos.
@@ -385,17 +385,17 @@ function translate($text, $lang)
 			case clean("Mining Software"):
 				return "Mina Softvaro";
 			case clean("Use any SHA256d compatible ASIC"):
-				return "Uzu ian ajn ASIC taŭga por SHA256d ";
+				return "Uzu ian ajn ASIC taŭga por SHA256d";
 			case clean("Use any Scrypt compatible ASIC"):
 				return "Uzu ian ajn ASIC taŭga por Scrypt";
 			case clean("sgminer for OpenCL GPU mining"):
 				return "sgminer por grafiksprocesora minado en OpenCL";
 			case clean("ccminer for CUDA GPU mining"):
-				return "ccminer por CUDA-grafiksprocesora minado");
+				return "ccminer por CUDA-grafiksprocesora minado";
 			case clean("cpuminer-multi for CPU mining"):
 				return "cpuminer-multi por minado per centra procesoro";
 			case clean("cgminer for OpenCL GPU mining"):
-				return "cgminer por OpenCL-grafiksprocesora minado"
+				return "cgminer por OpenCL-grafiksprocesora minado";
 			case clean("BitcoinTalk Thread"):
 				return "Fadeno ĉe BitcoinTalk (angle)";
 			case clean("Windows Binaries"):
