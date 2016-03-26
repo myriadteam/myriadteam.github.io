@@ -118,7 +118,7 @@
 <?php
 	$navclass = $path=='home' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/home">Home</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/home">Myriad</a></li>
 <?php
 	$navclass = $path=='technology' ? 'active' : '';
 ?>
@@ -126,19 +126,19 @@
 <?php
 	$navclass = $path=='wallets' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/wallets">Wallets</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/wallets"><?php echo $titles[$lang]['wallets']; ?></a></li>
 <?php
 	$navclass = $path=='mining' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/mining">Mining</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/mining"><?php echo $titles[$lang]['mining']; ?></a></li>
 <?php
 	$navclass = $path=='services' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/services">Services</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/services"><?php echo $titles[$lang]['services']; ?></a></li>
 <?php
 	$navclass = $path=='social' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/social">Social</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/social"><?php echo $titles[$lang]['social']; ?></a></li>
 					</ul>
 				</div>
 			</div>
