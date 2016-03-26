@@ -2,12 +2,6 @@
 	require_once('include/language.php');
 	require_once('include/header.php');
 ?>
-	<div class="jumbotron">
-		<p class="visible-lg visible-md"><img src="/images/header.png" width="699" height="225"></p>
-		<p class="visible-sm"><img src="/images/header.png" width="466" height="150"></p>
-		<p class="visible-xs"><img src="/images/header.png" width="350" height="113"></p>
-	</div>
-
 	<div class="row">
 		<div class="col-lg-4">
 			<h2><?php echo translate("Open To Anyone", $lang); ?></h2>

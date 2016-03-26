@@ -44,9 +44,11 @@
 		case 'services':
 		case 'social':
 			$title = 'Myriad: ' . $titles[$lang][$path];
+			$headerimg = $path . '.png';
 			break;
 		default:
 			$title = 'Myriad. ' . $titles[$lang]['default'];
+			$headerimg = 'header.png';
 			break;
 	}
 ?>
@@ -176,4 +178,47 @@
         </nav>
       </div>
 
-	  
+<!-- header image -->	  
+
+<?php
+	if($lang != 'en')
+	{
+		// check to see if language specific header image exists
+		if(file_exists($_SERVER["DOCUMENT_ROOT"] . "/images/$lang/$headerimg"))
+		{
+			$headerpath = "/images/$lang/$headerimg";
+		}
+		else
+		{
+			// otherwise use english
+			$headerpath = "/images/en/$headerimg";
+		}
+	}
+	else
+	{
+		$headerpath = "/images/en/$headerimg";
+	}
+
+	if($path == 'home')
+	{
+?>
+	<div class="jumbotron">
+	<p class="visible-lg visible-md"><img src="<?php echo $headerpath; ?>" width="699" height="225"></p>
+	<p class="visible-sm"><img src="<?php echo $headerpath; ?>" width="466" height="150"></p>
+	<p class="visible-xs"><img src="<?php echo $headerpath; ?>" width="350" height="113"></p>
+	</div>
+<?php
+	}
+	else
+	{
+?>
+	<div class="jumbotron">
+		<p class="visible-lg visible-md"><img src="/images/logo.png" width="150" height="150"><img src="<?php echo $headerpath; ?>" width="600" height="150"></p>
+		<p class="visible-sm"><img src="/images/logo.png" width="100" height="100"><img src="<?php echo $headerpath; ?>" width="400" height="100"></p>
+		<p class="visible-xs"><img src="/images/logo.png" width="70" height="70"><img src="<?php echo $headerpath; ?>" width="280" height="70"></p>
+	</div>
+<?php
+	}
+?>
+
+<!-- page content -->
