@@ -15,26 +15,26 @@
 	$languages = array("en","es","eo");
 	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto");
 	$titles = array();
-	$titles['en']['default'] = 'Myriad. A Coin For Everyone';
-	$titles['en']['technology'] = 'Myriad: Technology';
-	$titles['en']['wallets'] = 'Myriad: Wallets';
-	$titles['en']['mining'] = 'Myriad: Mining';
-	$titles['en']['services'] = 'Myriad: Services';
-	$titles['en']['social'] = 'Myriad: Social';
+	$titles['en']['default'] = 'A Coin For Everyone';
+	$titles['en']['technology'] = 'Technology';
+	$titles['en']['wallets'] = 'Wallets';
+	$titles['en']['mining'] = 'Mining';
+	$titles['en']['services'] = 'Services';
+	$titles['en']['social'] = 'Social';
 	
-	$titles['es']['default'] = 'Myriad. Una moneda para todo el mundo';
-	$titles['es']['technology'] = 'Myriad: Tecnología';
-	$titles['es']['wallets'] = 'Myriad: Carteras';
-	$titles['es']['mining'] = 'Myriad: Minería';
-	$titles['es']['services'] = 'Myriad: Servicios';
-	$titles['es']['social'] = 'Myriad: Social';
+	$titles['es']['default'] = 'Una moneda para todo el mundo';
+	$titles['es']['technology'] = 'Tecnología';
+	$titles['es']['wallets'] = 'Carteras';
+	$titles['es']['mining'] = 'Minería';
+	$titles['es']['services'] = 'Servicios';
+	$titles['es']['social'] = 'Social';
 	
-	$titles['eo']['default'] = 'Myriad. Valuto por ĉiuj';
-	$titles['eo']['technology'] = 'Myriad: Teknologio';
-	$titles['eo']['wallets'] = 'Myriad: Monujoj';
-	$titles['eo']['mining'] = 'Myriad: Minado';
-	$titles['eo']['services'] = 'Myriad: Servoj';
-	$titles['eo']['social'] = 'Myriad: Komunumo';	
+	$titles['eo']['default'] = 'Valuto por ĉiuj';
+	$titles['eo']['technology'] = 'Teknologio';
+	$titles['eo']['wallets'] = 'Monujoj';
+	$titles['eo']['mining'] = 'Minado';
+	$titles['eo']['services'] = 'Servoj';
+	$titles['eo']['social'] = 'Komunumo';	
 	
 	switch ($path)
 	{
@@ -43,10 +43,10 @@
 		case 'mining':
 		case 'services':
 		case 'social':
-			$title = $titles[$lang][$path];
+			$title = 'Myriad: ' . $titles[$lang][$path];
 			break;
 		default:
-			$title = $titles[$lang]['default'];
+			$title = 'Myriad. ' . $titles[$lang]['default'];
 			break;
 	}
 ?>
@@ -122,7 +122,7 @@
 <?php
 	$navclass = $path=='technology' ? 'active' : '';
 ?>
-						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/technology">Technology</a></li>
+						<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/technology"><?php echo $titles[$lang]['technology']; ?></a></li>
 <?php
 	$navclass = $path=='wallets' ? 'active' : '';
 ?>
@@ -151,27 +151,27 @@
 <?php
 	$navclass = $path=='home' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/home">Home</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/home">Myriad</a></li>
 <?php
 	$navclass = $path=='technology' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/technology">Technology</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/technology"><?php echo $titles[$lang]['technology']; ?></a></li>
 <?php
 	$navclass = $path=='wallets' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/wallets">Wallets</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/wallets"><?php echo $titles[$lang]['wallets']; ?></a></li>
 <?php
 	$navclass = $path=='mining' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/mining">Mining</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/mining"><?php echo $titles[$lang]['mining']; ?></a></li>
 <?php
 	$navclass = $path=='services' ? 'active' : '';
 ?>
-			<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/services">Services</a></li>
+			<li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/services"><?php echo $titles[$lang]['services']; ?></a></li>
 <?php
 	$navclass = $path=='social' ? 'active' : '';
 ?>
-            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/social">Social</a></li>
+            <li class="<?php echo $navclass; ?>"><a href="/<?php echo $lang; ?>/social"><?php echo $titles[$lang]['social']; ?></a></li>
           </ul>
         </nav>
       </div>
