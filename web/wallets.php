@@ -2,12 +2,6 @@
 	require_once('include/language.php');
 	require_once('include/header.php');
 ?>
-	<div class="jumbotron">
-		<p class="visible-lg visible-md"><img src="/images/logo.png" width="150" height="150"><img src="/images/wallets.png" width="600" height="150"></p>
-		<p class="visible-sm"><img src="/images/logo.png" width="100" height="100"><img src="/images/wallets.png" width="400" height="100"></p>
-		<p class="visible-xs"><img src="/images/logo.png" width="70" height="70"><img src="/images/wallets.png" width="280" height="70"></p>
-	</div>
-
 	<div class="row">
 		<h3 class="text-center"><?php echo translate("Latest version is 0.9.2.17, released November 7th 2015. See ", $lang); ?><a href="https://redd.it/3ruuq5" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
 	</div>
