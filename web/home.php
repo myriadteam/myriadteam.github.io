@@ -17,8 +17,11 @@
 			<p class="text-justify"><?php echo translate("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available to these algorithms.", $lang); ?></p>
 		</div>
 		<div class="col-lg-4">
-			<h2><?php echo translate("Fair Distribution", $lang); ?></h2>
+			<h2><?php echo translate("Fair", $lang); ?></h2>
 			<p class="text-justify"><?php echo translate("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate.", $lang); ?></p>
+			<p class="text-justify"><?php echo translate("Like Bitcoin, Myriad is a community coin. It is not owned by any company or foundation. Anyone who contributes to Myriad can rest assured that they are giving to their own community.
+", $lang); ?></p>
+
 		</div>
 	</div>
 	  
