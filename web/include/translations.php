@@ -523,7 +523,7 @@ function translate($text, $lang)
 				return "复合算法";
 
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
-				return "5种算法，可用于ASIC, GPU和CPU设备的挖矿";
+				return "5种算法，可用于ASIC, GPU和CPU设备的挖矿。";
 
 			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
 				return "两轮的SHA256哈希算法, 第一轮在开辟加密货币始祖比特币中被使用。";
@@ -612,6 +612,8 @@ function translate($text, $lang)
 				return "挖矿指引视频";
 			case clean("Watch on "):
 				return "";
+			case clean ("Youtube"):
+				return "请在Youtube上观看.";
 			case clean("Mining Software"):
 				return "挖矿软件";
 			case clean("Use any SHA256d compatible ASIC"):
