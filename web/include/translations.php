@@ -665,6 +665,141 @@ function translate($text, $lang)
 		}
 	}
 	
+	else if($lang == 'el')
+	{
+		switch (clean($text))
+		{
+			// homepage
+			case clean("Open To Anyone"):
+				return "Ανοιχτό σε όλους";
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike bitcoin, which can only be profitably mined using
+SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs &amp; CPUs."):
+return "Το Myriad είναι πολυ-αλγοριθμικό - και το πρώτο νόμισμα που έχει εφαρμόσει 5 ταυτόχρονους αλγόριθμους εξόρυξης. Σε αντίθεση με το uᴉoɔʇᴉq, το οποίο μπορεί μόνο να εξορυχθεί κερδοφόρα με την χρήση SHA256d εξοπλισμού ASIC, το Myriad είναι ανοικτό σε SHA256d ASICS, Scrypt ASICS, Κάρτες Γραφικών και Επεξεργαστές.";
+case clean("Secure"):
+return "Ασφαλές";
+case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
+each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
+While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
+The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
+return "Ένας ανθρακωρύχος μπορεί να επιλέξει και να χρησιμοποιήσει οποιοδήποτε από τους 5 αλγορίθμους - Τον SHA256d, τον Scrypt, τον Myr-Groestl, τον Skein ή τον qubit - ο καθένας απο τους οποίους έχει σαν στόχο ο χρόνος ανάμεσα στα μπλοκ να είναι 5 λεπτά. Συνολικά, ένα μπλοκ εξορύσσεται περίπου κάθε 1 λεπτό. Ενώ η δυσκολία του κάθε αλγορίθμου επηρεάζεται μόνο από το δικό της ρυθμό εξόρυξης. Ενώ τα ASIC έχουν καταστήσει την εξόρυξη με Κάρτες Γραφικών για το SHA256d & το Scrypt αντιπαραγωγική, οι υπόλοιποι αλγόριθμοι συνεχίζουν να κυριαρχούνται από την εξόρυξη μέσω Καρτών Γραφικών.Η πολυ-αλγοριθμική προσέγγιση προσφέρει εξαιρετική αντοχή ενάντια σε μια επίθεση 51% επειδή μια σειρά από διαφορετικό υλικό είναι απαραίτητη για να βρεί το 51% των μπλοκ.";
+case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
+return "Η συγχώνευση της εξόρυξης έχει ενεργοποιηθεί για το SHA256d & Scrypt, επιτρέποντας στο Myriad να επωφεληθεί από την τεράστια δύναμη εξόρυξης που είναι διαθέσιμη.";
+case clean("Fair Distribution"):
+return "Δίκαιη κατανομή";
+case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
+return "Δεν υπήρξε προεξόρυξη ή κρυφές περιουσίες που κατέχονται από μυημένους στην αρχή. Ο καθένας έχει μια ίση ευκαιρία να αποκτήσει Myriad με την τιμή της αγοράς.";
+// technology
+case clean("Multi-Algorithm"):
+return "Πολλαπλοί-Αλγόριθμοι";
+case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
+return "5 Αλγόριθμοι, που καθιστούν δυνατή την εξόρυξη για ASIC, Κάρτες Γραφικών και Επεξεργαστές:";
+case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency uᴉoɔʇᴉq."):
+return "Δύο γύροι του αλγόριθμου SHA256d, χρησιμοποιήθηκαν για πρώτη φορά από το πρωτοπόρο κρυπτονόμισμα uᴉoɔʇᴉq.";
+case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Lightcoin."):
+return "Σχεδιασμένο για να είναι ένας αλγόριθμος εξόρυξης με Επεξεργαστές, τώρα εξορύσσεται με ASICs σε πολλά κρυπτονομίσματα, ξεκινώντας με το Lightcoin.
+MYR-Groestl";
+case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
+return "一Μια ειδική παραλλαγή του αλγορίθμου κατακερματισμού Groestl για το Myriad, είναι ένας από τους πέντε φιναλίστ αλγορίθμους στο διαγωνισμό hash NIST SHA-3.";
+case clean("Another of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin."):
+return "Μια άλλη από τις πέντε φιναλίστ στο διαγωνισμό hash NIST SHA-3, χρησιμοποιήθηκε για πρώτη φορά από το Skeincoin.";
+case clean("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO."):
+return "Αρχικά ένας αλγόριθμος για Επεξεργαστές, το qubit συνδυάζει 5 ανταγωνιστές στο διαγωνισμό hash NIST SHA-3 - τον Luffa, τον Cubehash, τον SHAvite, τον SIMD και τον ECHO.";
+case clean("Merge Mining"):
+return "Συγχώνευση Εξόρυξης";
+case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
+by coins using these algorithms, further securing the Myriad blockchain."):
+return "Από το μπλοκ 4002000, έγινε η συγχώνευση των ορυχείων που επιτραπεί στους αλγόριθμους SHA256d και Scrypt να εξορύσσονται μαζί. Αυτό επέτρεψε στο Myriad να επωφεληθεί από τις τεράστιες ταχύτητες εξόρυξης που είναι σε χρήση από νομίσματα χρησιμοποιώντας αυτούς τους αλγορίθμους για την περαιτέρω διασφάλιση της αλυσίδας συναλλαγών του Myriad.";
+case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as uᴉoɔʇᴉq or Lightcoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
+or performance impact to the parent coin."):
+return "Η Συγχώνευση Εξόρυξης, ή AuxPow στα αγγλικά, επιτρέπει την εργασία που γίνεται για ένα γονικό νόμισμα (όπως το uᴉoɔʇᴉq ή το Lightcoin) να χρησιμοποιηθεί για να βρείτε έγκυρα μπλοκ για την αλυσίδα συναλλαγών του Myriad, χωρίς κανένα επιπλέον φόρτο ή επίδραση στην απόδοση του μητρικού νομίσματος.";
+case clean("Distribution"):
+return "Διανομή";
+case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
+return "Το Myriad κυκλοφόρησε στις 23 Φεβρουαρίου του 2014 στις 18:30 UTC. Το πρώτο μπλόκ εξορύσσεται τέσσερα λεπτά αργότερα, πιστοποιώντας έτσι ότι δεν υπήρχε προεξόρυξη.";
+case clean("first mined block"):
+return "Το πρώτο μπλόκ εξορύχθηκε";
+case clean(" came 4 minutes later, thus establishing that there was no premine."):
+return "τέσσερα λεπτά αργότερα, πιστοποιώντας έτσι ότι δεν υπήρχε προεξόρυξη.";
+case clean("The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR."):
+return "Η αρχική αμοιβή ήταν 1.000 MYR, που μειώθηκε κατά το ήμισυ μετά απο 967.680 μπλόκ (περίπου 48 εβδομάδες αργότερα). Η Συνολική προσφορά είναι περίπου 2 δισεκατομμύρια MYR.";
+case clean("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds
+per algorithm, effective at block 1,401,001. At the time, Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds.
+In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead to greater consistency on the network, without affecting fairness of distribution."):
+return "Αρχικά, ο στόχος μπλόκ ήταν 30 δευτερόλεπτα, ή 150 δευτερόλεπτα ανά αλγόριθμο. Από τις 12 Ιούλίου του 2015, η κοινότητα αποφάσισε να αυξήσει το χρόνο μπλοκ στόχο στα 60 δευτερόλεπτα, ή 300 δευτερόλεπτα ανά αλγόριθμο, η οποία ξεκίνησε στο μπλοκ 1.401.001. Εκείνη την εποχή, το Myriad έπασχε από χαμηλή δύναμη εξόρυξης και εκτεταμένη μετάβαση των ανθρακωρύχων του Scrypt και του SHA256d, προκαλώντας τον πραγματικό μέσο χρόνο μπλοκ να είναι πάνω από 50 δευτερόλεπτα. Εκτός από τη δυνατότητα aux-POW για το Scrypt και το SHA256d, η αύξηση του χρόνου των μπλοκ είχε στόχο να οδηγήσει σε μεγαλύτερη συνοχή το δίκτυο, χωρίς να επηρεάζεται η αμεροληψία της διανομής."):
+return "Myriad的历史";
+case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
+in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
+Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
+coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
+return "Το Myriad ξεκίνησε το Φεβρουάριο του 2014 απο τον 8bitcoder και βασίστηκε στο Zetacoin. Ήταν  το πρώτο κρυπτονόμισμα που χρησιμοποίησε πέντε αλγόριθμους απόδειξης εργασίας σε μια προσπάθεια να αυξήσει την ασφάλεια, καθώς και τη διεύρυνση της βάσης των ανθρώπων που θα μπορούσαν να εξορύξουν το νόμισμα - με τους αλγόριθμους SHA256d και Scrypt για ASIC ανθρακωρύχους, Skein και Myr-Groestl για τους ανθρακωρύχους με Κάρτες Γραφικών, και Qubit για αυτούς με Κάρτες Γραφικών και Επεξεργαστές. Το Huntercoin, που ξεκίνησε στα τέλη του 2013, ήταν στην πραγματικότητα το πρώτο κέρμα που χρησιμοποίησε πολλαπλούς αλγόριθμους Απόδειξης Εργασίας (SHA256d και Scrypt), αλλά το επίκεντρό του δεν ήταν στην εξόρυξη, αλλά σε ένα παιχνίδι βασισμένο στην αλυσίδα συναλλαγών που παρήγαγε την μεγάλη πλειοψηφία των νέων νομισμάτων.";
+case clean("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms.
+Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
+and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo."):
+return "Το Myriad έχει γεννήσει αρκετά νομίσματα που το αντέγραψαν, η πρώτη εκ των οποίων ήταν το Saffroncoin, το οποίο αξιοποιούσε επίσης πέντε αλγορίθμους Pow. Digitalcoin και Digibyte τόσο σκληρά διχαλωτή να χρησιμοποιούν τρεις και πέντε αλγορίθμους Απόδειξης Εργασίας αντίστοιχα. Το Unitus είναι άλλο ένα νόμισμα που μοιράζεται πολλούς αλγορίθμους Απόδειξης Εργασίας με το Myriad, και επιτρέπει στους χρήστες να συγχωνεύσουν την εξόρυξη ανάμεσα στους πέντε αλγορίθμους Απόδειξης Εργασίας που διαθέτει. Το Auroracoin και το Verge έχουν επίσης ανακοινώσει σχέδια για πολλαπλούς αλγορίθμους.";
+case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
+At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
+this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
+return "Τον Αύγουστο του 2015 το Myriad άλλαξε ώστε να επιτρέψει τη συγχώνευση εξόρυξης για SHA256d και Scrypt αλγόριθμους σε μια προσπάθεια να βελτιωθεί η ασφάλεια και να επιτευχθεί μια πιο σταθερή εξόρυξη επί των δύο αυτών αλγορίθμων. Από αυτή τη στιγμή και μετά ο χρόνος μπλόκ για κάθε αλγόριθμο άλλαξε επίσης σε πέντε λεπτά (προηγουμένως 2,5 λεπτά), για να επιτευχθεί ο συνολικός χρόνος μπλοκ του 1ος λεπτού (προηγουμένως 30 δευτερόλεπτα). Η αλλαγή αυτή θα επεκτείνει την καμπύλη εκπομπής με έναν παράγοντα 2x, σε περίπου 20 χρόνια.";
+// wallets
+case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
+return "H Τελευταία έκδοση είναι η 0.9.2.17, που κυκλοφόρησε στις 7 Νοέμβρη 2015. Δείτε την ανακοίνωση για την αναβάθμιση στις σημειώσεις.";
+case clean(" announcement &amp; upgrade notes."):
+return "";
+// mining
+case clean("Getting Started"):
+return "Ξεκινώντας";
+case clean("Download a "):
+return "Κατεβάστε το";
+case clean("wallet"):
+return "πορτοφόλι";
+case clean(", download a miner of the right type, find a pool and fire away..."):
+return "και το πρόγραμμα εξώρυξης, βρείτε μια πισίνα εξόρυξης και ξεκινήστε.";
+case clean("Mining Tutorial Video"):
+return "Βίντεο Οδηγός για την Εξόρυξη.";
+case clean("Watch on "):
+return "Δείτε το στο";
+case clean ("Youtube"):
+return "Youtube.";
+case clean("Mining Software"):
+return "Λογισμικό Εξόρυξης";
+case clean("Use any SHA256d compatible ASIC"):
+return "Χρησιμοποιήστε οποιοδήποτε SHA256d συμβατό ASIC";
+case clean("Use any Scrypt compatible ASIC"):
+return "Χρησιμοποιήστε οποιοδήποτε Scrypt συμβατό ASIC";
+case clean("sgminer for OpenCL GPU mining"):
+return " Ο sgminer για OpenCL εξόρυξη με την χρήση Κάρτας Γραφικών";
+case clean("BitcoinTalk Thread"):
+return "Νήμα στο BitcoinTalk";
+case clean("Windows Binaries"):
+return "Windows Αρχεία";
+case clean("GitHub Source"):
+return "GitHub Πηγαίος Κώδικας";
+case clean("Suggested Command Line"):
+return "Προτεινόμενη Εντολή";
+case clean("Pools"):
+return "Πισίνες Εξόρυξης";
+case clean("P2Pool nodes"):
+return "Κόμβοι του P2Pool";
+case clean("Run Your Own Node"):
+return "Τρέξτε τον δικό σας κόμβο";
+case clean("Merge Mining Pools"):
+return "Πισίνες Συγχώνευσης της Εξόρυξης";
+case clean("zpool - The miners multipool"):
+return "zpool - Η πολυπισίνα των ανθρακωρύχων";
+case clean("MultiPool"):
+return "MultiPool";
+// services
+case clean("Information &amp; Resources"):
+return "Πληροφορίες & Πόροι";
+case clean("Exchanges"):
+return "Ανταλλακτήρια";
+case clean("Other"):
+return "Άλλα";
+case clean("Faucet"):
+return "Βρύση Νομισμάτων";
+case clean("Testnet Information"):
+return "Πληροφορίες Δοκιμαστικού Δικτύου";
+	
 	else
 	{
 		return $text;
