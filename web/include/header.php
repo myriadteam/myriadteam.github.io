@@ -36,6 +36,13 @@
 	$titles['eo']['services'] = 'Servoj';
 	$titles['eo']['social'] = 'Komunumo';	
 	
+	$titles['el']['default'] = 'Προεπιλογή';
+	$titles['el']['technology'] = 'Τεχνολογία';
+	$titles['el']['wallets'] = 'Πορτοφόλια';
+	$titles['el']['mining'] = 'Εξόρυξη';
+	$titles['el']['services'] = 'Υπηρεσίες';
+	$titles['el']['social'] = 'Κοινωνικά Δίκτυα'; 
+	
 	$titles['zh']['default'] = '主页';
 	$titles['zh']['technology'] = '技术';
 	$titles['zh']['wallets'] = '钱包';

@@ -121,6 +121,12 @@
 					$nlang = 'en';
 					break;
 				}
+				else if (strpos($l, 'el') === 0)
+				{
+					// show greek
+					$nlang = 'el';
+					break;
+				}				
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
