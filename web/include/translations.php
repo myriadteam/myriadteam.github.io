@@ -36,16 +36,19 @@ function translate($text, $lang)
 						cada algoritmo se ajusta de manera independiente, que hace que las recompensas por bloque sean igualitarias para
 						todos, una resistencia excepcional de un 51% debido a la comunicacion de 5 algoritmos independientes.";
 
-			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
+			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available to these algorithms."):
 				return "La seguridad ha aumentado gracias al permitir la mineria fusionada con Scrypt y SHA256d, permitiendo a Myriad
 						beneficiarse del gran poder de hash.";
 
-			case clean("Fair Distribution"):
+			case clean("Fair"):
 				return "Distribucion justa";
 
 			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
 				return "No existe el preminado y tampoco hay fortunas ocultas entre los desarrolladores. Todo el mundo tiene la misma oportunidad de obtener Myriad.";
 
+			case clean("Like Bitcoin, Myriad is a community coin. Its brand is not owned by any company or foundation. Anyone who contributes to Myriad can rest assured that they are giving to their own community."):
+				return "";
+				
 			// technology
 
 			case clean("Multi-Algorithm"):
@@ -73,7 +76,7 @@ function translate($text, $lang)
 				return "Mineria fusionada";
 
 			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
-			by coins using these algorithms, further securing the Myriad blockchain."):
+			by coins with these algorithms, further securing the Myriad blockchain."):
 				return "Desde el bloque 4002000, la mineria fusionada ha sido permitida en los algoritmos SHA256d y Scrypt. Esto ha hecho que Myriad tenga un avance para obtener un gran hashrate actualmente en uso
 			por las monedas que usan esos algoritmos, aumentando la seguridad de la cadena de bloques de Myriad.";
 
@@ -105,7 +108,8 @@ function translate($text, $lang)
 			case clean("Myriad's History"):
 				return "Historia de Myriad";
 
-			case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
+			case clean("Myriad was forked from Zetacoin by 8bitcoder and launched in February 2014.
+			It was the first cryptocurrency to use five proof-of-work algorithms
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
 			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
@@ -225,14 +229,17 @@ function translate($text, $lang)
 				ĉiu havas celtempon de 5 minutoj por unu bloko. Entute, unu bloko troviĝas proksimume ĉiun minuton. La malfacileco de ĉiu algoritmo dependas nur de ties propra haketrapideco.
 				";
 
-                        case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
-                                return "Kunligita minado estis saltita je SHA256d &amp; Scrypt. Nun Myriad povas gajni de la grandega haketpotenco disponebla.";
+                        case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available to these algorithms."):
+                                return "Kunligita minado estis saltita je SHA256d &amp; Scrypt. Nun Myriad povas gajni de la grandega haketpotenco disponebla al tiuj ĉi algoritmoj.";
 
-			case clean("Fair Distribution"):
-				return "Egaleca disdonado";
+			case clean("Fair"):
+				return "Egaleca";
 
 			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
 				return "Ekzistas nek moneroj minitaj antaŭ ol la lanĉo, nek kaŝitaj sumoj kiujn posedas komplotuloj. Ĉiuj havas egalan eblecon akiri Miriadojn je la kurzo de la publika merkato ";
+
+			case clean("Like Bitcoin, Myriad is a community coin. Its brand is not owned by any company or foundation. Anyone who contributes to Myriad can rest assured that they are giving to their own community."):
+				return "Same kiel Bitmono, Myriad estas komunuma valuto. Ĝian markon posedas nek firmao, nek fondaĵo. Iu ajn kiu kontribuas al Myriad povas resti certa ke ili helpas sian propran komunumon.";
 
 			// technology
 
@@ -261,7 +268,7 @@ function translate($text, $lang)
 				return "Kunligita Minado";
 
 			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
-			by coins using these algorithms, further securing the Myriad blockchain."):
+			by coins with these algorithms, further securing the Myriad blockchain."):
 				return "Ekde la 4002000a bloko, kunligita minado estis ebligita je la algoritmoj SHA256d k Scrypt. Nun Myriad povas utiligi la enorman haketpotencon trovebla
 			ĉe valutoj kiuj uzas tiujn algoritmojn. Tio sekurigas la blokĉenon de Myriad eĉ plu.";
 
@@ -295,7 +302,8 @@ function translate($text, $lang)
 			case clean("Myriad's History"):
 				return "Historio de Myriad";
 
-			case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
+			case clean("Myriad was forked from Zetacoin by 8bitcoder and launched in February 2014.
+			It was the first cryptocurrency to use five proof-of-work algorithms
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
 			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
@@ -470,7 +478,7 @@ function translate($text, $lang)
 			case clean("Secure"):
 				return "Sichern";
 
-			case clean("Fair Distribution"):
+			case clean("Fair"):
 				return "Gerechte Verteilung";
 
 			// technology
@@ -508,14 +516,17 @@ function translate($text, $lang)
 			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
 				return "矿机可选择5种算法中任何一种进行挖矿 — SHA256d, Scrypt, Myr-Groestl, Skein 或 Qubit — 每一种均以5分钟的区块为目标，因此在5种算法的角度上计算，只需一分钟便可产出一个新区块，每种算法的难度受其算力影响。当市场推出ASIC后，在GPU上挖SHA256d和Scrypt已经没有什么效率了，而剩下的算法仍是GPU挖矿占主导地位。复合算法提供了额外的反51%攻击机制，因为需要一套不同的设备区寻找51%的区块。";
 
-			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
+			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available to these algorithms."):
 				return "";
 
-			case clean("Fair Distribution"):
+			case clean("Fair"):
 				return "公平性";
 
 			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
 				return "没有预挖或内部人员捞钱等内幕，任何人都有同样的机会在同样的市场价格下购买Myriad。";
+				
+			case clean("Like Bitcoin, Myriad is a community coin. Its brand is not owned by any company or foundation. Anyone who contributes to Myriad can rest assured that they are giving to their own community."):
+				return "";
 
 			// technology
 
@@ -544,7 +555,7 @@ function translate($text, $lang)
 				return "合并挖矿";
 
 			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
-			by coins using these algorithms, further securing the Myriad blockchain."):
+			by coins with these algorithms, further securing the Myriad blockchain."):
 				return "区块400200后, 算法SHA256D和Scrypt开始允许合并挖矿, 合并挖矿使Myriad能够利用这些算法正在使用的大量算力, 此外可加强Myriad的区块链安全性。";
 
 			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
@@ -574,7 +585,8 @@ function translate($text, $lang)
 			case clean("Myriad's History"):
 				return "Myriad的历史";
 
-			case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
+			case clean("Myriad was forked from Zetacoin by 8bitcoder and launched in February 2014.
+ 			It was the first cryptocurrency to use five proof-of-work algorithms
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
 			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):

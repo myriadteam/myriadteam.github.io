@@ -22,7 +22,7 @@
 		<div class="col-lg-4">
 			<h2><?php echo translate("Merge Mining", $lang); ?></h2>
 			<p class="text-justify"><?php echo translate("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
-			by coins using these algorithms, further securing the Myriad blockchain.", $lang); ?></p>
+			by coins with these algorithms, further securing the Myriad blockchain.", $lang); ?></p>
 			<p class="text-justify"><?php echo translate("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
 			or performance impact to the parent coin.", $lang); ?></p>
 		</div>
@@ -39,7 +39,8 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<h2 class="text-left"><?php echo translate("Myriad's History", $lang); ?></h3>
-			<p class="text-justify"><?php echo translate("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
+			<p class="text-justify"><?php echo translate("Myriad was forked from Zetacoin by 8bitcoder and launched in February 2014.
+ 			It was the first cryptocurrency to use five proof-of-work algorithms
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
 			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins.", $lang); ?></p>
