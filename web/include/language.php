@@ -126,7 +126,13 @@
 					// show greek
 					$nlang = 'el';
 					break;
-				}				
+				}	
+				else if (strpos($l, 'ru') === 0)
+				{
+					// show russian
+					$nlang = 'ru';
+					break;
+				}	
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
