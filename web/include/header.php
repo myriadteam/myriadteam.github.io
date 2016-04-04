@@ -12,7 +12,7 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru");
+	$languages = array("en","es","eo","zh","el","ru","tl");
 	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
