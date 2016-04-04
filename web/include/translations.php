@@ -951,7 +951,7 @@ function translate($text, $lang)
 		}
 	}
 	
-		else if($lang == 'tl')
+	else if($lang == 'tl')
 	{
 		switch (clean($text))
 		{
@@ -971,7 +971,7 @@ function translate($text, $lang)
 				return "Ang nagmimina ay maaring gumamit ng alinman sa 5 algorithm – SHA256d, Scrypt, Myr-Groestl, Skein, o Qubit – bawat isa ay may target na 5 minutong bloke. 
 				Sa pangkalahatan, ang isang bloke ay natatagpuan humigit-kumulang kada isang minuto. Ang hirap ng bawat algorithm ay naaapektuhan lamang ng sarili nitong hash rate. 
 				Habang hindi na naging mabunga ang pagmimina sa GPU sa SHA256d аt Scrypt dahil sa mga ASICs, ang mga iba pang algorithm ay patuloy na dinodomina ng pagmimina sa GPU. 
-				Ang multi-algo na pamamaraan ay nagbibigay ng katangi-tanging 51% na paglaban dahil iba’t-ibang hardware ang kailangan para mahanap ang 51% ng mga bloke.”;
+				Ang multi-algo na pamamaraan ay nagbibigay ng katangi-tanging 51% na paglaban dahil iba’t-ibang hardware ang kailangan para mahanap ang 51% ng mga bloke.";
 			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
 				return "Ang merge mining ay pinagana sa SHA256d at Scrypt, dahilan upang ang Myriad ay makinabang sa napakalaking hash power na magagamit.";
 			case clean("Fair Distribution"):
@@ -1033,7 +1033,7 @@ function translate($text, $lang)
 			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
 				return "Pinakabagong Bersyon ay 0.9.2.17, inilimbag noong ika-7 ng Nobyembre 7 2015. Tingnan";
 			case clean(" announcement &amp; upgrade notes."):
-				return "Paunawa at tala ng upgrade;
+				return "Paunawa at tala ng upgrade";
 			// mining
 			case clean("Getting Started"):
 				return "Pagsisimula";
