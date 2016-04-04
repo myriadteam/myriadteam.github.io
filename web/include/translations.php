@@ -1087,7 +1087,7 @@ function translate($text, $lang)
 			case clean("Faucet"):
 				return "Gripo";
 			case clean("Testnet Information"):
-				return "Impormasyon sa Testnet;
+				return "Impormasyon sa Testnet";
 		}
 	}
 	
