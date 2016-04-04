@@ -13,7 +13,7 @@
 <?php
 
 	$languages = array("en","es","eo","zh","el","ru");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -56,6 +56,13 @@
 	$titles['ru']['mining'] = 'Майнинг';
 	$titles['ru']['services'] = 'Сервисы';
 	$titles['ru']['social'] = 'Соц. Сети'; 
+	
+	$titles['tl']['default'] = 'Default';
+	$titles['tl']['technology'] = 'Теknolohiya';
+	$titles['tl']['wallets'] = 'Mga Pitaka';
+	$titles['tl']['mining'] = 'Pagmimina';
+	$titles['tl']['services'] = 'Mga Serbisyo';
+	$titles['tl']['social'] = 'Social'; 
 	
 	switch ($path)
 	{
