@@ -808,30 +808,29 @@ function translate($text, $lang)
 				return "Βρύση Νομισμάτων";
 			case clean("Testnet Information"):
 				return "Πληροφορίες Δοκιμαστικού Δικτύου";
-                        default:
-                                return $text;
-                }
-        }
-        
-        else if($lang == 'ru')
+			default:
+					return $text;
+		}
+	}
+    else if($lang == 'ru')
 	{
 		switch (clean($text))
 		{
 			// homepage
 			case clean("Open To Anyone"):
 				return "Открыта каждому";
-			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike uᴉoɔʇᴉq, which can only be profitably mined using
-			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using 
+			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs &amp; CPUs."):
 				return "Myriad – мульти-алгоритмична - это первая монета, воплотившая в жизнь одновременно 5 хеш функций, используемых для майнинга. В отличии от Биткоина, который можно прибыльно майнить используя Асики и алгоритм SHA256d, Myriad доступна для Scrypt ASICS, GPUS & CPUs.";
 			case clean("Secure"):
 				return "Безопасна";
-			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
-			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
-			While ASICs have rendered GPU mining on SHA256d & Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
+			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit — 
+			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate. 
+			While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining. 
 			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
 				return "Майнер может выбрать любой из 5 доступных алгоритмов – SHA256d, Scrypt, Myr-Groestl, Skein, или Qubit – каждый из них имеет фиксированное целевое время блока – 5 минут. В целом, блок находится приблизительно каждую минуту. В зависимости от хеш рейта каждого алгоритма регулируется и его сложность.
 			В то время как Асики влияют на майнинг видеокартами с алгоритмом SHA256d а Scrypt непродуктивен, остальные алгоритмы доминируют сферу майнинга видеокартами. Способ множественных алгоритмов создаёт новый эксклюзивный и инновационный подход к методике защиты с помощью 51%, потому что для заполучения 51% блоков понадобится огромный спектр оборудования.";
-			case clean("Merge mining has been enabled on SHA256d & Scrypt, allowing Myriad to benefit from the massive hash power available."):
+			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
 				return "Объединенный майнинг различными алгоритмами, включающими в себя SHA256d & Scrypt, позволил Myriad получить преимущество за счёт огромных доступных вычислительных мощностей.";
 			case clean("Fair Distribution"):
 				return "Честное распределение";
@@ -842,9 +841,9 @@ function translate($text, $lang)
 				return "Множественные алгоритмы";
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
 				return "5 Алгоритмов доступных для ASIC, GPU и CPU майнинга";
-			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency uᴉoɔʇᴉq."):
+			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
 				return "Два раунда для алгоритма хеширования SHA256d, впервые использованных пионером криптовалют - uᴉoɔʇᴉq.";
-			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Lightcoin."):
+			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
 				return "Изначально спроектированный для майнинга под CPU, теперь используется для добычи многими алтернативными монетами с помощью ASICs, начиная с Litecoin.";
 			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
 				return "Специфичный только для Myriad вариант хеш-алгоритма – Groestl – это один из пяти финалистов NIST SHA-3 соревнования алгоритмов хеширования.";
@@ -857,7 +856,7 @@ function translate($text, $lang)
 			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
 			by coins using these algorithms, further securing the Myriad blockchain."):
 				return "Начиная с блока 4002000, объединенный майнинг доступен для SHA256d и Scrypt алгоритмов. Это позволило Myriad получить преимущество за счёт огромных хешрейтов, используемых в данное время другими монетами, а также обеспечило безопасность блокчейна.";
-			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as uᴉoɔʇᴉq or Lightcoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
+			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
 			or performance impact to the parent coin."):
 				return "Объединенный майнинг, так же известный как AuxPow, позволяет использовать ресурсы, затрачиваемые, к примеру, на майнинг uᴉoɔʇᴉq или Lightcoin для подтверждения валидности блоков в сети Myriad при этом не неся никакой дополнительной нагрузки.";
 			case clean("Distribution"):
@@ -936,7 +935,7 @@ function translate($text, $lang)
 			case clean("MultiPool"):
 				return "MultiPool";
 			// services
-			case clean("Information & Resources"):
+			case clean("Information &amp; Resources"):
 				return "Информация и Ресурсы";
 			case clean("Exchanges"):
 				return "Обменники";
@@ -945,7 +944,9 @@ function translate($text, $lang)
 			case clean("Faucet"):
 				return "Кран";
 			case clean("Testnet Information"):
-				return "Testnet Информация;
+				return "Testnet Информация";
+			default:
+					return $text;
 		}
 	}
 	
