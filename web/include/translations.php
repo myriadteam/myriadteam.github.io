@@ -1088,6 +1088,9 @@ function translate($text, $lang)
 				return "Gripo";
 			case clean("Testnet Information"):
 				return "Impormasyon sa Testnet";
+			default:
+					return $text;
+				
 		}
 	}
 	
