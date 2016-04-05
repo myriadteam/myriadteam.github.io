@@ -133,6 +133,12 @@
 					$nlang = 'ru';
 					break;
 				}	
+				else if (strpos($l, 'tl') === 0)
+				{
+					// show tagalog
+					$nlang = 'tl';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
