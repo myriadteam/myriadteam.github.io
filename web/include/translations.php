@@ -100,7 +100,9 @@ function translate($text, $lang)
 			case clean("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds
 			per algorithm, effective at block 1,401,001. At the time, Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds.
 			In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead to greater consistency on the network, without affecting fairness of distribution."):
-				return "Para los primeros 1401000, el tiempo de objetivo por bloque fue de 30 segundos, o 150 segundos por algoritmo. Esto ahora fue cambiado a 60 segundos por bloque, o 300 segundos por algoritmo.";
+				return "Inicialmente, el objetivo era 30 segundos por bloque, o 150 segundos por algoritmo. El 12 de Julio de 2015, la comunidad decidió aumentar el tiempo del bloque a 60 segundos,
+				o 300 segundos por algoritmo, que se vería reflejado en el bloque 1,401,001. En ese momento, Myriad sufrió de baja tasa de hash y de mayor dificultad sobre Scrypt y SHA256d, provocando 
+				el actual tiempo promedio por bloque por encima 50 segundos. Además para pernitir PoW adicional sobre Scrypt y SHA256d, el aumento en el tiempo objetivo por bloque nos llevó a una mejor coherencia en la red, sin afectar la equidad de la distribución.";
 
 			case clean("Myriad's History"):
 				return "Historia de Myriad";
@@ -119,7 +121,7 @@ function translate($text, $lang)
 			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo."):
 				return "Myriad ha dado varios projectos derivados, como por ejemplo Saffroncoin, y tambien a proyectos con 5 algoritmos PoW.
 			Digitalcoin and Digibyte son algunos de los ejemplos de tener 3 o 5 algoritmos PoW respectivamente, Unitus tambien tiene 5 algoritmos PoW que comparte algunos algoritmos con Myriad
-			y permite a los usuarios tener mineria fusionada con estos.";
+			y permite a los usuarios tener mineria fusionada con estos. Auroracoin y Verge también han anunciado planes de hacer fork a multi-algoritmo.";
 
 			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
 			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
