@@ -139,6 +139,12 @@
 					$nlang = 'tl';
 					break;
 				}
+				else if (strpos($l, 'fr') === 0)
+				{
+					// show french
+					$nlang = 'fr';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
