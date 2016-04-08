@@ -349,8 +349,8 @@ function translate($text, $lang)
 			case clean("Source"):
 				return "Fonto";
 
-			case clean("Source Code (0.11.2)"):
-				return "Fontkodo (0.11.2)";
+			case clean("Source Code (0.11.2.0)"):
+				return "Fontkodo (0.11.2.0)";
 
 			case clean("Other"):
 				return "Aliaj";
