@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -70,6 +70,13 @@
 	$titles['fr']['mining'] = 'Extraction';
 	$titles['fr']['services'] = 'Services';
 	$titles['fr']['social'] = 'Réseaux Sociaux'; 
+
+	$titles['id']['default'] = 'titel';
+	$titles['id']['technology'] = 'Teknologi';
+	$titles['id']['wallets'] = 'dompet';
+	$titles['id']['mining'] = 'penambangan';
+	$titles['id']['services'] = 'servis';
+	$titles['id']['social'] = 'sosial'; 
 	
 	switch ($path)
 	{
