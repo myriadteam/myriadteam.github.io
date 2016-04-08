@@ -40,7 +40,7 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/github.png" width="48" height="48"> GitHub
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/archive/0.11.2.0.zip" target="_blank">Source Code (0.9.2.17)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/archive/0.11.2.0.zip" target="_blank">Source Code (0.11.2.0)</a></li>
 						<li><a href="https://github.com/myriadteam/myriadcoin" target="_blank">Git Repository</a></li>
 					</ul>
 			</ul>
