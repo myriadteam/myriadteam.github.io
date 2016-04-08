@@ -145,6 +145,12 @@
 					$nlang = 'fr';
 					break;
 				}
+				else if (strpos($l, 'id') === 0)
+				{
+					// show indonesian
+					$nlang = 'id';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
