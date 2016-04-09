@@ -57,26 +57,26 @@
 	$titles['ru']['services'] = 'Сервисы';
 	$titles['ru']['social'] = 'Соц. Сети'; 
 	
-	$titles['tl']['default'] = 'Default';
+	$titles['tl']['default'] = 'A Coin For Everyone';
 	$titles['tl']['technology'] = 'Теknolohiya';
 	$titles['tl']['wallets'] = 'Mga Pitaka';
 	$titles['tl']['mining'] = 'Pagmimina';
 	$titles['tl']['services'] = 'Mga Serbisyo';
 	$titles['tl']['social'] = 'Social'; 
 	
-	$titles['fr']['default'] = 'Présélection';
+	$titles['fr']['default'] = 'A Coin For Everyone';
 	$titles['fr']['technology'] = 'Technologie';
 	$titles['fr']['wallets'] = 'Portefeuilles';
 	$titles['fr']['mining'] = 'Extraction';
 	$titles['fr']['services'] = 'Services';
 	$titles['fr']['social'] = 'Réseaux Sociaux'; 
 
-	$titles['id']['default'] = 'titel';
+	$titles['id']['default'] = 'A Coin For Everyone';
 	$titles['id']['technology'] = 'Teknologi';
-	$titles['id']['wallets'] = 'dompet';
-	$titles['id']['mining'] = 'penambangan';
-	$titles['id']['services'] = 'servis';
-	$titles['id']['social'] = 'sosial'; 
+	$titles['id']['wallets'] = 'Dompet';
+	$titles['id']['mining'] = 'Penambangan';
+	$titles['id']['services'] = 'Servis';
+	$titles['id']['social'] = 'Sosial'; 
 	
 	switch ($path)
 	{
