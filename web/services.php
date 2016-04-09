@@ -24,6 +24,7 @@
 		<div class="col-lg-4">
 			<h2><?php echo translate("Other", $lang); ?></h2>
 			<ul>
+				<li><a href="http://trip.myrcraft.com/" target="_blank"><?php echo translate("Game faucet", $lang); ?></a></li>
 				<li><a href="https://cryptap.us/myr/faucet/" target="_blank"><?php echo translate("Faucet", $lang); ?></a></li>
 				<li><a href="http://coinmarketcap.com/currencies/myriadcoin/" target="_blank">Coinmarketcap</a></li>
 				<li><a href="https://www.reddit.com/r/myriadcoin/comments/47pww5/testnet_nodes_and_faucet/" target="_blank"><?php echo translate("Testnet Information", $lang); ?></a></li>
