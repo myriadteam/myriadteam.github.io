@@ -595,10 +595,10 @@ function translate($text, $lang)
 
 			// wallets
 			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
-				return "最新版本0.11.2.0, 于2016年4月7号发布, 请查看版本更新备忘录。";
+				return "最新版本0.11.2.0, 于2016年4月7号发布, 请查看";
 
 			case clean(" announcement &amp; upgrade notes."):
-				return "";
+				return "版本更新备忘录。";
 
 			// mining
 
@@ -1033,9 +1033,9 @@ function translate($text, $lang)
 				return "Noong Agosto 2015 Ang Myriad ay nag hard-fork upang bigyang-daan ang merge-mining sa kanilang Scrypt at SHA256d algorithms sa layuning pagandahin ang seguridad at makamit ang isang mas metatag na hashrate sa dalawang algorithm na iyon. Sa panahong ito ang target na block time ay 5 minuto (dating 2.5 minuto), upang makamit ang pangkalahatang block target time na 1 minuto (dating 30 segundo); Ang pagbabagong ito ay magpapataas sa emission curve ng 2х, sa humigit-kumulang na 20 taon.";
 			// wallets
 			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
-				return "Pinakabagong Bersyon ay 0.11.2.0, inilimbag noong ika-7 ng Abril 2016. Tingnan";
+				return "Pinakabagong Bersyon ay 0.11.2.0, inilimbag noong ika-7 ng Abril 2016. Tingnan ";
 			case clean(" announcement &amp; upgrade notes."):
-				return "Paunawa at tala ng upgrade";
+				return " paunawa at tala ng upgrade";
 			// mining
 			case clean("Getting Started"):
 				return "Pagsisimula";
@@ -1171,18 +1171,18 @@ function translate($text, $lang)
 				return "En Août 2015, le Myriad a été modifié pour permettre la fusion des mines pour SHA256d et Scrypt algorithmes dans un effort pour améliorer la sécurité et de parvenir à une exploitation minière plus stable sur ces deux algorithmes. Dès ce moment le temps de bloc pour chaque algorithme a également changé en cinq minutes (auparavant 2,5 minutes), pour obtenir le temps total de bloc d'une minute (auparavant 30 secondes). Ce changement permettra de prolonger la courbe d'émission avec un agent 2x, à environ 20 ans.";
 			// wallets
 			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
-				return "La dernière version est la 0.11.2.0, qui a été publiée le 7 Avril 2016. Voir l'annonce pour mettre à niveau les notes.";
+				return "La dernière version est la 0.11.2.0, qui a été publiée le 7 Avril 2016. Voir ";
 			case clean(" announcement &amp; upgrade notes."):
-				return "";
+				return " l'annonce pour mettre à niveau les notes.";
 			// mining
 			case clean("Getting Started"):
 				return "En commençant";
 			case clean("Download a "):
-				return "Télécharger";
+				return "Télécharger ";
 			case clean("wallet"):
 				return "porte-monnaie";
 			case clean(", download a miner of the right type, find a pool and fire away..."):
-				return "et le programme de l'exploitation minière, trouvez une piscine minière et commencez.";
+				return " et le programme de l'exploitation minière, trouvez une piscine minière et commencez.";
 			case clean("Mining Tutorial Video"):
 				return "Guide de la vidéo à l'extraction minière.";
 			case clean("Watch on "):
@@ -1337,10 +1337,10 @@ function translate($text, $lang)
 
 			// wallets
 			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
-				return "Versi terbaru adalahs 0.11.2.0, diluncurkan tanggal 7 April 2016. Lihat";
+				return "Versi terbaru adalahs 0.11.2.0, diluncurkan tanggal 7 April 2016. Lihat ";
 
 			case clean(" announcement &amp; upgrade notes."):
-				return "pengumuman &amp; catatan terbaru";
+				return " pengumuman &amp; catatan terbaru";
 
 			// mining
 			case clean("Getting Started"):
