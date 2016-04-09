@@ -760,11 +760,11 @@ function translate($text, $lang)
 			case clean("Getting Started"):
 				return "Ξεκινώντας";
 			case clean("Download a "):
-				return "Κατεβάστε το";
+				return "Κατεβάστε το ";
 			case clean("wallet"):
 				return "πορτοφόλι";
 			case clean(", download a miner of the right type, find a pool and fire away..."):
-				return "και το πρόγραμμα εξώρυξης, βρείτε μια πισίνα εξόρυξης και ξεκινήστε.";
+				return " και το πρόγραμμα εξώρυξης, βρείτε μια πισίνα εξόρυξης και ξεκινήστε.";
 			case clean("Mining Tutorial Video"):
 				return "Βίντεο Οδηγός για την Εξόρυξη.";
 			case clean("Watch on "):
@@ -1347,13 +1347,13 @@ function translate($text, $lang)
 				return "Yang diperlukan";
 
 			case clean("Download a "):
-				return "Unduh";
+				return "Unduh ";
 
 			case clean("wallet"):
 				return "dompet";
 
 			case clean(", download a miner of the right type, find a pool and fire away..."):
-				return "unduh tipe perangkat lunak dari penambang, daftar pool dan mulai...";
+				return " unduh tipe perangkat lunak dari penambang, daftar pool dan mulai...";
 
 			case clean("Mining Tutorial Video"):
 				return "Video Cara Penambangan";
@@ -1507,7 +1507,7 @@ function translate($text, $lang)
 			case clean("Getting Started"):
 				return "Като за начало";
 			case clean("Download a "):
-				return "Изтегли";
+				return "Изтегли ";
 			case clean("wallet"):
 				return "портфейл";
 			case clean(", download a miner of the right type, find a pool and fire away..."):
