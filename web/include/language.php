@@ -151,6 +151,12 @@
 					$nlang = 'id';
 					break;
 				}
+				else if (strpos($l, 'bg') === 0)
+				{
+					// show bulgarian
+					$nlang = 'bg';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
