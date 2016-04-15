@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -84,6 +84,13 @@
 	$titles['bg']['mining'] = 'Добив';
 	$titles['bg']['services'] = 'Услуги';
 	$titles['bg']['social'] = 'Социални мрежи';  
+	
+	$titles['de']['default'] = 'der Default';
+	$titles['de']['technology'] = 'die Technologie';
+	$titles['de']['wallets'] = 'das Portemonnaie';
+	$titles['de']['mining'] = 'der Bergbau';
+	$titles['de']['services'] = 'das Dienstleistungen';
+	$titles['de']['social'] = 'sozial Netzwerke';
 	
 	switch ($path)
 	{
