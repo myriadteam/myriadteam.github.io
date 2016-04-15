@@ -461,34 +461,6 @@ function translate($text, $lang)
 		}
 	}
 
-	else if ($lang == 'de')
-	{
-		switch ($text)
-		{
-			// homepage
-			case clean("Open To Anyone"):
-				return "Offen für alle";
-
-			case clean("Secure"):
-				return "Sichern";
-
-			case clean("Fair Distribution"):
-				return "Gerechte Verteilung";
-
-			// technology
-
-			// wallets
-
-			// mining
-
-			// services
-
-
-			default:
-				return $text;
-		}
-	}
-
 	else if($lang == 'zh')
 	{
 		switch (clean($text))
@@ -1573,17 +1545,17 @@ function translate($text, $lang)
 			// homepage
 			case clean("Open To Anyone"):
 				return "Das Sind für alle freigebt";   
-			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
-			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using 
+			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs &amp; CPUs."):
 				return "Myriad ist multi-algorithmus Programme. Sie habt Wertunge 5 hash-funktionen zugleich. Myriad sind für SHA256d ASICs, Scrypt ASICS, GPU und CPU freigebt, im Gegensatz zu Bitcoin welche anwendungt für Bergbau SHA256d ASICS allein.";
 			case clean("Secure"):
 				return "Der Schutz";
-			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
-			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
-			While ASICs have rendered GPU mining on SHA256d & Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
+			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit — 
+			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate. 
+			While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining. 
 			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
 				return "Der Bergbau kannt jeder aus 5 verfügbane (SHA256d, Scrzpt, Myr-Groestl, Sheir, Qubit) Algorithmus wählen. Sheir oder Qubit halt ziele-blocke Zeit aus 5 Minuten. Die Kompliziert heit je aus jeder Algorithmus seine hash-Maß nachdem. ASICS habt GPU-bergbau on SHA256d sich aus wirken; Scrypt ist kontraproduktiv; andere Algorithmen fortsetzt aus GPU-bergbau führen. Eine menge Algorithmus Prozess schlägt Stabilität vor 51%, dass reichlich Ausrünstung erlagen 51 aus Blöcken forderlich.";
-			case clean("Merge mining has been enabled on SHA256d & Scrypt, allowing Myriad to benefit from the massive hash power available."):
+			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
 				return "United Mining verschiedene Algorithmen, die SHA256d & Scrypt umfassen, aktiviert Myriad zur Verfügung einen Vorteil auf Kosten der riesigen Rechenleistung zu gewinnen.";
 			case clean("Fair Distribution"):
 				return "Verteilung der Ehrlichkeit";
@@ -1632,8 +1604,8 @@ function translate($text, $lang)
 			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms. At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds); this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
 				return "Am August 2015 Netzwerk Myriad habt „hard-fork“ zu einzig Bergbau für Algorithmen Scrypt und SHA256d nahme auf. Das Ziel war stabil hash-wertung am diese Algorithmen erreichen. Block-zeit war auf 5 Minuten geändert(vor 2.5 Minuten); dass Gesamtzeit 1 Minute(vor 30 Sekunden) würde. Diese Veränderung wird Emissionskurve mit Maß 2x erhöhen, und es wird bis 20 Jähre.";
 			// wallets
-			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
-				return " Die neueste Version 0.9.2.17 habt 11/07/2015 veröffentlicht. Sie mal!";
+			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
+				return " Die neueste Version 0.11.2.0 habt 04/07/2016 veröffentlicht. Sie mal!";
 			case clean(" announcement & upgrade notes."):
 				return "Kündigen und Abkürzungsverzeichnis";
 			// mining
