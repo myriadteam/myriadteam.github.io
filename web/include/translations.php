@@ -1605,7 +1605,7 @@ function translate($text, $lang)
 				return "Am August 2015 Netzwerk Myriad habt „hard-fork“ zu einzig Bergbau für Algorithmen Scrypt und SHA256d nahme auf. Das Ziel war stabil hash-wertung am diese Algorithmen erreichen. Block-zeit war auf 5 Minuten geändert(vor 2.5 Minuten); dass Gesamtzeit 1 Minute(vor 30 Sekunden) würde. Diese Veränderung wird Emissionskurve mit Maß 2x erhöhen, und es wird bis 20 Jähre.";
 			// wallets
 			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
-				return " Die neueste Version 0.11.2.0 habt 04/07/2016 veröffentlicht. Sie mal!";
+				return " Die neueste Version 0.11.2.0 habt 4/07/2016 veröffentlicht. Sie mal!";
 			case clean(" announcement & upgrade notes."):
 				return "Kündigen und Abkürzungsverzeichnis";
 			// mining
