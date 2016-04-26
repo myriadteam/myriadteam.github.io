@@ -163,6 +163,12 @@
 					$nlang = 'de';
 					break;
 				}
+				else if (strpos($l, 'it') === 0)
+				{
+					// show italian
+					$nlang = 'it';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
