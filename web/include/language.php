@@ -169,6 +169,12 @@
 					$nlang = 'it';
 					break;
 				}
+				else if (strpos($l, 'ar') === 0)
+				{
+					// show arabic
+					$nlang = 'ar';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
