@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -91,6 +91,13 @@
 	$titles['de']['mining'] = 'der Bergbau';
 	$titles['de']['services'] = 'das Dienstleistungen';
 	$titles['de']['social'] = 'sozial Netzwerke';
+	
+	$titles['it']['default'] = 'Predefinito';
+	$titles['it']['technology'] = 'Tecnologia';
+	$titles['it']['wallets'] = 'Portafogli';
+	$titles['it']['mining'] = ' Mineraria';
+	$titles['it']['services'] = 'Servizi';
+	$titles['it']['social'] = 'Sociale'; 
 	
 	switch ($path)
 	{
