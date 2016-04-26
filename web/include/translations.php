@@ -1836,12 +1836,12 @@ else if($lang == 'ar')
 				return "بصراحة التوزيع ";
 			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
 				return "لا بريمايني او ثروات مخباة التي تمتلكها المطلعين الجميع لدية فرصة متساوية للحصول على عدد
-				Myriad بسعر السوق .  لا توجد مخباة بريماين السحر والقطع مع مكافاة عالية جميع المستخدمين على الشبكة "لديهم نفس الاضطراب.";
+				Myriad بسعر السوق .  لا توجد مخباة بريماين السحر والقطع مع مكافاة عالية جميع المستخدمين على الشبكة لديهم نفس الاضطراب.";
 			// technology
 			case clean("Multi-Algorithm"):
 				return " الخوارزميات المتعددة";
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
-				return "5 الخوارزميات " المتاحة ASIC  GPU و CPU  ماين";
+				return "5 الخوارزميات  المتاحة ASIC  GPU و CPU  ماين";
 			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
 				return "جولتان من تجزئة خوارزمية SHA256d , استخدم لاول مرة رائدة Bitcoin- ";
 			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
