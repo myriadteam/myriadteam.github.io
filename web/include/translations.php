@@ -440,6 +440,9 @@ function translate($text, $lang)
 
 			case clean("Exchanges"):
 				return "Monŝanĝejoj";
+				
+			case clean("Shop"):
+				return "Butikoj";
 
 			case clean("Other"):
 				return "Aliaj";
