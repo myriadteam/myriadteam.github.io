@@ -440,6 +440,12 @@ function translate($text, $lang)
 
 			case clean("Exchanges"):
 				return "Monŝanĝejoj";
+				
+			case clean("Shop"):
+				return "Butikoj";
+				
+			case clean("List of Coinpayments stores"):
+				return "Listo de butikoj ĉe Coinpayments");
 
 			case clean("Other"):
 				return "Aliaj";
@@ -1662,6 +1668,252 @@ function translate($text, $lang)
 				return "Kran";
 			case clean("Testnet Information"):
 				return "Testnet Informationen";
+			default:
+					return $text;
+		}
+	}
+	
+	else if($lang == ‘it’)
+	{
+		switch (clean($text))
+		{
+			// homepage
+			case clean("Open To Anyone"):
+				return "Aperta a tutti";
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
+			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
+				return "Myriad è una multi-algoritmica ed è la prima moneta che contiene contemporaneamente 5 funzioni hash usate per il mining. A differenza di Bitcoin che può essere minato in modo redditizio utilizzando ASICs e l’algoritmo SHA–256d, Myriad è disponibile per Scrypt ASICs, GPUs & CPUs.";
+			case clean("Secure"):
+				return "Sicura";
+			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit — each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
+			While ASICs have rendered GPU mining on SHA256d & Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
+			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
+				return "Un minatore può scegliere uno qualsiasi dei 5 algoritmi disponibili: SHA256d, Scrypt, Myr-Groestl, Skein o Qubit e ciascuno ha il tempo di blocco o il block time fisso di 5 minuti. In generale un blocco viene estratto ogni minuto. La difficoltà di ogni algoritmo viene regolata in base al suo hash rate. Mentre ASICs hanno reso il GPU mining basato sugli algoritmi SHA256d & Scrypt improduttivo, gli altri algoritmi continuano a dominare il GPU mining. L’approccio a più algoritmi offre un nuovo, esclusivo e innovativo metodo di protezione con  il 51% poiché per ottenere il 51% dei blocchi è necessaria una vasta gamma di hardware.";
+			case clean("Merge mining has been enabled on SHA256d & Scrypt, allowing Myriad to benefit from the massive hash power available."):
+				return " Il fuse mineraria combinato su diversi tipi di algoritmi, inclusi SHA256d & Scrypt, ha permesso a Myriad di ottenere un vantaggio grazie all’enorme potenza di calcolo disponibile.";
+			case clean("Fair Distribution"):
+				return "Distribuzione equa";
+			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
+				return "Non ci sono preestrazioni o blocchi con una grande ricompensa nascosti. Tutti gli utenti della rete hanno le stesse possibilità per ottenere Myriad al prezzo di mercato.";
+			// technology
+			case clean("Multi-Algorithm"):
+				return "Algoritmi multipli";
+			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
+				return "Ci sono 5 algoritmi disponibili per ASIC, GPU e CPU mining:";
+			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
+				return "Due cicli di algoritmo di hashing SHA256d utilizzati per la prima volta dal pioniere di criptovaluta Bitcoin.";
+			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
+				return "Originariamente progettato per il CPU mining adesso viene usato per l’estrazione da molte monete alternative con ASICs, a partire da Litecoin.";
+			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
+				return "Una versione specifica solo per Myriad di algoritmo di hashing  Groestl è uno dei cinque finalisti della competizione NIST SHA-3 degli algoritmi di hashing.";
+			case clean("Another of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin."):
+				return " Un altro dei cinque finalisti della competizione NIST SHA-3 per funzioni hash che è stato utilizzato per la prima volta da Skeincoin.";
+			case clean("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO."):
+				return "Originariamente progettato solo per la CPU, l’algoritmo Qubit combina 5 partecipanti della competizione NIST SHA-3 per funzioni hash: Luffa, Cubehash, SHAvite, SIMD e ECHO.";
+			case clean("Merge Mining"):
+				return "Fuse Mineraria";
+			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
+			by coins using these algorithms, further securing the Myriad blockchain."):
+				return "Partendo dal blocco 4002000 il merged mining è disponibile per gli algoritmi SHA256d e Scrypt. Questo ha permesso a Myriad di ottenere un vantaggio grazie ai grandi hash rate utilizzati attualmente da altre monete e ha garantito la sicurezza della block chain.";
+			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
+			or performance impact to the parent coin."):
+				return "Il merged mining, conosciuto anche come AuxPow, consente l’utilizzo  delle risorse impiegate per esempio per il mining  su Bitcoin o Litecoin per confermare la validità dei blocchi nella rete Myriad senza incorrere in alcun carico aggiuntivo.";
+			case clean("Distribution"):
+				return "Distribuzione";
+			case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
+				return "Myriad è stata rilasciata in rete il 23 febbraio 2014 alle 18:30 UTC";
+			case clean("first mined block"):
+				return "Il primo blocco ";
+			case clean(" came 4 minutes later, thus establishing that there was no premine."):
+				return " è stato estratto dopo 4 minuti, confermando che non vi è stato alcun premine o preestrazione.";
+			case clean("The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR."):
+				return "La ricompensa iniziale era di 1000 MYR e veniva dimezzata ogni 967680 blocchi  (circa 48 settimane). Il numero massimo di monete è 2 miliardi di MYR.";
+			case clean("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds
+			per algorithm, effective at block 1,401,001. At the time, Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds.
+			In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead to greater consistency on the network, without affecting fairness of distribution."):
+				return "All’inizio il block time era di 30 secondi o 150 secondi per un algoritmo. Ma il 12 luglio 2015 la comunità ha deciso di aumentare il block time fino a 60 secondi o 300 secondi per un algoritmo. Tale decisione è entrata in vigore dal blocco № 1401001. Nel momento in cui la rete Myriad aveva il hash rate basso e la complessità elevata, il block time medio era più di 50 secondi. In aggiunta è stato collegato AuxPow per Scrypt e SHA256d che ha aumentato il block time e ha portato a una maggiore coerenza nella rete senza alterare l’equità della distribuzione.";
+			case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners, Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
+			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
+				return "Myriad è stata lanciata nel febbraio 2014 da una persona con il nickname 8bitcoder ed è basata su ZetaCoin. È la prima criptovaluta che utilizza 5 algoritmi POW per incrementare la sicurezza e per una maggiore copertura dei minatori con algoritmi diversi: SHA256d e Scrypt per i minatori ASIC, Skein e Myr-Groestl per i minatori GPU, Qubit per il GPU e CPU mining. HunterCoin, lanciata alla fine del 2013, fu infatti la prima moneta a utilizzare diversi algoritmi POW per il mining (SHA256d e Scrypt), essa fu progettata non per il mining, ma per i giochi basati su block chain che hanno dato vita a molte monete alternative.";
+			case clean("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
+			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo."):
+				return " Myriad ha generato diversi analoghi, il primo dei quali era Saffroncoin, anch’esso basato su 5 algoritmi POW. Digitalcoin e Digibyte si sono divisi per utilizzare 3 e 5 algoritmi POW rispettivamente. Auroracoin e Verge hanno anche annunciato l'intenzione di bivio per multi-algo.";
+			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
+			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
+			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
+				return "Ad agosto 2015 la rete Myriad è stata divisa in due per consentire un unico mining sugli algoritmi Scrypt e SHA256d nel tentativo di migliorare la sicurezza e raggiungere un hash rate più stabile su questi due algoritmi. In quel momento il block time per ogni algoritmo è stato modificato in 5 minuti (in precedenza 2,5 minuti) per ottenere il block time totale per tutti gli algoritmi di 1 minuto (in precedenza 30 secondi). Questo cambiamento permetterà di allungare la curva di emissione con un fattore 2x e di equiparare a circa 20 anni.";
+			// wallets
+			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
+				return "L’ultima versione 0.9.2.17 è stata rilasciata il 7 novembre 2015. Vedi:";
+			case clean(" announcement & upgrade notes."):
+				return "Annunci & elenco di aggiornamenti";
+			// mining
+			case clean("Getting Started"):
+				return "Iniziare";
+			case clean("Download a "):
+				return "Scarica";
+			case clean("wallet"):
+				return "borsa";
+			case clean(", download a miner of the right type, find a pool and fire away..."):
+				return ", scaricare il tipo richiesto di minatore, trova la piscina e andare...";
+			case clean("Mining Tutorial Video"):
+				return "Formazione video on Mineraria";
+			case clean("Watch on "):
+				return "dare un'occhiata a";
+			case clean("Youtube"):
+				return "Youtube";
+			case clean("Mining Software"):
+				return " Software per mineraria ";
+			case clean("Use any SHA256d compatible ASIC"):
+				return " Utilizzare qualsiasi SHA256d compatibile ASIC ";
+			case clean("Use any Scrypt compatible ASIC"):
+				return "Utilizzare qualsiasi Scrypt compatibile ASIC";
+			case clean("sgminer for OpenCL GPU mining"):
+				return "cgminer per l'estrazione tramite OpenCL sulla scheda grafica (GPU)";
+			case clean("BitcoinTalk Thread"):
+				return "Scambi su BitcoinTalk";
+			case clean("Windows Binaries"):
+				return "I file eseguibili di Windows ";
+			case clean("GitHub Source"):
+				return "File di origine GitHub";
+			case clean("Suggested Command Line"):
+				return " Al prompt dei comandi";
+			case clean("Pools"):
+				return "Pula";
+			case clean("P2Pool nodes"):
+				return "P2Pool nodi";
+			case clean("Run Your Own Node"):
+				return "Rune Ure DMS Nodier ";
+			case clean("Merge Mining Pools"):
+				return "Pula Fuse Mineraria";
+			case clean("zpool - The miners multipool"):
+				return "zpool – multipul";
+			case clean("MultiPool"):
+				return "Multipul ";
+			// services
+			case clean("Information & Resources"):
+				return "Informazioni e risorse";
+			case clean("Exchanges"):
+				return "Scambiatori";
+			case clean("Other"):
+				return "Altro";
+			case clean("Faucet"):
+				return "Crane";
+			case clean("Testnet Information"):
+				return "Testnet Informazioni";
+			default:
+					return $text;
+		}
+	}
+	
+else if($lang == 'ar')
+	{
+		switch (clean($text))
+		{
+			// homepage
+			case clean("Open To Anyone"):
+				return "مفتوحة للجميع";
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
+			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
+			return "5    متعدد تماما الخوارزمية  وهذا العملة الاولى لتحقيق كل من ظائف التجزئة–    Myriad
+			المستخدمة في التعدين .
+			SHA256d, Myriad على عكس بيتكوين ¸ والتي يمكن ان تكون مربحة باستخدام اسيك ماين خوارزمية يتوفر  Scrypt    ASICS , GPUS & CPUs ";
+			case clean("Secure"):
+				return "الامن";
+			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
+			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
+			While ASICs have rendered GPU mining on SHA256d & Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
+			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
+				return "حالة نظيفة  وشركة التعين يمكن ان تختار لازالة الالغام باستخدام اي من خوارزميات خمسة 
+				SHA256d, Scrypt, Myr-Groestl, Skein, او  Qubit وعموما  كل لدية الوقت كتله الهدف من 5 دقائق
+				تم العثور على كتلة تقريبا كل دقيقة .  يتاثر صعوبة كل خوارزمية فقط بمعدل التجزئة الخاصة بها .
+				 بينما اسيك تؤثر التعدين بطاقات الرسومات مع الرسومات مع خوارزمية SHA256d, Scrypt وغير منتجة 
+				وتهيمن على بقية من نطاق خواررزميات التنقيب عنالرسومات . طريقة خوارزميات متعددة يخلق نهج الحصري والجديد المبتكر لطريقة حماية بنسبة 51 % من الوحدات سوف تحتاج الى مجموعة واسغة من المعدات.";
+			case clean("Merge mining has been enabled on SHA256d & Scrypt, allowing Myriad to benefit from the massive hash power available."):
+				return "التعدين المتحدة خوارزميات مختلفة, والتي تشمل SHA256d & Scrypt, تمكين  لكسب  Myriad
+				ميزةعلى حساب القدرة الحاسوبية الهائلة المتاحة";
+			case clean("Fair Distribution"):
+				return "بصراحة التوزيع ";
+			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
+				return "لا بريمايني او ثروات مخباة التي تمتلكها المطلعين الجميع لدية فرصة متساوية للحصول على عدد
+				Myriad بسعر السوق .  لا توجد مخباة بريماين السحر والقطع مع مكافاة عالية جميع المستخدمين على الشبكة لديهم نفس الاضطراب.";
+			// technology
+			case clean("Multi-Algorithm"):
+				return " الخوارزميات المتعددة";
+			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
+				return "5 الخوارزميات  المتاحة ASIC  GPU و CPU  ماين";
+			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
+				return "جولتان من تجزئة خوارزمية SHA256d , استخدم لاول مرة رائدة Bitcoin- ";
+			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
+				return "صممت اصلا للتعدين تحت وحدة المعالجة المركزية , ويستخدم الان لانتاج بديلة ,العديد من القطع النقدية باستخدام  ASICs منذ Litecoin ";
+			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
+				return "محددة Myriad سوى خيار وخوارزمية التجرئة -  Groestl – وهذا هو واحد من المرشحين الخمسة لنيست    NIST -SHA 3  خوارزميات التجزئة المنافسة";
+			case clean("Another of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin."):
+				return " اخر واحد من المرشحين الخمسة للمسابقة تجزئات نيست NIST -SHA 3   والذي استخدم لاول مرة  Skeincoin ";
+			case clean("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO."):
+				return "صممت في البداية فقط لخوارزمية وحدة المعالجة المركزية و Qubit يجمع بين 5 متشاركين نيست
+				     Luffa , Cubehash , SHAvite المنافسة خوارزميات التجزئة – NIST - SHA 3 
+				 .SIMD  و ECHO";
+			case clean("Merge Mining"):
+				return "المتحدة للتعدين";
+			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms, further securing the Myriad blockchain."):
+				return "وبها ان كتلة 40020000 ,  وهو مشترك مناح للتعدين SHA256d & Scrypt الخوارزميات وقد مكن هذا Myriad لكسب ميزة على حساب  هيشريتوف ضخمة تستخدم في هذا الوقت العملات الاخرى , فضلا عن ضمان سلامة بلاكشينوا ";
+			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load or performance impact to the parent coin."):
+				return "التعدين الموحد, المعروف ايضا باسم  AuxPow  ,  يسمح باستخدام موارد قضى , على سبيل المثال , في التعدين Bitcoin  او Litecoin   للتاكد من صحة الكتل في الشبكة Myriad  دون تكبد اي اعباء اضافية ";
+			case clean("Distribution"):
+				return "توزيع ";
+			case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
+				return "Myriad  افرج  لشبكة 23/2/2014  , 18:30  UTC ";
+			case clean("first mined block"):
+				return "كتلة المطابق الاول";
+			case clean(" came 4 minutes later, thus establishing that there was no premine."):
+				return "ظهرت بعد 4 دقائق,  مما يؤكدانه لا يوجد بريماينا";
+			case clean("The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR."):
+				return "في البداية , كانت مكاغاة 1000  MYR  , والانصاف في كل 967,680 وحدة (حوالي 48 اسبوعا ) الحد الاقصى لعدد من القطع النقدية 20000000000   .";
+			case clean("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds
+			per algorithm, effective at block 1,401,001. At the time, Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds.
+			In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead to greater consistency on the network, without affecting fairness of distribution."):
+				return "في البداية , وحدة الزمن هو 30 ثانية او150 ثانية على الخوارزمية , ولكن 12/7/, 2015 قرر المجتمع لزيادة حدة زمينية الى 60 ثانية او 300 ثانية على خوارزمية . وجاء هذا القرار حيز التنفيذ في كتلة №1,401,001 وفي الوقت الذي كانت فيه شبكة كان Myriad ادنى  والعالمية التعقيد , كان متوسط الوقت اكثر من وحدة 50 ثانية وبالاضافة الى ذلك , كانتمرتبطة مع aux-Pow الحرب Scrypt و  SHA256d , مما ادى الى زيادة الوقت كتلة المستهدفة واد ى الى اتساق افضل في الشبكة دون المرور من خلال التاثير على توزيع الصدق ";
+			case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
+			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
+			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
+			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
+				return "Myriad اطلقت في /2/ 2014 رجل مع  اللقب 8bitcoder وهو مفترق ZtaCoin . هذا هو اول عملة التشفير باستخدام 5 POW  خوارزميات اسرى الحرب من اجل زيادة الامان , فضلا عن تغطية اكبر من عمال المناجم مع خوارزميات مختلفة-    SHA256d و  Scryptلعمال المناجم مع ASIC خصلة خيوط                                  , Ske				in ﻭ Myr-Groestl لعمال المناجم GPU , Qubit  , GPU , وحدة المعالجة المركزية للتعدين .
+				HunterCoin , التي بدات في اواخر عام 2013 , في الواقع , اول من استخدام عدة خوارزميات لاسرى الحرب التعدين (SHA256d  و  Scrypt),  ولكن لم تكن مصممة للتعدين , والعاب تعتمد على بلاكشينا اعطى المزيد من الولادة الى العديد من بديل كوين ".
+			case clean("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms.
+			Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
+			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo."):
+				return "Myriad ولدت عدة النظير حاليا , اولها كان يستخدم Saffroncoin   ايضا 5 PoW خوارزميات اسرى الحرب Digitalcoin و Digibyte جعلت من الصعب الشوكة , hard-fork  لاستخدام 3,  5  PoW خوارزميات اسرى الحرب على التوالي ";
+			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
+			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
+			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
+			return "في اب عام 2015 كانت شبكة  Myriad  الصعب فاركوتا , لتمكين التعدين واحد على الخوارزميات – Scrypt و SHA256d . كان الهدف هو تحقيق تجزئة شبكة  ريتا مستقرة على هذه الخوارزميات بينما يتم تغيير التوقيت كتلة هدف لكل خوارزمية لمدة 5 دقائق ( حتى , من 2.5 دقيقة ) للحصول على الوقت الاجمالي لجميع خوارزمياتكتلة – 1 دقيقة ( 30 ثانية في وقت سابق ) تغير سحب كبار منحنى الانبعاثات الى 2 درجة , وتعادل ما يقرب من 20 عاما .";
+			// wallets
+			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
+				return "احدث اصدار 0.9.2.17,  الذي صدر في 7 /11/ 2015  , انظر ";
+			case clean(" announcement & upgrade notes."):
+				return "اعلان وتحديث قائمة ";
+			// mining
+			case clean("Getting Started"):
+				return "مقدمة";
+			case clean("Download a "):
+				return "تحميل";
+			case clean("wallet"):
+				return "محفظة";
+			case clean(", download a miner of the right type, find a pool and fire away..."):
+				return "مينر تحميل النوع الصحيح , حدد موقع تجمع و الذهاب.....";
+			case clean("Mining Tutorial Video"):
+				return "تدريب الفيديو للتعدين";
+			case clean("Watch on "):
+				return "نلقي نظرة على";
+			case clean("Youtube"):
+				return "Youtube";
+			case clean("Mining Software"):
+				return "برنامج للتعدين";
+			case clean("Use any SHA256d compatible ASIC"):
+				return " استخدام اي  SHA256d متوافق مع ASIC";
+			case clean("Use any Scrypt compatible ASIC"):
+				return "استخدام اي Scrypt  متوافق مع ASIC";
 			default:
 					return $text;
 		}
