@@ -3,7 +3,7 @@
 	require_once('include/header.php');
 ?>
 	<div class="row">
-		<div class="col-lg-4">
+		<div class="col-lg-3">
 			<h2><?php echo translate("Information &amp; Resources", $lang); ?></h2>
 			<ul>
 				<li><a href="http://birdonwheels5.no-ip.org/" target="_blank">Insight Explorer (1)</a></li>
@@ -12,7 +12,7 @@
 				<li><a href="http://myriad.nutty.one/home" target="_blank"><?php echo translate("Network Status", $lang); ?></a></li>
 			</ul>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-3">
 			<h2><?php echo translate("Exchanges", $lang); ?></h2>
 			<ul>
 				<li><a href="https://poloniex.com/exchange/btc_myr" target="_blank">Poloniex</a></li>
@@ -21,7 +21,13 @@
 				<li><a href="https://bitsquare.io" target="_blank">Bitsquare (Beta)</a></li>
 			</ul>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-3">
+			<h2><?php echo translate("Shop", $lang); ?></h2>
+			<ul>
+				<li><a href="https://www.coinpayments.net/store-directory-coin-MYR#list" target="_blank">List of Coinpayments stores</a></li>
+			</ul>
+		</div>
+		<div class="col-lg-3">
 			<h2><?php echo translate("Other", $lang); ?></h2>
 			<ul>
 				<li><a href="http://trip.myrcraft.com/" target="_blank"><?php echo translate("Game faucet", $lang); ?></a></li>
