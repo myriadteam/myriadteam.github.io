@@ -2011,8 +2011,8 @@ function translate($text, $lang)
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
 				return "W sierpniu 2015 Myriad  dokonała  hard-fork,  aby umożliwić Zbiorowy mining na algorytmach - Scrypt i SHA256d celem było uzyskanie stabilnej  prędkości hashowania sieci w tych algorytmach. W tej chwili czas bloku docelowego dla każdego algorytmu zmienili z 2,5 do 5 minut, żeby  czas ogólny dla wszystkich algorytmów składa 1 minutę(wcześniej 30 sekund). Ta zmiana pnącą w górę krzywą emisji za pomocą stopniu 2х, и niweluje w przybliżeniu  20 lat.";
 			 // wallets
-			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
-				return "Bieżąca wersja 0.9.2.17, wydana 7 października 2015. Zobacz";
+			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
+				return "Bieżąca wersja 0.11.2.0. Zobacz";
 			case clean(" announcement & upgrade notes."):
 				return "Anons & lista aktualizacji";
 			// mining
