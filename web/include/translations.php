@@ -1743,8 +1743,8 @@ function translate($text, $lang)
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
 				return "Ad agosto 2015 la rete Myriad è stata divisa in due per consentire un unico mining sugli algoritmi Scrypt e SHA256d nel tentativo di migliorare la sicurezza e raggiungere un hash rate più stabile su questi due algoritmi. In quel momento il block time per ogni algoritmo è stato modificato in 5 minuti (in precedenza 2,5 minuti) per ottenere il block time totale per tutti gli algoritmi di 1 minuto (in precedenza 30 secondi). Questo cambiamento permetterà di allungare la curva di emissione con un fattore 2x e di equiparare a circa 20 anni.";
 			// wallets
-			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
-				return "L’ultima versione 0.9.2.17 è stata rilasciata il 7 novembre 2015. Vedi:";
+			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
+				return "L’ultima versione 0.11.2.0 è stata rilasciata il 7 April 2016. Vedi:";
 			case clean(" announcement & upgrade notes."):
 				return "Annunci & elenco di aggiornamenti";
 			// mining
