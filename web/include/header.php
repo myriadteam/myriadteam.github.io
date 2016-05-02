@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -105,6 +105,13 @@
 	$titles['ar']['mining'] =  'التعدين';
 	$titles['ar']['services'] ='الخدمات';
 	$titles['ar']['social'] =  'شركة نفط الجنوب. شبكة'; 
+	
+	$titles['pl']['default'] = 'Domyślny';
+	$titles['pl']['technology'] = 'Technologia';
+	$titles['pl']['wallets'] = 'Portfele';
+	$titles['pl']['mining'] = 'Mining';
+	$titles['pl']['services'] = 'Obsługa';
+	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
 	
 	switch ($path)
 	{
