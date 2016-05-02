@@ -175,6 +175,12 @@
 					$nlang = 'ar';
 					break;
 				}
+				else if (strpos($l, 'pl') === 0)
+				{
+					// show polish
+					$nlang = 'pl';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
