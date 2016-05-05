@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -91,6 +91,27 @@
 	$titles['de']['mining'] = 'der Bergbau';
 	$titles['de']['services'] = 'das Dienstleistungen';
 	$titles['de']['social'] = 'sozial Netzwerke';
+	
+	$titles['it']['default'] = 'Predefinito';
+	$titles['it']['technology'] = 'Tecnologia';
+	$titles['it']['wallets'] = 'Portafogli';
+	$titles['it']['mining'] = ' Mineraria';
+	$titles['it']['services'] = 'Servizi';
+	$titles['it']['social'] = 'Sociale'; 
+
+	$titles['ar']['default'] = 'افتراضي';
+	$titles['ar']['technology'] =  'التكنولوجيا';
+	$titles['ar']['wallets'] = 'محافظ';
+	$titles['ar']['mining'] =  'التعدين';
+	$titles['ar']['services'] ='الخدمات';
+	$titles['ar']['social'] =  'شركة نفط الجنوب. شبكة'; 
+	
+	$titles['pl']['default'] = 'Domyślny';
+	$titles['pl']['technology'] = 'Technologia';
+	$titles['pl']['wallets'] = 'Portfele';
+	$titles['pl']['mining'] = 'Mining';
+	$titles['pl']['services'] = 'Obsługa';
+	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
 	
 	switch ($path)
 	{
