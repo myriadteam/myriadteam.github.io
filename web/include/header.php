@@ -113,6 +113,14 @@
 	$titles['pl']['services'] = 'Obsługa';
 	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
 	
+        $titles['de']['default'] = 'Default';
+        $titles['de']['technology'] = 'Technologie';
+        $titles['de']['wallets'] = 'Geldbörsen';
+        $titles['de']['mining'] = 'Mining';
+        $titles['de']['services'] = 'Services';
+        $titles['de']['social'] = 'Soz. Netzwerke';
+
+	
 	switch ($path)
 	{
 		case 'technology':
