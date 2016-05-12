@@ -119,7 +119,6 @@
         $titles['de']['mining'] = 'Mining';
         $titles['de']['services'] = 'Services';
         $titles['de']['social'] = 'Soz. Netzwerke';
-
 	
 	switch ($path)
 	{
