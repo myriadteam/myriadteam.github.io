@@ -112,6 +112,20 @@
         $titles['de']['mining'] = 'Mining';
         $titles['de']['services'] = 'Services';
         $titles['de']['social'] = 'Soz. Netzwerke';
+        
+        $titles['cr']['default'] = 'Po razumjevanju';
+        $titles['cr']['technology'] = 'Tehnologija';
+        $titles['cr']['wallets'] = 'Novčanike';
+        $titles['cr']['mining'] = 'Rudarstvo';
+        $titles['cr']['services'] = 'Services';
+        $titles['cr']['social'] = 'Soc.mreži';
+
+        $titles['tr']['default'] = 'Varsayılan olarak';
+        $titles['tr']['technology'] = 'Teknoloji';
+        $titles['tr']['wallets'] = 'Сüzdanlar';
+        $titles['tr']['mining'] = 'Mining';
+        $titles['tr']['services'] = 'Hizmetler';
+        $titles['tr']['social'] = 'Sosyal ağ;
 	
 	switch ($path)
 	{
