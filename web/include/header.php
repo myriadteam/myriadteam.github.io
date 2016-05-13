@@ -15,7 +15,7 @@
 	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl");
 	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish");
 	$titles = array();
-	$titles['en']['default'] = 'A Coin For Everyone';
+	$titles['en']['default'] = 'A Coin  Everyone';
 	$titles['en']['technology'] = 'Technology';
 	$titles['en']['wallets'] = 'Wallets';
 	$titles['en']['mining'] = 'Mining';
@@ -84,13 +84,6 @@
 	$titles['bg']['mining'] = 'Добив';
 	$titles['bg']['services'] = 'Услуги';
 	$titles['bg']['social'] = 'Социални мрежи';  
-	
-	$titles['de']['default'] = 'der Default';
-	$titles['de']['technology'] = 'die Technologie';
-	$titles['de']['wallets'] = 'das Portemonnaie';
-	$titles['de']['mining'] = 'der Bergbau';
-	$titles['de']['services'] = 'das Dienstleistungen';
-	$titles['de']['social'] = 'sozial Netzwerke';
 	
 	$titles['it']['default'] = 'Predefinito';
 	$titles['it']['technology'] = 'Tecnologia';
