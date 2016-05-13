@@ -181,12 +181,6 @@
 					$nlang = 'pl';
 					break;
 				}
-				else if (strpos($l, 'de') === 0)
-				{
-					// show german
-					$nlang = 'de';
-					break;
-				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
