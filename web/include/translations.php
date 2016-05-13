@@ -823,7 +823,7 @@ function translate($text, $lang)
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
 				return "5 Алгоритмов доступных для ASIC, GPU и CPU майнинга";
 			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
-				return "Два раунда для алгоритма хеширования SHA256d, впервые использованных пионером криптовалют - uᴉoɔʇᴉq.";
+				return "Два раунда для алгоритма хеширования SHA256d, впервые использованных пионером криптовалют - Bitcoin.";
 			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
 				return "Изначально спроектированный для майнинга под CPU, теперь используется для добычи многими алтернативными монетами с помощью ASICs, начиная с Litecoin.";
 			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
@@ -839,7 +839,7 @@ function translate($text, $lang)
 				return "Начиная с блока 4002000, объединенный майнинг доступен для SHA256d и Scrypt алгоритмов. Это позволило Myriad получить преимущество за счёт огромных хешрейтов, используемых в данное время другими монетами, а также обеспечило безопасность блокчейна.";
 			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
 			or performance impact to the parent coin."):
-				return "Объединенный майнинг, так же известный как AuxPow, позволяет использовать ресурсы, затрачиваемые, к примеру, на майнинг uᴉoɔʇᴉq или Lightcoin для подтверждения валидности блоков в сети Myriad при этом не неся никакой дополнительной нагрузки.";
+				return "Объединенный майнинг, так же известный как AuxPow, позволяет использовать ресурсы, затрачиваемые, к примеру, на майнинг Bitcoin или Litecoin для подтверждения валидности блоков в сети Myriad при этом не неся никакой дополнительной нагрузки.";
 			case clean("Distribution"):
 				return "Распределение";
 			case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
@@ -2092,7 +2092,7 @@ function translate($text, $lang)
 			// homepage
 			case clean("Open To Anyone"):
 				return "Otvorena svakom";
-			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike uᴉoɔʇᴉq, which can only be profitably mined using
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
 			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
 				return "Myriad – multi algorotmična - to je prva novćanica , koristi istovremeno 5 heš opcija, koji koristi za maining. Za razliku od Bitkoina, koji može isplatlivo rudarstvo koristeći Asiki i algoritam SHA256d, Myriad dostupan za Scrypt ASICS, GPUS & CPUs.";
 			case clean("Secure"):
@@ -2114,9 +2114,9 @@ function translate($text, $lang)
 				return "velikomogučni algoritmi";
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
 				return "5 algoritma dostupni za ASIC, GPU i CPU rudarstva";
-			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency uᴉoɔʇᴉq."):
-				return "Dvije runde za algoritam heširovanja SHA256d, prvi put kosištena pionirom  cryptocurrency - uᴉoɔʇᴉq.";
-			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Lightcoin."):
+			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
+				return "Dvije runde za algoritam heširovanja SHA256d, prvi put kosištena pionirom  cryptocurrency - Bitcoin.";
+			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
 				return "Od početka isplanirovan za rudarstvo splanirovan pod rudarstvo CPU, sad se koristi za izlaz puno alternativnima novčanicama sa pomoću ASICs, počine sa Litecoin.";
 			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
 				return "Specifično samo za  Myriad variant sa heš-algoritmima – Groestl – to je jean od pet finaliste NIST SHA-3 natjecaja  algoritima heš.";
@@ -2128,9 +2128,9 @@ function translate($text, $lang)
 				return "Zajedno rudarstvo";
 			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms, further securing the Myriad blockchain."):
 				return "Počine od jedinici 4002000, zajedničko rudarstvo dostupno za SHA256d i Scrypt algoritmima. Ono dao  Myriad dobiti prednost zbog veliki heš-reitov, iskorišteni u tomu vremenu drugima novcanicima , još to osiguralo sigurnost jedinićici.";
-			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as uᴉoɔʇᴉq or Lightcoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
+			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
 			or performance impact to the parent coin."):
-				return "Zajednićesko rudarstvo, koji popularan kao AuxPow,daje koristit izvore i snagu, koji se troši, na primer, na rudarstvo  uᴉoɔʇᴉq ili Lightcoin za podtvrdu vrijednosti jedinici u mreži Myriad koja ne vući ništa od dopunskog posla.";
+				return "Zajednićesko rudarstvo, koji popularan kao AuxPow,daje koristit izvore i snagu, koji se troši, na primer, na rudarstvo Bitcoin ili Litecoin za podtvrdu vrijednosti jedinici u mreži Myriad koja ne vući ništa od dopunskog posla.";
 			case clean("Distribution"):
 				return "Distribucija";
 			case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
@@ -2229,7 +2229,7 @@ function translate($text, $lang)
 			// homepage
 			case clean("Open To Anyone"):
 				return "Herkese açık";
-			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike uᴉoɔʇᴉq, which can only be profitably mined using
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
 			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
 				return "Myriad –multi-algoritmik - aynı zamanda, mining için kullanılan, 5 hash fonksiyonları gerçekleştiren bir jeton. ASIC-ler ve SHA256d algoritma kullanarak ve sadece kârlı mayınlı edilebilir Bitcoin aksine, Myriad SHA256d ASICS,Scrypt ASICS, GPUS & CPUs için kullanılabilir.";
 			case clean("Secure"):
@@ -2248,9 +2248,9 @@ function translate($text, $lang)
 				return "Multi-algoritmalar";
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
 				return "ASIC, GPU ve mining-in CPU-sı için uygun 5 algoritma:";
-			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency uᴉoɔʇᴉq."):
-				return "Ilk kez cryptocurrency ӧncüsü tarafından kullanılan, SHA256d hashing algoritması için iki round- uᴉoɔʇᴉq.";
-			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Lightcoin."):
+			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
+				return "Ilk kez cryptocurrency ӧncüsü tarafından kullanılan, SHA256d hashing algoritması için iki round- Bitcoin.";
+			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
 				return "Başlangıçta CPU-sadece hazırlanan şifre hashing algoritması, şimdi Litecoin-den başlayarak, ASICs yardımıyla, çıkarma için bir çok alternatif jetonlar tarafından kullanılıyor.";
 			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
 				return "Sadece Myriad için spesifik olan hash algoritma opsiyonu– Groestl –bu NIST SHA-3 hashing algoritmalar yarışmasının beş finalistlerin biriir.";
@@ -2263,8 +2263,8 @@ function translate($text, $lang)
 			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
 			by coins using these algorithms, further securing the Myriad blockchain."):
 				return "4002000 bloktan başlayarak, birleşen mining SHA256d ve Scrypt algoritmalar için mevcuttur. Bu Myriad-a şu an baska jetonlar tarafından kullanılan büyük bir hash oranları nedeniyle yarar almaya izin verdi hem de blockchain güvenliğini sağladı.";
-			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as uᴉoɔʇᴉq or Lightcoin) to be used to find valid blocks on Myriad's blockchain, with no extra load or performance impact to the parent coin."):
-				return "Birleşen mining,AuxPow olarak da bilinen mesela uᴉoɔʇᴉq miningi için harcanan kaynakları kullanmaya izin veriyor veya Myriad ağında blokların geçerliğini onaylamak için, aynı zamanda herhagi bir ek yük taşımadan.";
+			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load or performance impact to the parent coin."):
+				return "Birleşen mining,AuxPow olarak da bilinen mesela Bitcoin miningi için harcanan kaynakları kullanmaya izin veriyor veya Myriad ağında blokların geçerliğini onaylamak için, aynı zamanda herhagi bir ek yük taşımadan.";
 			case clean("Distribution"):
 				return "Dağıtım ";
 			case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
