@@ -181,18 +181,6 @@
 					$nlang = 'pl';
 					break;
 				}
-				else if (strpos($l, 'cr') === 0)
-				{
-					// show croatian
-					$nlang = 'cr';
-					break;
-				}
-				else if (strpos($l, 'tr') === 0)
-				{
-					// show turkish
-					$nlang = 'tr';
-					break;
-				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
