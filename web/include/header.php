@@ -85,13 +85,6 @@
 	$titles['bg']['services'] = 'Услуги';
 	$titles['bg']['social'] = 'Социални мрежи';  
 	
-	$titles['de']['default'] = 'der Default';
-	$titles['de']['technology'] = 'die Technologie';
-	$titles['de']['wallets'] = 'das Portemonnaie';
-	$titles['de']['mining'] = 'der Bergbau';
-	$titles['de']['services'] = 'das Dienstleistungen';
-	$titles['de']['social'] = 'sozial Netzwerke';
-	
 	$titles['it']['default'] = 'Predefinito';
 	$titles['it']['technology'] = 'Tecnologia';
 	$titles['it']['wallets'] = 'Portafogli';
@@ -112,6 +105,27 @@
 	$titles['pl']['mining'] = 'Mining';
 	$titles['pl']['services'] = 'Obsługa';
 	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
+	
+        $titles['de']['default'] = 'Default';
+        $titles['de']['technology'] = 'Technologie';
+        $titles['de']['wallets'] = 'Geldbörsen';
+        $titles['de']['mining'] = 'Mining';
+        $titles['de']['services'] = 'Services';
+        $titles['de']['social'] = 'Soz. Netzwerke';
+        
+        $titles['cr']['default'] = 'Po razumjevanju';
+        $titles['cr']['technology'] = 'Tehnologija';
+        $titles['cr']['wallets'] = 'Novčanike';
+        $titles['cr']['mining'] = 'Rudarstvo';
+        $titles['cr']['services'] = 'Services';
+        $titles['cr']['social'] = 'Soc.mreži';
+
+        $titles['tr']['default'] = 'Varsayılan olarak';
+        $titles['tr']['technology'] = 'Teknoloji';
+        $titles['tr']['wallets'] = 'Сüzdanlar';
+        $titles['tr']['mining'] = 'Mining';
+        $titles['tr']['services'] = 'Hizmetler';
+        $titles['tr']['social'] = 'Sosyal ağ;
 	
 	switch ($path)
 	{
