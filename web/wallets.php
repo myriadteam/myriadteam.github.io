@@ -3,7 +3,7 @@
 	require_once('include/header.php');
 ?>
 	<div class="row">
-		<h3 class="text-center"><?php echo translate("Latest version is 0.11.2.0, released April 7th 2016. See ", $lang); ?><a href="https://redd.it/4dpee5" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
+		<h3 class="text-center"><?php echo translate("Latest version is 0.11.3.1, released July 6th 2016. See ", $lang); ?><a href="https://www.reddit.com/r/myriadcoin/comments/4rgidn/myriad_01131/" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
 	</div>
 	
 	<div class="row">
@@ -12,16 +12,16 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/0.11.2.0/myriad.0.11.2.0.win32.zip" target="_blank">32-bit ZIP (17.8 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/0.11.2.0/MyriadSetup-0.11.2.0-win32.exe" target="_blank">32-bit Installer (12.9 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/0.11.2.0/myriad.0.11.2.0.win64.zip" target="_blank">64-bit ZIP (18.20 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/0.11.2.0/MyriadSetup-0.11.2.0-win64.exe" target="_blank">64-bit Installer (13.2 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win32.zip" target="_blank">32-bit ZIP (17.6 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win32-setup.exe" target="_blank">32-bit Installer (12.8 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win64.zip" target="_blank">64-bit ZIP (17.5 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win64-setup.exe" target="_blank">64-bit Installer (12.9 MB)</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
 				<li><img src="/images/apple.png" width="48" height="48"> Mac OSX
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.9.2.16/myriadcoin.0.9.2.16.osx.10.10.3.dmg" target="_blank">OSX 10.10.3 DMG (5.96 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-osx.dmg" target="_blank">OSX DMG (39 MB)</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -29,7 +29,7 @@
 		<div class="col-md-3">
 			<h2>Mobile</h2>
 			<ul class="list-unstyled">
-				<li><img src="/images/android.png" width="48" height="48"> Android
+				<li><img src="/images/android.png" width="48" height="48"> Android (0.11.2)
 					<ul>
 						<li><a href="https://play.google.com/store/apps/details?id=hashengineering.myriadcoin.wallet" target="_blank">Google Play-Store</a></li>
 					</ul>
@@ -40,7 +40,7 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/github.png" width="48" height="48"> GitHub
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/archive/0.11.2.0.zip" target="_blank">Source Code (0.11.2.0)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.11.3.1.zip" target="_blank">Source Code (0.11.3.1)</a></li>
 						<li><a href="https://github.com/myriadteam/myriadcoin" target="_blank">Git Repository</a></li>
 					</ul>
 			</ul>
