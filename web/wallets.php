@@ -3,7 +3,7 @@
 	require_once('include/header.php');
 ?>
 	<div class="row">
-		<h3 class="text-center"><?php echo translate("Latest version is 0.11.3.1, released July 6th 2016. See ", $lang); ?><a href="https://redd.it/4dpee5" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
+		<h3 class="text-center"><?php echo translate("Latest version is 0.11.3.1, released July 6th 2016. See ", $lang); ?><a href="https://www.reddit.com/r/myriadcoin/comments/4rgidn/myriad_01131/" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
 	</div>
 	
 	<div class="row">
