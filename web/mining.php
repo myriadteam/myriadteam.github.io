@@ -159,6 +159,7 @@
 					<ul>
 						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
 						<li><a href="https://myriadcoin-groestl.miningpoolhub.com/" target="_blank">Mining Pool Hub</a></li>
+						<li><a href="https://myrgrs.suprnova.cc/" target="_blank">Suprnova</a></li>
 					</ul>
 					<hr>
 				</dt>
