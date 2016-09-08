@@ -76,35 +76,15 @@
 					</ul>
 					<hr>
 				</dd>
-				<dt>Qubit</dt>
+				<dt>Yescrypt</dt>
 				<dd>
 					<ul>
-						<li><?php echo translate("sgminer for OpenCL GPU mining", $lang); ?>
+						<li><?php echo translate("CPUMiner Multi optimized", $lang); ?>
 							<ul>
-								<li><a href="https://bitcointalk.org/index.php?topic=632503.0" target="_blank"><?php echo translate("BitcoinTalk Thread", $lang); ?></a></li>
-								<li><a href="https://www.nicehash.com/index.jsp?p=software#amdgpu" target="_blank"><?php echo translate("Windows Binaries", $lang); ?></a></li>
-								<li><a href="https://github.com/sgminer-dev/sgminer" target="_blank"><?php echo translate("GitHub Source", $lang); ?></a></li>
+								<li><a href="https://bitcointalk.org/index.php?topic=1326803.0" target="_blank"><?php echo translate("BitcoinTalk Thread", $lang); ?></a></li>
 							</ul>
 							<?php echo translate("Suggested Command Line", $lang); ?>
-							<div class="well well-sm"><code>sgminer --algorithm qubitcoin --no-extranonce -o {pool-URL} -O Username:Password</code></div>
-						</li>
-						<li><?php echo translate("ccminer for CUDA GPU mining", $lang); ?>
-							<ul>
-								<li><a href="https://bitcointalk.org/?topic=770064" target="_blank"><?php echo translate("BitcoinTalk Thread", $lang); ?></a></li>
-								<li><a href="https://github.com/tpruvot/ccminer/releases/latest" target="_blank"><?php echo translate("Windows Binaries", $lang); ?></a></li>
-								<li><a href="https://github.com/tpruvot/ccminer" target="_blank"><?php echo translate("GitHub Source", $lang); ?></a></li>
-							</ul>
-							<?php echo translate("Suggested Command Line", $lang); ?>
-							<div class="well well-sm"><code>ccminer -a qubit -o {pool-URL} -O Username:Password</code></div>
-						</li>
-						<li><?php echo translate("cpuminer-multi for CPU mining", $lang); ?>
-							<ul>
-								<li><a href="https://bitcointalk.org/?topic=841401" target="_blank"><?php echo translate("BitcoinTalk Thread", $lang); ?></a></li>
-								<li><a href="https://github.com/tpruvot/cpuminer-multi/releases/latest" target="_blank"><?php echo translate("Windows Binaries", $lang); ?></a></li>
-								<li><a href="https://github.com/tpruvot/cpuminer-multi" target="_blank"><?php echo translate("GitHub Source", $lang); ?></a></li>
-							</ul>
-							<?php echo translate("Suggested Command Line", $lang); ?>
-							<div class="well well-sm"><code>cpuminer -a qubit -o {pool-URL} -O Username:Password</code></div>
+							<div class="well well-sm"><code>cpuminer -a yescrypt -o {pool-URL} -u username -p password</code></div>
 						</li>
 					</ul>
 				</dd>
@@ -129,10 +109,10 @@
 					</ul>
 					<hr>
 				</dt>
-				<dd>Qubit</dd>
+				<dd>Yescrypt</dd>
 				<dt>
 					<ul>
-						<li><a href="http://nz.nutty.one:5567" target="_blank">New Zealand</a></li>
+						<li>TBD</li>
 					</ul>
 					<hr>
 				</dt>
@@ -163,11 +143,10 @@
 					</ul>
 					<hr>
 				</dt>
-				<dd>Qubit</dd>
+				<dd>Yescrypt</dd>
 				<dt>
 					<ul>
 						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
-						<li><a href="https://myriadcoin-qubit.miningpoolhub.com/" target="_blank">Mining Pool Hub</a></li>
 					</ul>
 					<hr>
 				</dt>
@@ -190,13 +169,6 @@
 					<hr>
 				</dt>
 				<dd>Scrypt</dd>
-				<dt>
-					<ul>
-						<li><a href="http://www.zpool.ca/" target="_blank"><?php echo translate("zpool - The miners multipool", $lang); ?></a></li>
-					</ul>
-					<hr>
-				</dt>
-				<dd>Qubit</dd>
 				<dt>
 					<ul>
 						<li><a href="http://www.zpool.ca/" target="_blank"><?php echo translate("zpool - The miners multipool", $lang); ?></a></li>
