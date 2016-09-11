@@ -147,6 +147,7 @@
 				<dt>
 					<ul>
 						<li><a href="http://www.miners-pool.eu/" target="_blank">Miners-pool eu</a></li>
+						<li><a href="http://myriadcoin.tk" target="_blank">Erkan Yilmaz's Pool with Unitus merged-mining (beta)</a></li>
 					</ul>
 					<hr>
 				</dt>
