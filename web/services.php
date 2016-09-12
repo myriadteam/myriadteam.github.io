@@ -19,6 +19,7 @@
 				<li><a href="https://poloniex.com/exchange/btc_myr" target="_blank">Poloniex</a></li>
 				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-MYR" target="_blank">Bittrex</a></li>
 				<li><a href="https://www.cryptopia.co.nz/Exchange?market=MYR_BTC" target="_blank">Cryptopia</a></li>
+				<li><a href="https://www.litebit.eu/en/buy/myriadcoin" target="_blank">Litebit MYR/EUR</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3">
