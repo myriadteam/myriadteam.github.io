@@ -181,6 +181,24 @@
 					$nlang = 'pl';
 					break;
 				}
+				else if (strpos($l, 'pt') === 0)
+				{
+					// show portuguese
+					$nlang = 'pt';
+					break;
+				}
+				else if (strpos($l, 'ko') === 0)
+				{
+					// show korean
+					$nlang = 'ko';
+					break;
+				}
+				else if (strpos($l, 'vn') === 0)
+				{
+					// show vietnamese
+					$nlang = 'vn';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
