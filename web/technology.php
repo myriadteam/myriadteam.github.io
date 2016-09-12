@@ -15,7 +15,9 @@
 				<dd class="text-justify"><?php echo translate("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition.", $lang); ?></dd>
 				<dt>Skein</dt>
 				<dd class="text-justify"><?php echo translate("Another  of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin.", $lang); ?></dd>
-				<dt>Qubit</dt>
+				<dt>Yescrypt</dt>
+				<dd class="text-justify"><?php echo translate("CPU friendly, currently GPU resistant. Requires rapid random reads, typically from CPU L1 data cache.", $lang); ?></dd>
+				<dt>(Retired Algorithm, no longer accepting blocks) Qubit</dt>
 				<dd class="text-justify"><?php echo translate("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO.", $lang); ?></dd>
 			</ul>
 		</div>
@@ -41,7 +43,7 @@
 			<h2 class="text-left"><?php echo translate("Myriad's History", $lang); ?></h3>
 			<p class="text-justify"><?php echo translate("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
-			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first
+			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Qubit has since been replaced with Yescrypt. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins.", $lang); ?></p>
 			<p class="text-justify"><?php echo translate("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. 
 			Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
@@ -49,6 +51,8 @@
 			<p class="text-justify"><?php echo translate("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.
 			At this time the target block time for each algorithm was also changed to five minutes (previously 2.5 minutes), to achieve an overall block target time of 1 minute (previously 30 seconds);
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years.", $lang); ?></p>
+			<p class="text-justify"><?php echo translate("In August 2016, at block 1764000, Myriad used mining consensus to replace the Qubit algorithm with the Yescrypt algorithm to preserve mining decentralization. Myriad became the first cryptocurrency 
+			to use mining consensus to change a mining algorithm.", $lang); ?></p>
 		</div>
 	</div>
 	
