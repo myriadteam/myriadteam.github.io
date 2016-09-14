@@ -199,6 +199,12 @@
 					$nlang = 'vn';
 					break;
 				}
+				else if (strpos($l, 'he') === 0)
+				{
+					// show hebrew
+					$nlang = 'he';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
