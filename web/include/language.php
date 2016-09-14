@@ -217,6 +217,12 @@
 					$nlang = 'hr';
 					break;
 				}
+				else if (strpos($l, 'tr') === 0)
+				{
+					// show turkish
+					$nlang = 'tr';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
