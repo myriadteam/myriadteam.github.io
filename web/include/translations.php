@@ -3097,7 +3097,7 @@ function translate($text, $lang)
 				case clean("Faucet"):
 					return "Faucet";
 				case clean("Testnet Information"):
-					return "Testnet bilgi;
+					return "Testnet bilgi";
                 		default:
                         		return $text;
                 }
