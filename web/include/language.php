@@ -223,6 +223,12 @@
 					$nlang = 'tr';
 					break;
 				}
+				else if (strpos($l, 'ro') === 0)
+				{
+					// show romanian
+					$nlang = 'ro';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
