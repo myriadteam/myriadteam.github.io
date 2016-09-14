@@ -211,6 +211,12 @@
 					$nlang = 'nl';
 					break;
 				}
+				else if (strpos($l, 'hr') === 0)
+				{
+					// show croatian
+					$nlang = 'hr';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
