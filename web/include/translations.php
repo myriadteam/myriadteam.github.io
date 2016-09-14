@@ -1891,8 +1891,8 @@ function translate($text, $lang)
 			this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
 			return "في اب عام 2015 كانت شبكة  Myriad  الصعب فاركوتا , لتمكين التعدين واحد على الخوارزميات – Scrypt و SHA256d . كان الهدف هو تحقيق تجزئة شبكة  ريتا مستقرة على هذه الخوارزميات بينما يتم تغيير التوقيت كتلة هدف لكل خوارزمية لمدة 5 دقائق ( حتى , من 2.5 دقيقة ) للحصول على الوقت الاجمالي لجميع خوارزمياتكتلة – 1 دقيقة ( 30 ثانية في وقت سابق ) تغير سحب كبار منحنى الانبعاثات الى 2 درجة , وتعادل ما يقرب من 20 عاما .";
 			// wallets
-			case clean("Latest version is 0.9.2.17, released November 7th 2015. See "):
-				return "احدث اصدار 0.9.2.17,  الذي صدر في 7 /11/ 2015  , انظر ";
+			case clean("Latest version is 0.11.3.1, released July 6th 2016. See "):
+                                return "ﺎﺣﺪﺛ ﺎﺻﺩﺍﺭ 0.11.3.1,  ﺎﻟﺬﻳ ﺹﺩﺭ ﻒﻳ 6 /7/ 2016  , ﺎﻨﻇﺭ ";
 			case clean(" announcement & upgrade notes."):
 				return "اعلان وتحديث قائمة ";
 			// mining
@@ -2140,8 +2140,8 @@ function translate($text, $lang)
 			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.	At this time the target block time for each algorithm was also changed to five minutes (previously 2.5  minutes), to achieve an overall block target time of 1 minute (previously 30 seconds); this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
  				return "2015년 8월에 Myriad 네트워크는hard -fork, Scrypt 및 SHA256d알고리즘에 대한 하나의 광산을 가능하게 하도록–그 목적은 안정된 네트워크는 이러한 알고리즘을 헤시 레이트  달성했다. 그 시간에 타겟 유닛 시간은 알고리즘마다에서 5분까지 변화했다. (옛날에는 2.5 분이었다. 이유는 모든 알고리즘에 대한 전체 블록의 1분 시간을 얻을 수 있는 것이다. (옛날에는30초였다). 이 변화는 2도 사용ㅎ기 때문에 곡선 위쪽으로 방출을 끌어하고약 20 년 균등하겠다.";
 			// wallets
-			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
- 				return "0.11.2.0 최신 버전인데 2016년4월7일에 출시했다. 공지 사항 및 업데이트 목록을 찾아 보세요";
+			case clean("Latest version is 0.11.3.1, released July 6th 2016. See "):
+ 				return "0.11.3.1 최신 버전인데 2016년7월6일에 출시했다. 공지 사항 및 업데이트 목록을 찾아 보세요";
 			case clean(" announcement & upgrade notes."):
 				return "발표 및 메모를 업그레이드";
 			case clean("Desktop"):
@@ -2158,8 +2158,8 @@ function translate($text, $lang)
 				return "기계적 인조 인간";
 			case clean("Source"):
 				return "출처";
-			case clean("Source Code (0.11.2.0)"):
-				return "소스 코드(0.11.2.0)";
+			case clean("Source Code (0.11.3.1)"):
+				return "소스 코드(0.11.3.1)";
 			case clean("Other"):
 				return "다른";
 			case clean("Linux"):
@@ -2360,8 +2360,8 @@ function translate($text, $lang)
         		      minutos), para conseguir o tempo geral do bloco para todos os algoritmos 1 minuto(antes disso foram 30 segundos). Essa mudança estende a
         		      curva da emissão para cima usando a exponenciação 2x e equaliza aproximadamente aos 20 anos.";
 		        // wallets
-		        case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
-             		      return "Última versão 0.11.2.0, lançada 7 de abrilde 2016. Clique aqui.";
+		        case clean("Latest version is 0.11.3.1, released July 6th 2016. See "):
+             		      return "Última versão 0.11.3.1, lançada 6 de julho 2016. Clique aqui.";
              		case clean(" announcement & upgrade notes."):
 			      return "Anúncios & lista das atualizações";
 			case clean("Desktop"):
@@ -2378,8 +2378,8 @@ function translate($text, $lang)
 			      return "Android";
 		        case clean("Source"):
 		             return "Fonte";
-			case clean("Source Code (0.11.2.0)"):
-		             return "Fonte (0.11.2.0)";
+			case clean("Source Code (0.11.3.1)"):
+		             return "Fonte (0.11.3.1)";
 		        case clean("Other"):
 		             return "Outro";
         		case clean("Linux"):
@@ -2538,8 +2538,8 @@ function translate($text, $lang)
 			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms. At this time the target block time for each algorithm was also changed to five minutes (previously 2.5  minutes), to achieve an overall block target time of 1 minute (previously 30 seconds); this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
  				return "באוגוסט 2015 ברשת Myriad עשו hard-fork כדי להפעיל כרייה אחידה באלגוריתמים – Scrypt ו SHA256d על מנת להגיע ל hash rate יציב של הרשת באלגוריתמים האלה. באתו הזמן, זמן ממוקד של בלוק לכל אלגוריתם שימו לעד ל 5 דקות (לפני כן היו 2,5 דקות), כדי לקבל זמן זהה של בלוק לכל אלגוריתמים – דקה אחת (לפני כן הוא היה 30 שניות). השינוי הזה ימשוך את עקומת האמיסיה למעלה בעזרת חזקה של 2 וישווה בערך ל 20 שנים.   ";
 			// wallets
-			case clean("Latest version is 0.11.2.0, released April 7th 2016. See "):
- 				return "גרסה אחרונה 0.9.2.17 הונפקה ב 7-י בנובמבר 2015. תראה";
+			case clean("Latest version is 0.11.3.1, released April 7th 2016. See "):
+                                return "גרסה אחרונה 0.11.3.1 הונפקה ב 7-י יולי 2016. תראה";
 			case clean(" announcement & upgrade notes."):
 				return "הצגה מקדמת ו רשימת חידושים";
 			case clean("Desktop"):
@@ -2556,8 +2556,8 @@ function translate($text, $lang)
 				return "Android";
 			case clean("Source"):
 				return "מקור";
-			case clean("Source Code (0.11.2.0)"):
-				return "מקור (0.11.2.0)";
+			case clean("Source Code (0.11.3.1)"):
+                                return "מקור (0.11.3.1)";
 			case clean("Other"):
 				return "אחר";
 			case clean("Linux"):
