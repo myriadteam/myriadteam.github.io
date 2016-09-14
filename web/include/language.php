@@ -199,6 +199,36 @@
 					$nlang = 'vn';
 					break;
 				}
+				else if (strpos($l, 'he') === 0)
+				{
+					// show hebrew
+					$nlang = 'he';
+					break;
+				}
+				else if (strpos($l, 'nl') === 0)
+				{
+					// show dutch
+					$nlang = 'nl';
+					break;
+				}
+				else if (strpos($l, 'hr') === 0)
+				{
+					// show croatian
+					$nlang = 'hr';
+					break;
+				}
+				else if (strpos($l, 'tr') === 0)
+				{
+					// show turkish
+					$nlang = 'tr';
+					break;
+				}
+				else if (strpos($l, 'ro') === 0)
+				{
+					// show romanian
+					$nlang = 'ro';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
