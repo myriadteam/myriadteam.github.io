@@ -205,6 +205,12 @@
 					$nlang = 'he';
 					break;
 				}
+				else if (strpos($l, 'nl') === 0)
+				{
+					// show dutch
+					$nlang = 'nl';
+					break;
+				}
 			}
 			$debug .= "DETECTED=$nlang;";
 			$_SESSION['lang'] = $nlang;
