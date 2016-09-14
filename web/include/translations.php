@@ -3102,6 +3102,181 @@ function translate($text, $lang)
                         		return $text;
                 }
         }
+        else if($lang == 'ro')
+	{
+		switch (clean($text))
+		{
+			// homepage
+			case clean("Open To Anyone"):
+				return " Deschisă pentru oricare ";
+			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs & CPUs."):
+				return " Myriad – este multi-algoritmică  - este prima monedă, care a întruchipat în viață simultan 5 hash-funcții, utilizate pentru minerit. În deosebire de Bitcoin, prin care este posibil de a minerit-a profitabil, utilizând ASICS și algoritmul SHA256d, Myriad este accesibilă pentru Scrypt ASICS, GPUS & CPUs.";
+			case clean("Secure"):
+				return " Nu este periculoasă ";
+			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
+			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate. While ASICs have rendered GPU mining on SHA256d & Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining. The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
+				return " Minerit-erul poate alege oricare din cele 5 algoritmi accesibile – SHA256d, Scrypt, Myr-Groestl, Skein sau Qubit – fiecare din ele are ca țintă un interval de timp fixat pentru bloc – 5 minute. În genere, blocul se află aproximativ fiecare minută. În dependență de hash-rate al fiecărui algoritm se reglează și complicația lui.
+				În același timp ASICS-ul afectează minerit-ul prin plăcile video cu algoritmul SHA256d, dar Scrypt-ul este neproductiv, restul algoritmilor domină sfera minerit-ului prin plăcile video. Metoda algoritmilor multiple deschide o abordare nouă și exclusivă către metodica de protecție cu ajutorul a 51%, deoarece pentru a ajunge la 51% de blocuri va fi necesar un spectru enorm de echipament.";
+
+			case clean("Merge mining has been enabled on SHA256d & Scrypt, allowing Myriad to benefit from the massive hash power available."):
+				return " Combinarea Minerit-ului prin algoritmi diverse, care include SHA256d & Scrypt, a permis Myriad-ului de a căpăta un avantaj prin accesul la puteri de calcul enorme disponibile .";
+
+			case clean("Fair Distribution"):
+				return " Distribuția onestă ";
+			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
+				return " Lipsesc pre-mine-ul și blocurile magice cu premii mari. Toți utilizatorii rețelei au posibilități egale pentru a obține Myriad la prețul de piață ";
+			// technology
+			case clean("Multi-Algorithm"):
+				return " Algoritmi multiple ";
+			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
+				return "5 Algoritmi accesibile pentru ASIC, GPU и CPU al minerit-ului:";
+			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
+				return " Două runde pentru algoritmile de hash SHA256d, utilizare pentru prima dată de pionerul valutei crypto - Bitcoin.";
+			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
+ 				return " Proiectat din start pentru minerit-ul sub CPU, în prezent este utilizat pentru dobândirea multiplelor monede alternative cu ajutorul ASICs-ului, începând cu Litecoin.";
+			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
+				return " Specific numai pentru Myriad varianta hash-algoritmului – Groestl – reprezintă una din cele cinci finaliste NIST SHA-3 al concursului de hash-are a algoritmilor. ";
+			case clean("Another of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin."):
+				return " Încă unul din cele cinci finaliste al concursului de hash-are NIST SHA-3, care a fost utilizat keincoin.";
+			case clean("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO."):
+				return " Proiectat din start numai sub CPU algoritmul Qubit combină 5 participanți NIST SHA-3 al concursului de hash-algoritmi – Luffa, Cubehash, SHAvite, SIMD и ECHO.";
+ 			case clean("Merge Mining"):
+				return " Minerit-ul combinat ";
+			case clean("Since block 4002000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms, further securing the Myriad blockchain."):
+				return "Începând cu blocul 4002000 minerit-ul combinat este accesibil pentru algoritmile SHA256d и Scrypt. Acest fapt a permis Myriad de a fi avantajată, mulțumit  hash-rate-urilor imense, utilizate în prezent de alte monede, concomitent și a asigurat securitatea blockchain-ului";
+			case clean("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load or performance impact to the parent coin."):
+				return "Minerit-ul combinat, cunoscut ca AuxPow, permite folosirea resurselor, cheltuite, de exemplu, pe minerit-ul Bitcoin sau Litecoin pentru confirmarea validității blocurilor în rețeaua Myriad fără asumarea oricărei încărcări suplimentare.";
+			case clean("Distribution"):
+				return " Distribuirea ";
+			case clean("Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The "):
+				return " Myriad a fost lansată în rețea în data de 23 februarie ora 18:30 UTC ";
+			case clean("first mined block"):
+				return " primul bloc găsit ";
+			case clean(" came 4 minutes later, thus establishing that there was no premine."):
+				return " a apărut peste 4 minute, prin aceasta confirmând faptul, că nu a fost nici un pre-mine ";
+			case clean("The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR."):
+				return " Din start, premiul era de 1,000 MYR, și se înjumătățea la fiecare 967,680 blocuri (aproximativ 48 de săptămâni). Numărul maximal de monede – 2 miliarde MYR.";
+			case clean("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds per algorithm, effective at block 1,401,001. At the time, Myriad suffered from low hash rate and extensive difficulty hopping on Scrypt and SHA256d, causing the actual average block time to be over 50 seconds. In addition to enabling aux-PoW on Scrypt and SHA256d, the increase in target block time lead to greater consistency on the network, without affecting fairness of distribution."):
+ 				return " Inițial, timpul blocului era de 30 secunde sau 150 secunde pe algoritm. Însă din 12 iulie 2015 comunitatea a decis să majoreze timpul blocului până la 60 secunde sau 300 secunde pe algoritm. Această decizie a fost activate de la blocul №1,401,001. În același timp, când rețeaua Myriad aveaun hash-rate scăzut și era maxim complicat, timpul mediu al blocului era de peste 50 secunde. În plus era activat aux-Pow pentru Scrypt și SHA256d, fapt, ce a ridicat timpul țintă al blocului și a adus la o coordonare mai bună în rețea, ocolind efectul asupra integrității distribuției ";
+			case clean("Myriad was launched in February 2014 by 8bitcoder, forked from Zetacoin. It was the first cryptocurrency to use five proof-of-work algorithms in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners, Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Huntercoin, launched in late 2013, was actually the first coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins."):
+				return "Myriad a fost lansată în februarie 2014 de utilizatorul cu Nickname 8bitcoder și reprezintă un fork ZtaCoin. Acesta este prima crypto valută, care utiliza 5 POW ale algoritmilor pentru ridicarea securității, precum și pentru atragerea  mai multor maine-ri cu algoritmi diferite – SHA256d și Scrypt pentru ASIC maine-re, Skein și Myr-Groestl pentru GPU maine-re, Qubit pentru GPU și CPU maining.
+				HunterCoin, lansată la finele anului 2013, de fapt, prima a utilizat mai multe algoritmi POW pentru maining (SHA256d и Scrypt), însă ea a fost proiectată nu pentru maining, dar pentru jocuri bazate pe blockchaine, care ulterior a dat viață mai multor alt-coin-e.";
+
+			case clean("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad, and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo."):
+				return "Myriad a generat mai multe analogii ei însuși, prima din care era Saffroncoin, care, de asemenea, utiliza  5 PoW algoritmi. Digitalcoin și Digibyte a efectuat hard-fork, pentru a utiliza 3 și 5 PoW, corespunzător. O altă monedă, care utilizează algoritmul de verificare a serviciului cu ajutorul a cinci algoritmi și conține în sine un minerit unic – Unitus. Auroracoin și Verge, de asemenea, au anunțat despre dorința de a utiliza sistemul multi-algoritm.";
+			case clean("In August 2015 Myriad hard-forked to allow merge-mining on its SHA256d and Scrypt algorithms in an effort to improve security and achieve a more stable hashrate on those two algorithms.	At this time the target block time for each algorithm was also changed to five minutes (previously 2.5  minutes), to achieve an overall block target time of 1 minute (previously 30 seconds); this change will stretch the emission curve out by a factor of 2x, to approximately 20 years."):
+ 				return "În august 2015 rețeaua Myriad a fost hard-forțată pentru a fi inclusă într-un minerit unic pe algoritmile – Scrypt и SHA256d,scopul fiind atingerea hash-rate-ului stabil al rețelei, ce funcționează pe aceste algoritmi. În același timp, timpul țintă al blocului pentru fiecare algoritm a fost modificat până la 5 minute (a fost 2,5 minute), pentru a ajunge la timpul general al blocului pentru toate algoritmile – 1 minut (a fost 30 secunde). Această modificare va trage curba ascendentă a emisiilor în sus cu ajutorul gradului 2x și-l va egala aproximativ la 20 de ani.";
+			// wallets
+			case clean("Latest version is 0.11.3.1, released July 7th 2016. See "):
+ 				return "Ultima versiune 0.11.3.1, a fost lansată pe 7 Iulie 2016. Priviți ";
+			case clean(" announcement & upgrade notes."):
+				return " Anunț & lista anunțurilor ";
+			case clean("Desktop"):
+				return "Desktop";
+			case clean("Windows"):
+				return "Windows";
+			case clean("32-bit Installer (11.5 MB)"):
+				return "32-biți de Instalare (11.5 MB)";
+			case clean("64-bit Installer (11.5 MB)"):
+				return "64-biți de Instalare (11.5 MB)";
+			case clean("Mobile"):
+				return " Mobil ";
+			case clean("Android"):
+				return " Android ";
+			case clean("Source"):
+				return "Sursa";
+			case clean("Source Code (0.11.3.1)"):
+				return "Sursa Cod (0.11.3.1)";
+			case clean("Other"):
+				return " Alte ";
+			case clean("Linux"):
+				return " Linux ";
+			case clean("JSWallet"):
+				return " JSWallet ";
+			case clean("Brain wallet"):
+				return "Creierul portofel ";
+			case clean("Paper Wallet"):
+				return "Portofel hârtie ";
+			// mining
+			case clean("Getting Started"):
+				return " Noțiuni De Bază ";
+			case clean("Download a "):
+				return " Descărcaţi o versiune ";
+			case clean("wallet"):
+				return "Portofel ";
+ 			case clean(", download a miner of the right type, find a pool and fire away..."):
+ 				return " download minerit-ul de tip necesar, găsiți pool-ul și înainte… ";
+			case clean("Mining Tutorial Video"):
+				return " Tutorial  Video de Minerit ";
+			case clean("Watch on "):
+				return " Uita-te pe ";
+			case clean("Mining Software"):
+				return "Minerit Software-ul ";
+			case clean("Use any SHA256d compatible ASIC"):
+				return " Utilizați orice  SHA256d-compatibil ASIC ";
+			case clean("Use any Scrypt compatible ASIC"):
+				return " Utilizați orice  Scrypt-compatibil ASIC ";
+			case clean("sgminer for OpenCL GPU mining "):
+				return " cgminer pentru OpenCL minerit GPU ";
+			case clean("ccminer for CUDA GPU mining"):
+				return " cgminer pentru GPU CUDA minerit ";
+			case clean("cpuminer-multi for CPU mining"):
+				return " cpuminer-multiplu pentru minerit CPU ";
+			case clean("cgminer for OpenCL GPU mining"):
+				return " cgminer pentru OpenCL minerit GPU ";
+			case clean("BitcoinTalk Thread"):
+				return " BitcoinTalk Subiect ";
+			case clean("Windows Binaries"):
+				return "Windows Binare ";
+			case clean("GitHub Source"):
+				return " GitHub Sursă ";
+			case clean("Suggested Command Line"):
+				return " Sugestii pentru Linia de comandă ";
+			case clean("Pools"):
+				return " POOL-uri ";
+			case clean("P2Pool nodes"):
+				return "P2Pool Noduri retea ";
+			case clean("Run Your Own Node"):
+				return " Pentru lansarea propriului noduri retea "
+			case clean("Other pools"):
+				return " Alte Noduri retea ";
+			case clean("Merge Mining Pool "):
+				return " Combinarea Minerit POOL-uri ";
+			case clean("zpool - The miners multi pool"):
+				return " zpool - Multi-Pool pentru mineri ";
+			case clean("MultiPool"):
+				return "Multi-Pool";
+			// services
+			case clean("Information & Resources"):
+				return " Informații Și Resurse ";
+			case clean("Block Explorer(1)"):
+				return " Browsere blocuri (1)";
+			case clean("Block Explorer(2)"):
+				return " Browsere blocuri (2)";
+			case clean("Abe Explorer"):
+				return "Abe Browsere";
+			case clean("Network Status"):
+				return " Stare Rețea ";
+			case clean("Exchanges"):
+				return " Exchanges ";
+			case clean("Shop"):
+				return " Magazin ";
+			case clean("List of Coinpayments stores"):
+				return " Lista magazinelor care platesc moneda";
+			case clean("Other"):
+				return "Alte";
+			case clean("Faucet"):
+				return "Faucet";
+			case clean("Testnet Information"):
+				return "Testnet informație";
+			case clean("cryptap.us Myriad page"):
+				return " cryptap.us Myriad pagină ";
+			case clean("Reddit/IRC myrbot information"):
+				return "Reddit/IRC myrbot informație ";
+			default:
+				return $text;
+			}
+		}
 	 	
 	else
 	{
