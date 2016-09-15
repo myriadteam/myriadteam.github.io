@@ -114,7 +114,7 @@
 	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
 	
 	$titles['ko']['default'] = '동전을 모두';
-	$titles['ko']['technology'] = '기술'
+	$titles['ko']['technology'] = '기술';
 	$titles['ko']['wallets'] = '지갑';
 	$titles['ko']['mining'] = '마이닝';
 	$titles['ko']['services'] = '서비스';
