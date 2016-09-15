@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl","ko","pt","vn","he","nl","hr","tr","ro");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish", "pt" => "Portuguese", "ko" => "Korean", "vn" => "Vietnamese", "he" => "Hebrew", "nl" => "Netherlands", "hr" => "Croatian", "tr" => "Turkish", "ro" => "Romanian");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -112,6 +112,62 @@
 	$titles['pl']['mining'] = 'Mining';
 	$titles['pl']['services'] = 'Obsługa';
 	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
+	
+	$titles['ko']['default'] = '동전을 모두';
+	$titles['ko']['technology'] = '기술'
+	$titles['ko']['wallets'] = '지갑';
+	$titles['ko']['mining'] = '마이닝';
+	$titles['ko']['services'] = '서비스';
+	$titles['ko']['social'] = '사회적';
+	
+	$titles['pt']['default'] = 'Uma Moeda Para Todos';
+	$titles['pt']['technology'] = 'Tecnologia';
+	$titles['pt']['wallets'] = 'Carteiras';
+	$titles['pt']['mining'] = 'Mineração';
+	$titles['pt']['services'] = 'Serviços';
+	$titles['pt']['social'] = 'Social';
+
+	$titles['vn']['default'] = 'Một Đồng Xu Cho Mọi Người';
+	$titles['vn']['technology'] = 'Nghệ';
+	$titles['vn']['wallets'] = 'Ví tiền';
+	$titles['vn']['mining'] = 'Dẫn đào';
+	$titles['vn']['services'] = 'Dịch vụ';
+	$titles['vn']['social'] = 'Xã hội';
+	
+	$titles['he']['default'] = 'בְּרִירַת מֶחדָל';
+	$titles['he']['technology'] = 'טכנולוzיה';
+	$titles['he']['wallets'] = 'ארנקים';
+	$titles['he']['mining'] = 'כְּרִיָה';
+	$titles['he']['services'] = 'שירותים';
+	$titles['he']['social'] = 'חֶברָתִי';
+
+	$titles['nl']['default'] = 'A Coin For Everyone';
+	$titles['nl']['technology'] = 'Technology';
+	$titles['nl']['wallets'] = 'Wallets';
+	$titles['nl']['mining'] = 'Mining';
+	$titles['nl']['services'] = 'Services';
+	$titles['nl']['social'] = 'Social';
+	
+	$titles['hr']['default'] = 'Po razumjevanju';
+	$titles['hr']['technology'] = 'Tehnologija';
+	$titles['hr']['wallets'] = 'Novčanike';
+	$titles['hr']['mining'] = 'Rudarstvo';
+	$titles['hr']['services'] = 'Services';
+	$titles['hr']['social'] = 'Soc.mreži';
+	
+	$titles['tr']['default'] = 'Varsayılan olarak';
+	$titles['tr']['technology'] = 'Teknoloji';
+	$titles['tr']['wallets'] = 'Сüzdanlar';
+	$titles['tr']['mining'] = 'Mining';
+	$titles['tr']['services'] = 'Hizmetler';
+	$titles['tr']['social'] = 'Sosyal ağ';
+	
+	$titles['ro']['default'] = 'A Coin For Everyone';
+	$titles['ro']['technology'] = 'Technology';
+	$titles['ro']['wallets'] = 'Wallets';
+	$titles['ro']['mining'] = 'Mining';
+	$titles['ro']['services'] = 'Services';
+	$titles['ro']['social'] = 'Social';
 	
 	switch ($path)
 	{
