@@ -1691,7 +1691,7 @@ function translate($text, $lang)
 			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
 				return "Un miner può scegliere uno qualsiasi dei 5 algoritmi disponibili per il mining: SHA256d, Scrypt, Myr-Groestl, Skein o Yescrypt e ciascuno ha un tempo di blocco fisso di 5 minuti. In generale un blocco viene trovato ogni minuto. La difficoltà di ogni algoritmo viene regolata in base al suo hash rate. Mentre ASICs hanno reso il GPU mining basato sugli algoritmi SHA256d & Scrypt improduttivo, gli altri algoritmi continuano a dominare il GPU mining. L’approccio a più algoritmi offre un nuovo, esclusivo e innovativo metodo di protezione del 51% poiché per ottenere il 51% dei blocchi è necessaria una vasta gamma di hardware.";
 			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
-				return " Il merge-mining sugli algoritmi SHA256d & Scrypt, permettendo a Myriad di ottenere un vantaggio grazie all’enorme potenza di calcolo disponibile.";
+				return " Il merge-mining è disponibile sugli algoritmi SHA256d & Scrypt, permettendo a Myriad di ottenere un vantaggio grazie all’enorme potenza di calcolo disponibile.";
 			case clean("Fair Distribution"):
 				return "Distribuzione equa";
 			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
