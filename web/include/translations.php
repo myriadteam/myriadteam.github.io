@@ -1683,24 +1683,24 @@ function translate($text, $lang)
 				return "Aperta a tutti";
 			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using 
 			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs &amp; CPUs."):
-				return "Myriad è una multi-algoritmica ed è la prima moneta che contiene contemporaneamente 5 funzioni hash usate per il mining. A differenza di Bitcoin che può essere minato in modo redditizio utilizzando ASICs e l’algoritmo SHA–256d, Myriad è disponibile per Scrypt ASICs, GPUs & CPUs.";
+				return "Myriad è una moneta multi-algoritmica, è la prima valuta ad avere contemporaneamente 5 funzioni hash usate per il mining. A differenza di Bitcoin che può essere minato in modo redditizio soltanto utilizzando ASIC SHA–256d, Myriad è aperto agli ASIC SHA256d, ASIC Scrypt, GPU & CPU.";
 			case clean("Secure"):
 				return "Sicura";
 			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Yescrypt — each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate.
 			While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining.
 			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
-				return "Un minatore può scegliere uno qualsiasi dei 5 algoritmi disponibili: SHA256d, Scrypt, Myr-Groestl, Skein o Yescrypt e ciascuno ha il tempo di blocco o il block time fisso di 5 minuti. In generale un blocco viene estratto ogni minuto. La difficoltà di ogni algoritmo viene regolata in base al suo hash rate. Mentre ASICs hanno reso il GPU mining basato sugli algoritmi SHA256d & Scrypt improduttivo, gli altri algoritmi continuano a dominare il GPU mining. L’approccio a più algoritmi offre un nuovo, esclusivo e innovativo metodo di protezione con  il 51% poiché per ottenere il 51% dei blocchi è necessaria una vasta gamma di hardware.";
+				return "Un miner può scegliere uno qualsiasi dei 5 algoritmi disponibili per il mining: SHA256d, Scrypt, Myr-Groestl, Skein o Yescrypt e ciascuno ha un tempo di blocco fisso di 5 minuti. In generale un blocco viene trovato ogni minuto. La difficoltà di ogni algoritmo viene regolata in base al suo hash rate. Mentre ASICs hanno reso il GPU mining basato sugli algoritmi SHA256d & Scrypt improduttivo, gli altri algoritmi continuano a dominare il GPU mining. L’approccio a più algoritmi offre un nuovo, esclusivo e innovativo metodo di protezione del 51% poiché per ottenere il 51% dei blocchi è necessaria una vasta gamma di hardware.";
 			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
-				return " Il fuse mineraria combinato su diversi tipi di algoritmi, inclusi SHA256d & Scrypt, ha permesso a Myriad di ottenere un vantaggio grazie all’enorme potenza di calcolo disponibile.";
+				return " Il merge-mining sugli algoritmi SHA256d & Scrypt, permettendo a Myriad di ottenere un vantaggio grazie all’enorme potenza di calcolo disponibile.";
 			case clean("Fair Distribution"):
 				return "Distribuzione equa";
 			case clean("No premine or hidden fortunes possessed by insiders. Everyone has an equal opportunity to obtain Myriad at the market rate."):
-				return "Non ci sono preestrazioni o blocchi con una grande ricompensa nascosti. Tutti gli utenti della rete hanno le stesse possibilità per ottenere Myriad al prezzo di mercato.";
+				return "Non ci sono premine o fortune nascoste possedute dagli sviluppatori. Tutti gli utenti della rete hanno le stesse possibilità di ottenere Myriad al prezzo di mercato.";
 			// technology
 			case clean("Multi-Algorithm"):
-				return "Algoritmi multipli";
+				return "Multi-Algoritmi";
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
-				return "Ci sono 5 algoritmi disponibili per ASIC, GPU e CPU mining:";
+				return "5 algoritmi disponibili per ASIC, GPU e mining CPU:";
 			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
 				return "Due cicli di algoritmo di hashing SHA256d utilizzati per la prima volta dal pioniere di criptovaluta Bitcoin.";
 			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
