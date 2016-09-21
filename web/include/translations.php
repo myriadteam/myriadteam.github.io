@@ -1726,7 +1726,7 @@ function translate($text, $lang)
 			case clean("first mined block"):
 				return "Il primo blocco ";
 			case clean(" came 4 minutes later, thus establishing that there was no premine."):
-				return " è stato trovato dopo 4 minuti, confermando che non vi è stato alcuna premine.";
+				return " è stato trovato dopo 4 minuti, confermando che non vi è stata alcuna premine.";
 			case clean("The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR."):
 				return "La ricompensa iniziale era di 1000 MYR e viene dimezzata ogni 967680 blocchi  (circa 48 settimane). Il numero massimo di monete è di 2 miliardi di MYR.";
 			case clean("Initially, the target blocktime was 30 seconds, or 150 seconds per algorithm. On the 12th of July, 2015, the community decided to increase the target block time to 60 seconds, or 300 seconds
