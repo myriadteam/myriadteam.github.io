@@ -17,7 +17,7 @@
 				<dd class="text-justify"><?php echo translate("Another  of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin.", $lang); ?></dd>
 				<dt>Yescrypt</dt>
 				<dd class="text-justify"><?php echo translate("CPU friendly, currently GPU resistant. Requires rapid random reads, typically from CPU L1 data cache.", $lang); ?></dd>
-				<dt>(Retired Algorithm, no longer accepting blocks) Qubit</dt>
+				<dt>Qubit (Retired Algorithm, no longer accepting blocks)</dt>
 				<dd class="text-justify"><?php echo translate("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO.", $lang); ?></dd>
 			</ul>
 		</div>
