@@ -23,10 +23,10 @@
 		</div>
 		<div class="col-lg-4">
 			<h2><?php echo translate("Merge Mining", $lang); ?></h2>
-			<p class="text-justify"><?php echo translate("Since block 1402000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use
-			by coins using these algorithms, further securing the Myriad blockchain.", $lang); ?></p>
-			<p class="text-justify"><?php echo translate("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain, with no extra load
-			or performance impact to the parent coin.", $lang); ?></p>
+			<p class="text-justify"><?php echo translate("Since block 1402000, merge mining has been allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins with these algorithms, further securing the Myriad blockchain.", $lang); ?></p>
+			<p class="text-justify"><?php echo translate("Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used for finding valid blocks on Myriad's blockchain, with no extra load or performance impact to the parent coin.", $lang); ?></p>
+			<p class="text-justify"><?php echo translate("Additionally, Unitus, which is a cryptocurrency forked from Myriad, can be merge mined as a child coin on Myriad's Skein and Yescrypt algorithms.", $lang); ?></p>
+
 		</div>
 		<div class="col-lg-4">
 			<h2><?php echo translate("Distribution", $lang); ?></h2>
