@@ -29,7 +29,7 @@
 		<div class="col-md-3">
 			<h2>Mobile</h2>
 			<ul class="list-unstyled">
-				<li><img src="/images/android.png" width="48" height="48"> Android (0.11.2)
+				<li><img src="/images/android.png" width="48" height="48"> Android (0.11.3.1)
 					<ul>
 						<li><a href="https://play.google.com/store/apps/details?id=hashengineering.myriadcoin.wallet" target="_blank">Google Play-Store</a></li>
 					</ul>
