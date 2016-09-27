@@ -86,6 +86,8 @@
 							<?php echo translate("Suggested Command Line", $lang); ?>
 							<div class="well well-sm"><code>cpuminer -a yescrypt -o {pool-URL} -u username -p password</code></div>
 						</li>
+						<li><a href="https://www.reddit.com/r/myriadcoin/comments/5160fp/new_version_of_myrminer_gui_for_yescrypt_cpu/" target="_blank"><?php echo translate("Graphical Yescrypt CPU miner for Windows", $lang); ?></a></li>
+						<li><a href="https://play.google.com/store/apps/details?id=com.kangaderoo.neoneonminer&hl=en" target="_blank"><?php echo translate("NeoNeonMiner for Android (supports Yescrypt)", $lang); ?></a></li>
 					</ul>
 				</dd>
 			</dl>
