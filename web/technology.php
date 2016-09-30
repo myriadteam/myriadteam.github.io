@@ -14,7 +14,7 @@
 				<dt>Myr-Groestl</dt>
 				<dd class="text-justify"><?php echo translate("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition.", $lang); ?></dd>
 				<dt>Skein</dt>
-				<dd class="text-justify"><?php echo translate("Another  of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin.", $lang); ?></dd>
+				<dd class="text-justify"><?php echo translate("Another of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin.", $lang); ?></dd>
 				<dt>Yescrypt</dt>
 				<dd class="text-justify"><?php echo translate("CPU friendly, currently GPU resistant. Requires rapid random reads, typically from CPU L1 data cache.", $lang); ?></dd>
 				<dt>Qubit (Retired Algorithm, no longer accepting blocks)</dt>
