@@ -92,12 +92,12 @@
 	$titles['de']['services'] = 'das Dienstleistungen';
 	$titles['de']['social'] = 'sozial Netzwerke';
 	
-	$titles['it']['default'] = 'Predefinito';
+	$titles['it']['default'] = 'Una moneta per tutti';
 	$titles['it']['technology'] = 'Tecnologia';
-	$titles['it']['wallets'] = 'Portafogli';
-	$titles['it']['mining'] = ' Mineraria';
+	$titles['it']['wallets'] = 'Wallet';
+	$titles['it']['mining'] = 'Mining';
 	$titles['it']['services'] = 'Servizi';
-	$titles['it']['social'] = 'Sociale'; 
+	$titles['it']['social'] = 'Social'; 
 
 	$titles['ar']['default'] = 'افتراضي';
 	$titles['ar']['technology'] =  'التكنولوجيا';
@@ -114,7 +114,7 @@
 	$titles['pl']['social'] = 'Serwisy Spółecznościowe'; 
 	
 	$titles['ko']['default'] = '동전을 모두';
-	$titles['ko']['technology'] = '기술'
+	$titles['ko']['technology'] = '기술';
 	$titles['ko']['wallets'] = '지갑';
 	$titles['ko']['mining'] = '마이닝';
 	$titles['ko']['services'] = '서비스';
