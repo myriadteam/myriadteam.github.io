@@ -8,7 +8,7 @@
 	
 	<div class="row">
 		<div class="col-md-3">
-			<h2>Desktop</h2>
+			<h2><?php echo translate("Desktop", $lang); ?></h2>
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
