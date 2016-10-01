@@ -25,7 +25,7 @@
 		<div class="col-lg-3">
 			<h2><?php echo translate("Shop", $lang); ?></h2>
 			<ul>
-				<li><a href="https://www.coinpayments.net/store-directory-coin-MYR#list" target="_blank">List of Coinpayments stores</a></li>
+				<li><a href="https://www.coinpayments.net/store-directory-coin-MYR#list" target="_blank"><?php echo translate("List of Coinpayments stores", $lang); ?></a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3">
