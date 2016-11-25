@@ -6,7 +6,6 @@
 		<div class="col-lg-3">
 			<h2><?php echo translate("Information &amp; Resources", $lang); ?></h2>
 			<ul>
-				<li><a href="http://birdonwheels5.no-ip.org/" target="_blank">Insight Explorer (1)</a></li>
 				<li><a href="http://insight-myr.cryptap.us/" target="_blank">Insight Explorer (2)</a></li>
 				<li><a href="https://cryptap.us/myr/explorer/chain/Myriadcoin" target="_blank">Abe Explorer</a></li>
 				<li><a href="http://myriad.nutty.one/home" target="_blank"><?php echo translate("Network Status", $lang); ?></a></li>
