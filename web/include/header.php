@@ -86,11 +86,11 @@
 	$titles['bg']['social'] = 'Социални мрежи';  
 	
 	$titles['de']['default'] = 'der Default';
-	$titles['de']['technology'] = 'die Technologie';
-	$titles['de']['wallets'] = 'das Portemonnaie';
-	$titles['de']['mining'] = 'der Bergbau';
-	$titles['de']['services'] = 'das Dienstleistungen';
-	$titles['de']['social'] = 'sozial Netzwerke';
+	$titles['de']['technology'] = 'Technologie';
+	$titles['de']['wallets'] = 'Wallet';
+	$titles['de']['mining'] = 'Mining';
+	$titles['de']['services'] = 'Links';
+	$titles['de']['social'] = 'Soziale Netzwerke';
 	
 	$titles['it']['default'] = 'Una moneta per tutti';
 	$titles['it']['technology'] = 'Tecnologia';
