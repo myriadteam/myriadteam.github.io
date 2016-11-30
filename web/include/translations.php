@@ -1,5 +1,6 @@
 <?php
-
+header('Content-Type: text/html; charset=UTF-8');
+?>
 function clean($text)
 {
 	// function to remove all whitespace for string comparison.
