@@ -1550,10 +1550,10 @@ function translate($text, $lang)
 		{
 			// homepage
 			case clean("Open To Anyone"):
-				return "Offen f%C3%BCr jeden";
+				return "Offen für jeden&#196;&Auml;U+00C4";
 			case clean("Myriad is multi-algo - the first coin to implement 5 simultaneous hash functions. Unlike Bitcoin, which can only be profitably mined using
 			SHA256d ASICs, Myriad is open to SHA256d ASICS, Scrypt ASICS, GPUs &amp; CPUs."):
-				return "Myriad ist die erste Kryptow�hrung mit f�nf simultanen Hash Funktionen. Anders als Bitcoin kann Myriad mit SHA256 ASICs, Scrypt ASICs, GPUs & CPUs effektiv geschöpft werden.";
+				return "Myriad ist die erste Kryptow�hrung mit fnf simultanen Hash Funktionen. Anders als Bitcoin kann Myriad mit SHA256 ASICs, Scrypt ASICs, GPUs & CPUs effektiv geschöpft werden.";
 			case clean("Secure"):
 				return "Sicherheit";
 			case clean("A miner can choose to mine using any of the 5 algorithms — SHA256d, Scrypt, Myr-Groestl, Skein, or Qubit —
