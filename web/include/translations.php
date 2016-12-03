@@ -1673,6 +1673,7 @@ function translate($text, $lang)
 					return $text;
 		}
 	}
+
 	else if($lang == 'it')
 	{
 		switch (clean($text))
