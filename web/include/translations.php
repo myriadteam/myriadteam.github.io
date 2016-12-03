@@ -1560,7 +1560,7 @@ function translate($text, $lang)
 			each has a target block time of 5 minutes. Overall, a block is found approximately every 1 minute. Each algorithm's difficulty is only affected by its own hash rate. 
 			While ASICs have rendered GPU mining on SHA256d &amp; Scrypt unproductive, the remaining algorithms continue to be dominated by GPU mining. 
 			The multi-algo approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks."):
-				return "Miner können zwischen fünf unterschiedlichen Algorithmen wählen - SHA256, Scrypt, Myr-Groestl, Skein und Yescrypt - jeder Algorithmus erzeugt etwa alle fünf Minuten einen neuen Block. Ein neuer Block wird folglich etwa jede Minute gefunden. Die Komplexität eines jeden Algorithmus ist nur von seiner eigenen Hashrate abhängig. SHA256 und SCRYPT sind durch die Entwlickung von ASICs für Miner mit GPUs unrentabel. Für diese Miner sind die übrigen drei Algorithmen, welche nicht effektiv mit ASICs geschöpft werden können. Der Multi-Algorithmus Ansatz bietet außergewöhnlichen Schutz vor 51% Angriffen, da eine große Anzahl von unterschiedlicher Hardware notwendig ist, um 51% aller Blöcke zu finden.";
+				return "Miner können zwischen fünf unterschiedlichen Algorithmen wählen - SHA256, Scrypt, Myr-Groestl, Skein und Yescrypt - jeder Algorithmus erzeugt etwa alle fünf Minuten einen neuen Block. Ein neuer Block wird folglich etwa jede Minute gefunden. Die Komplexität eines jeden Algorithmus ist nur von seiner eigenen Hashrate abhängig. SHA256 und SCRYPT sind durch die Entwicklung von ASICs für Miner mit GPUs unrentabel. Für diese Miner sind die übrigen drei Algorithmen, welche nicht effektiv mit ASICs geschöpft werden können. Der Multi-Algorithmus Ansatz bietet außergewöhnlichen Schutz vor 51% Angriffen, da eine große Anzahl von unterschiedlicher Hardware notwendig ist, um 51% aller Blöcke zu finden.";
 			case clean("Merge mining has been enabled on SHA256d &amp; Scrypt, allowing Myriad to benefit from the massive hash power available."):
 				return "Merge Mining ist für SHA256 und Scrypt verfügbar. Es erlaubt Myriad von Bitcoin und Litecoins verfügbarer Hash Power zu profitieren.";
 			case clean("Fair Distribution"):
@@ -1573,7 +1573,7 @@ function translate($text, $lang)
 			case clean("5 Algorithms, catering for ASIC, GPU and CPU mining:"):
 				return "5 Algorithmen für ASICs, GPUs und CPUs";
 			case clean("Two rounds of the SHA256d hashing algorithm, first used by the pioneer cryptocurrency Bitcoin."):
-				return "SHA256d ist der genutze Algorithmus von Bitcoin, der bekanntesten Kryptowährung.";
+				return "SHA256d ist der genutzte Algorithmus von Bitcoin, der bekanntesten Kryptowährung.";
 			case clean("Designed to be a CPU-only password hashing algorithm, now mined with ASICs on many altcoins, starting with Litecoin."):
 				return "Anfangs nur mit Hilfe von CPUs, wird der Algorithmus heute nur noch mit ASICs geschöpft";
 			case clean("A Myriad-specific variant of the Groestl hash algorithm, one of the five finalists in the NIST SHA-3 hash competition."):
