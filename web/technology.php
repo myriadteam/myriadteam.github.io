@@ -45,6 +45,7 @@
 			in an effort to increase security as well as broaden the base of people who could mine it - SHA256d and Scrypt for ASIC miners,
 			Skein and Myr-Groestl for GPU miners, and Qubit for GPU and CPU miners. Qubit has since been replaced with Yescrypt. Huntercoin, launched in late 2013, was actually the first
 			coin to use multiple PoW algorithms (SHA256d and Scrypt), but its focus was not on mining, rather on a blockchain-based game that produced the large majority of new coins.", $lang); ?></p>
+			<p class="text-justify"><?php echo translate("Myriad has been mentioned in 'Mastering Bitcoin', first edition, 2014 by Andreas Antonopoulos.", $lang); ?></p>
 			<p class="text-justify"><?php echo translate("Myriad has spawned several spin-offs, the first of which was Saffroncoin, also utilizing five PoW algorithms. 
 			Digitalcoin and Digibyte both hard-forked to use three and five PoW algorithms, respectively. Unitus is another five-algo PoW coin that shares several PoW algos with Myriad,
 			and allows users to merge-mine on all five of its algos. Auroracoin and Verge have also announced plans to fork to multi-algo.", $lang); ?></p>
