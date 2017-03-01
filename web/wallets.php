@@ -3,7 +3,7 @@
 	require_once('include/header.php');
 ?>
 	<div class="row">
-		<h3 class="text-center"><?php echo translate("Latest version is 0.11.3.1, released July 6th 2016. See ", $lang); ?><a href="https://www.reddit.com/r/myriadcoin/comments/4rgidn/myriad_01131/" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
+		<h3 class="text-center"><?php echo translate("Latest version is 0.11.3.2, released November 16th 2016. See ", $lang); ?><a href="https://www.reddit.com/r/myriadcoin/comments/5dcxch/myriad_01132/" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
 	</div>
 	
 	<div class="row">
@@ -12,10 +12,10 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win32.zip" target="_blank">32-bit ZIP (17.6 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win32-setup.exe" target="_blank">32-bit Installer (12.8 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win64.zip" target="_blank">64-bit ZIP (17.5 MB)</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-win64-setup.exe" target="_blank">64-bit Installer (12.9 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win32.zip" target="_blank">32-bit ZIP (17.6 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win32-setup.exe" target="_blank">32-bit Installer (12.8 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win64.zip" target="_blank">64-bit ZIP (17.5 MB)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win64-setup.exe" target="_blank">64-bit Installer (12.9 MB)</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
@@ -40,7 +40,7 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/github.png" width="48" height="48"> GitHub
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.11.3.1.zip" target="_blank">Source Code (0.11.3.1)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.11.3.2.zip" target="_blank">Source Code (0.11.3.2)</a></li>
 						<li><a href="https://github.com/myriadteam/myriadcoin" target="_blank">Git Repository</a></li>
 					</ul>
 			</ul>
@@ -51,8 +51,8 @@
 				<li><a href="https://cryptap.us/myr/electrum/" target="_blank"><img src="/images/electrum.png" width="48" height="48"> Electrum
 					<ul>
 						<li><a href="https://github.com/cryptapus/electrum-myr" target="_blank">GitHub</a></li>
-						<li><a href="https://cryptap.us/myr/electrum/Electrum_myr-2.6.2.tar.gz" target="_blank">Linux</a></li>
-						<li><a href="https://cryptap.us/myr/electrum/electrum-myr-2.6.2-setup.exe" target="_blank">Windows</a></li>
+						<li><a href="https://cryptap.us/myr/electrum/Electrum_myr-2.7.17.0.tar.gz" target="_blank">Linux</a></li>
+						<li><a href="https://cryptap.us/myr/electrum/electrum-myr-2.7.17.0-setup.exe" target="_blank">Windows</a></li>
 						<li><a href="https://cryptap.us/myr/electrum/electrum_myr-2.6.2-macosx.dmg" target="_blank">Mac OSX</a></li>
 					</ul>
 				</li>
