@@ -53,7 +53,7 @@
 						<li><a href="https://github.com/cryptapus/electrum-myr" target="_blank">GitHub</a></li>
 						<li><a href="https://cryptap.us/myr/electrum/Electrum_myr-2.7.17.0.tar.gz" target="_blank">Linux</a></li>
 						<li><a href="https://cryptap.us/myr/electrum/electrum-myr-2.7.17.0-setup.exe" target="_blank">Windows</a></li>
-						<li><a href="https://cryptap.us/myr/electrum/electrum_myr-2.6.2-macosx.dmg" target="_blank">Mac OSX</a></li>
+						<li><a href="https://cryptap.us/myr/electrum/electrum_myr-2.7.17.0-macosx.dmg" target="_blank">Mac OSX</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
