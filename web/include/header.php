@@ -85,9 +85,9 @@
 	$titles['bg']['services'] = 'Услуги';
 	$titles['bg']['social'] = 'Социални мрежи';  
 	
-	$titles['de']['default'] = 'der Default';
+	$titles['de']['default'] = 'Die Münze für Alle';
 	$titles['de']['technology'] = 'Technologie';
-	$titles['de']['wallets'] = 'Wallet';
+	$titles['de']['wallets'] = 'Geldbörse';
 	$titles['de']['mining'] = 'Mining';
 	$titles['de']['services'] = 'Links';
 	$titles['de']['social'] = 'Soziale Netzwerke';
