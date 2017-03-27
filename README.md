@@ -1,6 +1,6 @@
 # New Myriad Website
 
-See http://www.myriadcoin.org to see the live site, http://myriad-web.nutty.one for development.
+See http://www.myriadcoin.org to see the live site, http://test.myriadcoin.org for development.
 
 Small changes should be pushed into the master branch, once tested merge into live (the website runs off the live branch and is automatically updated once per hour).
 Large changes deserve their own branch.
