@@ -12,8 +12,8 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl","ko","pt","vn","he","nl","hr","tr","ro");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish", "pt" => "Portuguese", "ko" => "Korean", "vn" => "Vietnamese", "he" => "Hebrew", "nl" => "Netherlands", "hr" => "Croatian", "tr" => "Turkish", "ro" => "Romanian");
+	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl","ko","pt","vn","he","nl","hr","tr","ro","jp");
+	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish", "pt" => "Portuguese", "ko" => "Korean", "vn" => "Vietnamese", "he" => "Hebrew", "nl" => "Netherlands", "hr" => "Croatian", "tr" => "Turkish", "ro" => "Romanian", "jp" => "Japanese");
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
