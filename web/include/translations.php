@@ -3139,7 +3139,7 @@ function translate($text, $lang)
 				return "Myriad-Groestlは固有のハッシュアルゴリズムです。NIST SHA-3アルゴリズムコンテストに参加した5つのファイナリストの中の1つです。";
 			case clean("Another  of the five finalists in the NIST SHA-3 hash competition, first used by Skeincoin."):
 				return "SkeinもNIST SHA-3アルゴリズムコンテストの5つのファイナリストの中の一つです。初めて使用されたのはSkeincoinです。";
-　　　　　　　case clean("CPU friendly, currently GPU resistant. Requires rapid random reads, typically from CPU L1 data cache."):
+			case clean("CPU friendly, currently GPU resistant. Requires rapid random reads, typically from CPU L1 data cache."):
 				return "CPUに優しく、現在GPU耐性があります。 通常CPU L1データキャッシュからの高速ランダム読み出しが必要です。";
 			case clean("Originally a CPU-only algorithm, Qubit combines 5 competitors in the NIST SHA-3 hash competition - Luffa, Cubehash, SHAvite, SIMD and ECHO."):
 				return "Qubitは元はＣＰＵのみのアルゴリズムでNIST SHA-3 hash競争の中でその他5つを組み合わせました。 - Luffa, Cubehash, SHAvite, SIMD 及び ECHO。";
