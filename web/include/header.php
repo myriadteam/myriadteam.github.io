@@ -12,8 +12,32 @@
 
 <?php
 
-	$languages = array("en","es","eo","zh","el","ru","tl","fr","id","bg","de","it","ar","pl","ko","pt","vn","he","nl","hr","tr","ro");
-	$langnames = array("en" => "English", "es" => "Espanol", "eo" => "Esperanto", "zh" => "Chinese", "el" => "Greek", "ru" => "Russian", "tl" => "Tagalog", "fr" => "French", "id" => "Indonesian", "bg" => "Bulgarian", "de" => "German", "it" => "Italian", "ar" => "Arabic", "pl" => "Polish", "pt" => "Portuguese", "ko" => "Korean", "vn" => "Vietnamese", "he" => "Hebrew", "nl" => "Netherlands", "hr" => "Croatian", "tr" => "Turkish", "ro" => "Romanian");
+	$languages = array("ar","bg","de","el","en","eo","es","fr","he","hr","id","it","jp","ko","nl","pl","pt","ro","ru","tl","tr","vn","zh");
+	$langnames = array(
+						"ar" => "Arabic",
+						"bg" => "Bulgarian",
+						"de" => "German",
+						"el" => "Greek",
+						"en" => "English",
+						"eo" => "Esperanto",
+						"es" => "Espanol",
+						"fr" => "French",
+						"he" => "Hebrew",
+						"hr" => "Croatian",
+						"id" => "Indonesian",
+						"it" => "Italian",
+						"jp" => "Japanese",
+						"ko" => "Korean",
+						"nl" => "Netherlands",
+						"pl" => "Polish",
+						"pt" => "Portuguese",
+						"ro" => "Romanian",
+						"ru" => "Russian",
+						"tl" => "Tagalog",
+						"tr" => "Turkish",
+						"vn" => "Vietnamese",
+						"zh" => "Chinese"
+					);
 	$titles = array();
 	$titles['en']['default'] = 'A Coin For Everyone';
 	$titles['en']['technology'] = 'Technology';
@@ -168,6 +192,13 @@
 	$titles['ro']['mining'] = 'Mining';
 	$titles['ro']['services'] = 'Services';
 	$titles['ro']['social'] = 'Social';
+	
+	$titles['jp']['default'] = 'A Coin For Everyone';
+	$titles['jp']['technology'] = 'Technology';
+	$titles['jp']['wallets'] = 'Wallets';
+	$titles['jp']['mining'] = 'Mining';
+	$titles['jp']['services'] = 'Services';
+	$titles['jp']['social'] = 'Social';
 	
 	switch ($path)
 	{
