@@ -193,6 +193,13 @@
 	$titles['ro']['services'] = 'Services';
 	$titles['ro']['social'] = 'Social';
 	
+	$titles['jp']['default'] = 'A Coin For Everyone';
+	$titles['jp']['technology'] = 'Technology';
+	$titles['jp']['wallets'] = 'Wallets';
+	$titles['jp']['mining'] = 'Mining';
+	$titles['jp']['services'] = 'Services';
+	$titles['jp']['social'] = 'Social';
+	
 	switch ($path)
 	{
 		case 'technology':
