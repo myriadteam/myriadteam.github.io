@@ -85,19 +85,19 @@
 	$titles['bg']['services'] = 'Услуги';
 	$titles['bg']['social'] = 'Социални мрежи';  
 	
-	$titles['de']['default'] = 'der Default';
-	$titles['de']['technology'] = 'die Technologie';
-	$titles['de']['wallets'] = 'das Portemonnaie';
-	$titles['de']['mining'] = 'der Bergbau';
-	$titles['de']['services'] = 'das Dienstleistungen';
-	$titles['de']['social'] = 'sozial Netzwerke';
+	$titles['de']['default'] = 'Die Münze für Alle';
+	$titles['de']['technology'] = 'Technologie';
+	$titles['de']['wallets'] = 'Geldbörse';
+	$titles['de']['mining'] = 'Mining';
+	$titles['de']['services'] = 'Links';
+	$titles['de']['social'] = 'Soziale Netzwerke';
 	
-	$titles['it']['default'] = 'Predefinito';
+	$titles['it']['default'] = 'Una moneta per tutti';
 	$titles['it']['technology'] = 'Tecnologia';
-	$titles['it']['wallets'] = 'Portafogli';
-	$titles['it']['mining'] = ' Mineraria';
+	$titles['it']['wallets'] = 'Wallet';
+	$titles['it']['mining'] = 'Mining';
 	$titles['it']['services'] = 'Servizi';
-	$titles['it']['social'] = 'Sociale'; 
+	$titles['it']['social'] = 'Social'; 
 
 	$titles['ar']['default'] = 'افتراضي';
 	$titles['ar']['technology'] =  'التكنولوجيا';
