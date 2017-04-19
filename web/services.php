@@ -6,7 +6,7 @@
 		<div class="col-lg-3">
 			<h2><?php echo translate("Information &amp; Resources", $lang); ?></h2>
 			<ul>
-				<li><a href="http://insight-myr.cryptap.us/" target="_blank">Insight Explorer (2)</a></li>
+				<li><a href="http://insight-myr.cryptap.us/" target="_blank">Insight Explorer</a></li>
 				<li><a href="https://cryptap.us/myr/explorer/chain/Myriadcoin" target="_blank">Abe Explorer</a></li>
 				<li><a href="http://myriad.nutty.one/home" target="_blank"><?php echo translate("Network Status", $lang); ?></a></li>
 			</ul>
@@ -15,7 +15,6 @@
 			<h2><?php echo translate("Exchanges", $lang); ?></h2>
 			<ul>
 				<li><a href="https://bitsquare.io" target="_blank">Bitsquare</a></li>
-				<li><a href="https://poloniex.com/exchange/btc_myr" target="_blank">Poloniex</a></li>
 				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-MYR" target="_blank">Bittrex</a></li>
 				<li><a href="https://www.cryptopia.co.nz/Exchange?market=MYR_BTC" target="_blank">Cryptopia</a></li>
 				<li><a href="https://www.litebit.eu/en/buy/myriadcoin" target="_blank">Litebit MYR/EUR</a></li>
