@@ -6,10 +6,8 @@
 <?php
 
 	$price = json_decode(file_get_contents('json/price.json'));
-	print 'Market Data: <a href="https://poloniex.com/exchange#btc_myr" target="_blank">Poloniex</a> [Last ' . sprintf('%02.08f',$price->poloniex->last);
-	print ', <span style="color: Green">High ' . sprintf('%02.08f',$price->poloniex->high) . '</span>, <span style="color: Red">Low ' . sprintf('%02.08f',$price->poloniex->low);
-	print '</span>, <span style="color: Blue">Volume ' . sprintf('%02.08f',$price->poloniex->vol) . ' BTC</span>] ';
-	print ', <a href="https://bittrex.com/Market/?MarketName=BTC-MYR" target="_blank">Bittrex</a> [Last ' . sprintf('%02.08f',$price->bittrex->last);
+	print 'Market Data: ';
+	print '<a href="https://bittrex.com/Market/?MarketName=BTC-MYR" target="_blank">Bittrex</a> [Last ' . sprintf('%02.08f',$price->bittrex->last);
 	print ', <span style="color: Green">High ' . sprintf('%02.08f',$price->bittrex->high) . '</span>, <span style="color: Red">Low ' . sprintf('%02.08f',$price->bittrex->low);
 	print '</span>, <span style="color: Blue">Volume ' . sprintf('%02.08f',$price->bittrex->vol) . ' BTC</span>]<br/>';
 	
@@ -21,7 +19,7 @@
 	print ', Skein ' . $stats->data->SKN_hash;
 	print ', Qubit ' . $stats->data->QUB_hash;
 ?>
-					<br/>&copy; 2015-2016, Myriad Developers
+					<br/>&copy; 2015-2017, Myriad Developers
 				</p>
 		</div>
 	</nav>
