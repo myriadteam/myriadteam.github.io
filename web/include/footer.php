@@ -7,7 +7,7 @@
 
 	$price = json_decode(file_get_contents('json/price.json'));
 	print 'Market Data: ';
-	print '<a href="https://bittrex.com/Market/?MarketName=BTC-MYR" target="_blank">Bittrex</a> [Last ' . sprintf('%02.08f',$price->bittrex->last);
+	print '<a href=https://bittrex.com/Market/Index?MarketName=BTC-XMY target="_blank">Bittrex</a> [Last ' . sprintf('%02.08f',$price->bittrex->last);
 	print ', <span style="color: Green">High ' . sprintf('%02.08f',$price->bittrex->high) . '</span>, <span style="color: Red">Low ' . sprintf('%02.08f',$price->bittrex->low);
 	print '</span>, <span style="color: Blue">Volume ' . sprintf('%02.08f',$price->bittrex->vol) . ' BTC</span>]<br/>';
 	

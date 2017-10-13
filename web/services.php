@@ -17,15 +17,15 @@
 			<h2><?php echo translate("Exchanges", $lang); ?></h2>
 			<ul>
 				<li><a href="https://bitsquare.io" target="_blank">Bitsquare</a></li>
-				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-MYR" target="_blank">Bittrex</a></li>
-				<li><a href="https://www.cryptopia.co.nz/Exchange?market=MYR_BTC" target="_blank">Cryptopia</a></li>
+				<li><a href="https://bittrex.com/Market/Index?MarketName=BTC-XMY" target="_blank">Bittrex</a></li>
+				<li><a href="https://www.cryptopia.co.nz/Exchange?market=XMY_BTC" target="_blank">Cryptopia</a></li>
 				<li><a href="https://www.litebit.eu/en/buy/myriadcoin" target="_blank">Litebit MYR/EUR</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3">
 			<h2><?php echo translate("Shop", $lang); ?></h2>
 			<ul>
-				<li><a href="https://www.coinpayments.net/store-directory-coin-MYR#list" target="_blank">List of Coinpayments stores</a></li>
+				<li><a href="https://www.coinpayments.net/store-directory-coin-XMY#list" target="_blank">List of Coinpayments stores</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-3">
