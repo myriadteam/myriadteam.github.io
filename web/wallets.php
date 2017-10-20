@@ -25,7 +25,7 @@
 					</ul>
 				</li>
 				<li>&nbsp;</li>
-				<li><img src="" width="48" height="48"> Other Builds
+				<li><img src="/images/github.png" width="48" height="48"> Other Builds
 					<ul>
 						<li><a href="https://github.com/myriadteam/myriadcoin/releases/tag/v0.14.2.0" target="_blank">other builds</a></li>
 					</ul>
