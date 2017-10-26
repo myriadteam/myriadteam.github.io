@@ -3,7 +3,7 @@
 	require_once('include/header.php');
 ?>
 	<div class="row">
-		<h3 class="text-center"><?php echo translate("Latest version is 0.14.2.0, released October 20th 2017. See ", $lang); ?><a href="https://www.reddit.com/r/myriadcoin/comments/77mtcj/myriadcoin_01420/" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
+		<h3 class="text-center"><?php echo translate("Latest version is 0.14.2.1, released October 20th 2017. See ", $lang); ?><a href="https://www.reddit.com/r/myriadcoin/comments/78wjp4/myriadcoin_01421/" target="_blank"><?php echo translate(" announcement &amp; upgrade notes.", $lang); ?></a></h3>
 	</div>
 	
 	<div class="row">
@@ -12,22 +12,22 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.0/myriadcoin-0.14.2.0-win32.zip" target="_blank">32-bit ZIP</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.0/myriadcoin-0.14.2.0-win32-setup.exe" target="_blank">32-bit Installer</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.0/myriadcoin-0.14.2.0-win64.zip" target="_blank">64-bit ZIP</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.0/myriadcoin-0.14.2.0-win64-setup.exe" target="_blank">64-bit Installer</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.1/myriadcoin-0.14.2.1-win32.zip" target="_blank">32-bit ZIP</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.1/myriadcoin-0.14.2.1-win32-setup.exe" target="_blank">32-bit Installer</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.1/myriadcoin-0.14.2.1-win64.zip" target="_blank">64-bit ZIP</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.1/myriadcoin-0.14.2.1-win64-setup.exe" target="_blank">64-bit Installer</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
 				<li><img src="/images/apple.png" width="48" height="48"> Mac OSX
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.0/myriadcoin-0.14.2.0-osx.dmg" target="_blank">OSX DMG</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.14.2.1/myriadcoin-0.14.2.1-osx.dmg" target="_blank">OSX DMG</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
 				<li><img src="/images/github.png" width="48" height="48"> Other Builds
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/tag/v0.14.2.0" target="_blank">other builds</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/tag/v0.14.2.1" target="_blank">other builds</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -46,7 +46,7 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/github.png" width="48" height="48"> GitHub
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.14.2.0.zip" target="_blank">Source Code zip (0.14.2.0)</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/archive/v0.14.2.1.zip" target="_blank">Source Code zip (0.14.2.1)</a></li>
 						<li><a href="https://github.com/myriadteam/myriadcoin" target="_blank">Git Repository</a></li>
 					</ul>
 			</ul>
