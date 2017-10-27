@@ -12,16 +12,16 @@
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriadcoin-0.11.3.2-win32.zip" target="_blank">32-bit ZIP</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriadcoin-0.11.3.2-win32-setup.exe" target="_blank">32-bit Installer</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriadcoin-0.11.3.2-win64.zip" target="_blank">64-bit ZIP</a></li>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriadcoin-0.11.3.2-win64-setup.exe" target="_blank">64-bit Installer</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win32.zip" target="_blank">32-bit ZIP</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win32-setup.exe" target="_blank">32-bit Installer</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win64.zip" target="_blank">64-bit ZIP</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.2/myriad-0.11.3.2-win64-setup.exe" target="_blank">64-bit Installer</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
 				<li><img src="/images/apple.png" width="48" height="48"> Mac OSX
 					<ul>
-						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriadcoin-0.11.3.1-osx.dmg" target="_blank">OSX DMG</a></li>
+						<li><a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.11.3.1/myriad-0.11.3.1-osx.dmg" target="_blank">OSX DMG</a></li>
 					</ul>
 				</li>
 				<li>&nbsp;</li>
