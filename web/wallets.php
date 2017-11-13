@@ -68,8 +68,6 @@
 				<li><a href="https://cryptap.us/myr/brainwallet" target="_blank">Brain Wallet</a></li>
 				<li>&nbsp;</li>
 				<li><a href="https://cryptap.us/myr/paperwallet.html" target="_blank">Paper Wallet</a></li>
-				<li>&nbsp;</li>
-				<li><a href="http://hydra-myr.cryptap.us/" target="_blank">Copay (beta)</a></li>
 			</ul>
 		</div>
 	</div>	
