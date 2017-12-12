@@ -26,21 +26,24 @@
 
 	$output = new stdClass;
 	
-	$poloniex = get_data("https://poloniex.com/public?command=returnTicker");
+	// We're not on polo right now
+	//$poloniex = get_data("https://poloniex.com/public?command=returnTicker");
 	$bittrex = get_data("https://bittrex.com/api/v1.1/public/getmarketsummaries");
 
-	if($poloniex->errorno==0 && $bittrex->errorno==0)
+	//if($poloniex->errorno==0 && $bittrex->errorno==0)
+	if ($bittrex->errorno==0)
 	{
 		$output->updated = time();
-		$output->poloniex = new stdClass;
+/*		$output->poloniex = new stdClass;
 		$output->poloniex->last = floatval($poloniex->data->BTC_MYR->last);
 		$output->poloniex->high = floatval($poloniex->data->BTC_MYR->high24hr);
 		$output->poloniex->low = floatval($poloniex->data->BTC_MYR->low24hr);
 		$output->poloniex->vol = floatval($poloniex->data->BTC_MYR->baseVolume);
+*/
 		$output->bittrex = new stdClass;
 		foreach($bittrex->data->result as $market)
 		{
-			if($market->MarketName=='BTC-MYR')
+			if($market->MarketName=='BTC-XMY')
 			{
 				$output->bittrex->last = floatval($market->Last);
 				$output->bittrex->high = floatval($market->High);
