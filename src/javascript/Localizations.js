@@ -16,6 +16,23 @@ const Localizations = {
     'zh_CN', // Simplified Chinese
     'zh_TW' // Traditional Chinese
   ],
+  'page-title': {
+    'ar': "Myriad. عملة للجميع.",
+    'da': "Myriad. En mønt til alle.",
+    'de': "Myriad. Eine Münze für alle.",
+    'es': "Myriad. Una moneda para todos.",
+    'fr': "Myriad. Une pièce de monnaie pour tout le monde.",
+    'it': "Myriad. Una moneta per tutti.",
+    'ja': "Myriad. みんなのためのコイン。",
+    'ko': "Myriad. 모두를위한 동전.",
+    'nl': "Myriad. Een munt voor iedereen.",
+    'pl': "Myriad. Moneta dla wszystkich.",
+    'pt': "Myriad. Uma moeda para todos.",
+    'ro': "Myriad. O monedă pentru toată lumea.",
+    'ru': "Myriad. Монета для всех.",
+    'zh_CN': "Myriad. 一个硬币给大家。",
+    'zh_TW': "Myriad. 一個硬幣給大家。"
+  },
   'header-why-myriad-button': {
     'ar': "؟Myriad لماذا ا",
     'da': "Hvorfor Myriaf?",
