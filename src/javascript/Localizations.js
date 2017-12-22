@@ -1137,23 +1137,6 @@ const Localizations = {
     'zh_CN': "互联网中继聊天频道",
     'zh_TW': "互聯網中繼聊天頻道"
   },
-  'resources-game-faucet-button': {
-    'ar': "لعبة الحنفية",
-    'da': "Spilhaner",
-    'de': "Spiel Wasserhahn",
-    'es': "Game Faucet",
-    'fr': "Robinet de Jeu",
-    'it': "Gioco Faucet",
-    'ja': "ゲームの蛇口",
-    'ko': "게임 수도꼭지",
-    'nl': "Spelkraan",
-    'pl': "Kran w Grze",
-    'pt': "Faucet do Jogo",
-    'ro': "Robinet de Joc"
-    ,'ru': "Игровой кран",
-    'zh_CN': "游戏龙头",
-    'zh_TW': "遊戲龍頭"
-  },
   'resources-faucet-button': {
     'ar': "صنبور",
     'da': "Vandhane",
