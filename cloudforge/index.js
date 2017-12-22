@@ -5,6 +5,7 @@ const awsConfig = require('../config/aws');
 module.exports = new CloudForge({
   awsAccessKeyId: awsConfig.accessKeyId,
   awsSecretAccessKey: awsConfig.secretAccessKey,
+  awsRegion: awsConfig.region,
   awsS3Bucket: awsConfig.s3Bucket,
   awsCloudFrontDistributionId: awsConfig.cloudFrontDistributionId,
   deployDirectory: './build',
