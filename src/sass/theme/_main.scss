@@ -1,0 +1,296 @@
+/*
+ * Main
+ */
+
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 15px 25px;
+
+  &.pinned {
+    position: fixed;
+    padding: 15px 25px;
+    border-bottom: 1px solid $color-white;
+    background: $color-shark;
+
+    .login {
+      display: none;
+    }
+
+    .request-beta {
+      display: inline-block;
+    }
+  }
+
+  & > .row > div {
+    line-height: 60px;
+  }
+
+  .btn {
+    padding: 5px 36px;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  .open-language-dropdown {
+    position: relative;
+
+    i {
+      position: absolute;
+      right: 15px;
+      top: 6px;
+    }
+  }
+
+  .language-dropdown {
+    left: initial;
+    right: 30px;
+    width: 250px;
+
+    li:not(:last-child) {
+      border-bottom: 1px solid $color-silver;
+    }
+
+    a {
+      display: block;
+      line-height: 40px;
+      color: $color-shark;
+      text-align: center;
+
+      &:hover {
+        background: $color-shark;
+        color: $color-white;
+      }
+    }
+  }
+
+  @media (max-width: $screen-sm-min) {
+    .btn {
+      padding:5px 12px;
+    }
+  }
+}
+
+#hero {
+  display: table;
+  width: 100%;
+  min-height: calc(100vh - 2vh);
+  color: $color-white;
+  background: url(/images/hero-background.jpg) no-repeat left;
+  background-size: cover;
+  position: relative;
+
+  & > .row {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .download-wallet {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .learn-more-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      color: $color-oslo-gray;
+      font-size: 28px;
+      animation: bounce 2s infinite;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+#main {
+  background: url(/images/section-main-background.jpg) $color-shark;
+  background-size: cover;
+
+  & > .row {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section {
+    .title {
+      color: $color-white;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 75px;
+    }
+
+    .panel {
+      margin: 0;
+
+      &:not(:first-child) {
+        margin-top: 40px;
+      }
+    }
+
+    .btn {
+      display: block;
+      padding: 7px;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .section-1, .section-3, .section-5 {
+    .info-group p {
+      color: $color-oslo-gray;
+    }
+  }
+
+  .section-2, .section-4 {
+    background: rgba(30, 37, 42, 0.94);
+
+    .panel {
+      background: $color-woodsmoke;
+    }
+
+    .info-group {
+      h5, h6 {
+        color: $color-white;
+      }
+
+      h6 {
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .platform {
+        .btn:not(:last-child) {
+          margin-bottom: 10px;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 25px;
+        }
+      }
+
+      p {
+        color: $color-boulder;
+      }
+    }
+  }
+
+  .section-3 {
+    .btn:not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+
+  .section-4 {
+    .mining-software, .mining-pool {
+      margin-top: 10px;
+      padding: 15px;
+      border: 1px dashed $color-boulder;
+
+      h6 {
+        margin-top: 0;
+      }
+
+      a {
+        display: block;
+      }
+
+      .code {
+        color: red;
+        margin-top: 5px;
+        padding: 5px;
+      }
+
+      &:not(:last-child) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .section-5 {
+    a {
+      margin-bottom: 10px;
+    }
+  }
+
+  .coinmarketcap-currency-widget {
+    background: $color-white;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .graphic {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .info-group {
+    h5 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    @media (max-width: $screen-sm-min) {
+      &:not(.last) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  a, p {
+    line-height: 45px;
+    color: $color-silver;
+  }
+
+  .social-links {
+    text-align: right;
+
+    a {
+      font-size: 30px;
+      margin-left: 20px;
+    }
+  }
+
+  .copyright {
+    margin: 0;
+  }
+
+  @media (max-width: $screen-sm-min) {
+    .social-links, .legal {
+      text-align: center;
+    }
+  }
+}
+
+/* Animation */
+@keyframes bounce {
+  50% {transform: translateY(-15px);}
+  100% {transform: translateY(0);}
+}
