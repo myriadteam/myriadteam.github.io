@@ -79,7 +79,8 @@
 #hero {
   display: table;
   width: 100%;
-  min-height: calc(100vh - 2vh);
+  min-height: 98vh;
+  padding: 100px 0;
   color: $color-white;
   background: url(/images/hero-background.jpg) no-repeat left;
   background-size: cover;
