@@ -1,0 +1,63 @@
+/*
+ * Helpers
+ */
+
+.relative {
+  position: relative;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.initially-hidden {
+	display: none;
+}
+
+.color-coral-tree {
+  color: $color-coral-tree;
+}
+
+.color-purple-mountains-majesty {
+  color: $color-purple-mountains-majesty;
+}
+
+.color-smalt-blue {
+  color: $color-smalt-blue;
+}
+
+.social-link-bitcoin:hover {
+  color: $color-bitcoin !important;
+}
+
+.social-link-github:hover {
+  color: $color-github !important;
+}
+
+.social-link-reddit:hover {
+  color: $color-reddit !important;
+}
+
+.social-link-facebook:hover {
+  color: $color-facebook !important;
+}
+
+.social-link-instagram:hover {
+  color: $color-instagram !important;
+}
+
+.social-link-twitter:hover {
+  color: $color-twitter !important;
+}
+
+.social-link-youtube:hover {
+  color: $color-youtube !important;
+}
+
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}

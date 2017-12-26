@@ -1,0 +1,32 @@
+{
+  "name": "myriadcoin-2",
+  "version": "1.0.0",
+  "description": "An updated website for Myriad coin",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "dev": "node ./scripts/dev.js",
+    "deploy": "node ./scripts/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braydo25/myriadcoin.org-2.0.git"
+  },
+  "keywords": [
+    "myriad",
+    "coin",
+    "website",
+    "crypto"
+  ],
+  "author": "Braydon Batungbacal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braydo25/myriadcoin.org-2.0/issues"
+  },
+  "homepage": "https://github.com/braydo25/myriadcoin.org-2.0#readme",
+  "dependencies": {
+    "cloudforge": "^1.0.9",
+    "dotenv": "^4.0.0"
+  }
+}
