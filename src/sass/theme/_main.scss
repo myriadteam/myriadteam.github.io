@@ -2,6 +2,10 @@
  * Main
  */
 
+html {
+  font-size: 12px;
+}
+
 #header {
   position: absolute;
   top: 0;
@@ -12,8 +16,7 @@
 
   &.pinned {
     position: fixed;
-    padding: 15px 25px;
-    border-bottom: 1px solid $color-white;
+    padding: 10px 25px;
     background: $color-shark;
 
     .login {
@@ -30,10 +33,22 @@
   }
 
   .btn {
-    padding: 5px 36px;
+    padding: 10px 10px;
+    border: 0px solid transparent;
+    background: transparent;
+    font-size: 1.4rem;
+    color: $color-light-gray;
+
+    &:hover {
+      color: $color-white;
+    }
 
     &:not(:last-child) {
       margin-right: 15px;
+    }
+    
+    &:last-child {
+      padding-right: 25px;
     }
   }
 
@@ -42,8 +57,8 @@
 
     i {
       position: absolute;
-      right: 15px;
-      top: 6px;
+      right: -8px;
+      top: 10px;
     }
   }
 
@@ -51,6 +66,7 @@
     left: initial;
     right: 30px;
     width: 250px;
+    padding: 0px;
 
     li:not(:last-child) {
       border-bottom: 1px solid $color-silver;
@@ -79,7 +95,7 @@
 #hero {
   display: table;
   width: 100%;
-  min-height: 98vh;
+  min-height: 100vh;
   padding: 100px 0;
   color: $color-white;
   background: url(/images/hero-background.jpg) no-repeat left;
@@ -95,9 +111,36 @@
     font-size: 60px;
   }
 
-  .download-wallet {
+  .header-btn {
+    border: none;
     margin-top: 20px;
     font-weight: bold;
+  }
+  .download-wallet {
+    background-color: $color-wisteria;
+    background-size: 100%;
+    margin-top: 60px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px darken($color-wisteria, 10%);
+    font-size: 1.5rem;
+    
+    &:hover {
+      color: $color-white;
+      background-color: darken($color-wisteria, 10%);
+      box-shadow: 0px 5px darken($color-wisteria, 20%);
+    }
+  }
+
+  .start-mining {
+    padding: 5px 0px;
+    background: transparent;
+    border-bottom: 1px solid $color-white;
+    border-radius: 0px;
+    &:hover {
+      border-bottom: 1px solid $color-light-gray;
+      color: $color-light-gray;
+    }
   }
 
   .learn-more-wrapper {
@@ -125,8 +168,7 @@
   background-size: cover;
 
   & > .row {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 120px 0px 200px;
   }
 
   .section {
@@ -139,6 +181,8 @@
 
     .panel {
       margin: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 8px;
 
       &:not(:first-child) {
         margin-top: 40px;
@@ -147,7 +191,6 @@
 
     .btn {
       display: block;
-      padding: 7px;
 
       i {
         margin-right: 5px;
@@ -158,6 +201,8 @@
   .section-1, .section-3, .section-5 {
     .info-group p {
       color: $color-oslo-gray;
+      font-size: 1.4rem;
+      line-height: 2rem;
     }
   }
 
@@ -180,11 +225,11 @@
 
       .platform {
         .btn:not(:last-child) {
-          margin-bottom: 10px;
+          margin-bottom: 15px;
         }
 
         &:not(:last-child) {
-          margin-bottom: 25px;
+          margin-bottom: 40px;
         }
       }
 
@@ -205,10 +250,14 @@
   }
 
   .section-4 {
+    .mining-header {
+      margin: 0px 0px 40px;
+    }
     .mining-software, .mining-pool {
-      margin-top: 10px;
-      padding: 15px;
-      border: 1px dashed $color-boulder;
+      margin: 40px 0px;
+      padding: 20px;
+      border: 1px dashed rgba(255, 255, 255, 0.3);
+      border-radius: 8px;
 
       h6 {
         margin-top: 0;
@@ -219,13 +268,15 @@
       }
 
       .code {
-        color: red;
-        margin-top: 5px;
-        padding: 5px;
+        background-color: $color-woodsmoke;
+        color: $color-yellow;
+        margin-top: 8px;
+        padding: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
       }
 
       &:not(:last-child) {
-        margin-top: 10px;
+        margin-top: 20px;
       }
     }
   }
@@ -249,7 +300,7 @@
 
   .info-group {
     h5 {
-      margin: 0 0 10px 0;
+      margin: 0 0 20px 0;
       font-size: 22px;
     }
 
@@ -298,4 +349,13 @@
 @keyframes bounce {
   50% {transform: translateY(-15px);}
   100% {transform: translateY(0);}
+}
+
+@media(max-width: $screen-sm-min) {
+  #main & > .row {
+    padding: 80px 0px;
+  }
+  .panel {
+    padding: 20px;
+  }
 }

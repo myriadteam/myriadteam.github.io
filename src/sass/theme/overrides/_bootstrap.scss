@@ -2,12 +2,16 @@
  * Overrides - Bootstrap
  */
 
-html, body {
+ html, body {
   font-size: 15px;
 }
 
 a, .btn {
   @include transition(all .25s);
+}
+
+.btn {
+  border-radius: 8px;
 }
 
 a:hover {
@@ -34,39 +38,33 @@ a:hover {
   color: $color-oslo-gray;
 }
 
-.btn {
-  text-transform: uppercase;
-}
-
 .btn-shark {
   background: $color-shark;
-  color: $color-white;
-  border: 1px solid $color-white;
+  color: $color-light-gray;
+  padding: 10px 20px;
 }
 
 .btn-shark:hover, .btn-shark:active, .btn-shark:focus {
-  background: $color-white;
-  color: $color-shark;
-  border: 1px solid $color-shark;
+  background: lighten($color-shark, 5%);
+  color: $color-white;
 }
 
 .btn-wisteria {
   background: $color-wisteria;
   color: $color-white;
-  border: 1px solid $color-wisteria;
+  font-weight: bold;
 }
 
 .btn-wisteria:hover, .btn-wisteria:active, .btn-wisteria:focus {
-  background: $color-white;
-  color: $color-wisteria;
-  border: 1px solid $color-wisteria;
+  background: lighten($color-wisteria, 5%);
+  color: $color-white;
 }
 
 .panel {
-  padding: 20px;
+  padding: 80px;
 
   .panel-heading {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .panel-title {
