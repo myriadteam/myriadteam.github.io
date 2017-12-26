@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0" />
+    <meta name="description" content="<{=it.metadata.description || ''}>" />
+
+    <title localization="page-title"><{=it.metadata.title || ''}></title>
+
+    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/dependencies/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+    <script type="text/javascript" src="/javascript/Localizations.js"></script>
+    <script type="text/javascript" src="/javascript/Main.js"></script>
+  </head>
+  <body>
+    <{=it.content || ''}>
+  </body>
+</html>
