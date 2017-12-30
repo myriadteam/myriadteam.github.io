@@ -21,7 +21,7 @@ const Localizations = {
     'da': "Myriad. En mønt til alle.",
     'de': "Myriad. Eine Münze für alle.",
     'es': "Myriad. Una moneda para todos.",
-    'fr': "Myriad. Une pièce de monnaie pour tout le monde.",
+    'fr': "Myriad. Une monnaie pour tout le monde.",
     'it': "Myriad. Una moneta per tutti.",
     'ja': "Myriad. みんなのためのコイン。",
     'ko': "Myriad. 모두를위한 동전.",
