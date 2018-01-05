@@ -308,7 +308,7 @@ const Localizations = {
   'wallets-section-header': {
     'ar': "محافظ",
     'da': "Tegnebøger",
-    'de': "Geldbörsen",
+    'de': "Wallets",
     'es': "Billeteras",
     'fr': "Portefeuilles",
     'it': "Portafogli",
@@ -512,7 +512,7 @@ const Localizations = {
   'mine-getting-started-text': {
     'ar': "لإزالة الألغام لا تعد ولا تحصى، سوف تحتاج إلى أولا تحميل محفظة. ثم، واحدة من برامج التعدين المدرجة والنار بعيدا! إذا كنت بحاجة إلى القليل من المساعدة، يمكنك مشاهدة هذا البرنامج التعليمي على يوتوب.",
     'da': "For at minde Myriad skal du først downloade en tegnebog. Så, en af de nævnte minedrift software og brand væk! Hvis du har brug for lidt hjælp, kan du se denne YouTube-øvelse.",
-    'de': "Um Myriad zu minen, müssen Sie zuerst eine Brieftasche herunterladen. Dann, eine der gelisteten Mining-Software und feuern Sie weg! Wenn du ein wenig Hilfe brauchst, kannst du dir dieses YouTube-Tutorial ansehen.",
+    'de': "Um Myriad zu minen, müssen Sie zuerst eine Wallet herunterladen. Dann, eine der gelisteten Mining-Software und feuern Sie weg! Wenn du ein wenig Hilfe brauchst, kannst du dir dieses YouTube-Tutorial ansehen.",
     'es': "Para extraer Myriad, primero deberás descargar una billetera. ¡Entonces, uno de los softwares de minería listados y dispara! Si necesita un poco de ayuda, puede ver este tutorial de YouTube.",
     'fr': "Pour exploiter Myriad, vous devez d'abord télécharger un portefeuille. Ensuite, l'un des logiciels miniers répertoriés et le feu loin! Si vous avez besoin d'un peu d'aide, vous pouvez regarder ce didacticiel YouTube.",
     'it': "Per estrarre Myriad, devi prima scaricare un portafoglio. Quindi, uno dei software di mining elencati e sparare! Se hai bisogno di un piccolo aiuto, puoi guardare questo tutorial di YouTube.",
