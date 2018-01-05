@@ -19,7 +19,7 @@ const Localizations = {
   'page-title': {
     'ar': "Myriad. عملة للجميع.",
     'da': "Myriad. En mønt til alle.",
-    'de': "Myriad. Eine Münze für alle.",
+    'de': "Myriad. Ein Coin für alle.",
     'es': "Myriad. Una moneda para todos.",
     'fr': "Myriad. Une monnaie pour tout le monde.",
     'it': "Myriad. Una moneta per tutti.",
@@ -53,7 +53,7 @@ const Localizations = {
   'header-wallets-button': {
     'ar': "محافظ",
     'da': "Tegnebøger",
-    'de': "Geldbörsen",
+    'de': "Wallets",
     'es': "Billeteras",
     'fr': "Portefeuilles",
     'it': "Portafogli",
@@ -87,7 +87,7 @@ const Localizations = {
   'header-mine-button': {
     'ar': "تعدين",
     'da': "Minedrift",
-    'de': "Bergbau",
+    'de': "Mining",
     'es': "Minería",
     'fr': "Exploitation minière",
     'it': "Estrazione",
@@ -138,7 +138,7 @@ const Localizations = {
   'hero-title': {
     'ar': "عملة للجميع.",
     'da': "En mønt til alle.",
-    'de': "Eine Münze für alle.",
+    'de': "Ein Coin für alle.",
     'es': "Una moneda para todos.",
     'fr': "Une pièce de monnaie pour tout le monde.",
     'it': "Una moneta per tutti.",
@@ -155,7 +155,7 @@ const Localizations = {
   'hero-download-wallet-button': {
     'ar': "تحميل المحفظة",
     'da': "Download Tegnebog",
-    'de': "Download Brieftasche",
+    'de': "Download Wallet",
     'es': "Descargar Billetera",
     'fr': "Télécharger le portefeuille",
     'it': "Scarica Il Portafoglio",
@@ -240,7 +240,7 @@ const Localizations = {
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
     'da': "Flette Mining",
-    'de': "Bergbau Zusammenführen",
+    'de': "Mining zusammenführen",
     'es': "Combinar Minería",
     'fr': "Fusionner L&#39;exploitation Minière",
     'it': "Unisci Estrazione",
