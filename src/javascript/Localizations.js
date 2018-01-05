@@ -1002,7 +1002,7 @@ const Localizations = {
     'zh_TW': "網絡狀態"
   },
   'resources-reddit-button': {
-    'ar': "رديت",
+    'ar': "Reddit",
     'da': "Reddit",
     'de': "Reddit",
     'es': "Reddit",
@@ -1015,8 +1015,8 @@ const Localizations = {
     'pt': "Reddit",
     'ro': "Reddit",
     'ru': "Reddit",
-    'zh_CN': "书签交易",
-    'zh_TW': "書籤交易"
+    'zh_CN': "Reddit",
+    'zh_TW': "Reddit"
   },
   'resources-discord-button': {
     "ar":"خادم الخلاف",
@@ -1053,7 +1053,7 @@ const Localizations = {
     "zh_TW":"鬆弛通道"
   },
   'resources-telegram-button': {
-    "ar":"برقية",
+    "ar":"Telegram",
     "da":"Telegram",
     "de":"Telegram",
     "es":"Telegram",
@@ -1087,7 +1087,7 @@ const Localizations = {
     'zh_TW': "比特幣談話線程"
   },
   'resources-twitter-button': {
-    'ar': "تغريد",
+    'ar': "Twitter",
     'da': "Twitter",
     'de': "Twitter",
     'es': "Twitter",
@@ -1104,14 +1104,14 @@ const Localizations = {
     'zh_TW': "Twitter"
   },
   'resources-facebook-button': {
-    'ar': "فيس بوك",
+    'ar': "Facebook",
     'da': "Facebook",
     'de': "Facebook",
     'es': "Facebook",
     'fr': "Facebook",
     'it': "Facebook",
-    'ja': "フェイスブック",
-    'ko': "페이스 북",
+    'ja': "Facebook",
+    'ko': "Facebook",
     'nl': "Facebook",
     'pl': "Facebook",
     'pt': "Facebook",
