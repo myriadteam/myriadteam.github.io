@@ -14,7 +14,7 @@ const Localizations = {
     'ro', // Romanian
     'ru', // Russian
     'zh_CN', // Simplified Chinese
-    'zh_TW' // Traditional Chinese
+    'zh_TW', // Traditional Chinese
   	'tg', // Tagalog
   ],
   'page-title': {
@@ -33,7 +33,7 @@ const Localizations = {
     'ru': "Myriad. Монета для всех",
     'zh_CN': "Myriad. 一个硬币给大家。",
     'zh_TW': "Myriad. 一個硬幣給大家。",
-  	'tg': "Myriad. Isang Barya Para sa Lahat."
+    'tg': "Myriad. Isang Barya Para sa Lahat."
   },
   'header-why-myriad-button': {
     'ar': "؟Myriad لماذا ا",
@@ -51,7 +51,7 @@ const Localizations = {
     'ru': "Почему Myriad?",
     'zh_CN': "为什么 Myriad?",
     'zh_TW': "為什麼 Myriad?",
-	  'tg': "Bakit Myriad?"
+	'tg': "Bakit Myriad?"
   },
   'header-wallets-button': {
     'ar': "محافظ",
