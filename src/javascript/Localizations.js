@@ -1,6 +1,6 @@
 const Localizations = {
   'languages': [
-    'ar', // Araib
+    'ar', // Arabic
     'da', // Danish
     'de', // German
     'es', // Spanish
@@ -15,6 +15,7 @@ const Localizations = {
     'ru', // Russian
     'zh_CN', // Simplified Chinese
     'zh_TW' // Traditional Chinese
+    'eo', // Esperanto
   ],
   'page-title': {
     'ar': "Myriad. عملة للجميع.",
@@ -31,7 +32,8 @@ const Localizations = {
     'ro': "Myriad. O monedă pentru toată lumea.",
     'ru': "Myriad. Монета для всех",
     'zh_CN': "Myriad. 一个硬币给大家。",
-    'zh_TW': "Myriad. 一個硬幣給大家。"
+    'zh_TW': "Myriad. 一個硬幣給大家。",
+    'eo': "Myriad. Mono por ĉiuj."
   },
   'header-why-myriad-button': {
     'ar': "؟Myriad لماذا ا",
@@ -48,7 +50,8 @@ const Localizations = {
     'ro': "De Ce Myriad?",
     'ru': "Почему Myriad?",
     'zh_CN': "为什么 Myriad?",
-    'zh_TW': "為什麼 Myriad?"
+    'zh_TW': "為什麼 Myriad?",
+    'eo': "Kial Myriad?"
   },
   'header-wallets-button': {
     'ar': "محافظ",
@@ -65,7 +68,8 @@ const Localizations = {
     'ro': "Portofele",
     'ru': "бумажники",
     'zh_CN': "钱包",
-    'zh_TW': "錢包"
+    'zh_TW': "錢包",
+    'eo': "Monujoj"
   },
   'header-buy-button': {
     'ar': "يشترى",
@@ -82,7 +86,9 @@ const Localizations = {
     'ro': "A cumpara",
     'ru': "купить",
     'zh_CN': "购买",
-    'zh_TW': "購買"
+    'zh_TW': "購買",
+    'eo': "Aĉeti"
+
   },
   'header-mine-button': {
     'ar': "تعدين",
@@ -99,7 +105,9 @@ const Localizations = {
     'ro': "Minerit",
     'ru': "Майнинг",
     'zh_CN': "矿业",
-    'zh_TW': "礦業"
+    'zh_TW': "礦業",
+    'eo': "Minado"
+
   },
   'header-resources-button': {
     'ar': "مصادر",
@@ -116,13 +124,15 @@ const Localizations = {
     'ro': "Resurse",
     'ru': "Ресурсы",
     'zh_CN': "资源",
-    'zh_TW': "資源"
+    'zh_TW': "資源",
+    'eo': "Rimedoj"
   },
   'header-language-button': {
     'ar': "العربية",
     'da': "Dansk",
     'de': "Deutsch",
     'es': "Español",
+    'eo': "Esperanto",
     'fr': "Français",
     'it': "Italiano",
     'ja': "日本語",
@@ -150,7 +160,8 @@ const Localizations = {
     'ro': "O monedă pentru toată lumea.",
     'ru': "Монета для всех",
     'zh_CN': "一个硬币给大家。",
-    'zh_TW': "一個硬幣給大家。"
+    'zh_TW': "一個硬幣給大家。",
+    'eo': "Mono por ĉiuj."
   },
   'hero-download-wallet-button': {
     'ar': "تحميل المحفظة",
@@ -167,7 +178,8 @@ const Localizations = {
     'ro': "Descărcați Portofel",
     'ru': "Скачать кошелек",
     'zh_CN': "下载钱包",
-    'zh_TW': "下載錢包"
+    'zh_TW': "下載錢包",
+    'eo': "Elŝuti monujon"
   },
   'hero-start-mining-button': {
     'ar': "بدء التعدين",
@@ -184,7 +196,8 @@ const Localizations = {
     'ro': "Începeți mineritul",
     'ru': "Начать майнить",
     'zh_CN': "开始挖矿",
-    'zh_TW': "開始挖礦"
+    'zh_TW': "開始挖礦",
+    'eo': "Komenci minadon"
   },
   'why-myriad-section-header': {
     'ar': "؟Myriad لماذا ا",
@@ -201,7 +214,8 @@ const Localizations = {
     'ro': "De Ce Myriad?",
     'ru': "Почему Myriad?",
     'zh_CN': "为什么 Myriad?",
-    'zh_TW': "為什麼 Myriad?"
+    'zh_TW': "為什麼 Myriad?",
+    'eo': "Kial Myriad?"
   },
   'why-myriad-multi-algorithm-title': {
     'ar': "خوارزميات متعددة",
@@ -218,7 +232,8 @@ const Localizations = {
     'ro': "Multiple Algoritmi",
     'ru': "Несколько алгоритмов",
     'zh_CN': "多种算法",
-    'zh_TW': "多種算法"
+    'zh_TW': "多種算法",
+    'eo': "Pluraj algoritmoj"
   },
   'why-myriad-multi-algorithm-text': {
     'ar': "لا تعد ولا تحصى هي العملة الأولى لدعم 5 خوارزميات، والمطاعم ل أسيك، غبو والتعدين وحدة المعالجة المركزية. حاليا، تتكون هذه الخوارزميات من SHA256d، سكريبت، مير-غروستل، سكين و يسكريبت. خوارزمية متعددة لا تعد ولا تحصى نهج يوفر مقاومة استثنائية 51٪ لأن هناك حاجة إلى مجموعة من الأجهزة المختلفة للعثور على 51٪ من الكتل.",
@@ -235,7 +250,8 @@ const Localizations = {
     'ro': "Myriad is the first currency to support 5 algorithms, catering for ASIC, GPU and CPU mining. Currently, those algorithms consist of SHA256d, Scrypt, Myr-Groestl, Skein and Yescrypt. Myriad's multi algorithm approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks.",
     'ru': "Myriad - первая валюта, поддерживающая 5 различных алгоритмов для ASIC, GPU и CPU. В настоящее время это: SHA256d, Scrypt, Myr-Groestl, Skein и Yescrypt. Несколько алгоритмов Myriad обеспечивают высокое сопротивление атаке 51%, так как для поиска 51% блоков требуется ипользование различных аппаратных средств.",
     'zh_CN': "Myriad是第一个支持5种算法的货币，适用于ASIC，GPU和CPU挖掘。目前，这些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt组成。 Myriad的多算法方法提供了51％的优异阻力，因为需要一系列不同的硬件来找到51％的方块。",
-    'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。"
+    'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。",
+    'eo': "Myriad estas la unua valuto subteni 5 algoritmojn de minado, tiel ke specialigitaj cirkvitoj, grafiksaj procesoroj, kaj ĉefprocesoroj ĉiuj povas mini ĝin je la sama efikeco. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% de haketpotenco. Por ekhavi 51%, oni bezonas plurspecajn aparatojn por mini la diversajn algoritmojn."
   },
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
@@ -252,7 +268,8 @@ const Localizations = {
     'ro': "Mergeți miniere",
     'ru': "Как работает Merged mining? [EN]",
     'zh_CN': "合并采矿",
-    'zh_TW': "合併採礦"
+    'zh_TW': "合併採礦",
+    'eo': "Kunminado"
   },
   'why-myriad-merge-mining-text': {
     'ar': "يسمح دمج التعدين على خوارزميات SHA256d و سكريبت. وقد مكن هذا لا تعد ولا تحصى للاستفادة من هشراتس ضخمة المستخدمة حاليا من قبل القطع النقدية باستخدام هذه الخوارزميات. دمج التعدين، أو أوكسبو، يسمح للعمل يجري القيام بعملة الأم (مثل بيتكوين أو ليتسوان) لاستخدامها للعثور على كتل صالحة على بلوكشين لا تعد ولا تحصى.",
@@ -270,6 +287,7 @@ const Localizations = {
     'ru': "Объединенный майнинг работает для алгоритмов SHA256d и Scrypt. Это позволяет Myriad пользоваться огромными хэшрейтами, которые в настоящее время генерируются манерами монет, также использущих эти алгоритмы (таких как Bitcoin или Litecoin). Merged Mining или AuxPow позволяет, при майнинге основной валюты, получать валидные блоки в блокчейне Myriad практически без дополнительных затрат.",
     'zh_CN': "SHA256d和Scrypt算法允许合并挖掘。这使得Myriad能够利用这些算法使用当前硬币使用的巨大hashrate。 Merge Mining或AuxPow允许使用母币（如比特币或莱特币）完成的工作用于在Myriad区块链上查找有效的区块。",
     'zh_TW': "SHA256d和Scrypt算法允許合併挖掘。這使得Myriad能夠利用這些算法使用當前硬幣使用的巨大hashrate。 Merge Mining或AuxPow允許使用母幣（如比特幣或萊特幣）完成的工作用於在Myriad區塊鏈上查找有效的區塊。"
+    'eo': "Kunminado estas ebligita por SHA256d kaj Scrypt. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms. Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain.",
   },
   'why-myriad-distribution-title': {
     'ar': "توزيع",
