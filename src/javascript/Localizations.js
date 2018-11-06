@@ -664,7 +664,7 @@ const Localizations = {
     'ru': "Вы можете использовать любую совместимую с SHA256d ASIC",
     'zh_CN': "您可以使用任何SHA256d兼容的ASIC",
     'zh_TW': "您可以使用任何SHA256d兼容的ASIC",
-    'eo': "Eblas mini la algoritmon SHA256d de Myriad per iu ajn aparato specialigita por mini tiun algoritmon"
+    'eo': "Eblas mini Miriadon per la algoritmo SHA256d uzante ĉiuspecan aparaton specialan por mini SHA256d"
   },
   'mine-scrypt-text': {
     'ar': "يمكنك استخدام أي Scrypt أسيك متوافق",
@@ -915,8 +915,8 @@ const Localizations = {
     'ro': "Resurse",
     'ru': "Ресурсы",
     'zh_CN': "资源",
-    'zh_TW': "資源"
-    'eo': "Risurcoj",
+    'zh_TW': "資源",
+    'eo': "Risurcoj"
   },
   'resources-information-title': {
     'ar': "معلومات",
