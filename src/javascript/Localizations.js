@@ -251,7 +251,7 @@ const Localizations = {
     'ru': "Myriad - первая валюта, поддерживающая 5 различных алгоритмов для ASIC, GPU и CPU. В настоящее время это: SHA256d, Scrypt, Myr-Groestl, Skein и Yescrypt. Несколько алгоритмов Myriad обеспечивают высокое сопротивление атаке 51%, так как для поиска 51% блоков требуется ипользование различных аппаратных средств.",
     'zh_CN': "Myriad是第一个支持5种算法的货币，适用于ASIC，GPU和CPU挖掘。目前，这些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt组成。 Myriad的多算法方法提供了51％的优异阻力，因为需要一系列不同的硬件来找到51％的方块。",
     'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。",
-    'eo': "Myriad estas la unua valuto subteni 5 algoritmojn de minado, tiel ke specialigitaj cirkvitoj, grafiksaj procesoroj, kaj ĉefprocesoroj ĉiuj povas mini ĝin je la sama efikeco. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% de haketpotenco. Por ekhavi 51%, oni bezonas plurspecajn aparatojn por mini la diversajn algoritmojn."
+    'eo': "Myriad estas la unua valuto subteni 5 algoritmojn de minado, tiel ke ĉiuj el specialigitaj cirkvitoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% de haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
   },
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
@@ -286,8 +286,8 @@ const Localizations = {
     'ro': "Merge mining is allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms. Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain.",
     'ru': "Объединенный майнинг работает для алгоритмов SHA256d и Scrypt. Это позволяет Myriad пользоваться огромными хэшрейтами, которые в настоящее время генерируются манерами монет, также использущих эти алгоритмы (таких как Bitcoin или Litecoin). Merged Mining или AuxPow позволяет, при майнинге основной валюты, получать валидные блоки в блокчейне Myriad практически без дополнительных затрат.",
     'zh_CN': "SHA256d和Scrypt算法允许合并挖掘。这使得Myriad能够利用这些算法使用当前硬币使用的巨大hashrate。 Merge Mining或AuxPow允许使用母币（如比特币或莱特币）完成的工作用于在Myriad区块链上查找有效的区块。",
-    'zh_TW': "SHA256d和Scrypt算法允許合併挖掘。這使得Myriad能夠利用這些算法使用當前硬幣使用的巨大hashrate。 Merge Mining或AuxPow允許使用母幣（如比特幣或萊特幣）完成的工作用於在Myriad區塊鏈上查找有效的區塊。"
-    'eo': "Kunminado estas ebligita por SHA256d kaj Scrypt. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms. Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain.",
+    'zh_TW': "SHA256d和Scrypt算法允許合併挖掘。這使得Myriad能夠利用這些算法使用當前硬幣使用的巨大hashrate。 Merge Mining或AuxPow允許使用母幣（如比特幣或萊特幣）完成的工作用於在Myriad區塊鏈上查找有效的區塊。",
+    'eo': "Kunminado estas ebligita por SHA256d kaj Scrypt, tiel ke Myriad profitas la grandegajn haketpotencojn de aliaj ĉifrovalutoj kiuj uzas tiujn algoritmojn. Kunminado, alinome 'AuxPoW', ebligas al ni reuzi laborpruvon de patrina valuto (ekz, Bitmono aŭ Litecoin) por trovi validajn blokojn kaj aldoni ilin al la blokĉeno de Miriado.",
   },
   'why-myriad-distribution-title': {
     'ar': "توزيع",
@@ -304,7 +304,8 @@ const Localizations = {
     'ro': "Distribuire",
     'ru': "Распределение",
     'zh_CN': "分配",
-    'zh_TW': "分配"
+    'zh_TW': "分配",
+    'eo': "Disdonado"
   },
   'why-myriad-distribution-text': {
     'ar': "تم الافراج عن عدد لا يحصى من البرية في 23 فبراير 2014 في 18:30 بالتوقيت العالمي المنسق. وجاءت أول كتلة الملغومة بعد 4 دقائق، وبالتالي تثبت أنه لم يكن هناك الفرضية. وبلغت المكافأة الأولية 000 1 مير، مما أدى إلى تخفيض عدد كل كتلته إلى 680 967 قطعة (حوالي 48 أسبوعا). إجمالي العرض حوالي 2 مليار مير. زمن الفدرة المستهدفة هو 60 ثانية، أو 300 ثانية لكل خوارزمية.",
@@ -321,7 +322,8 @@ const Localizations = {
     'ro': "Myriad a fost eliberat în sălbăticie la 23 februarie 2014 la ora 18:30 UTC. Primul bloc minat a venit 4 minute mai târziu, stabilind astfel că nu a existat nicio premine. Recompensa inițială a fost de 1.000 MYR, înjumătățind fiecare 967.680 blocuri (aproximativ 48 de săptămâni). Oferta totală este de aproximativ 2 miliarde de ani. Timpul de blocare a obiectivului este de 60 secunde sau 300 de secunde pe algoritm.",
     'ru': "Релиз Myriad сотоялся 23 февраля 2014 года в 18:30 UTC. Первый блок был сгенерирован за 4 минуты, и подтвердил отсутствие премайна. Первоначальная награда составляла 1000 MYR, уменьшаясь вдвое каждые 967 680 блоков (приблизительно 48 недель). Общий объем предложения составляет около 2 млрд. MYR. Целевое время блока 60 секунд или 300 секунд на каждый алгоритм.",
     'zh_CN': "Myriad于2014年2月23日18:30在全球发布。第一块雷块在4分钟后来到，从而确定没有任何预兆。 最初的奖励是1000马币，每96768块（约48周）减半。总供给约20亿马币。目标块时间是60秒，或每个算法300秒。",
-    'zh_TW': "Myriad於2014年2月23日18:30在全球發布。第一塊雷塊在4分鐘後來到，從而確定沒有任何預兆。 最初的獎勵是1000馬幣，每96768塊（約48週）減半。總供給約20億馬幣。目標塊時間是60秒，或每個算法300秒。"
+    'zh_TW': "Myriad於2014年2月23日18:30在全球發布。第一塊雷塊在4分鐘後來到，從而確定沒有任何預兆。 最初的獎勵是1000馬幣，每96768塊（約48週）減半。總供給約20億馬幣。目標塊時間是60秒，或每個算法300秒。",
+    'eo': "Myriad lanĉis je 23/02/2014, 18:30UTC. La unuan blokon oni trovis 4 minutojn poste, pruvante ke neniu minado okazis antaŭ ol la publika lanĉo. Dekomence la blokpremio estis 1000XMY, kaj duoniĝis ĉiujn 967,680 blokojn (proksimume 48 semajnoj). La tuta sumo de miriadoj estas proksimume 2 miliardoj da XMY. Nuntempe la programita tempo inter blokoj estas mezume 60 sekundoj, t.e. 300 sekundoj po algoritmo.", 
   },
   'wallets-section-header': {
     'ar': "محافظ",
@@ -338,7 +340,8 @@ const Localizations = {
     'ro': "Portofele",
     'ru': "бумажники",
     'zh_CN': "钱包",
-    'zh_TW': "錢包"
+    'zh_TW': "錢包",
+    'eo': "Monujoj"
   },
   'wallets-desktop-title': {
     'ar': "الحاسوب",
@@ -355,7 +358,8 @@ const Localizations = {
     'ro': "Calculator",
     'ru': "компьютер",
     'zh_CN': "电脑",
-    'zh_TW': "電腦"
+    'zh_TW': "電腦",
+    'eo': "Komputilo"
   },
   'wallets-mobile-title': {
     'ar': "هاتف",
@@ -372,7 +376,8 @@ const Localizations = {
     'ro': "Telefon",
     'ru': "Телефон",
     'zh_CN': "电话",
-    'zh_TW': "電話"
+    'zh_TW': "電話",
+    'eo': "Telefono"
   },
   'wallets-source-title': {
     'ar': "مصدر الرمز",
@@ -389,7 +394,8 @@ const Localizations = {
     'ro': "Cod Sursa",
     'ru': "исходный код",
     'zh_CN': "源代码",
-    'zh_TW': "源代碼"
+    'zh_TW': "源代碼",
+    'eo': "Koda fonto",
   },
   'wallets-other-title': {
     'ar': "آخر",
@@ -406,7 +412,8 @@ const Localizations = {
     'ro': "Alte",
     'ru': "Другие",
     'zh_CN': "其他",
-    'zh_TW': "其他"
+    'zh_TW': "其他",
+    'eo': "Aliaj"
   },
   'buy-section-header': {
     'ar': "يشترى",
@@ -423,7 +430,8 @@ const Localizations = {
     'ro': "A cumpara",
     'ru': "Купить",
     'zh_CN': "购买",
-    'zh_TW': "購買"
+    'zh_TW': "購買",
+    'eo': "Aĉeti"
   },
   'buy-exchanges-title': {
     'ar': "التبادل",
@@ -440,7 +448,8 @@ const Localizations = {
     'ro': "Schimburi",
     'ru': "Обмен и покупка",
     'zh_CN': "交易所",
-    'zh_TW': "交易所"
+    'zh_TW': "交易所",
+    'eo': "Borsoj"
   },
   'buy-exchanges-text': {
     "ar":"يمكنك الحصول على عدد لا يحصى من أي من التبادلات الشعبية والآمنة التالية. القادمة في عام 2018، هل يمكن أن نتوقع أن نرى لا تعد ولا تحصى المتاحة من خلال التبادلات أكثر كبيرة لأنها لا تزال تنمو.",
@@ -457,7 +466,8 @@ const Localizations = {
     "ro":"Puteți achiziționa Myriad din oricare dintre următoarele schimburi populare, securizate. Venind în 2018, vă puteți aștepta să vedeți Myriad disponibil prin mai multe schimburi mari, pe măsură ce acesta continuă să crească.",
     "ru":"Вы можете приобрести Myriad на обменных площадках, перечисленных ниже. В 2018 году, в связи с продолжающимся ростом Myriad, можно ожидать листинга на большем числе крупных бирж.",
     "zh_CN":"您可以从以下任何流行的安全交流中获取Myriad。在2018年，你可以期待看到Myriad可以通过更大型的交易所，随着它的不断发展。",
-    "zh_TW":"您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。"
+    "zh_TW":"您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。",
+    "eo":"Vi povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj."
   },
   'buy-on-text': {
     "ar":"شراء على",
@@ -474,7 +484,8 @@ const Localizations = {
     "ro":"Cumpără de pe",
     "ru":"Купить на",
     "zh_CN":"买上",
-    "zh_TW":"買上"
+    "zh_TW":"買上",
+    "eo":"Aĉeti ĉe"
   },
   'buy-view-merchants-button': {
     'ar': "عرض التجار",
@@ -491,7 +502,8 @@ const Localizations = {
     'ro': "Vedeți Comercianții",
     'ru': "Просмотр продавцов",
     'zh_CN': "查看商家",
-    'zh_TW': "查看商家"
+    'zh_TW': "查看商家",
+    'eo': "Vidi komercistojn"
   },
   'mine-section-header': {
     'ar': "تعدين",
@@ -508,7 +520,8 @@ const Localizations = {
     'ro': "Minerit",
     'ru': "Майнинг",
     'zh_CN': "矿业",
-    'zh_TW': "礦業"
+    'zh_TW': "礦業",
+    'eo': "Minado"
   },
   'mine-getting-started-title': {
     'ar': "ابدء",
@@ -525,7 +538,8 @@ const Localizations = {
     'ro': "Noțiuni de bază",
     'ru': "С чего начать",
     'zh_CN': "入门",
-    'zh_TW': "入門"
+    'zh_TW': "入門",
+    'eo': "Komenci"
   },
   'mine-getting-started-text': {
     'ar': "لإزالة الألغام لا تعد ولا تحصى، سوف تحتاج إلى أولا تحميل محفظة. ثم، واحدة من برامج التعدين المدرجة والنار بعيدا! إذا كنت بحاجة إلى القليل من المساعدة، يمكنك مشاهدة هذا البرنامج التعليمي على يوتوب.",
@@ -542,7 +556,8 @@ const Localizations = {
     'ro': "Pentru Myriad, trebuie să descărcați mai întâi un portofel. Apoi, unul dintre programele miniere listate și trageți departe! Dacă aveți nevoie de puțin ajutor, puteți viziona acest tutorial YouTube.",
     'ru': "Чтобы начать майнить Myriad, сперва вам необходимо установить кошелек. Затем одну из перечисленных программ для майнинга, и... готово! Если у вас возникли затруднения, вам может помочь эта видеоинструкция на YouTube [EN].",
     'zh_CN': "为了挖掘Myriad，你需要先下载一个钱包。然后，列出的挖掘软件之一，开火！如果你需要一点帮助，你可以看这个YouTube教程。",
-    'zh_TW': "為了挖掘Myriad，你需要先下載一個錢包。然後，列出的挖掘軟件之一，開火！如果你需要一點幫助，你可以看這個YouTube教程。"
+    'zh_TW': "為了挖掘Myriad，你需要先下載一個錢包。然後，列出的挖掘軟件之一，開火！如果你需要一點幫助，你可以看這個YouTube教程。",
+    'eo': "Por mini Miriadon vi devas unue elŝuti monujon. Sekve, elektu minilan softvaron el la listo kaj eku! Se vi bezonas helpon, ĉi tiu Jutuba filmeto povas komprenigi vin.",
   },
   'mine-mining-software-title': {
     'ar': "برامج التعدين",
@@ -558,7 +573,8 @@ const Localizations = {
     'ro': "Servicii miniere",
     'ru': "ПО для майнинга",
     'zh_CN': "挖掘软件",
-    'zh_TW': "挖掘軟件"
+    'zh_TW': "挖掘軟件",
+    'eo': "Minila softvaro",
   },
   'mine-mining-software-text': {
     'ar': "لا تعد ولا تحصى يدعم حفنة من برامج التعدين المختلفة. يمكنك الاختيار من القائمة أدناه لما خوارزمية كنت ترغب في الألغام مع اعتمادا على كيفية جهاز التعدين الخاص بك أو الجهاز هو الإعداد.",
@@ -575,7 +591,8 @@ const Localizations = {
     'ro': "Myriad sprijină o mână de diferite software-uri miniere. Aveți posibilitatea să alegeți din lista de mai jos ce algoritm doriți să aveți în funcție de modul în care instalația dvs. minieră sau dispozitivul este setat.",
     'ru': "Myriad поддерживает множество популярных программ для майнинга. Вы можете выбрать вариант из приведенного ниже списка, в зависимости от выбранного алгоритма и вашего железа.",
     'zh_CN': "Myriad支持一些不同的挖掘软件。您可以从下面的列表中选择要挖掘的算法，具体取决于您的采矿设备或设备的设置。",
-    'zh_TW': "Myriad支持一些不同的挖掘軟件。您可以從下面的列表中選擇要挖掘的算法，具體取決於您的採礦設備或設備的設置。"
+    'zh_TW': "Myriad支持一些不同的挖掘軟件。您可以從下面的列表中選擇要挖掘的算法，具體取決於您的採礦設備或設備的設置。",
+    'eo': "Miriadon eblas mini per kelkaj malsamaj minilaj softvaroj. Vi povas elekti el la listo sube softvaron por la algoritmo kiun vi volas mini, kiu plej taŭgas por via minilo kaj agordo.",  
   },
   'mine-mining-pools-title': {
     'ar': "حمامات التعدين",
@@ -592,7 +609,8 @@ const Localizations = {
     'ro': "Piscine miniere",
     'ru': "Пулы для майнинга",
     'zh_CN': "采矿池",
-    'zh_TW': "採礦池"
+    'zh_TW': "採礦池",
+    'eo': "Ministaroj"
   },
   'mine-mining-pools-text': {
     'ar': "يمكنك الألغام لا تعد ولا تحصى من خلال عدد من حمامات السباحة. إذا كنت لا تعرف ما تجمع التعدين هو، يمكنك معرفة المزيد هنا. لقد أدرجت حمامات التي تدعم حاليا التعدين ودمج التعدين من لا تعد ولا تحصى أدناه.",
@@ -609,7 +627,8 @@ const Localizations = {
     'ro': "Îmi poți aduce Myriad-ul prin mai multe bazine. Dacă nu știți ce este o piscină minieră, puteți afla mai multe aici. Am enumerat bazinele care susțin în prezent mineritul și o combină extracția minelor Myriad de mai jos.",
     'ru': "Вы можете майнить Myriad совместно на нескольких пулах для майнинга. Если вы не знаете, что это, можете узнать здесь [EN]. В списке приведены пулы, которые в настоящее время поддерживают Miriad, в т.ч. объединенный майниг.",
     'zh_CN': "你可以通过一些池来挖掘Myriad。如果你不知道矿池是什么，你可以在这里了解更多。我们在下面列出了当前支持挖掘和合并Myriad挖掘的池。",
-    'zh_TW': "你可以通過一些池來挖掘Myriad。如果你不知道礦池是什麼，你可以在這裡了解更多。我們在下面列出了當前支持挖掘和合併Myriad挖掘的池。"
+    'zh_TW': "你可以通過一些池來挖掘Myriad。如果你不知道礦池是什麼，你可以在這裡了解更多。我們在下面列出了當前支持挖掘和合併Myriad挖掘的池。",
+    'eo': "Oni povas mini Miriadon kun multe da ministaroj. Se vi ne scias kion estas ministaro, vi povas lerni pli ĉi tie. Ni listis ĉi-sube la ministarojn kiuj nuntempe subtenas minadon kaj kunminadon de Myriad."
   },
   'mine-available-mining-software-title': {
     'ar': "برامج التعدين المتاحة",
@@ -626,7 +645,8 @@ const Localizations = {
     'ro': "Software-ul Minier Disponibil",
     'ru': "Доступное программное обеспечение для добычи",
     'zh_CN': "可用的挖掘软件",
-    'zh_TW': "可用的挖掘軟件"
+    'zh_TW': "可用的挖掘軟件",
+    'eo': "Minilaj softvaroj disponeblaj"
   },
   'mine-sha256d-text': {
     'ar': "يمكنك استخدام أي SHA256d أسيك متوافق",
@@ -643,7 +663,8 @@ const Localizations = {
     'ro': "Puteți utiliza orice ASIC compatibil SHA256d",
     'ru': "Вы можете использовать любую совместимую с SHA256d ASIC",
     'zh_CN': "您可以使用任何SHA256d兼容的ASIC",
-    'zh_TW': "您可以使用任何SHA256d兼容的ASIC"
+    'zh_TW': "您可以使用任何SHA256d兼容的ASIC",
+    'eo': "Eblas mini la algoritmon SHA256d de Myriad per iu ajn aparato specialigita por mini tiun algoritmon"
   },
   'mine-scrypt-text': {
     'ar': "يمكنك استخدام أي Scrypt أسيك متوافق",
@@ -660,7 +681,8 @@ const Localizations = {
     'ro': "Puteți utiliza orice ASIC compatibil Scrypt",
     'ru': "Вы можете использовать любую совместимую с Scrypt ASIC",
     'zh_CN': "您可以使用任何Scrypt兼容的ASIC",
-    'zh_TW': "您可以使用任何Scrypt兼容的ASIC"
+    'zh_TW': "您可以使用任何Scrypt兼容的ASIC",
+    'eo': "Eblas mini per ĉiu speco de speciala aparato por minado de Scrypt"
   },
   'mine-groestl-text': {
     'ar': "يمكنك استخدام أي Myr-Groestl أسيك متوافق",
@@ -677,7 +699,8 @@ const Localizations = {
     'ro': "Puteți utiliza orice ASIC compatibil Myr-Groestl",
     'ru': "Вы можете использовать любую совместимую с Myr-Groestl ASIC",
     'zh_CN': "您可以使用任何Myr-Groestl兼容的ASIC",
-    'zh_TW': "您可以使用任何Myr-Groestl兼容的ASIC"
+    'zh_TW': "您可以使用任何Myr-Groestl兼容的ASIC",
+    'eo': "Eblas mini per ĉiu speco de speciala aparato por minado de Myr-Groestl"
   },
   'mine-skein-text': {
     'ar': "يمكنك استخدام أي Skein أسيك متوافق",
@@ -694,7 +717,8 @@ const Localizations = {
     'ro': "Puteți utiliza orice ASIC compatibil Skein",
     'ru': "Вы можете использовать любую совместимую с Skein ASIC",
     'zh_CN': "您可以使用任何Skein兼容的ASIC",
-    'zh_TW': "您可以使用任何Skein兼容的ASIC"
+    'zh_TW': "您可以使用任何Skein兼容的ASIC",
+    'eo': "Eblas mini per ĉiu speco de speciala aparato por minado de Myr-Groestl"
   },
   'mine-suggested-command-line-text': {
     'ar': "سطر الأوامر المقترح",
@@ -711,7 +735,8 @@ const Localizations = {
     'ro': "Linie de Comandă Sugerată",
     'ru': "Рекомендуемая командная строка",
     'zh_CN': "建议的命令行",
-    'zh_TW': "建議的命令行"
+    'zh_TW': "建議的命令行",
+    'eo': "Komandlineoj sugestitaj"
   },
   'mine-available-mining-pools-title': {
     'ar': "برك التعدين المتاحة",
@@ -728,7 +753,8 @@ const Localizations = {
     'ro': "Piscine Miniere Disponibile",
     'ru': "Доступные горные бассейны",
     'zh_CN': "可用的采矿池",
-    'zh_TW': "可用的採礦池"
+    'zh_TW': "可用的採礦池",
+    'eo': "Ministaroj alireblaj"
   },
   'mine-p2pool-nodes-text': {
     'ar': "P2Pool العقد",
@@ -745,7 +771,8 @@ const Localizations = {
     'ro': "Nodurile P2Pool",
     'ru': "Узлы P2Pool",
     'zh_CN': "P2Pool节点",
-    'zh_TW': "P2Pool節點"
+    'zh_TW': "P2Pool節點",
+    'eo': "Nodoj de ministaro de P2Pool"
   },
   'mine-pool-url-text': {
     'ar': "عنوان ورل للجمع",
@@ -762,7 +789,8 @@ const Localizations = {
     'ro': "URL-ul bazei de date",
     'ru': "URL пула",
     'zh_CN': "池网址",
-    'zh_TW': "池網址"
+    'zh_TW': "池網址",
+    'eo': "Ministara ligilo"
   },
   'mine-to-be-decided-text': {
     'ar': "لكي تقرر",
@@ -779,7 +807,8 @@ const Localizations = {
     'ro': "A fi decis",
     'ru': "Быть решенным",
     'zh_CN': "即将被决定",
-    'zh_TW': "即將被決定"
+    'zh_TW': "即將被決定",
+    'eo': "Decidote",
   },
   'mine-run-your-own-node-text': {
     'ar': "تشغيل عقدة الخاصة بك",
@@ -795,8 +824,9 @@ const Localizations = {
     'pt': "Execute seu próprio nó",
     'ro': "Rulați propriul nod",
     'ru': "Запустить свой собственный узел",
-    'zh_CN': "运行你自己的节点","zh_TW":
-    "運行你自己的節點"
+    'zh_CN': "运行你自己的节点",
+    'zh_TW': "運行你自己的節點",
+    'eo': "Starigi propran nodon"
   },
   'mine-view-p2pool-instructions-button': {
     'ar': "عرض تعليمات P2Pool",
@@ -813,7 +843,8 @@ const Localizations = {
     'ro': "Vizualizați instrucțiunile P2Pool",
     'ru': "Просмотреть инструкции P2Pool",
     'zh_CN': "查看P2Pool指令",
-    'zh_TW': "查看P2Pool指令"
+    'zh_TW': "查看P2Pool指令",
+    'eo': "Vidi instrukciojn pri P2Pool",
   },
   'mine-other-pools-text': {
     'ar': "حمامات أخرى",
@@ -830,7 +861,8 @@ const Localizations = {
     'ro': "Alte piscine",
     'ru': "Другие пулы",
     'zh_CN': "其他游泳池",
-    'zh_TW': "其他游泳池"
+    'zh_TW': "其他游泳池",
+    'eo': "Aliaj ministaroj"
   },
   'mine-merge-mining-pools-text': {
     'ar': "دمج تجمع التعدين",
@@ -847,7 +879,8 @@ const Localizations = {
     'ro': "Mergeți în bazinele miniere",
     'ru': "Объединить горные бассейны",
     'zh_CN': "合并挖掘池",
-    'zh_TW': "合併挖掘池"
+    'zh_TW': "合併挖掘池",
+    'eo': "Kunministaroj"
   },
   'mine-view-pool-details-button': {
     'ar': "عرض تفاصيل بركة",
@@ -864,7 +897,8 @@ const Localizations = {
     'ro': "Vizualizați detaliile băncii",
     'ru': "Просмотреть сведения о пуле",
     'zh_CN': "查看游泳池细节",
-    'zh_TW': "查看游泳池細節"
+    'zh_TW': "查看游泳池細節",
+    'eo': "Vidi detalojn pri la ministaroj"
   },
   'resources-section-header': {
     'ar': "مصادر",
@@ -882,6 +916,7 @@ const Localizations = {
     'ru': "Ресурсы",
     'zh_CN': "资源",
     'zh_TW': "資源"
+    'eo': "Risurcoj",
   },
   'resources-information-title': {
     'ar': "معلومات",
@@ -898,7 +933,8 @@ const Localizations = {
     'ro': "informație",
     'ru': "Информация",
     'zh_CN': "信息",
-    'zh_TW': "信息"
+    'zh_TW': "信息",
+    'eo': "Informoj"
   },
   'resources-social-title': {
     'ar': "اجتماعي",
@@ -915,7 +951,8 @@ const Localizations = {
     'ro': "Social",
     'ru': "Социальное",
     'zh_CN': "社会",
-    'zh_TW': "社會"
+    'zh_TW': "社會",
+    'eo': "Amikumi"
   },
   'resources-other-title': {
     'ar': "آخر",
@@ -932,7 +969,8 @@ const Localizations = {
     'ro': "Alte",
     'ru': "Другие",
     'zh_CN': "其他",
-    'zh_TW': "其他"
+    'zh_TW': "其他",
+    'eo': "Aliaj"
   },
   'resources-cryptoid-explorer-button': {
     'ar': "المستكشف كريبتواد",
@@ -949,7 +987,8 @@ const Localizations = {
     'ro': "Cryptoid explorer",
     'ru': "Cryptoid explorer",
     'zh_CN': "Cryptoid资源管理器",
-    'zh_TW': "Cryptoid資源管理器"
+    'zh_TW': "Cryptoid資源管理器",
+    'eo': "Blokesplorilo de CryptoID"
   },
   'resources-insight-explorer-button': {
     'ar': "إنزيت إكسبلورر",
@@ -966,7 +1005,8 @@ const Localizations = {
     'ro': "Insight explorer",
     'ru': "Insight explorer",
     'zh_CN': "Insight Explorer",
-    'zh_TW': "Insight Explorer"
+    'zh_TW': "Insight Explorer",
+    'eo': "Esplorilo de Insight"
   },
   'resources-abe-explorer-1-button': {
     'ar': "أبي إكسبلورر 1 (myralicious.com)",
@@ -983,7 +1023,8 @@ const Localizations = {
     'ro': "Abe Explorer 1 (myralicious.com)",
     'ru': "Abe Explorer 1 (myralicious.com)",
     'zh_CN': "安倍资源管理器1（myralicious.com）",
-    'zh_TW': "安倍資源管理器1（myralicious.com）"
+    'zh_TW': "安倍資源管理器1（myralicious.com）",
+    'eo': "Esplorilo de Abe 1 (myralicious.com)"
   },
   'resources-abe-explorer-2-button': {
     'ar': "أبي إكسبلورر 2 (myralicious.com)",
@@ -1000,7 +1041,8 @@ const Localizations = {
     'ro': "Abe Explorer 2 (myralicious.com)",
     'ru': "Abe Explorer 2 (myralicious.com)",
     'zh_CN': "安倍资源管理器2（myralicious.com）",
-    'zh_TW': "安倍資源管理器2（myralicious.com）"
+    'zh_TW': "安倍資源管理器2（myralicious.com）",
+    'eo': "Esplorilo de Abe 2（myralicious.com)"
   },
   'resources-network-status-button': {
     'ar': "حالة الشبكة",
@@ -1017,7 +1059,8 @@ const Localizations = {
     'ro': "Starea Rețelei",
     'ru': "Состояние сети",
     'zh_CN': "网络状态",
-    'zh_TW': "網絡狀態"
+    'zh_TW': "網絡狀態",
+    'eo': "Reta stato",
   },
   'resources-reddit-button': {
     'ar': "Reddit",
@@ -1034,7 +1077,8 @@ const Localizations = {
     'ro': "Reddit",
     'ru': "Reddit",
     'zh_CN': "Reddit",
-    'zh_TW': "Reddit"
+    'zh_TW': "Reddit",
+    'eo': "Reddit",
   },
   'resources-discord-button': {
     "ar":"خادم الخلاف",
@@ -1051,7 +1095,8 @@ const Localizations = {
     "ro":"Discord Server",
     "ru":"Discord Server",
     "zh_CN":"不和服务器",
-    "zh_TW":"不和服務器"
+    "zh_TW":"不和服務器",
+    "eo":"Servilo de Discord"
   },
   'resources-slack-button': {
     "ar":"قناة سلاك",
@@ -1068,7 +1113,8 @@ const Localizations = {
     "ro":"Slack Channel",
     "ru":"Слабый канал",
     "zh_CN":"松弛通道",
-    "zh_TW":"鬆弛通道"
+    "zh_TW":"鬆弛通道",
+    "eo":"Kanalo de Slack"
   },
   'resources-telegram-button': {
     "ar":"Telegram",
@@ -1085,7 +1131,8 @@ const Localizations = {
     "ro":"Telegram",
     "ru":"Telegram",
     "zh_CN":"Telegram",
-    "zh_TW":"Telegram"
+    "zh_TW":"Telegram",
+    "eo":"Telegramo"
   },
   'resources-bitcointalk-thread-button': {
     'ar': "بيتكوين نقاش الموضوع",
@@ -1102,7 +1149,8 @@ const Localizations = {
     'ro': "BitcoinTalk Thread",
     'ru': "Биткойн Обсуждение темы",
     'zh_CN': "比特币谈话线程",
-    'zh_TW': "比特幣談話線程"
+    'zh_TW': "比特幣談話線程",
+    'eo': "Fadeno ĉe BitcoinTalk"
   },
   'resources-twitter-button': {
     'ar': "Twitter",
@@ -1119,7 +1167,8 @@ const Localizations = {
     'ro': "Twitter",
     'ru': "Twitter",
     'zh_CN': "Twitter",
-    'zh_TW': "Twitter"
+    'zh_TW': "Twitter",
+    'eo': "Tvitero"
   },
   'resources-facebook-button': {
     'ar': "Facebook",
@@ -1136,7 +1185,8 @@ const Localizations = {
     'ro': "Facebook",
     'ru': "facebook",
     'zh_CN': "Facebook的",
-    'zh_TW': "Facebook的"
+    'zh_TW': "Facebook的",
+    'eo': "Fejsbuko"
   },
   'resources-irc-channel-button': {
     'ar': "قناة الدردشة عبر الإنترنت",
@@ -1153,7 +1203,8 @@ const Localizations = {
     'ro': "Canal de Conversație pe Internet",
     'ru': "Канал интернет-ретрансляции",
     'zh_CN': "互联网中继聊天频道",
-    'zh_TW': "互聯網中繼聊天頻道"
+    'zh_TW': "互聯網中繼聊天頻道",
+    'eo': "Kanalo de IRC"
   },
   'resources-faucet-button': {
     'ar': "صنبور",
@@ -1170,7 +1221,8 @@ const Localizations = {
     'ro': "Robinet",
     'ru': "кран",
     'zh_CN': "龙头",
-    'zh_TW': "龍頭"
+    'zh_TW': "龍頭",
+    'eo': "Krano"
   },
   'resources-coinmarketcap-button': {
     'ar': "CoinMarketCap",
@@ -1187,7 +1239,9 @@ const Localizations = {
     'ro': "CoinMarketCap",
     'ru': "CoinMarketCap",
     'zh_CN': "CoinMarketCap",
-    'zh_TW': "CoinMarketCap"
+    'zh_TW': "CoinMarketCap",
+    'eo': "CoinMarketCap"
+
   },
   'resources-testnet-information-button': {
     'ar': "معلومات شبكة الاختبار",
@@ -1204,7 +1258,8 @@ const Localizations = {
     'ro': "Testați informațiile Despre Rețea",
     'ru': "Проверить сетевую информацию",
     'zh_CN': "测试网络信息",
-    'zh_TW': "測試網絡信息"
+    'zh_TW': "測試網絡信息",
+    'eo': "Pri la testreto"
   },
   'resources-cryptapus-myriad-page-button': {
     'ar': "Cryptap.us صفحة لا حصر لها",
@@ -1221,7 +1276,8 @@ const Localizations = {
     'ro': "Cryptap.us Mii de pagini",
     'ru': "Cryptap.us Myriad Страница",
     'zh_CN': "Cryptap.us Myriad页面",
-    'zh_TW': "Cryptap.us Myriad頁面"
+    'zh_TW': "Cryptap.us Myriad頁面",
+    'eo': "Cryptap.us Paĝo de Myriad"
   },
   'reddit-irc-myrbot-information-button': {
     'ar': "رديت / إيرك ميربوت المعلومات",
@@ -1238,6 +1294,7 @@ const Localizations = {
     'ro': "Informații reddit / IRC myrbot",
     'ru': "Информация о Reddit / IRC myrbot",
     'zh_CN': "Reddit / IRC myrbot信息",
-    'zh_TW': "Reddit / IRC myrbot信息"
+    'zh_TW': "Reddit / IRC myrbot信息",
+    'eo': "Pri Reddit / IRC myrbot (donacsenda roboto)"
   }
 };
