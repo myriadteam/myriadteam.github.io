@@ -251,7 +251,7 @@ const Localizations = {
     'ru': "Myriad - первая валюта, поддерживающая 5 различных алгоритмов для ASIC, GPU и CPU. В настоящее время это: SHA256d, Scrypt, Myr-Groestl, Skein и Yescrypt. Несколько алгоритмов Myriad обеспечивают высокое сопротивление атаке 51%, так как для поиска 51% блоков требуется ипользование различных аппаратных средств.",
     'zh_CN': "Myriad是第一个支持5种算法的货币，适用于ASIC，GPU和CPU挖掘。目前，这些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt组成。 Myriad的多算法方法提供了51％的优异阻力，因为需要一系列不同的硬件来找到51％的方块。",
     'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。",
-    'eo': "Myriad estas la unua valuto subteni 5 algoritmojn de minado samtempe, tiel ke ĉiuj el specialigitaj cirkvitoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% de haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
+    'eo': "Myriad estas la unua valuto subteni 5 algoritmojn de minado samtempe, tiel ke ĉiuj el specialaj aparatoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% de haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
   },
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
