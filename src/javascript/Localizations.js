@@ -13,7 +13,7 @@ const Localizations = {
     'pt', // Portuguese
     'ro', // Romanian
     'ru', // Russian
-    'zh_CN', // Simplified Chinese
+    'zh_CN' // Simplified Chinese
     'zh_TW' // Traditional Chinese
     'eo', // Esperanto
   ],
@@ -395,7 +395,7 @@ const Localizations = {
     'ru': "исходный код",
     'zh_CN': "源代码",
     'zh_TW': "源代碼",
-    'eo': "Koda fonto",
+    'eo': "Fontkodo"
   },
   'wallets-other-title': {
     'ar': "آخر",
@@ -574,7 +574,7 @@ const Localizations = {
     'ru': "ПО для майнинга",
     'zh_CN': "挖掘软件",
     'zh_TW': "挖掘軟件",
-    'eo': "Minila softvaro",
+    'eo': "Minila softvaro"
   },
   'mine-mining-software-text': {
     'ar': "لا تعد ولا تحصى يدعم حفنة من برامج التعدين المختلفة. يمكنك الاختيار من القائمة أدناه لما خوارزمية كنت ترغب في الألغام مع اعتمادا على كيفية جهاز التعدين الخاص بك أو الجهاز هو الإعداد.",
@@ -592,7 +592,7 @@ const Localizations = {
     'ru': "Myriad поддерживает множество популярных программ для майнинга. Вы можете выбрать вариант из приведенного ниже списка, в зависимости от выбранного алгоритма и вашего железа.",
     'zh_CN': "Myriad支持一些不同的挖掘软件。您可以从下面的列表中选择要挖掘的算法，具体取决于您的采矿设备或设备的设置。",
     'zh_TW': "Myriad支持一些不同的挖掘軟件。您可以從下面的列表中選擇要挖掘的算法，具體取決於您的採礦設備或設備的設置。",
-    'eo': "Miriadon eblas mini per kelkaj malsamaj minilaj softvaroj. Vi povas elekti el la listo sube softvaron por la algoritmo kiun vi volas mini, kiu plej taŭgas por via minilo kaj agordo.",  
+    'eo': "Miriadon eblas mini per kelkaj malsamaj minilaj softvaroj. Vi povas elekti el la listo sube softvaron por la algoritmo kiun vi volas mini, kiu plej taŭgas por via minilo kaj agordo."  
   },
   'mine-mining-pools-title': {
     'ar': "حمامات التعدين",
@@ -808,7 +808,7 @@ const Localizations = {
     'ru': "Быть решенным",
     'zh_CN': "即将被决定",
     'zh_TW': "即將被決定",
-    'eo': "Decidote",
+    'eo': "Decidote"
   },
   'mine-run-your-own-node-text': {
     'ar': "تشغيل عقدة الخاصة بك",
@@ -844,7 +844,7 @@ const Localizations = {
     'ru': "Просмотреть инструкции P2Pool",
     'zh_CN': "查看P2Pool指令",
     'zh_TW': "查看P2Pool指令",
-    'eo': "Vidi instrukciojn pri P2Pool",
+    'eo': "Vidi instrukciojn pri P2Pool"
   },
   'mine-other-pools-text': {
     'ar': "حمامات أخرى",
@@ -1060,7 +1060,7 @@ const Localizations = {
     'ru': "Состояние сети",
     'zh_CN': "网络状态",
     'zh_TW': "網絡狀態",
-    'eo': "Reta stato",
+    'eo': "Reta stato"
   },
   'resources-reddit-button': {
     'ar': "Reddit",
@@ -1078,7 +1078,7 @@ const Localizations = {
     'ru': "Reddit",
     'zh_CN': "Reddit",
     'zh_TW': "Reddit",
-    'eo': "Reddit",
+    'eo': "Reddit"
   },
   'resources-discord-button': {
     "ar":"خادم الخلاف",
