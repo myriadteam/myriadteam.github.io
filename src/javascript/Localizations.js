@@ -13,9 +13,9 @@ const Localizations = {
     'pt', // Portuguese
     'ro', // Romanian
     'ru', // Russian
-    'zh_CN' // Simplified Chinese
-    'zh_TW' // Traditional Chinese
-    'eo', // Esperanto
+    'zh_CN', // Simplified Chinese
+    'zh_TW', // Traditional Chinese
+    'eo' // Esperanto
   ],
   'page-title': {
     'ar': "Myriad. عملة للجميع.",
@@ -251,7 +251,7 @@ const Localizations = {
     'ru': "Myriad - первая валюта, поддерживающая 5 различных алгоритмов для ASIC, GPU и CPU. В настоящее время это: SHA256d, Scrypt, Myr-Groestl, Skein и Yescrypt. Несколько алгоритмов Myriad обеспечивают высокое сопротивление атаке 51%, так как для поиска 51% блоков требуется ипользование различных аппаратных средств.",
     'zh_CN': "Myriad是第一个支持5种算法的货币，适用于ASIC，GPU和CPU挖掘。目前，这些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt组成。 Myriad的多算法方法提供了51％的优异阻力，因为需要一系列不同的硬件来找到51％的方块。",
     'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。",
-    'eo': "Myriad estas la unua valuto subteni 5 algoritmojn de minado samtempe, tiel ke ĉiuj el specialaj aparatoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% de haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
+    'eo': "Myriad estas la unua valuto subteni samtempe 5 algoritmojn de minado, tiel ke ĉiuj el specialaj aparatoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% da haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
   },
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
@@ -287,7 +287,7 @@ const Localizations = {
     'ru': "Объединенный майнинг работает для алгоритмов SHA256d и Scrypt. Это позволяет Myriad пользоваться огромными хэшрейтами, которые в настоящее время генерируются манерами монет, также использущих эти алгоритмы (таких как Bitcoin или Litecoin). Merged Mining или AuxPow позволяет, при майнинге основной валюты, получать валидные блоки в блокчейне Myriad практически без дополнительных затрат.",
     'zh_CN': "SHA256d和Scrypt算法允许合并挖掘。这使得Myriad能够利用这些算法使用当前硬币使用的巨大hashrate。 Merge Mining或AuxPow允许使用母币（如比特币或莱特币）完成的工作用于在Myriad区块链上查找有效的区块。",
     'zh_TW': "SHA256d和Scrypt算法允許合併挖掘。這使得Myriad能夠利用這些算法使用當前硬幣使用的巨大hashrate。 Merge Mining或AuxPow允許使用母幣（如比特幣或萊特幣）完成的工作用於在Myriad區塊鏈上查找有效的區塊。",
-    'eo': "Kunminado estas ebligita por SHA256d kaj Scrypt, tiel ke Myriad profitas la grandegajn haketpotencojn de aliaj ĉifrovalutoj kiuj uzas tiujn algoritmojn. Kunminado, alinome 'AuxPoW', ebligas al ni reuzi laborpruvon de patrina valuto (ekz, Bitmono aŭ Litecoin) por trovi validajn blokojn kaj aldoni ilin al la blokĉeno de Miriado.",
+    'eo': "Kunminado estas ebligita por SHA256d kaj Scrypt, tiel ke Myriad profitas la grandegajn haketpotencojn de aliaj ĉifrovalutoj kiuj uzas tiujn algoritmojn. Kunminado, alinome 'AuxPoW', ebligas al ni reuzi laborpruvon de patrina valuto (ekz, Bitmono aŭ Litecoin) por trovi validajn blokojn kaj aldoni ilin al la blokĉeno de Miriado."
   },
   'why-myriad-distribution-title': {
     'ar': "توزيع",
@@ -323,7 +323,7 @@ const Localizations = {
     'ru': "Релиз Myriad сотоялся 23 февраля 2014 года в 18:30 UTC. Первый блок был сгенерирован за 4 минуты, и подтвердил отсутствие премайна. Первоначальная награда составляла 1000 MYR, уменьшаясь вдвое каждые 967 680 блоков (приблизительно 48 недель). Общий объем предложения составляет около 2 млрд. MYR. Целевое время блока 60 секунд или 300 секунд на каждый алгоритм.",
     'zh_CN': "Myriad于2014年2月23日18:30在全球发布。第一块雷块在4分钟后来到，从而确定没有任何预兆。 最初的奖励是1000马币，每96768块（约48周）减半。总供给约20亿马币。目标块时间是60秒，或每个算法300秒。",
     'zh_TW': "Myriad於2014年2月23日18:30在全球發布。第一塊雷塊在4分鐘後來到，從而確定沒有任何預兆。 最初的獎勵是1000馬幣，每96768塊（約48週）減半。總供給約20億馬幣。目標塊時間是60秒，或每個算法300秒。",
-    'eo': "Myriad lanĉis je 23/02/2014, 18:30UTC. La unuan blokon oni trovis 4 minutojn poste, pruvante ke neniu minado okazis antaŭ ol la publika lanĉo. Dekomence la blokpremio estis 1000XMY, kaj duoniĝis ĉiujn 967,680 blokojn (proksimume 48 semajnoj). La tuta sumo de miriadoj estas proksimume 2 miliardoj da XMY. Nuntempe la programita tempo inter blokoj estas mezume 60 sekundoj, t.e. 300 sekundoj po algoritmo.", 
+    'eo': "Myriad lanĉis je 23/02/2014, 18:30UTC. La unuan blokon oni trovis 4 minutojn poste, pruvante ke neniu minado okazis antaŭ ol la publika lanĉo. Dekomence la blokpremio estis 1000XMY, kaj duoniĝis ĉiujn 967,680 blokojn (proksimume 48 semajnoj). La tuta sumo de miriadoj (XMY) estas proksimume 2 miliardoj. Nuntempe la programita tempo inter blokoj estas mezume 60 sekundoj, t.e. 300 sekundoj po algoritmo."
   },
   'wallets-section-header': {
     'ar': "محافظ",
@@ -467,7 +467,7 @@ const Localizations = {
     "ru":"Вы можете приобрести Myriad на обменных площадках, перечисленных ниже. В 2018 году, в связи с продолжающимся ростом Myriad, можно ожидать листинга на большем числе крупных бирж.",
     "zh_CN":"您可以从以下任何流行的安全交流中获取Myriad。在2018年，你可以期待看到Myriad可以通过更大型的交易所，随着它的不断发展。",
     "zh_TW":"您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。",
-    "eo":"Vi povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj."
+    "eo":"Oni povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj."
   },
   'buy-on-text': {
     "ar":"شراء على",
@@ -718,7 +718,7 @@ const Localizations = {
     'ru': "Вы можете использовать любую совместимую с Skein ASIC",
     'zh_CN': "您可以使用任何Skein兼容的ASIC",
     'zh_TW': "您可以使用任何Skein兼容的ASIC",
-    'eo': "Eblas mini per ĉiu speco de speciala aparato por minado de Myr-Groestl"
+    'eo': "Eblas mini per ĉiu speco de speciala aparato por minado de Skein"
   },
   'mine-suggested-command-line-text': {
     'ar': "سطر الأوامر المقترح",
