@@ -125,7 +125,7 @@ const Localizations = {
     'ru': "Ресурсы",
     'zh_CN': "资源",
     'zh_TW': "資源",
-    'eo': "Rimedoj"
+    'eo': "Risurcoj"
   },
   'header-language-button': {
     'ar': "العربية",
@@ -251,7 +251,7 @@ const Localizations = {
     'ru': "Myriad - первая валюта, поддерживающая 5 различных алгоритмов для ASIC, GPU и CPU. В настоящее время это: SHA256d, Scrypt, Myr-Groestl, Skein и Yescrypt. Несколько алгоритмов Myriad обеспечивают высокое сопротивление атаке 51%, так как для поиска 51% блоков требуется ипользование различных аппаратных средств.",
     'zh_CN': "Myriad是第一个支持5种算法的货币，适用于ASIC，GPU和CPU挖掘。目前，这些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt组成。 Myriad的多算法方法提供了51％的优异阻力，因为需要一系列不同的硬件来找到51％的方块。",
     'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。",
-    'eo': "Myriad estas la unua valuto subteni samtempe 5 algoritmojn de minado, tiel ke ĉiuj el specialaj aparatoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% da haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
+    'eo': "Myriad (Miriado esperante) estas la unua valuto subteni samtempe 5 algoritmojn de minado, tiel ke ĉiuj el specialaj aparatoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas mini ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% da haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por mini la diversajn algoritmojn."
   },
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
@@ -557,7 +557,7 @@ const Localizations = {
     'ru': "Чтобы начать майнить Myriad, сперва вам необходимо установить кошелек. Затем одну из перечисленных программ для майнинга, и... готово! Если у вас возникли затруднения, вам может помочь эта видеоинструкция на YouTube [EN].",
     'zh_CN': "为了挖掘Myriad，你需要先下载一个钱包。然后，列出的挖掘软件之一，开火！如果你需要一点帮助，你可以看这个YouTube教程。",
     'zh_TW': "為了挖掘Myriad，你需要先下載一個錢包。然後，列出的挖掘軟件之一，開火！如果你需要一點幫助，你可以看這個YouTube教程。",
-    'eo': "Por mini Miriadon vi devas unue elŝuti monujon. Sekve, elektu minilan softvaron el la listo kaj eku! Se vi bezonas helpon, ĉi tiu Jutuba filmeto povas komprenigi vin.",
+    'eo': "Por mini Miriadon oni devas unue elŝuti monujon. Sekve, elektu minilan softvaron el la listo kaj eku! Se vi bezonas helpon, ĉi tiu Jutuba filmeto povas komprenigi vin.",
   },
   'mine-mining-software-title': {
     'ar': "برامج التعدين",
@@ -664,7 +664,7 @@ const Localizations = {
     'ru': "Вы можете использовать любую совместимую с SHA256d ASIC",
     'zh_CN': "您可以使用任何SHA256d兼容的ASIC",
     'zh_TW': "您可以使用任何SHA256d兼容的ASIC",
-    'eo': "Eblas mini Miriadon per la algoritmo SHA256d uzante ĉiuspecan aparaton specialan por mini SHA256d"
+    'eo': "Eblas mini Miriadon je la algoritmo SHA256d per ĉiuspeca aparato speciala por mini SHA256d"
   },
   'mine-scrypt-text': {
     'ar': "يمكنك استخدام أي Scrypt أسيك متوافق",
