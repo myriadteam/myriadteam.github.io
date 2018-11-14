@@ -1,4 +1,25 @@
-<div id="header" class="container-fluid">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0" />
+    <meta name="description" content="" />
+
+    <title localization="page-title">Myriad. A Coin For Everyone</title>
+
+    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/dependencies/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+    <script type="text/javascript" src="/javascript/Localizations.js"></script>
+    <script type="text/javascript" src="/javascript/Main.js"></script>
+  </head>
+  <body>
+    <div id="header" class="container-fluid">
   <div class="row">
     <div class="col-xs-2">
       <a href="/">
@@ -37,7 +58,7 @@
             <a href="/?lang=fr">Français</a>
             <a href="/?lang=de">Deutsch</a>
             <a href="/?lang=ro">Română</a>
-            <a href="/?lang=tg'>Tagalog</a>
+            <a href="/?lang=tl">Tagalog</a>
           </div>
         </div>
       </div>
@@ -210,25 +231,29 @@
                 <p localization="buy-exchanges-text">You can acquire Myriad from any of the following popular exchanges. Coming in 2018, you can expect to see Myriad available through more large exchanges as it continues to grow.</p>
                 <div class="row">
                   <div class="col-xs-12 col-md-6">
-                    <a href="https://bittrex.com/Market/Index?MarketName=BTC-XMY" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> Bittrex</a>
-                    <a href="https://www.litebit.eu/en/buy/myriadcoin" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> Litebit</a>
+                    <a href="https://www.litebit.eu/en/buy/myriadcoin" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> Litebit XMY/EUR</a>
+                    <a href="https://bittrex.com/Market/Index?MarketName=BTC-XMY" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> Bittrex XMY/BTC</a>
                   </div>
 
                   <div class="col-xs-12 col-md-6">
-                    <a href="https://www.cryptopia.co.nz/Exchange?market=XMY_BTC" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> Cryptopia</a>
-                    <a href="https://tradesatoshi.com/Exchange/?market=XMY_BTC" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> TradeSatoshi</a>
+                    <a href="https://www.gonetcoins.com/" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> Netcoins XMY/<span localization="local-cash">local cash</span></a>
+                    <a href="https://www.cryptopia.co.nz/Exchange?market=XMY_BTC" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> Cryptopia XMY/BTC,LTC,DOGE</a>
                   </div>
                   
                   <div class="col-xs-12 col-md-6">
-                    <a href="https://www.bitladon.com/myriad" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> BITLADON</a>
-                    <a href="https://coinswitch.co/" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> Coinswitch</a>
+                    <a href="https://coinswitch.co/" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> Coinswitch XMY/* (<span localization="live-coin-swaps">live swaps</span>)</a>
+                    <a href="https://www.bitladon.com/myriad" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> BITLADON XMY/EUR</a>
                   </div> 
                 
-                   <div class="col-xs-12 col-md-6">
-                    <a href="https://www.fubt.top/#/exchange" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> FUBT</a>
-                    <a href="https://www.gonetcoins.com/" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> <span localization="buy-on-text">Buy on</span> NetCoins</a>
+                  <div class="col-xs-12 col-md-6">
+                    <a href="https://www.localbitcoincash.org/" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> LocalBitcoinCash XMY/* (<span localization="live-coin-swaps">live swaps</span>)</a>
+                    <a href="https://www.fubt.top/#/exchange" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> FUBT XMY/BTC,ETH</a>
                   </div> 
                   
+                  <div class="col-xs-12 col-md-6">
+                    <a href="https://tradesatoshi.com/Exchange/?market=XMY_BTC" class="btn btn-wisteria" target="_blank"><i class="ion-locked"></i> TradeSatoshi XMY/BTC,LTC,DOGE</a>
+                  </div> 
+
                 </div>
               </div>
             </div>
@@ -250,7 +275,7 @@
             <div class="col-xs-12 col-sm-4">
               <div class="info-group text-center">
                 <h5 localization="mine-getting-started-title">Getting Started</h5>
-                <p  localization="mine-getting-started-text">To mine Myriad, you'll need to first <a href="#" section="wallets" localization="hero-download-wallet-button">download a wallet</a>. Then, one of the listed mining softwares and fire away! If you need a little help, you can <a href="https://www.youtube.com/watch?v=961LFNZjLlY">watch this YouTube tutorial</a>.</p>
+                <p  localization="mine-getting-started-text">To mine Myriad, you'll need to first <a href="#" class="download-wallet btn btn-shark view-section" section="wallets" localization="hero-download-wallet-button">download a wallet</a>. Then, one of the listed mining softwares and fire away! If you need a little help, you can <a href="https://www.youtube.com/watch?v=961LFNZjLlY">watch this YouTube tutorial</a>.</p>
               </div>
             </div>
 
@@ -552,3 +577,6 @@
 
 <!-- Heatmap Tracking - Crazy Egg -->
 <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0071/3587.js" async="async"></script>
+
+  </body>
+</html>
