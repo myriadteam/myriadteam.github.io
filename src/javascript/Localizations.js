@@ -383,8 +383,17 @@ const Localizations = {
   'wallets-desktop-windows': {
     'eo': "Vindozo"
   },
+  'wallets-desktop-x86-installer': {
+    'eo': "32-bit instalilo"
+  },
+  'wallets-desktop-x64-installer': {
+    'eo': "64-bit instalilo"
+  },
   'wallets-desktop-other': {
     'eo': "Aliaj duumaj dosieroj"
+  },
+  'wallets-desktop-github': {
+    'eo': "Vidi ĉe GitHub"
   },
   'wallets-mobile-title': {
     'ar': "هاتف",
@@ -405,6 +414,12 @@ const Localizations = {
     'eo': "Telefono",
     'tl': "Mobile"
   },
+  'wallets-mobile-android-coinid': {
+    'eo': "CoinID (frua aliro)"
+  },
+  'wallets-mobile-android-hash-engineering': {
+    'eo': "Google Play (SPV per myriadcoinj)"
+  },
   'wallets-source-title': {
     'ar': "مصدر الرمز",
     'da': "Kildekode",
@@ -424,6 +439,12 @@ const Localizations = {
     'eo': "Fontkodo",
     'tl': "Mobile"
   },
+  'wallets-source-zip': {
+    'eo': "Fontkoda"
+  },
+  'wallets-source-git-repo': {
+    'eo': "Deponejo de Git"
+  },
   'wallets-other-title': {
     'ar': "آخر",
     'da': "Andet",
@@ -442,6 +463,21 @@ const Localizations = {
     'zh_TW': "其他",
     'eo': "Aliaj",
     'tl': "Iba pa"
+  },
+  'wallets-other-download': {
+    'eo': "Elŝuti"
+  },
+  'wallets-other-windows': {
+    'eo': "Vindozo"
+  },
+  'wallets-other-linux': {
+    'eo': "Linukso"
+  },
+  'wallets-other-brain': {
+    'eo': "Cerba monujo"
+  },
+  'wallets-other-paper': {
+    'eo': "Papera monujo"
   },
   'buy-section-header': {
     'ar': "يشترى",
