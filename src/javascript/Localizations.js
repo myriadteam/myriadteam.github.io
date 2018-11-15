@@ -173,21 +173,21 @@ const Localizations = {
   },
   'hero-download-wallet-button': {
     'ar': "تحميل المحفظة",
-    'da': "Download Tegnebog",
-    'de': "Download Wallet",
-    'es': "Descargar Billetera",
-    'fr': "Télécharger le portefeuille",
-    'it': "Scarica Il Wallet",
+    'da': "download Tegnebog",
+    'de': "download Wallet",
+    'es': "descargar Billetera",
+    'fr': "télécharger un portefeuille",
+    'it': "scarica Un Wallet",
     'ja': "ウォレットをダウンロード",
     'ko': "지갑 다운로드",
     'nl': "Wallet Downloaden",
-    'pl': "Pobierz Portfel",
-    'pt': "Baixar Carteira",
-    'ro': "Descărcați Portofel",
+    'pl': "pobierz Portfel",
+    'pt': "baixar Carteira",
+    'ro': "descărcați Portofel",
     'ru': "Скачать кошелек",
     'zh_CN': "下载钱包",
     'zh_TW': "下載錢包",
-    'eo': "Elŝuti monujon",
+    'eo': "elŝuti monujon",
     'tl': "Myriad. Isang Barya Para sa Lahat."
   },
   'hero-start-mining-button': {
@@ -380,6 +380,12 @@ const Localizations = {
     'eo': "Komputilo",
     'tl': "Wallets"
   },
+  'wallets-desktop-windows': {
+    'eo': "Vindozo"
+  },
+  'wallets-desktop-other': {
+    'eo': "Aliaj duumaj dosieroj"
+  },
   'wallets-mobile-title': {
     'ar': "هاتف",
     'da': "Telefon",
@@ -535,7 +541,7 @@ const Localizations = {
     'ru': "Майнинг",
     'zh_CN': "矿业",
     'zh_TW': "礦業",
-    'eo': "Minado",
+    'eo': "Elfosado",
     'tl': "Pagmimina"
   },
   'mine-getting-started-title': {
@@ -557,24 +563,62 @@ const Localizations = {
     'eo': "Komenci",
     'tl': "Nagsisimula"
   },
-  'mine-getting-started-text': {
+  'mine-getting-started-text1': {
     'ar': "لإزالة الألغام لا تعد ولا تحصى، سوف تحتاج إلى أولا تحميل محفظة. ثم، واحدة من برامج التعدين المدرجة والنار بعيدا! إذا كنت بحاجة إلى القليل من المساعدة، يمكنك مشاهدة هذا البرنامج التعليمي على يوتوب.",
     'da': "For at minde Myriad skal du først downloade en tegnebog. Så, en af de nævnte minedrift software og brand væk! Hvis du har brug for lidt hjælp, kan du se denne YouTube-øvelse.",
     'de': "Um Myriad zu minen, müssen Sie zuerst ein Wallet herunterladen. Dann wählen Sie eine der gelisteten Mining Programme aus. Wenn du ein wenig Hilfe brauchst, kannst du dir dieses YouTube-Tutorial ansehen.",
-    'es': "Para extraer Myriad, primero deberás descargar una billetera. ¡Entonces, uno de los softwares de minería listados y dispara! Si necesita un poco de ayuda, puede ver este tutorial de YouTube.",
-    'fr': "Pour exploiter Myriad, vous devez d'abord télécharger un portefeuille. Ensuite, l'un des logiciels miniers répertoriés et le feu loin! Si vous avez besoin d'un peu d'aide, vous pouvez regarder ce didacticiel YouTube.",
-    'it': "Per minare Myriad, devi prima scaricare un portafoglio (Wallet). Dopodichè, bisogna scaricare uno dei software per il mining elencati ed il gioco è fatto! Se hai bisogno di un piccolo aiuto, puoi guardare questo tutorial di YouTube.", 
+    'es': "Para extraer Myriad, primero deberás",
+    'fr': "Pour exploiter Myriad, vous devez d'abord", 
+    'it': "Per minare Myriad, devi prima",
     'ja': "Myriadを鉱山するには、まず財布をダウンロードする必要があります。その後、記載されている鉱山ソフトウェアの1つを消してください！ちょっとした助けが必要な場合は、このYouTubeチュートリアルをご覧ください。",
     'ko': "Myriad를 채굴하려면 먼저 지갑을 다운로드해야합니다. 그런 다음 나열된 광산 소프트웨어 중 하나와 불이 꺼집니다! 약간의 도움이 필요하면 YouTube 튜토리얼을 시청하십시오.",
     'nl': "Om Myriad te minen moet je eerst en vooral een Myriad ondersteunende wallet downloaden. Download vervolgens een van de volgende mining-programma's, en begin met minen! Als het nog steeds onduidelijk is, helpt deze YouTube-tutorial u verder.",
     'pl': "Aby wydobyć Myriad, musisz najpierw pobrać portfel. Następnie jeden z wymienionych programów górniczych i odpal! Jeśli potrzebujesz pomocy, możesz obejrzeć samouczek na YouTube.",
-    'pt': "Para explorar Myriad, você precisa primeiro fazer o download de uma carteira. Então, um dos softwares de mineração listados e dispare! Se você precisar de uma pequena ajuda, você pode assistir este tutorial do YouTube.",
+    'pt': "Para explorar Myriad, você precisa primeiro fazer o download de uma carteira.", 
     'ro': "Pentru Myriad, trebuie să descărcați mai întâi un portofel. Apoi, unul dintre programele miniere listate și trageți departe! Dacă aveți nevoie de puțin ajutor, puteți viziona acest tutorial YouTube.",
     'ru': "Чтобы начать майнить Myriad, сперва вам необходимо установить кошелек. Затем одну из перечисленных программ для майнинга, и... готово! Если у вас возникли затруднения, вам может помочь эта видеоинструкция на YouTube [EN].",
     'zh_CN': "为了挖掘Myriad，你需要先下载一个钱包。然后，列出的挖掘软件之一，开火！如果你需要一点帮助，你可以看这个YouTube教程。",
     'zh_TW': "為了挖掘Myriad，你需要先下載一個錢包。然後，列出的挖掘軟件之一，開火！如果你需要一點幫助，你可以看這個YouTube教程。",
-    'eo': "Por elfosi Miriadon oni devas unue elŝuti monujon. Sekve, elektu elfosilan softvaron el la listo kaj eku! Se vi bezonas helpon, ĉi tiu Jutuba filmeto povas komprenigi vin.",
+    'eo': "Por elfosi Miriadon oni devas unue",
     'tl': "Upang mamahala ng maraming bahagi, kakailanganin mo munang mag-download ng wallet. Pagkatapos, isa sa mga nakalistang softwares ng pagmimina at fire away! Kung kailangan mo ng kaunting tulong, maaari mong panoorin ang tutorial na ito sa YouTube."
+  },
+  'mine-getting-started-text2': {
+    'ar': "",
+    'da': "",
+    'de': "",
+    'es': "¡Entonces, uno de los softwares de minería listados y dispara! Si necesita un poco de ayuda,", 
+    'fr': "Ensuite, l'un des logiciels miniers répertoriés et le feu loin! Si vous avez besoin d'un peu d'aide,", 
+    'it': "Dopodichè, bisogna scaricare uno dei software per il mining elencati ed il gioco è fatto! Se hai bisogno di un piccolo aiuto, puoi", 
+    'ja': "",
+    'ko': "",
+    'nl': "",
+    'pl': "",
+    'pt': "Então, um dos softwares de mineração listados e dispare! Se você precisar de uma pequena ajuda,",
+    'ro': "",
+    'ru': "",
+    'zh_CN': "",
+    'zh_TW': "",
+    'eo': "Sekve, elektu elfosilan softvaron el la listo kaj eku! Se vi bezonas helpon,", 
+    'tl': ""
+  },
+  'mine-mining-youtube-tutorial': {
+    'ar': "",
+    'da': "",
+    'de': "",
+    'es': "puede ver este tutorial de YouTube.",
+    'fr': "vous pouvez regarder ce didacticiel YouTube.",
+    'it': "guardare questo tutorial di YouTube.",
+    'ja': "",
+    'ko': "",
+    'nl': "",
+    'pl': "",
+    'pt': "você pode assistir este tutorial do YouTube.",
+    'ro': "",
+    'ru': "",
+    'zh_CN': "",
+    'zh_TW': "",
+    'eo': "ĉi tiu Jutuba filmeto povas komprenigi vin.",
+    'tl': ""
   },
   'mine-mining-software-title': {
     'ar': "برامج التعدين",
@@ -591,7 +635,7 @@ const Localizations = {
     'ru': "ПО для майнинга",
     'zh_CN': "挖掘软件",
     'zh_TW': "挖掘軟件",
-    'eo': "Minila softvaro",
+    'eo': "Elfosila softvaro",
     'tl': "Software ng Pagmimina"
   },
   'mine-mining-software-text': {
@@ -624,20 +668,20 @@ const Localizations = {
     'ko': "광업 수영장",
     'nl': "Mining Pools",
     'pl': "Pule wydobywcze",
-    'pt': "Piscinas de mineração",
-    'ro': "Piscine miniere",
+    'pt': "Pools de mineração",
+    'ro': "Pools miniere",
     'ru': "Пулы для майнинга",
     'zh_CN': "采矿池",
     'zh_TW': "採礦池",
-    'eo': "Ministaroj",
+    'eo': "Elfosistaroj",
     'tl': "Pagmimina Pool"
   },
-  'mine-mining-pools-text': {
+  'mine-mining-pools-text1': {
     'ar': "يمكنك الألغام لا تعد ولا تحصى من خلال عدد من حمامات السباحة. إذا كنت لا تعرف ما تجمع التعدين هو، يمكنك معرفة المزيد هنا. لقد أدرجت حمامات التي تدعم حاليا التعدين ودمج التعدين من لا تعد ولا تحصى أدناه.",
     'da': "Du kan min Myriad gennem en række puljer. Hvis du ikke ved, hvad en minedrift er, kan du lære mere her. Vi har opregnet de puljer, der i øjeblikket understøtter minedrift og sammenfletning af Myriad minedrift nedenfor.",
     'de': "Myriad kann mit Hilfe von Pools gemined werden. Wenn Sie nicht wissen, was ein Mining-Pool ist, können Sie hier mehr erfahren. Wir haben die Pools aufgelistet, die derzeit das Mining und Merge-Mining von Myriad unterstützen.",
-    'es': "Puedes extraer Myriad a través de varias pools. Si no sabe qué es un grupo de minería, puede obtener más información aquí. Hemos enumerado los grupos que actualmente son compatibles con la minería y la fusión de minería de Myriad a continuación.",
-    'fr': "Vous pouvez exploiter Myriad à travers un certain nombre de pools. Si vous ne savez pas ce qu'est un pool minier, vous pouvez en apprendre plus ici. Nous avons listé les pools qui supportent actuellement l'exploitation minière et fusionner l'exploitation minière de Myriad ci-dessous.",
+    'es': "Puedes extraer Myriad a través de varias pools. Si no sabe qué es un grupo de minería, puede", 
+    'fr': "Vous pouvez exploiter Myriad à travers un certain nombre de pools. Si vous ne savez pas ce qu'est un pool minier, vous pouvez en ",
     'it': "Ci sono diverse Pools a disposizione per minare Myriad. Se non sai cos'è una Pool abbiamo elencato qui sotto le Pool che attualmente supportano il mining ed il merged mining con Myriad.", 
     'ja': "あなたは多くのプールを通じてMyriadを鉱山することができます。鉱山プールが何であるかわからない場合は、ここで詳細を知ることができます。以下のMyriadのマイニングとマージをサポートしているプールをリストアップしました。",
     'ko': "당신은 많은 수영장을 통해 무수한 사람을 살 수 있습니다. 광업 수영장이 무엇인지 모르는 경우 여기에서 자세히 알아볼 수 있습니다. 아래 Myriad의 마이닝 및 병합을 현재 지원하는 풀을 나열했습니다.",
@@ -648,8 +692,46 @@ const Localizations = {
     'ru': "Вы можете майнить Myriad совместно на нескольких пулах для майнинга. Если вы не знаете, что это, можете узнать здесь [EN]. В списке приведены пулы, которые в настоящее время поддерживают Miriad, в т.ч. объединенный майниг.",
     'zh_CN': "你可以通过一些池来挖掘Myriad。如果你不知道矿池是什么，你可以在这里了解更多。我们在下面列出了当前支持挖掘和合并Myriad挖掘的池。",
     'zh_TW': "你可以通過一些池來挖掘Myriad。如果你不知道礦池是什麼，你可以在這裡了解更多。我們在下面列出了當前支持挖掘和合併Myriad挖掘的池。",
-    'eo': "Oni povas elfosi Miriadon kun multe da elfosistaroj. Se vi ne scias kion estas elfosistaro, vi povas lerni pli ĉi tie. Ni listis ĉi-sube la elfosistarojn kiuj nuntempe subtenas elfosadon kaj kunelfosadon de Myriad.",
-  	'tl': "Maaari mong minahin yung Myriad sa pamamagitan ng maraming pools. Kung hindi mo alam kung ano ang isang pool ng pagmimina, maaari kang matuto nang higit pa dito. Inilista namin ang mga pool na kasalukuyang sumusuporta sa pagmimina at pagsasama ng pagmimina ng Myriad sa ibaba."
+    'eo': "Oni povas elfosi Miriadon kun multe da elfosistaroj. Se vi ne scias kion estas elfosistaro, vi povas ",
+    'tl': "Maaari mong minahin yung Myriad sa pamamagitan ng maraming pools. Kung hindi mo alam kung ano ang isang pool ng pagmimina, maaari kang matuto nang higit pa dito. Inilista namin ang mga pool na kasalukuyang sumusuporta sa pagmimina at pagsasama ng pagmimina ng Myriad sa ibaba."
+  },
+  'mine-mining-pools-learn-more': {
+    'ar': "",
+    'da': "",
+    'de': "",
+    'es': "obtener más información aquí.",
+    'fr': "apprendre plus ici.",
+    'it': "",
+    'ja': "",
+    'ko': "",
+    'nl': "",
+    'pl': "",
+    'pt': "",
+    'ro': "",
+    'ru': "",
+    'zh_CN': "",
+    'zh_TW': "",
+    'eo': "lerni pli ĉi tie.",
+    'tl': ""
+  },
+  'mine-mining-pools-text2': {
+    'ar': "",
+    'da': "",
+    'de': "",
+    'es': "Hemos enumerado los grupos que actualmente son compatibles con la minería y la fusión de minería de Myriad a continuación.",
+    'fr': "Nous avons listé les pools qui supportent actuellement l'exploitation minière et fusionner l'exploitation minière de Myriad ci-dessous.",
+    'it': "",
+    'ja': "",
+    'ko': "",
+    'nl': "",
+    'pl': "",
+    'pt': "",
+    'ro': "",
+    'ru': "",
+    'zh_CN': "",
+    'zh_TW': "",
+    'eo': "Ni listis ĉi-sube la elfosistarojn kiuj nuntempe subtenas la elfosadon kaj kunelfosadon de Myriad.",
+    'tl': ""
   },
   'mine-available-mining-software-title': {
     'ar': "برامج التعدين المتاحة",
@@ -667,7 +749,7 @@ const Localizations = {
     'ru': "Доступное программное обеспечение для добычи",
     'zh_CN': "可用的挖掘软件",
     'zh_TW': "可用的挖掘軟件",
-    'eo': "Minilaj softvaroj disponeblaj",
+    'eo': "Elfosilaj softvaroj disponeblaj",
     'tl': "Available Mining Software"
 
   },
@@ -747,6 +829,30 @@ const Localizations = {
     'eo': "Eblas elfosi per ĉiu speco de speciala aparato por elfosado de Skein",
     'tl': "Kung ikaw ay gumagamit ng Skein, mayroon kang ilang mga pagpipilian"
   },
+  'mine-yescrypt-text': {
+    'eo': "Rekomendite por ĉefprocesora elfosado"
+  },
+  'mine-view-windows-binaries-button': {
+    'eo': "Vindozaj duumaj dosieroj"
+  },
+  'mine-view-github-source-button': {
+    'eo': "Fontkodo ĉe GitHub"
+  },
+  'mine-miner-sgminer': {
+    'eo': "sgminer por elfosi per OpenCL-a grafiksprocesoro"
+  },
+  'mine-miner-ccminer': {
+    'eo': "ccminer por elfosi per CUDA-a grafiksprocesoro"
+  },
+  'mine-miner-cpuminer-multi': {
+    'eo': "cpuminer-multi por elfosi ĉefprocesore"
+  },
+  'mine-miner-cgminer': {
+    'eo': "cgminer por elfosi per OpenCL-a grafiksprocesoro"
+  },
+   'mine-miner-cpuminer-multi-optimized': {
+    'eo': "cpuminer-multi optimumigite por elfosi ĉefprocesore je yescrypt"
+  },
   'mine-suggested-command-line-text': {
     'ar': "سطر الأوامر المقترح",
     'da': "Foreslået Kommandolinje",
@@ -778,11 +884,11 @@ const Localizations = {
     'nl': "Beschikbare Mining-Pools",
     'pl': "Dostępne Pule Wydobywcze",
     'pt': "Associações de Mineração Disponíveis",
-    'ro': "Piscine Miniere Disponibile",
+    'ro': "Pools Miniere Disponibile",
     'ru': "Доступные горные бассейны",
     'zh_CN': "可用的采矿池",
     'zh_TW': "可用的採礦池",
-    'eo': "Ministaroj alireblaj",
+    'eo': "Elfosistaroj alireblaj",
     'tl': "Magagamit Mining-Pools"
   },
   'mine-p2pool-nodes-text': {
@@ -820,7 +926,7 @@ const Localizations = {
     'ru': "URL пула",
     'zh_CN': "池网址",
     'zh_TW': "池網址",
-    'eo': "Ministara ligilo",
+    'eo': "Elfosistara ligilo",
     'tl': "Pool-URL"
   },
   'mine-to-be-decided-text': {
@@ -891,13 +997,16 @@ const Localizations = {
     'ko': "기타 풀",
     'nl': "Andere pools",
     'pl': "Inne baseny",
-    'pt': "Outras Piscinas",
+    'pt': "Outras Pools",
     'ro': "Alte pool",
     'ru': "Другие пулы",
     'zh_CN': "其他游泳池",
     'zh_TW': "其他游泳池",
     'eo': "Aliaj elfosistaroj",
     'tl': "Iba pa Pools"
+  },
+  'mine-pool-yescrypt-myriadcoin-tk': {
+    'eo': "Yescrypt: Myriadcoin.tk Elfosistaro (kunelfosante kun Unitus)"
   },
   'mine-merge-mining-pools-text': {
     'ar': "دمج تجمع التعدين",
@@ -910,7 +1019,7 @@ const Localizations = {
     'ko': "채광 풀 병합",
     'nl': "Merge mining",
     'pl': "Połącz baseny wydobywcze",
-    'pt': "Mesclar Piscinas Minerais",
+    'pt': "Mesclar Pools Minerais",
     'ro': "Mergeți în bazinele miniere",
     'ru': "Объединить горные бассейны",
     'zh_CN': "合并挖掘池",
