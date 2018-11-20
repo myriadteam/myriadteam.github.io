@@ -129,7 +129,7 @@ const Localizations = {
     'ru': "Ресурсы",
     'zh_CN': "资源",
     'zh_TW': "資源",
-    'eo': "Risurcoj",
+    'eo': "Rimedoj",
     'tl': "Resources"
 
   },
@@ -339,7 +339,7 @@ const Localizations = {
     'ru': "Релиз Myriad сотоялся 23 февраля 2014 года в 18:30 UTC. Первый блок был сгенерирован за 4 минуты, и подтвердил отсутствие премайна. Первоначальная награда составляла 1000 MYR, уменьшаясь вдвое каждые 967 680 блоков (приблизительно 48 недель). Общий объем предложения составляет около 2 млрд. MYR. Целевое время блока 60 секунд или 300 секунд на каждый алгоритм.",
     'zh_CN': "Myriad于2014年2月23日18:30在全球发布。第一块雷块在4分钟后来到，从而确定没有任何预兆。 最初的奖励是1000马币，每96768块（约48周）减半。总供给约20亿马币。目标块时间是60秒，或每个算法300秒。",
     'zh_TW': "Myriad於2014年2月23日18:30在全球發布。第一塊雷塊在4分鐘後來到，從而確定沒有任何預兆。 最初的獎勵是1000馬幣，每96768塊（約48週）減半。總供給約20億馬幣。目標塊時間是60秒，或每個算法300秒。",
-    'eo': "Myriad lanĉis je 23/02/2014, 18:30UTC. La unuan blokon oni trovis 4 elfosutojn poste, pruvante ke neniu elfosado okazis antaŭ ol la publika lanĉo. Dekomence la blokpremio estis 1000XMY, kaj duoniĝis ĉiujn 967,680 blokojn (proksimume 48 semajnoj). La tuta sumo de miriadoj (XMY) estas proksimume 2 miliardoj. Nuntempe la programita tempo inter blokoj estas mezume 60 sekundoj, t.e. 300 sekundoj po algoritmo.",
+    'eo': "Myriad lanĉis je 23/02/2014, 18:30UTC. La unuan blokon oni trovis 4 minutojn poste, pruvante ke neniu elfosado okazis antaŭ ol la publika lanĉo. Dekomence la blokpremio estis 1000XMY, kaj duoniĝis ĉiujn 967,680 blokojn (proksimume 48 semajnoj). La tuta sumo de miriadoj (XMY) estas proksimume 2 miliardoj. Nuntempe la programita tempo inter blokoj estas mezume 60 sekundoj, t.e. 300 sekundoj po algoritmo.",
     'tl': "Ang myriad ay inilabas noong Pebrero 23, 2014 sa 18:30 UTC. Ang unang minahang bloke na dumating sa 4 na minuto, kaya itinatag na walang premine. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm.gi"
   },
   'wallets-section-header': {
@@ -1098,7 +1098,7 @@ const Localizations = {
     'ru': "Ресурсы",
     'zh_CN': "资源",
     'zh_TW': "資源",
-    'eo': "Risurcoj",
+    'eo': "Rimedoj",
     'tl': "Ressources"
 
   },
