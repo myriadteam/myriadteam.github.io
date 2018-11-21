@@ -965,25 +965,6 @@ const Localizations = {
     'eo': "Elfosistara ligilo",
     'tl': "Pool-URL"
   },
-  'mine-to-be-decided-text': {
-    'ar': "لكي تقرر",
-    'da': "At blive besluttet",
-    'de': "Ausgewählt sein",
-    'es': "Por decidir",
-    'fr': "Être décidé",
-    'it': "Da decidere",
-    'ja': "決定する",
-    'ko': "결정되기",
-    'nl': "Moet nog beslist worden",
-    'pl': "Do ustalenia",
-    'pt': "A ser decidido",
-    'ro': "A fi decis",
-    'ru': "Быть решенным",
-    'zh_CN': "即将被决定",
-    'zh_TW': "即將被決定",
-    'eo': "Decidote",
-    'tl': "Upang mapasiyahan"
-  },
   'mine-run-your-own-node-text': {
     'ar': "تشغيل عقدة الخاصة بك",
     'da': "Kør din egen knudepunkt",
