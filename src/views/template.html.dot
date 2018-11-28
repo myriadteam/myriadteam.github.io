@@ -11,6 +11,7 @@
     <title localization="page-title"><{=it.metadata.title || ''}></title>
 
     <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <script type="text/javascript" src="/dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
