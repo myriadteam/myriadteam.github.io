@@ -18,7 +18,7 @@ const Localizations = {
     'zh_TW', // Traditional Chinese
     'eo', // Esperanto
     'tl', // Tagalog
-    'tr', // Turkish
+    'tr' // Turkish
   ],
   'page-title': {
     'ar': "Myriad. عملة للجميع.",
@@ -145,7 +145,6 @@ const Localizations = {
     'eo': "Rimedoj",
     'tl': "Resources",
     'tr': "Kaynaklar"
-
   },
   'header-language-button': {
     'ar': "العربية",
@@ -366,7 +365,7 @@ const Localizations = {
     'it': "Miriade è stata lanciata il 23 febbraio del 2014 alle 18:30 UTC ed Il primo blocco è stato estratto 4 minuti più tardi, stabilendo così che nessun “pre-mine” fosse avvenuto. La ricompensa iniziale era di 1,000 MYR (XMY), e va a dimezzarsi ogni 967.680 blocchi il che equivale a circa 48 settimane. Esistono un totale di 2 Miliardi di Myriad. Il tempo target del blocco è di 60 secondi oppure di 300 secondi per algoritmo.",
     'ja': "Myriadは、2014年2月23日18:30 UTCに野生に放出されました。最初の採掘されたブロックは4分後に来たので、予期せぬことはないことを確認した。 当初の報酬は1,000 MYRで、967,680ブロック（約48週間）ごとに半分になりました。総供給量は約20億MYRです。ターゲットブロック時間は、アルゴリズムごとに60秒または300秒です。",
     'ko': "Myriad는 2014 년 2 월 23 일 18시 30 분 UTC에 야생에 공개되었습니다. 첫 번째 채광 된 블록은 4 분 후에 나왔고, 따라서 어떤 premine도 없다는 것을 확인했다. 초기 보상액은 1,000 MYR이었으며, 967,680 블록 (약 48 주)마다 절반이 절약되었습니다. 총 공급량은 약 20 억 MYR입니다. 목표 블록 시간은 알고리즘 당 60 초 또는 300 초입니다.",
-    'ku': "Myriad 23ê sibatê ya 2014an di saet 18.30ê de hate destpêkirin. Bloka madenvaniyê ya pêşîn piştî 4 deqeyan hat, ev yek ne wek "pre-mine" bû, yanî ji aliyê çêkêrn wê ve ji bo însanên din teşwîq bibin nehate kirin. Xelata destpêkê 1,000 MYR bû, hemû pereya 967,680 blokan xist nîviyê (halving kir - texmînen 48 heftiyan). Bi temamî nêzî 2 bilyon MYR hatine dayîn. Wextê blokê ku tê armanckirin, bo her algorîtmayê 60 çirke an jî 300 çirke ye.",
+    'ku': "Myriad 23ê sibatê ya 2014an di saet 18.30ê de hate destpêkirin. Bloka madenvaniyê ya pêşîn piştî 4 deqeyan hat, ev yek ne wek 'pre-mine' bû, yanî ji aliyê çêkêrn wê ve ji bo însanên din teşwîq bibin nehate kirin. Xelata destpêkê 1,000 MYR bû, hemû pereya 967,680 blokan xist nîviyê (halving kir - texmînen 48 heftiyan). Bi temamî nêzî 2 bilyon MYR hatine dayîn. Wextê blokê ku tê armanckirin, bo her algorîtmayê 60 çirke an jî 300 çirke ye.",
     'nl': "Myriad is op 23 februari 2014 om 18:30 (UCT) opgericht. Het eerste blok werd 4 minuten later gemined, waarbij werd vastgesteld dat er geen pre-mine was. De oorspronkele beloning  was 1000 MYR en halveerde elke 967.680 blokken ( circa 48 weken). Het totale aanbod van Myriad bedraagt ongeveer 2 miljard munten. De gewenste bloktijd is 60 seconden, of 300 seconden per algoritme.",
     'pl': "Myriad został wypuszczony na wolność 23 lutego 2014 o 18:30 UTC. Pierwszy miniony blok pojawił się 4 minuty później, w ten sposób ustalając, że nie było premine. Początkowa nagroda wyniosła 1000 MYR, zmniejszając o połowę każde 967,680 bloków (około 48 tygodni). Całkowita podaż to około 2 miliardy MYR. Docelowy czas bloku wynosi 60 sekund lub 300 sekund na algorytm.",
     'pt': "Myriad foi liberada para a vida selvagem em 23 de fevereiro de 2014 às 18:30 UTC. O primeiro bloco minado ocorreu 4 minutos depois, estabelecendo assim que não havia nenhuma premissa. A recompensa inicial foi de 1.000 MYR, reduzindo para metade de 967.680 blocos (aproximadamente 48 semanas). A oferta total é de aproximadamente 2 bilhões de MYR. O tempo de bloco de destino é de 60 segundos, ou 300 segundos por algoritmo.",
@@ -566,7 +565,7 @@ const Localizations = {
     'zh_TW': "交易所",
     'eo': "Borsoj",
     'tl': "Iba pa",
-    'tr': "Hareketler",
+    'tr': "Hareketler"
   },
   'buy-exchanges-text': {
     "ar":"يمكنك الحصول على عدد لا يحصى من أي من التبادلات الشعبية والآمنة التالية. القادمة في عام 2018، هل يمكن أن نتوقع أن نرى لا تعد ولا تحصى المتاحة من خلال التبادلات أكثر كبيرة لأنها لا تزال تنمو.",
@@ -587,7 +586,7 @@ const Localizations = {
     "zh_TW":"您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。",
     "eo":"Oni povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj.",
     "tl": "Maaari kang makakuha ng Myriad mula sa alinman sa mga sumusunod na sikat sa palitan. Pagdating sa 2018, maaari mong asahan na makita ang napakaraming magagamit sa pamamagitan ng mas malaking palitan habang patuloy itong lumalaki.",
-    "tr":"Myriad'i aşağıdaki güvenli platformlardan satın alabilirsiniz. 2019'de büyümeye devam edecek ve diğer büyük dosya paylaşım ağlarında bulunmaya devam edecektir.",
+    "tr":"Myriad'i aşağıdaki güvenli platformlardan satın alabilirsiniz. 2019'de büyümeye devam edecek ve diğer büyük dosya paylaşım ağlarında bulunmaya devam edecektir."
   },
   'live-coin-swaps': {
     "eo":"tuj interŝanĝi"
