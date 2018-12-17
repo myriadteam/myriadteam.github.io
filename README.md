@@ -15,7 +15,7 @@ The `master` branch can be viewed at http://test-www.myriadcoin.org
 You can quickly get a local server running for testing and developing using the following commands.
 
 ```
-git clone https://github.com/myriadteam/website
+git clone https://github.com/myriadteam/myriadteam.github.io
 ```
 
 ## Questions
