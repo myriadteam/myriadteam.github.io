@@ -625,7 +625,7 @@ const Localizations = {
     'zh_CN': "您可以从以下任何流行的安全交流中获取Myriad。在2018年，你可以期待看到Myriad可以通过更大型的交易所，随着它的不断发展。",
     'zh_TW': "您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。",
     'eo': "Oni povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj.",
-    "tl": "Maaari kang makakuha ng Myriad mula sa alinman sa mga sumusunod na sikat sa palitan. Pagdating sa 2018, maaari mong asahan na makita ang napakaraming magagamit sa pamamagitan ng mas malaking palitan habang patuloy itong lumalaki.",
+    'tl': "Maaari kang makakuha ng Myriad mula sa alinman sa mga sumusunod na sikat sa palitan. Pagdating sa 2018, maaari mong asahan na makita ang napakaraming magagamit sa pamamagitan ng mas malaking palitan habang patuloy itong lumalaki.",
     'tr': "Myriad'i aşağıdaki güvenli platformlardan satın alabilirsiniz. 2019'de büyümeye devam edecek ve diğer büyük dosya paylaşım ağlarında bulunmaya devam edecektir."
   },
   'live-coin-swaps': {
@@ -1485,7 +1485,7 @@ const Localizations = {
     'zh_CN': "不和服务器",
     'zh_TW': "不和服務器",
     'eo': "Servilo de Discord",
-    "tl": "Discord Server",
+    'tl': "Discord Server",
     'tr': "Anlaşmalı Sunucu"
   },
   'resources-slack-button': {
@@ -1507,7 +1507,7 @@ const Localizations = {
     'zh_CN': "松弛通道",
     'zh_TW': "鬆弛通道",
     'eo': "Kanalo de Slack",
-    "tl": "Slack Channel",
+    'tl': "Slack Channel",
     'tr': "Rahat Kanal"
   },
   'resources-telegram-button': {
@@ -1529,7 +1529,7 @@ const Localizations = {
     'zh_CN': "Telegram",
     'zh_TW': "Telegram",
     'eo': "Telegramo",
-    "tl": "Telegram ENG/PH",
+    'tl': "Telegram ENG/PH",
     'tr': "Telegram"
   },
   'resources-bitcointalk-thread-button': {
