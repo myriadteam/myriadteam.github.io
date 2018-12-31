@@ -442,23 +442,23 @@ const Localizations = {
   },
   'wallets-desktop-windows': {
     'eo': "Vindozo",
-    'fa': "ویندوز",
+    'fa': "ویندوز"
   },
   'wallets-desktop-x86-installer': {
     'eo': "32-bit instalilo",
-    'fa': "برنامه نصب ۳۲ بیتی",
+    'fa': "برنامه نصب ۳۲ بیتی"
   },
   'wallets-desktop-x64-installer': {
     'eo': "64-bit instalilo",
-    'fa': "برنامه نصب ۶۴ بیتی",
+    'fa': "برنامه نصب ۶۴ بیتی"
   },
   'wallets-desktop-other': {
     'eo': "Aliaj duumaj dosieroj",
-    'fa': "سایر برنامه‌ها",
+    'fa': "سایر برنامه‌ها"
   },
   'wallets-desktop-github': {
     'eo': "Vidi ĉe GitHub",
-    'fa': "مشاهده در گیت‌هاب",
+    'fa': "مشاهده در گیت‌هاب"
   },
   'wallets-mobile-title': {
     'ar': "هاتف",
