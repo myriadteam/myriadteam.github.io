@@ -11,7 +11,7 @@ $(function() {
     }
   }
 
-  if ($.inArray(language, Localizations.languages)) {
+  if ($.inArray(language, Localizations.languages) >= 0) {
     $.each(Localizations, function(localizationCode, value) {
       $('[localization="' + localizationCode + '"]').text(value[language]);
     });
