@@ -4,11 +4,13 @@ const Localizations = {
     'da', // Danish
     'de', // German
     'es', // Spanish
+    'fa', // Persian
     'fr', // French
     'it', // Italian
     'ja', // Japanese
     'ko', // Korean
-    'nl', // Dutch,
+    'ku', // Kurdish
+    'nl', // Dutch
     'pl', // Polish
     'pt', // Portuguese
     'ro', // Romanian
@@ -16,17 +18,20 @@ const Localizations = {
     'zh_CN', // Simplified Chinese
     'zh_TW', // Traditional Chinese
     'eo', // Esperanto
-    'tl' // Tagalog
+    'tl', // Tagalog
+    'tr' // Turkish
   ],
   'page-title': {
     'ar': "Myriad. عملة للجميع.",
     'da': "Myriad. En mønt til alle.",
     'de': "Myriad. Ein Coin für alle.",
     'es': "Myriad. Una moneda para todos.",
+    'fa': "میریاد. پولی برای همه.",
     'fr': "Myriad. Une monnaie pour tout le monde.",
     'it': "Myriad. Una Moneta Per Tutti.",
     'ja': "Myriad. みんなのためのコイン。",
     'ko': "Myriad. 모두를위한 동전.",
+    'ku': "Myriad. Yekeya pereyê ya ji bo her kesî.",
     'nl': "Myriad. Een munt voor iedereen.",
     'pl': "Myriad. Moneta dla wszystkich.",
     'pt': "Myriad. Uma moeda para todos.",
@@ -35,17 +40,20 @@ const Localizations = {
     'zh_CN': "Myriad. 一个硬币给大家。",
     'zh_TW': "Myriad. 一個硬幣給大家。",
     'eo': "Myriad. Mono por ĉiuj.",
-    'tl': "Myriad. Isang Barya Para sa Lahat."
+    'tl': "Myriad. Isang Barya Para sa Lahat.",
+    'tr': "Myriad. Herkes için Para Birimi."
   },
   'header-why-myriad-button': {
     'ar': "؟Myriad لماذا ا",
     'da': "Hvorfor Myriaf?",
     'de': "Warum Myriad?",
     'es': "¿Por Qué Myriad?",
+    'fa': "چرا میریاد؟",
     'fr': "Pourquoi Myriad?",
     'it': "Perché Myriad?",
     'ja': "なぜMyriad？",
     'ko': "왜 Myriad?",
+    'ku': "Çima Myriad?",
     'nl': "Waarom Myriad?",
     'pl': "Dlaczego Myriad?",
     'pt': "Por Que Myriad?",
@@ -54,17 +62,20 @@ const Localizations = {
     'zh_CN': "为什么 Myriad?",
     'zh_TW': "為什麼 Myriad?",
     'eo': "Kial Myriad?",
-    'tl': "Myriad. Isang Barya Para sa Lahat."
+    'tl': "Myriad. Isang Barya Para sa Lahat.",
+    'tr': "Neden Myriad?"
   },
   'header-wallets-button': {
     'ar': "محافظ",
     'da': "Tegnebøger",
     'de': "Wallets",
     'es': "Billeteras",
+    'fa': "کیف‌پول‌ها",
     'fr': "Portefeuilles",
     'it': "Portafogli",
     'ja': "財布",
     'ko': "지갑",
+    'ku': "Cizdan",
     'nl': "Wallets",
     'pl': "Portfele",
     'pt': "Carteiras",
@@ -73,17 +84,20 @@ const Localizations = {
     'zh_CN': "钱包",
     'zh_TW': "錢包",
     'eo': "Monujoj",
-    'tl': "Wallets"
+    'tl': "Wallets",
+    'tr': "Cüzdan"
   },
   'header-buy-button': {
     'ar': "يشترى",
     'da': "Købe",
     'de': "Kaufen",
     'es': "Comprar",
+    'fa': "خرید",
     'fr': "Acheter",
     'it': "Acquistare",
     'ja': "購入",
     'ko': "사다",
+    'ku': "Bistîne",
     'nl': "Kopen",
     'pl': "Kupować",
     'pt': "Comprar",
@@ -92,17 +106,20 @@ const Localizations = {
     'zh_CN': "购买",
     'zh_TW': "購買",
     'eo': "Aĉeti",
-    'tl': "Bumili"
+    'tl': "Bumili",
+    'tr': "Satın Al"
   },
   'header-mine-button': {
     'ar': "تعدين",
     'da': "Minedrift",
     'de': "Mining",
     'es': "Minería",
+    'fa': "استخراج",
     'fr': "Exploitation minière",
     'it': "Mining",
     'ja': "鉱業",
     'ko': "채광",
+    'ku': "Madenvanî",
     'nl': "Minen",
     'pl': "Górnictwo",
     'pt': "Mineração",
@@ -111,17 +128,20 @@ const Localizations = {
     'zh_CN': "矿业",
     'zh_TW': "礦業",
     'eo': "Elfosado",
-    'tl': "Pagmimina"
+    'tl': "Pagmimina",
+    'tr': "Madencilik"
   },
   'header-resources-button': {
     'ar': "مصادر",
     'da': "Ressourcer",
     'de': "Ressourcen",
     'es': "Recursos",
+    'fa': "دسترسی‌ها",
     'fr': "Ressources",
     'it': "Risorse",
     'ja': "リソース",
     'ko': "자원",
+    'ku': "Çavkanî",
     'nl': "Middelen",
     'pl': "Zasoby",
     'pt': "Recursos",
@@ -130,8 +150,8 @@ const Localizations = {
     'zh_CN': "资源",
     'zh_TW': "資源",
     'eo': "Rimedoj",
-    'tl': "Resources"
-
+    'tl': "Resources",
+    'tr': "Kaynaklar"
   },
   'header-language-button': {
     'ar': "العربية",
@@ -139,10 +159,12 @@ const Localizations = {
     'de': "Deutsch",
     'es': "Español",
     'eo': "Esperanto",
+    'fa': "فارسی",
     'fr': "Français",
     'it': "Italiano",
     'ja': "日本語",
     'ko': "한국의",
+    'ku': "Kurdî",
     'nl': "Nederlands",
     'pl': "Polski",
     'pt': "Português",
@@ -150,17 +172,20 @@ const Localizations = {
     'ru': "Русский",
     'tl': "Tagalog",
     'zh_CN': "简体中文",
-    'zh_TW': "繁體中文"
+    'zh_TW': "繁體中文",
+    'tr': "Türkçe"
   },
   'hero-title': {
     'ar': "عملة للجميع.",
     'da': "En mønt til alle.",
     'de': "Ein Coin für alle.",
     'es': "Una moneda para todos.",
+    'fa': "پولی برای همه",
     'fr': "Une pièce de monnaie pour tout le monde.",
     'it': "Una Moneta Per Tutti.",
     'ja': "みんなのためのコイン。",
     'ko': "모두를위한 동전.",
+    'ku': "Krîptopereya ji bo her kesî",
     'nl': "Een munt voor iedereen.",
     'pl': "Moneta dla wszystkich.",
     'pt': "Uma moeda para todos.",
@@ -169,17 +194,20 @@ const Localizations = {
     'zh_CN': "一个硬币给大家。",
     'zh_TW': "一個硬幣給大家。",
     'eo': "Mono por ĉiuj.",
-    'tl': "Isang Barya Para sa Lahat."
+    'tl': "Isang Barya Para sa Lahat.",
+    'tr': "Herkes için Kripto Para."
   },
   'hero-download-wallet-button': {
     'ar': "تحميل المحفظة",
     'da': "download Tegnebog",
     'de': "download Wallet",
     'es': "descargar Billetera",
+    'fa': "دانلود نرم‌افزار کیف‌پول",
     'fr': "télécharger un portefeuille",
     'it': "scarica Un Wallet",
     'ja': "ウォレットをダウンロード",
     'ko': "지갑 다운로드",
+    'ku': "Cizdanê daxîne",
     'nl': "Wallet Downloaden",
     'pl': "pobierz Portfel",
     'pt': "baixar Carteira",
@@ -188,17 +216,20 @@ const Localizations = {
     'zh_CN': "下载钱包",
     'zh_TW': "下載錢包",
     'eo': "elŝuti monujon",
-    'tl': "Myriad. Isang Barya Para sa Lahat."
+    'tl': "Myriad. Isang Barya Para sa Lahat.",
+    'tr': "Cüzdanı indir"
   },
   'hero-start-mining-button': {
     'ar': "بدء التعدين",
     'da': "Start Minedrift",
     'de': "Beginne mit dem minen von Myriad.",
     'es': "Comience a extraer",
+    'fa': "شروع استخراج",
     'fr': "Démarrer l'exploitation",
     'it': "Inizia il mining",
     'ja': "マイニングを開始する",
     'ko': "마이닝 시작",
+    'ku': "Dest bi madenvaniyê bike",
     'nl': "Begin met minen",
     'pl': "Rozpocznij Wydobycie",
     'pt': "Comece a Mineração",
@@ -207,17 +238,20 @@ const Localizations = {
     'zh_CN': "开始挖矿",
     'zh_TW': "開始挖礦",
     'eo': "Komenci elfosadon",
-    'tl': "Myriad. Isang Barya Para sa Lahat."
+    'tl': "Myriad. Isang Barya Para sa Lahat.",
+    'tr': "Madenciliğe Başlayın."
   },
   'why-myriad-section-header': {
     'ar': "؟Myriad لماذا ا",
     'da': "Hvorfor Myriaf?",
     'de': "Warum Myriad?",
     'es': "¿Por Qué Myriad?",
+    'fa': "چرا میریاد؟",
     'fr': "Pourquoi Myriad?",
     'it': "Perché Scegliere Myriad?",
     'ja': "なぜMyriad？",
     'ko': "왜 Myriad?",
+    'ku': "Çima Myriad?",
     'nl': "Waarom Myriad?",
     'pl': "Dlaczego Myriad?",
     'pt': "Por Que Myriad?",
@@ -226,17 +260,20 @@ const Localizations = {
     'zh_CN': "为什么 Myriad?",
     'zh_TW': "為什麼 Myriad?",
     'eo': "Kial Myriad?",
-    'tl': "Myriad. Isang Barya Para sa Lahat."
+    'tl': "Myriad. Isang Barya Para sa Lahat.",
+    'tr': "Neden Myriad?"
   },
   'why-myriad-multi-algorithm-title': {
     'ar': "خوارزميات متعددة",
     'da': "Flere Algoritmer",
     'de': "Mehrere Algorithmen",
     'es': "Múltiples Algoritmos",
+    'fa': "الگوریتم‌های چندگانه",
     'fr': "Plusieurs Algorithmes",
     'it': "Multi-Algoritmo",
     'jp': "複数のアルゴリズム",
     'ko': "다중 알고리즘",
+    'ku': "Algorîtmayên cuda",
     'nl': "Meerdere Algoritmen",
     'pl': "Wiele Algorytmów",
     'pt': "Múltiplos Algoritmos",
@@ -245,17 +282,20 @@ const Localizations = {
     'zh_CN': "多种算法",
     'zh_TW': "多種算法",
     'eo': "Pluraj algoritmoj",
-    'tl': "Multi-Algorithm"
+    'tl': "Multi-Algorithm",
+    'tr': "Farklı Algortmalar"
   },
   'why-myriad-multi-algorithm-text': {
     'ar': "لا تعد ولا تحصى هي العملة الأولى لدعم 5 خوارزميات، والمطاعم ل أسيك، غبو والتعدين وحدة المعالجة المركزية. حاليا، تتكون هذه الخوارزميات من SHA256d، سكريبت، مير-غروستل، سكين و يسكريبت. خوارزمية متعددة لا تعد ولا تحصى نهج يوفر مقاومة استثنائية 51٪ لأن هناك حاجة إلى مجموعة من الأجهزة المختلفة للعثور على 51٪ من الكتل.",
     'da': "Myriad er den første valuta til støtte for 5 algoritmer, catering til ASIC, GPU og CPU minedrift. I øjeblikket består disse algoritmer af SHA256d, Scrypt, Myr-Groestl, Skein og Yescrypt. Myriads multi-algoritme tilgang giver enestående 51% modstand, fordi en række forskellige hardware er nødvendige for at finde 51% af blokkene.",
     'de': "Myriad ist der erste Coin mit 5 Algorithmen. Dies erlaubt es, Myriad mit ASICs, GPUs und CPUs zu minen.Derzeit bestehen diese Algorithmen aus SHA256d, Scrypt, Myr-Groestl, Skein und Yescrypt. Die Nutzung von mehreren Algorithmen bietet einen hohen Schutz, da eine große Anzahl unterschiedlicher Hardware benötigt wird, um 51% der Blöcke zu finden.",
     'es': "Myriad es la primera moneda en admitir 5 algoritmos, que atienden a ASIC, GPU y minería de CPU. Actualmente, esos algoritmos consisten en SHA256d, Scrypt, Myr-Groestl, Skein y Yescrypt. El enfoque de algoritmos múltiples de Myriad ofrece una resistencia excepcional del 51% porque se necesita una gama de hardware diferente para encontrar el 51% de los bloques.",
+    'fa': "میریاد اولین پول دیجیتال است که از ۵ الگوریتم برای استخراج پشتیبانی می‌کند و قابلیت استخراج به‌صرفه از طریق پردازنده‌های مرکزی، پردازنده‌های گرافیکی و تراشه‌های ASIC را دارد. در حال حاضر، الگوریتم‌های SHA256d، Scrypt، Myr-Groestl، Skein و Yescrypt پشتیبانی می‌شوند. میریاد به دلیل قابلیت چند الگوریتمی خود، مقاومت قابل‌ملاحظه‌ای در برابر حمله «۵۱٪ سهام» دارد، زیرا برای بدست آوردن ۵۱ درصد از بلاک‌های سیستم، باید دستگاه‌های مختلفی به کار گرفته شوند.",
     'fr': "Myriad est la première devise à prendre en charge 5 algorithmes pour l'extraction ASIC, GPU et CPU. Actuellement, ces algorithmes se composent de SHA256d, Scrypt, Myr-Groestl, Skein et Yescrypt. L'approche multi-algorithme de Myriad offre une résistance exceptionnelle de 51% car une gamme de matériel différent est nécessaire pour trouver 51% des blocs.",
     'it': "Myriad é stata la prima moneta ad offrire il supporto a 5 algoritmi diversi, attraverso l’ASIC, il GPU ed il CPU mining. In questo momento gli algoritmi che possono essere usati per minare Myriad sono SHA256d, Scrypt, Myr-Groestl, Skein e Yescrypt. L’approccio Multi-Algo di Myriad offre anche una difesa eccezionale contro gli attacchi 51%, cosa possibile grazie al fatto che per essere attaccata si ha bisogno di diversi hardwares che controllano il 51% del blocco, cosa praticamente impossibile, che distacca così Myriad dalle altre monete, rendendola solida e sicura contro tali attacchi.",
     'ja': "Myriadは、ASIC、GPU、CPUマイニングの5つのアルゴリズムをサポートする最初の通貨です。現在、これらのアルゴリズムは、SHA256d、Scrypt、Myr-Groestl、Skein、およびYescryptで構成されています。 Myriadのマルチアルゴリズムアプローチは、ブロックの51％を見つけるためにさまざまなハードウェアの範囲が必要となるため、51％の耐性を提供します。",
     'ko': "Myriad는 ASIC, GPU 및 CPU 마이닝을위한 5 가지 알고리즘을 지원하는 최초의 통화입니다. 현재 이러한 알고리즘은 SHA256d, Scrypt, Myr-Groestl, Skein 및 Yescrypt로 구성됩니다. Myriad의 멀티 알고리즘 접근법은 블록의 51 %를 찾기 위해 다양한 하드웨어 범위가 필요하기 때문에 탁월한 51 % 저항을 제공합니다.",
+    'ku': "Myriad coina yekem bi 5 algorîtmayan. Ev îmkan dide ku Myriad bi ASIC, GPU û CPUan were derxistin. Vê gavê ev algorîtma ji SHA256d, Scrypt, Myr-Groestl, Skein û Yescrypt pêk tê. Bikaranîna algorîtmayên zêtir parastina zêdetir dide mirov, ji ber ku hejmarek mezin ya reqalavên cuda divê %51ê blokan bibînin.",
     'nl': "Myriad is de eerste valuta die volgens het principe van 5 algoritmes werkt, gericht op ASIC, GPU en CPU-mining. Momenteel bestaan deze algoritmes uit SHA256d, Scrypt, Myr-Groestl, Skein en Yescrypt. De multi-alogritme benadering van Myriad biedt een uitzonderlijke weerstand van 51% aan, omdat een reeks verschillende hardware nodig zijn om 51% van de blokken te vinden.",
     'pl': "Myriad to pierwsza waluta obsługująca 5 algorytmów, obsługująca kopie ASIC, GPU i procesora. Obecnie algorytmy te składają się z SHA256d, Scrypt, Myr-Groestl, Skein i Yescrypt. Metoda wielorakiego algorytmu Myriad oferuje wyjątkową 51-procentową odporność, ponieważ do znalezienia 51% bloków potrzebny jest szereg różnych urządzeń.",
     'pt': "Myriad é a primeira moeda a suportar 5 algoritmos, catering para ASIC, GPU e mineração de CPU. Atualmente, esses algoritmos consistem em SHA256d, Scrypt, Myr-Groestl, Skein e Yescrypt. A abordagem de múltiplos algoritmos da Myriad oferece uma excepcional resistência de 51%, porque uma gama de hardware diferente é necessária para encontrar 51% dos blocos.",
@@ -264,17 +304,20 @@ const Localizations = {
     'zh_CN': "Myriad是第一个支持5种算法的货币，适用于ASIC，GPU和CPU挖掘。目前，这些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt组成。 Myriad的多算法方法提供了51％的优异阻力，因为需要一系列不同的硬件来找到51％的方块。",
     'zh_TW': "Myriad是第一個支持5種算法的貨幣，適用於ASIC，GPU和CPU挖掘。目前，這些算法由SHA256d，Scrypt，Myr-Groestl，Skein和Yescrypt組成。 Myriad的多算法方法提供了51％的優異阻力，因為需要一系列不同的硬件來找到51％的方塊。",
     'eo': "Myriad (Miriado esperante) estas la unua valuto subteni samtempe 5 algoritmojn de elfosado, tiel ke ĉiuj el specialaj aparatoj, grafiksaj procesoroj, kaj ĉefprocesoroj povas elfosi ĝin profitdone. Nuntempe la algoritmoj estas SHA256d, Scrypt, Myr-Groestl, Skein, kaj Yescrypt. Pro sia plur-algoritmeco Myriad estas elstare sekura kontraŭ atakoj de partio kiu prenus 51% da haketpotenco. Por ekhavi 51%, oni bezonus amason de plurspecaj aparatoj por elfosi la diversajn algoritmojn.",
-    'tl': "Myriad ay ang unang currency na sumopurta sa 5 algorithm, pagtutustos para sa ASIC, GPU at CPU mining. Sa kasalukuyan, ang mga algorithm ay binubuo ng SHA256d, Scrypt, Myr-Groestl, Skein at Yescrypt. Ang multi algorithm daang patungo ng Myriad ay nag-aalok ng pambihirang 51% na paglaban dahil ang  iba't ibang mga hardware ay kinakailangan upang mahanap ang 51% ng mga bloke."
+    'tl': "Myriad ay ang unang currency na sumopurta sa 5 algorithm, pagtutustos para sa ASIC, GPU at CPU mining. Sa kasalukuyan, ang mga algorithm ay binubuo ng SHA256d, Scrypt, Myr-Groestl, Skein at Yescrypt. Ang multi algorithm daang patungo ng Myriad ay nag-aalok ng pambihirang 51% na paglaban dahil ang  iba't ibang mga hardware ay kinakailangan upang mahanap ang 51% ng mga bloke.",
+    'tr': "Myriad, Sınırsız 5 Algoritması ile ilk coin para birimlerinden Myriad'in ASIC'ler, GPU'lar ve CPU'lar ile çıkarılmasına izin verir. Şu anda, bu algoritmalar SHA256d, Scrypt, Myr-Groestl, Skein ve Yescrypt'den oluşmaktadır. Daha fazla algoritmaların kullanımı yüksek koruma sağlar, çünkü Madenciğin % 51'ini bulmak için çok sayıda farklı donanım gereklidir."
   },
   'why-myriad-merge-mining-title': {
     'ar': "دمج التعدين",
     'da': "Flette Mining",
     'de': "Merge mining",
     'es': "Combinar Minería",
+    'fa': "استخراج چندگانه",
     'fr': "Fusionner L'exploitation Minière",
     'it': "Merged Mining",
     'ja': "マージ鉱業",
     'ko': "합병 광업",
+    'ku': "Yekkirina Madenvaniyê",
     'nl': "Merge mining",
     'pl': "Scalaj Wydobywanie",
     'pt': "Merge Mineração",
@@ -283,17 +326,20 @@ const Localizations = {
     'zh_CN': "合并采矿",
     'zh_TW': "合併採礦",
     'eo': "Kunelfosado",
-    'tl': "Pagsamahin ang Pagmimina"
+    'tl': "Pagsamahin ang Pagmimina",
+    'tr': "Madenciliği Birleştir"
   },
   'why-myriad-merge-mining-text': {
     'ar': "يسمح دمج التعدين على خوارزميات SHA256d و سكريبت. وقد مكن هذا لا تعد ولا تحصى للاستفادة من هشراتس ضخمة المستخدمة حاليا من قبل القطع النقدية باستخدام هذه الخوارزميات. دمج التعدين، أو أوكسبو، يسمح للعمل يجري القيام بعملة الأم (مثل بيتكوين أو ليتسوان) لاستخدامها للعثور على كتل صالحة على بلوكشين لا تعد ولا تحصى.",
     'da': "Flet minedrift er tilladt på SHA256d og Scrypt algoritmerne. Dette har gjort det muligt for Myriad at udnytte de enorme hashrates, der i øjeblikket anvendes af mønter, der bruger disse algoritmer. Merge Mining, eller AuxPow, gør det muligt at udføre arbejdet for en forældemynt (f.eks. Bitcoin eller Litecoin), der bruges til at finde gyldige blokke på Myriads blokke.",
     'de': "Merge Mining ist für die Algorithmen SHA256d und Scrypt zulässig. Dies ermöglicht Myriad von der riesigen Hashrate zu profitieren, die von Coins mit diesen Algorithmen zur Verfügung gestellt wird. Merge Mining oder AuxPow, ermöglicht es, die Arbeit für einen übergeordneten Coin (wie Bitcoin oder Litecoin) zu verwenden, um gültige Blöcke in Myriads Blockchain zu finden.",
     'es': "Merge mining está permitido en los algoritmos SHA256d y Scrypt. Esto le ha permitido a Myriad tomar ventaja de los enormes hashrates actualmente en uso por monedas usando estos algoritmos. Merge Mining, o AuxPow, permite que el trabajo que se realiza para una moneda principal (como Bitcoin o Litecoin) se use para encontrar bloques válidos en la cadena de bloques de Myriad.",
+    'fa': "استخراج چندگانه یا «مرج ماینینگ» برای الگوریتم های SHA256d و Scrypt امکان‌پذیر است. این قابلیت، امکان بهره‌برداری از توان هش بزرگی که در پول‌های دیجیتال دیگر قابل دسترس است را در شبکه میریاد فراهم کرده است. با استفاده از این قابلیت که با نام AuxPow نیز شناخته می‌شود، می‌شود از کار انجام‌شده روی یک بلاک‌چینِ مادر (مانند بیت‌کوین یا لایت‌کوین) برای پیدا کردن بلاک‌های معتبر در بلاک‌چینِ میریاد استفاده کرد.",
     'fr': "Merge mining is allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms. Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain.",
     'it': "Il “Merged Mining” è consentito con gli algoritmi SHA256d e Scrypt. Ciò ha permesso a Myriad di sfruttare gli enormi hashrate attualmente in uso con le monete che usano gli stessi algoritmi. Il Merged Mining o AuxPow consente di utilizzare il lavoro svolto per una moneta madre (come Bitcoin o Litecoin) per trovare blocchi validi sulla blockchain di Myriad.",
     'ja': "マージマイニングはSHA256dアルゴリズムとScryptアルゴリズムで許可されています。これによりMyriadは、これらのアルゴリズムを使用するコインによって現在使用されている巨大なハッシュレートを利用することができました。 Merge MiningまたはAuxPowを使用すると、親コイン（BitcoinやLitecoinなど）の作業をMyriadのブロックチェーン上の有効なブロックを見つけるために使用できます。",
     'ko': "병합 마이닝은 SHA256d 및 Scrypt 알고리즘에서 허용됩니다. 이로써 Myriad는이 알고리즘을 사용하는 동전에 의해 현재 사용중인 거대한 해시를 이용할 수있게되었습니다. 병합 광업 또는 AuxPow를 사용하면 부모 동전 (예 : Bitcoin 또는 Litecoin)에 대한 작업을 통해 Myriad의 블록 체인에서 유효한 블록을 찾을 수 있습니다.",
+    'ku': "Madenvaniya yekkirinê destûrê ji bo algorîtmayên SHA256d û Scrypt dide. Ev destûr dide ku Myriad ji algorîtmayên mezin yên ku ji aliyê Coin ve tê pêşkêşkirin bi van algorîtmayan feyde bibîne. Madenvaniya yekkirinê an jî AuxPow dihêle ku tu di nav blokên bêhesab de ji bo dîtina blokên derbasdar, 'Coin'ek Esasî (wek Bitcoin an jî Litecoin) bi kar bînî.",
     'nl': "Gezamelijk minen is mogelijk  op de SHA256d en Scrypt algoritmes. Dit heeft ervoor gezorgd dat Myriad kan profiteren van de enorme hashrates van de munten die een van die algoritmes gebruiken. Gezamelijk minen, oftewel AuxPow, zorgt ervoor dat het werk wat wordt gedaan voor de ''Moedercoins'' (zoals Bitcoin of Litecoin) ook gebruikt kan worden om geldige blokken te vinden op de blockchain van Myriad Coin.",
     'pl': "Scalanie scalania jest dozwolone w algorytmach SHA256d i Scrypt. Umożliwiło to Myriadowi skorzystanie z ogromnych wachlarzów używanych obecnie przez monety za pomocą tych algorytmów. Merge Mining, czyli AuxPow, pozwala na wykonanie pracy nad monetą rodzicielską (np. Bitcoin lub Litecoin) w celu znalezienia prawidłowych bloków na blockchainie Myriad.",
     'pt': "Merge mining is allowed on the SHA256d and Scrypt algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms. Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain.",
@@ -302,17 +348,20 @@ const Localizations = {
     'zh_CN': "SHA256d和Scrypt算法允许合并挖掘。这使得Myriad能够利用这些算法使用当前硬币使用的巨大hashrate。 Merge Mining或AuxPow允许使用母币（如比特币或莱特币）完成的工作用于在Myriad区块链上查找有效的区块。",
     'zh_TW': "SHA256d和Scrypt算法允許合併挖掘。這使得Myriad能夠利用這些算法使用當前硬幣使用的巨大hashrate。 Merge Mining或AuxPow允許使用母幣（如比特幣或萊特幣）完成的工作用於在Myriad區塊鏈上查找有效的區塊。",
     'eo': "Kunelfosado estas ebligita por SHA256d kaj Scrypt, tiel ke Myriad profitas la grandegajn haketpotencojn de aliaj ĉifrovalutoj kiuj uzas tiujn algoritmojn. Kunelfosado, alinome 'AuxPoW', ebligas al ni reuzi laborpruvon de patrina valuto (ekz, Bitmono aŭ Litecoin) por trovi validajn blokojn kaj aldoni ilin al la blokĉeno de Miriado.",
-     'tl': "Ang myriad ay inilabas noong Pebrero 23, 2014 sa 18:30 UTC. Ang unang minahang bloke na dumating sa 4 na minuto, kaya itinatag na walang premine. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm.gi"
+    'tl': "Ang myriad ay inilabas noong Pebrero 23, 2014 sa 18:30 UTC. Ang unang minahang bloke na dumating sa 4 na minuto, kaya itinatag na walang premine. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm.gi",
+    'tr': "Birleştirme madenciliği SHA256d ve Scrypt algoritmalarına izin verşr. Myriad'ın, Coin tarafından sağlanan büyük algoritmadan bu algoritmalarla faydalanmasını sağlar. Birleştirme Madenciliği veya AuxPow, sayısız blokta geçerli blokları bulmak için bir Ebeveyn Parası (Bitcoin veya Litecoin gibi) için çalışmayı kullanmanızı sağlar.."
   },
   'why-myriad-distribution-title': {
     'ar': "توزيع",
     'da': "Fordeling",
     'de': "Verteilung",
     'es': "Distribución",
+    'fa': "توزیع",
     'fr': "Distribution",
     'it': "Distribuzione",
     'ja': "分布",
     'ko': "분포",
+    'ku': "Belavkirin",
     'nl': "Distributie",
     'pl': "Dystrybucja",
     'pt': "Distribuição",
@@ -321,17 +370,20 @@ const Localizations = {
     'zh_CN': "分配",
     'zh_TW': "分配",
     'eo': "Disdonado",
-    'tl': "Pamamahagi"
+    'tl': "Pamamahagi",
+    'tr': "Dağıtım"
   },
   'why-myriad-distribution-text': {
     'ar': "تم الافراج عن عدد لا يحصى من البرية في 23 فبراير 2014 في 18:30 بالتوقيت العالمي المنسق. وجاءت أول كتلة الملغومة بعد 4 دقائق، وبالتالي تثبت أنه لم يكن هناك الفرضية. وبلغت المكافأة الأولية 000 1 مير، مما أدى إلى تخفيض عدد كل كتلته إلى 680 967 قطعة (حوالي 48 أسبوعا). إجمالي العرض حوالي 2 مليار مير. زمن الفدرة المستهدفة هو 60 ثانية، أو 300 ثانية لكل خوارزمية.",
     'da': "Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The first mined block came 4 minutes later, thus establishing that there was no premine. The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR. Target block time is 60 seconds, or 300 seconds per algorithm.",
     'de': "Myriad startete am 23. Februar 2014 um 18:30 UTC. Der erste Block wurde 4 Minuten später gemined. Dadurch wurde sichergestellt, dass es kein Premine gab. Die anfängliche Belohnung betrug 1.000 XMY und halbierte sich alle 967.680 Blöcke (ca. 48 Wochen). Die gesamte Anzahl beläuft sich auf ca. 2 Milliarden XMY. Die Zielblockzeit beträgt 60 Sekunden oder 300 Sekunden pro Algorithmus.",
     'es': "Myriad fue lanzado al aire libre el 23 de febrero de 2014 a las 18:30 UTC. El primer bloque minado llegó 4 minutos más tarde, estableciendo así que no había ningún prejuicio. La recompensa inicial fue 1,000 MYR, reduciendo a la mitad cada 967,680 bloques (aproximadamente 48 semanas). El suministro total es de aproximadamente 2 mil millones de MYR. El tiempo del bloque objetivo es de 60 segundos o 300 segundos por algoritmo.",
+    'fa': "میریاد در ۲۳ فوریه ۲۰۱۴ در ساعت ۱۸:۳۰ به وقت هماهنگ جهانی (UTC) منتشر شد. اولین بلاک، ۴ دقیقه بعد استخراج شد. این به این معنی است که پیش از معرفی عمومی میریاد، هیچ استخراجی انجام نشده‌است. دستمزد استخراج اولیه، ۱٬۰۰۰ میریاد بود که با استخراج هر ۹۶۷٬۶۸۰ بلاک (حدود ۴۸ هفته) نصف می‌شد. ظرفیت کل شبکه حدود ۲ میلیارد میریاد است. در حال حاضر، زمان مطلوب بین بلاک‌ها ۶۰ ثانیه، یا ۳۰۰ ثانیه بر الگوریتم است.",
     'fr': "Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The first mined block came 4 minutes later, thus establishing that there was no premine. The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR. Target block time is 60 seconds, or 300 seconds per algorithm.",
-     'it': "Miriade è stata lanciata il 23 febbraio del 2014 alle 18:30 UTC ed Il primo blocco è stato estratto 4 minuti più tardi, stabilendo così che nessun “pre-mine” fosse avvenuto. La ricompensa iniziale era di 1,000 MYR (XMY), e va a dimezzarsi ogni 967.680 blocchi il che equivale a circa 48 settimane. Esistono un totale di 2 Miliardi di Myriad. Il tempo target del blocco è di 60 secondi oppure di 300 secondi per algoritmo.",
+    'it': "Miriade è stata lanciata il 23 febbraio del 2014 alle 18:30 UTC ed Il primo blocco è stato estratto 4 minuti più tardi, stabilendo così che nessun “pre-mine” fosse avvenuto. La ricompensa iniziale era di 1,000 MYR (XMY), e va a dimezzarsi ogni 967.680 blocchi il che equivale a circa 48 settimane. Esistono un totale di 2 Miliardi di Myriad. Il tempo target del blocco è di 60 secondi oppure di 300 secondi per algoritmo.",
     'ja': "Myriadは、2014年2月23日18:30 UTCに野生に放出されました。最初の採掘されたブロックは4分後に来たので、予期せぬことはないことを確認した。 当初の報酬は1,000 MYRで、967,680ブロック（約48週間）ごとに半分になりました。総供給量は約20億MYRです。ターゲットブロック時間は、アルゴリズムごとに60秒または300秒です。",
     'ko': "Myriad는 2014 년 2 월 23 일 18시 30 분 UTC에 야생에 공개되었습니다. 첫 번째 채광 된 블록은 4 분 후에 나왔고, 따라서 어떤 premine도 없다는 것을 확인했다. 초기 보상액은 1,000 MYR이었으며, 967,680 블록 (약 48 주)마다 절반이 절약되었습니다. 총 공급량은 약 20 억 MYR입니다. 목표 블록 시간은 알고리즘 당 60 초 또는 300 초입니다.",
+    'ku': "Myriad 23ê sibatê ya 2014an di saet 18.30ê de hate destpêkirin. Bloka madenvaniyê ya pêşîn piştî 4 deqeyan hat, ev yek ne wek 'pre-mine' bû, yanî ji aliyê çêkêrn wê ve ji bo însanên din teşwîq bibin nehate kirin. Xelata destpêkê 1,000 MYR bû, hemû pereya 967,680 blokan xist nîviyê (halving kir - texmînen 48 heftiyan). Bi temamî nêzî 2 bilyon MYR hatine dayîn. Wextê blokê ku tê armanckirin, bo her algorîtmayê 60 çirke an jî 300 çirke ye.",
     'nl': "Myriad is op 23 februari 2014 om 18:30 (UCT) opgericht. Het eerste blok werd 4 minuten later gemined, waarbij werd vastgesteld dat er geen pre-mine was. De oorspronkele beloning  was 1000 MYR en halveerde elke 967.680 blokken ( circa 48 weken). Het totale aanbod van Myriad bedraagt ongeveer 2 miljard munten. De gewenste bloktijd is 60 seconden, of 300 seconden per algoritme.",
     'pl': "Myriad został wypuszczony na wolność 23 lutego 2014 o 18:30 UTC. Pierwszy miniony blok pojawił się 4 minuty później, w ten sposób ustalając, że nie było premine. Początkowa nagroda wyniosła 1000 MYR, zmniejszając o połowę każde 967,680 bloków (około 48 tygodni). Całkowita podaż to około 2 miliardy MYR. Docelowy czas bloku wynosi 60 sekund lub 300 sekund na algorytm.",
     'pt': "Myriad foi liberada para a vida selvagem em 23 de fevereiro de 2014 às 18:30 UTC. O primeiro bloco minado ocorreu 4 minutos depois, estabelecendo assim que não havia nenhuma premissa. A recompensa inicial foi de 1.000 MYR, reduzindo para metade de 967.680 blocos (aproximadamente 48 semanas). A oferta total é de aproximadamente 2 bilhões de MYR. O tempo de bloco de destino é de 60 segundos, ou 300 segundos por algoritmo.",
@@ -340,17 +392,21 @@ const Localizations = {
     'zh_CN': "Myriad于2014年2月23日18:30在全球发布。第一块雷块在4分钟后来到，从而确定没有任何预兆。 最初的奖励是1000马币，每96768块（约48周）减半。总供给约20亿马币。目标块时间是60秒，或每个算法300秒。",
     'zh_TW': "Myriad於2014年2月23日18:30在全球發布。第一塊雷塊在4分鐘後來到，從而確定沒有任何預兆。 最初的獎勵是1000馬幣，每96768塊（約48週）減半。總供給約20億馬幣。目標塊時間是60秒，或每個算法300秒。",
     'eo': "Myriad lanĉis je 23/02/2014, 18:30UTC. La unuan blokon oni trovis 4 minutojn poste, pruvante ke neniu elfosado okazis antaŭ ol la publika lanĉo. Dekomence la blokpremio estis 1000XMY, kaj duoniĝis ĉiujn 967,680 blokojn (proksimume 48 semajnoj). La tuta sumo de miriadoj (XMY) estas proksimume 2 miliardoj. Nuntempe la programita tempo inter blokoj estas mezume 60 sekundoj, t.e. 300 sekundoj po algoritmo.",
-    'tl': "Ang myriad ay inilabas noong Pebrero 23, 2014 sa 18:30 UTC. Ang unang minahang bloke na dumating sa 4 na minuto, kaya itinatag na walang premine. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm.gi"
+    'tl': "Ang myriad ay inilabas noong Pebrero 23, 2014 sa 18:30 UTC. Ang unang minahang bloke na dumating sa 4 na minuto, kaya itinatag na walang premine. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm. Ang unang gantimpala ay 1,000 MYR, pinaghati ang bawat 967,680 na mga bloke (humigit-kumulang 48 na linggo). Ang kabuuang supply ay humigit-kumulang 2 bilyong MYR. Ang target na oras ng pag-bloke ay 60 segundo, o 300 segundo bawat algorithm.gi",
+    'tr': "Myriad 23 Şubat 2014 saat 18:30 UTC'de başladı. İlk blok 4 dakika sonra parlatıldı. Bu, hiçbir prinrin olmadığından emin oldu. İlk ödül 1.000 XMY idi ve her 967.680 bloğu (yaklaşık 48 hafta) yarıya indirdi. Toplam sayı yaklaşık 2 milyar XMY'dir. Hedef blok süresi, algoritma başına 60 saniye veya 300 saniyedir."
+
   },
   'wallets-section-header': {
     'ar': "محافظ",
     'da': "Tegnebøger",
     'de': "Wallets",
     'es': "Billeteras",
+    'fa': "کیف‌پول‌ها",
     'fr': "Portefeuilles",
     'it': "Portafogli",
     'ja': "財布",
     'ko': "지갑",
+    'ku': "Cizdan",
     'nl': "Wallets",
     'pl': "Portfele",
     'pt': "Carteiras",
@@ -359,17 +415,20 @@ const Localizations = {
     'zh_CN': "钱包",
     'zh_TW': "錢包",
     'eo': "Monujoj",
-    'tl': "Wallets"
+    'tl': "Wallets",
+    'tr': "Cüzdan"
   },
   'wallets-desktop-title': {
     'ar': "الحاسوب",
     'da': "Computer",
     'de': "Computer",
     'es': "Computadora",
+    'fa': "کامپیوتر",
     'fr': "Ordinateur",
     'it': "Computer",
     'ja': "コンピューター",
     'ko': "컴퓨터",
+    'ku': "Kompûter",
     'nl': "Computer",
     'pl': "Komputer",
     'pt': "Computador",
@@ -378,32 +437,40 @@ const Localizations = {
     'zh_CN': "电脑",
     'zh_TW': "電腦",
     'eo': "Komputilo",
-    'tl': "Wallets"
+    'tl': "Wallets",
+    'tr': "Bilgisayar"
   },
   'wallets-desktop-windows': {
-    'eo': "Vindozo"
+    'eo': "Vindozo",
+    'fa': "ویندوز"
   },
   'wallets-desktop-x86-installer': {
-    'eo': "32-bit instalilo"
+    'eo': "32-bit instalilo",
+    'fa': "برنامه نصب ۳۲ بیتی"
   },
   'wallets-desktop-x64-installer': {
-    'eo': "64-bit instalilo"
+    'eo': "64-bit instalilo",
+    'fa': "برنامه نصب ۶۴ بیتی"
   },
   'wallets-desktop-other': {
-    'eo': "Aliaj duumaj dosieroj"
+    'eo': "Aliaj duumaj dosieroj",
+    'fa': "سایر برنامه‌ها"
   },
   'wallets-desktop-github': {
-    'eo': "Vidi ĉe GitHub"
+    'eo': "Vidi ĉe GitHub",
+    'fa': "مشاهده در گیت‌هاب"
   },
   'wallets-mobile-title': {
     'ar': "هاتف",
     'da': "Telefon",
     'de': "Telefon",
     'es': "Teléfono",
+    'fa': "تلفن همراه",
     'fr': "Téléphone",
     'it': "Telefono",
     'ja': "電話",
     'ko': "전화",
+    'ku': "Telefon",
     'nl': "Mobiel",
     'pl': "Telefon",
     'pt': "telefone",
@@ -412,23 +479,28 @@ const Localizations = {
     'zh_CN': "电话",
     'zh_TW': "電話",
     'eo': "Telefono",
-    'tl': "Mobile"
+    'tl': "Mobile",
+    'tr': "Telefon"
   },
   'wallets-mobile-android-coinid': {
-    'eo': "CoinID (frua aliro)"
+    'eo': "CoinID (frua aliro)",
+    'fa': "CoinID (دسترسی زودهنگام)"
   },
   'wallets-mobile-android-hash-engineering': {
-    'eo': "Google Play (SPV per myriadcoinj)"
+    'eo': "Google Play (SPV per myriadcoinj)",
+    'fa': "Google Play (SPV از طریق myriadcoinj)"
   },
   'wallets-source-title': {
     'ar': "مصدر الرمز",
     'da': "Kildekode",
     'de': "Quellcode",
     'es': "Código Fuente",
+    'fa': "کدهای منبع",
     'fr': "Code Source",
     'it': "Codice Fonte",
     'ja': "ソースコード",
     'ko': "소스 코드",
+    'ku': "Çavkaniya kodê",
     'nl': "Broncode",
     'pl': "Kod źródłowy",
     'pt': "Código Fonte",
@@ -437,23 +509,28 @@ const Localizations = {
     'zh_CN': "源代码",
     'zh_TW': "源代碼",
     'eo': "Fontkodo",
-    'tl': "Mobile"
+    'tl': "Mobile",
+    'tr': "Kaynak"
   },
   'wallets-source-zip': {
-    'eo': "Fontkoda"
+    'eo': "Fontkoda",
+    'fa': "کد منبع"
   },
   'wallets-source-git-repo': {
-    'eo': "Deponejo de Git"
+    'eo': "Deponejo de Git",
+    'fa': "مخزن گیت"
   },
   'wallets-other-title': {
     'ar': "آخر",
     'da': "Andet",
     'de': "Andere",
     'es': "Otro",
+    'fa': "سایر",
     'fr': "Autre",
     'it': "Altro",
     'ja': "その他",
     'ko': "다른",
+    'ku': "Yên din",
     'nl': "Anders",
     'pl': "Inny",
     'pt': "De outros",
@@ -462,32 +539,40 @@ const Localizations = {
     'zh_CN': "其他",
     'zh_TW': "其他",
     'eo': "Aliaj",
-    'tl': "Iba pa"
+    'tl': "Iba pa",
+    'tr': "Diğerleri"
   },
   'wallets-other-download': {
-    'eo': "Elŝuti"
+    'eo': "Elŝuti",
+    'fa': "دانلود"
   },
   'wallets-other-windows': {
-    'eo': "Vindozo"
+    'eo': "Vindozo",
+    'fa': "ویندوز"
   },
   'wallets-other-linux': {
-    'eo': "Linukso"
+    'eo': "Linukso",
+    'fa': "لینوکس"
   },
   'wallets-other-brain': {
-    'eo': "Cerba monujo"
+    'eo': "Cerba monujo",
+    'fa': "Brain Wallet"
   },
   'wallets-other-paper': {
-    'eo': "Papera monujo"
+    'eo': "Papera monujo",
+    'fa': "کیف‌پول کاغذی"
   },
   'buy-section-header': {
     'ar': "يشترى",
     'da': "Købe",
     'de': "Kaufen",
     'es': "Comprar",
+    'fa': "خرید",
     'fr': "Acheter",
     'it': "Acquistare",
     'ja': "購入",
     'ko': "사다",
+    'ku': "Kirrîn",
     'nl': "Kopen",
     'pl': "Kupować",
     'pt': "Comprar",
@@ -496,17 +581,20 @@ const Localizations = {
     'zh_CN': "购买",
     'zh_TW': "購買",
     'eo': "Aĉeti",
-    'tl': "Iba pa"
+    'tl': "Iba pa",
+    'tr': "Satın Al"
   },
   'buy-exchanges-title': {
     'ar': "التبادل",
     'da': "Udveksling",
     'de': "Handeln",
     'es': "Intercambios",
+    'fa': "مبادله",
     'fr': "Des échanges",
     'it': "Piattaforme Di Trading",
     'ja': "交流",
     'ko': "교류",
+    'ku': "Kirrîn û firotin",
     'nl': "Handelsplatformen",
     'pl': "Wymiany",
     'pt': "Intercâmbios",
@@ -515,42 +603,50 @@ const Localizations = {
     'zh_CN': "交易所",
     'zh_TW': "交易所",
     'eo': "Borsoj",
-    'tl': "Iba pa"
+    'tl': "Iba pa",
+    'tr': "Hareketler"
   },
   'buy-exchanges-text': {
-    "ar":"يمكنك الحصول على عدد لا يحصى من أي من التبادلات الشعبية والآمنة التالية. القادمة في عام 2018، هل يمكن أن نتوقع أن نرى لا تعد ولا تحصى المتاحة من خلال التبادلات أكثر كبيرة لأنها لا تزال تنمو.",
-    "da":"Du kan erhverve Myriad fra nogen af ​​følgende populære, sikre udvekslinger. Kommer i 2018, kan du forvente at se Myriad tilgængelig gennem flere store børser, da den fortsætter med at vokse.",
-    "de":"Sie können Myriad von den nachfolgenden, sicheren Plattformen erwerben. Myriad wird im Jahr 2018 weiter wachsen und sehr wahrscheinlich bei weiteren großen Tauschbörsen verfügbar sein.",
-    "es":"Puede adquirir Myriad desde cualquiera de los siguientes intercambios populares y seguros. A partir de 2018, podrás ver a Myriad disponible a través de intercambios más grandes a medida que siga creciendo.",
-    "fr":"Vous pouvez acquérir Myriad à partir de l'un des échanges populaires et sécurisés suivants. À venir en 2018, vous pouvez vous attendre à voir Myriad disponible grâce à de plus grands échanges car il continue de croître.",
-    "it":"Puoi comprare Myriad da una delle seguenti piattaforme. Stiamo lavorando per rendere Myriad disponibile su più piattaforme in futuro.",
-    "ja":"Myriadは、以下の一般的で安全な取引所のいずれかから取得することができます。 2018年になると、Myriadが拡大し続けるにつれ、より大きな取引所を通じてMyriadを利用できるようになると期待できます。",
-    "ko":"Myriad는 다음과 같은 인기 있고 안전한 거래에서 얻을 수 있습니다. 2018 년에 접어 들면서 Myriad가 계속 커짐에 따라 더 많은 대규모 교환을 통해 Myriad를 사용할 수 있습니다.",
-    "nl":"U kunt Myriad-munten verkrijgen op een van de volgende populaire, en veilige handelsplatformen. In 2018 kan er verwacht worden dat de munt op nog meer handelsplatformen beschikbaar zal zijn.",
-    "pl":"Możesz nabyć Myriad z jednej z następujących popularnych, bezpiecznych wymian. W 2018 roku możesz spodziewać się, że Myriad będzie dostępny za pośrednictwem większej liczby giełd, gdy będzie się powiększał.",
-    "pt":"Você pode adquirir Myriad de qualquer uma das seguintes trocas populares e seguras. Chegando em 2018, você pode esperar para ver Myriad disponível através de trocas maiores, pois continua a crescer.",
-    "ro":"Puteți achiziționa Myriad din oricare dintre următoarele schimburi populare, securizate. Venind în 2018, vă puteți aștepta să vedeți Myriad disponibil prin mai multe schimburi mari, pe măsură ce acesta continuă să crească.",
-    "ru":"Вы можете приобрести Myriad на обменных площадках, перечисленных ниже. В 2018 году, в связи с продолжающимся ростом Myriad, можно ожидать листинга на большем числе крупных бирж.",
-    "zh_CN":"您可以从以下任何流行的安全交流中获取Myriad。在2018年，你可以期待看到Myriad可以通过更大型的交易所，随着它的不断发展。",
-    "zh_TW":"您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。",
-    "eo":"Oni povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj.",
-    "tl": "Maaari kang makakuha ng Myriad mula sa alinman sa mga sumusunod na sikat sa palitan. Pagdating sa 2018, maaari mong asahan na makita ang napakaraming magagamit sa pamamagitan ng mas malaking palitan habang patuloy itong lumalaki."
+    'ar': "يمكنك الحصول على عدد لا يحصى من أي من التبادلات الشعبية والآمنة التالية. القادمة في عام 2018، هل يمكن أن نتوقع أن نرى لا تعد ولا تحصى المتاحة من خلال التبادلات أكثر كبيرة لأنها لا تزال تنمو.",
+    'da': "Du kan erhverve Myriad fra nogen af ​​følgende populære, sikre udvekslinger. Kommer i 2018, kan du forvente at se Myriad tilgængelig gennem flere store børser, da den fortsætter med at vokse.",
+    'de': "Sie können Myriad von den nachfolgenden, sicheren Plattformen erwerben. Myriad wird im Jahr 2018 weiter wachsen und sehr wahrscheinlich bei weiteren großen Tauschbörsen verfügbar sein.",
+    'es': "Puede adquirir Myriad desde cualquiera de los siguientes intercambios populares y seguros. A partir de 2018, podrás ver a Myriad disponible a través de intercambios más grandes a medida que siga creciendo.",
+    'fa': "میریاد را می‌توانید از هریک از این مبادله‌گاه‌ها (اکسچنج ها) تهیه کنید. با رشد میریاد، بزودی مبادله‌گاه‌های بیشتری پشتیبانی از آن پشتیبانی خواهند کرد.",
+    'fr': "Vous pouvez acquérir Myriad à partir de l'un des échanges populaires et sécurisés suivants. À venir en 2018, vous pouvez vous attendre à voir Myriad disponible grâce à de plus grands échanges car il continue de croître.",
+    'it': "Puoi comprare Myriad da una delle seguenti piattaforme. Stiamo lavorando per rendere Myriad disponibile su più piattaforme in futuro.",
+    'ja': "Myriadは、以下の一般的で安全な取引所のいずれかから取得することができます。 2018年になると、Myriadが拡大し続けるにつれ、より大きな取引所を通じてMyriadを利用できるようになると期待できます。",
+    'ko': "Myriad는 다음과 같은 인기 있고 안전한 거래에서 얻을 수 있습니다. 2018 년에 접어 들면서 Myriad가 계속 커짐에 따라 더 많은 대규모 교환을 통해 Myriad를 사용할 수 있습니다.",
+    'ku': "Tu dikarî Myriad-ê ji van platformên ewle bikirrî. Myriad di 2018an de wê dewam bike mezinbûnê û wê ser torên parvekirina pelê yên mezin berdest bibe.",
+    'nl': "U kunt Myriad-munten verkrijgen op een van de volgende populaire, en veilige handelsplatformen. In 2018 kan er verwacht worden dat de munt op nog meer handelsplatformen beschikbaar zal zijn.",
+    'pl': "Możesz nabyć Myriad z jednej z następujących popularnych, bezpiecznych wymian. W 2018 roku możesz spodziewać się, że Myriad będzie dostępny za pośrednictwem większej liczby giełd, gdy będzie się powiększał.",
+    'pt': "Você pode adquirir Myriad de qualquer uma das seguintes trocas populares e seguras. Chegando em 2018, você pode esperar para ver Myriad disponível através de trocas maiores, pois continua a crescer.",
+    'ro': "Puteți achiziționa Myriad din oricare dintre următoarele schimburi populare, securizate. Venind în 2018, vă puteți aștepta să vedeți Myriad disponibil prin mai multe schimburi mari, pe măsură ce acesta continuă să crească.",
+    'ru': "Вы можете приобрести Myriad на обменных площадках, перечисленных ниже. В 2018 году, в связи с продолжающимся ростом Myriad, можно ожидать листинга на большем числе крупных бирж.",
+    'zh_CN': "您可以从以下任何流行的安全交流中获取Myriad。在2018年，你可以期待看到Myriad可以通过更大型的交易所，随着它的不断发展。",
+    'zh_TW': "您可以從以下任何流行的安全交流中獲取Myriad。在2018年，你可以期待看到Myriad可以通過更大型的交易所，隨著它的不斷發展。",
+    'eo': "Oni povas ekhavi Miriadon per unu el la popularaj borsoj prezentitaj ĉi tie. Ĉi-jare en 2018 Myriad ankaŭ ekestos havebla en pluraj aliaj borsoj.",
+    'tl': "Maaari kang makakuha ng Myriad mula sa alinman sa mga sumusunod na sikat sa palitan. Pagdating sa 2018, maaari mong asahan na makita ang napakaraming magagamit sa pamamagitan ng mas malaking palitan habang patuloy itong lumalaki.",
+    'tr': "Myriad'i aşağıdaki güvenli platformlardan satın alabilirsiniz. 2019'de büyümeye devam edecek ve diğer büyük dosya paylaşım ağlarında bulunmaya devam edecektir."
   },
   'live-coin-swaps': {
-    "eo":"tuj interŝanĝi"
+    'eo': "tuj interŝanĝi",
+    'fa': "مبادله کنید!"
   },
   'local-cash': {
-    "eo":"loka kontanto"
+    'eo': "loka kontanto",
+    'fa': "مبادله محلی پول نقد"
   },
   'buy-view-merchants-button': {
     'ar': "عرض التجار",
     'da': "Se Forhandlere",
     'de': "Händler anzeigen",
     'es': "Ver Comerciantes",
+    'fa': "مشاهده مبادله‌گران",
     'fr': "Voir Les Marchands",
     'it': "Visualizza I Commercianti",
     'ja': "販売者の表示",
     'ko': "판매자보기",
+    'ku': "Firoşkaran nîşan bide",
     'nl': "Bekijk Verkopers",
     'pl': "Wyświetl Kupców",
     'pt': "Ver Comerciantes",
@@ -559,17 +655,20 @@ const Localizations = {
     'zh_CN': "查看商家",
     'zh_TW': "查看商家",
     'eo': "Vidi komercistojn",
-    'tl': "Bumili sa"
+    'tl': "Bumili sa",
+    'tr': "Satış Noktaları"
   },
   'mine-section-header': {
     'ar': "تعدين",
     'da': "Minedrift",
     'de': "Mining",
     'es': "Minería",
+    'fa': "استخراج",
     'fr': "Exploitation minière",
     'it': "Mining",
     'ja': "鉱業",
     'ko': "채광",
+    'ku': "Madenvanî",
     'nl': "Minen",
     'pl': "Górnictwo",
     'pt': "Mineração",
@@ -578,17 +677,20 @@ const Localizations = {
     'zh_CN': "矿业",
     'zh_TW': "礦業",
     'eo': "Elfosado",
-    'tl': "Pagmimina"
+    'tl': "Pagmimina",
+    'tr': "Mining"
   },
   'mine-getting-started-title': {
     'ar': "ابدء",
     'da': "Kom i gang",
     'de': "Anfangen",
     'es': "Empezando",
+    'fa': "شروع استخراج",
     'fr': "Commencer",
     'it': "Iniziare",
     'ja': "入門",
     'ko': "시작하기",
+    'ku': "Dest pê kirin",
     'nl': "Minen",
     'pl': "Pierwsze kroki",
     'pt': "Começando",
@@ -597,17 +699,20 @@ const Localizations = {
     'zh_CN': "入门",
     'zh_TW': "入門",
     'eo': "Komenci",
-    'tl': "Nagsisimula"
+    'tl': "Nagsisimula",
+    'tr': "Başlangıç"
   },
   'mine-getting-started-text1': {
     'ar': "لإزالة الألغام لا تعد ولا تحصى، سوف تحتاج إلى أولا تحميل محفظة. ثم، واحدة من برامج التعدين المدرجة والنار بعيدا! إذا كنت بحاجة إلى القليل من المساعدة، يمكنك مشاهدة هذا البرنامج التعليمي على يوتوب.",
     'da': "For at minde Myriad skal du først downloade en tegnebog. Så, en af de nævnte minedrift software og brand væk! Hvis du har brug for lidt hjælp, kan du se denne YouTube-øvelse.",
     'de': "Um Myriad zu minen, müssen Sie zuerst ein Wallet herunterladen. Dann wählen Sie eine der gelisteten Mining Programme aus. Wenn du ein wenig Hilfe brauchst, kannst du dir dieses YouTube-Tutorial ansehen.",
     'es': "Para extraer Myriad, primero deberás",
+    'fa': "برای استخراج میریاد، ابتدا باید یک کیف پول را انتخاب کنید و نرم‌افزار مربوط به آن را دانلود کنید.",
     'fr': "Pour exploiter Myriad, vous devez d'abord", 
     'it': "Per minare Myriad, devi prima",
     'ja': "Myriadを鉱山するには、まず財布をダウンロードする必要があります。その後、記載されている鉱山ソフトウェアの1つを消してください！ちょっとした助けが必要な場合は、このYouTubeチュートリアルをご覧ください。",
     'ko': "Myriad를 채굴하려면 먼저 지갑을 다운로드해야합니다. 그런 다음 나열된 광산 소프트웨어 중 하나와 불이 꺼집니다! 약간의 도움이 필요하면 YouTube 튜토리얼을 시청하십시오.",
+    'ku': "Ji bo madenvaniya Myriad-ê divê tu pêşî cizdanek daxînî. Pişt re yek ji bernameyên madenvaniyê yên lîstekirî bibijêre. Eger alîkariyek hewce bibe, tu dikarî vê vîdeoya dersê ya Youtubê temaşe bikî.",
     'nl': "Om Myriad te minen moet je eerst en vooral een Myriad ondersteunende wallet downloaden. Download vervolgens een van de volgende mining-programma's, en begin met minen! Als het nog steeds onduidelijk is, helpt deze YouTube-tutorial u verder.",
     'pl': "Aby wydobyć Myriad, musisz najpierw pobrać portfel. Następnie jeden z wymienionych programów górniczych i odpal! Jeśli potrzebujesz pomocy, możesz obejrzeć samouczek na YouTube.",
     'pt': "Para explorar Myriad, você precisa primeiro fazer o download de uma carteira.", 
@@ -616,17 +721,20 @@ const Localizations = {
     'zh_CN': "为了挖掘Myriad，你需要先下载一个钱包。然后，列出的挖掘软件之一，开火！如果你需要一点帮助，你可以看这个YouTube教程。",
     'zh_TW': "為了挖掘Myriad，你需要先下載一個錢包。然後，列出的挖掘軟件之一，開火！如果你需要一點幫助，你可以看這個YouTube教程。",
     'eo': "Por elfosi Miriadon oni devas unue",
-    'tl': "Upang mamahala ng maraming bahagi, kakailanganin mo munang mag-download ng wallet. Pagkatapos, isa sa mga nakalistang softwares ng pagmimina at fire away! Kung kailangan mo ng kaunting tulong, maaari mong panoorin ang tutorial na ito sa YouTube."
+    'tl': "Upang mamahala ng maraming bahagi, kakailanganin mo munang mag-download ng wallet. Pagkatapos, isa sa mga nakalistang softwares ng pagmimina at fire away! Kung kailangan mo ng kaunting tulong, maaari mong panoorin ang tutorial na ito sa YouTube.",
+    'tr': "Myriad'da önce bir cüzdan indirin. Sonra listelenen mining programlarından birini seçin. Yardıma ihtiyacınız olursa, YouTube'de yardımcı videolar bulabilirsiniz.."
   },
   'mine-getting-started-text2': {
     'ar': "",
     'da': "",
     'de': "",
     'es': "¡Entonces, uno de los softwares de minería listados y dispara! Si necesita un poco de ayuda,", 
+    'fa': "",
     'fr': "Ensuite, l'un des logiciels miniers répertoriés et le feu loin! Si vous avez besoin d'un peu d'aide,", 
     'it': "Dopodichè, bisogna scaricare uno dei software per il mining elencati ed il gioco è fatto! Se hai bisogno di un piccolo aiuto, puoi", 
     'ja': "",
     'ko': "",
+    'ku': "Paşê, tu yê yek ji van nivîsbariyên madenvaniyê yên lîstekirî daxînî û xelas! Eger alîkaiyek biçûk ji bo te hewce be,",
     'nl': "",
     'pl': "",
     'pt': "Então, um dos softwares de mineração listados e dispare! Se você precisar de uma pequena ajuda,",
@@ -635,17 +743,20 @@ const Localizations = {
     'zh_CN': "",
     'zh_TW': "",
     'eo': "Sekve, elektu elfosilan softvaron el la listo kaj eku! Se vi bezonas helpon,", 
-    'tl': ""
+    'tl': "",
+    'tr': "Daha sonra maden yazılımı yardımcı donanım ve programlarından! ihtiyacınız olduğu kadarıyla.."
   },
   'mine-mining-youtube-tutorial': {
     'ar': "",
     'da': "",
     'de': "",
     'es': "puede ver este tutorial de YouTube.",
+    'fa': "در صورتی که به کمک نیاز دارید، این ویدیو  را تماشا کنید.",
     'fr': "vous pouvez regarder ce didacticiel YouTube.",
     'it': "guardare questo tutorial di YouTube.",
     'ja': "",
     'ko': "",
+    'ku': "Hûn dikarin vîdeoyên me yên perwerdehiyê ji Youtubê temaşe bikin.",
     'nl': "",
     'pl': "",
     'pt': "você pode assistir este tutorial do YouTube.",
@@ -654,16 +765,20 @@ const Localizations = {
     'zh_CN': "",
     'zh_TW': "",
     'eo': "ĉi tiu Jutuba filmeto povas komprenigi vin.",
-    'tl': ""
+    'tl': "",
+    'tr': "Eğitim videolarımızı YouTube'de izleyebilirsiniz."
   },
   'mine-mining-software-title': {
     'ar': "برامج التعدين",
     'da': "Mining software",
     'de': "Mining-Software",
     'es': "Software de minería",
+    'fa': "نرم‌افزار استخراج",
     'fr': "Logiciel d'exploitation minière",
     'it': "Software di data mining",
-    'ja': "鉱業ソフトウェア",'ko': "광업 소프트웨어",
+    'ja': "鉱業ソフトウェア",
+    'ko': "광업 소프트웨어",
+    'ku': "Nivîsbariya Madenvaniyê",
     'nl': "Mining software",
     'pl': "Oprogramowanie górnicze",
     'pt': "Software de mineração",
@@ -672,17 +787,20 @@ const Localizations = {
     'zh_CN': "挖掘软件",
     'zh_TW': "挖掘軟件",
     'eo': "Elfosila softvaro",
-    'tl': "Software ng Pagmimina"
+    'tl': "Software ng Pagmimina",
+    'tr': "Madencilik Programları"
   },
   'mine-mining-software-text': {
     'ar': "لا تعد ولا تحصى يدعم حفنة من برامج التعدين المختلفة. يمكنك الاختيار من القائمة أدناه لما خوارزمية كنت ترغب في الألغام مع اعتمادا على كيفية جهاز التعدين الخاص بك أو الجهاز هو الإعداد.",
     'da': "Myriad supports a handful of different mining softwares. You can choose from the list below for what algorithm you want to mine with depending on how your mining rig or device is setup.",
     'de': "Myriad unterstützt eine Handvoll verschiedener Mining-Software. Sie können aus der folgenden Liste auswählen, welchen Algorithmus Sie verwenden möchten, abhängig davon, wie Ihr Mining-Rig oder Gerät eingerichtet ist.",
     'es': "Myriad es compatible con un puñado de diferentes softwares de minería. Puede elegir de la lista a continuación para qué algoritmo desea extraer dependiendo de cómo esté configurada su plataforma o dispositivo de minería.",
+    'fa': "میریاد را می‌توانید با استفاده از نرم‌افزارهای مختلفی استخراج کنید. می‌توانید از فهرست زیر، یک نرم‌افزار مربوط به الگوریتم مناسب برای دستگاه خود را انتخاب کنید.",
     'fr': "Myriad prend en charge une poignée de logiciels miniers différents. Vous pouvez choisir dans la liste ci-dessous pour quel algorithme vous voulez exploiter en fonction de la configuration de votre plate-forme de forage ou de votre appareil.",
     'it': "Myriad supporta diversi software di data mining. Puoi scegliere dall'elenco sottostante con quale algoritmo vuoi svolgere il mining a seconda di come sono configurati il tuo impianto di o il tuo dispositivo.",
     'ja': "Myriadは、さまざまなマイニングソフトウェアをサポートしています。マイニングリグやデバイスの設定に応じて、どのアルゴリズムを使用するかを以下のリストから選択できます。",
     'ko': "Myriad는 소수의 다양한 광산 소프트웨어를 지원합니다. 광산 장비 또는 장치 설정 방법에 따라 원하는 알고리즘을 아래 목록에서 선택할 수 있습니다.",
+    'ku': "Myriad piştgiriya gelek nivîsbariyên madenvaniyê yên cur bi cur dike. Tu dikarî algoritmaya ku dixwazî bi kar bînî ji lîsteya jêr bibijêrî, girêdayî malzemeyên xwe yên madenvaniyê an jî sazbûna cîhazê te.",
     'nl': "Myriad ondersteunt een handvol verschillende mining-programma's. U kunt in de onderstaande lijst kiezen met welke algoritme u wilt minen, afhankelijk van de kracht van uw apparatuur.",
     'pl': "Myriad obsługuje kilka różnych programów górniczych. Możesz wybrać z poniższej listy algorytm, który chcesz wydobywać, w zależności od konfiguracji urządzenia górniczego lub urządzenia.",
     'pt': "Myriad supports a handful of different mining softwares. You can choose from the list below for what algorithm you want to mine with depending on how your mining rig or device is setup.",
@@ -691,17 +809,20 @@ const Localizations = {
     'zh_CN': "Myriad支持一些不同的挖掘软件。您可以从下面的列表中选择要挖掘的算法，具体取决于您的采矿设备或设备的设置。",
     'zh_TW': "Myriad支持一些不同的挖掘軟件。您可以從下面的列表中選擇要挖掘的算法，具體取決於您的採礦設備或設備的設置。",
     'eo': "Miriadon eblas elfosi per kelkaj malsamaj elfosilaj softvaroj. Vi povas elekti el la listo sube softvaron por la algoritmo kiun vi volas elfosi, kiu plej taŭgas por via elfosilo kaj agordo.",
-    'tl': "Ang Myriad ay sumusuporta sa isang maliit na iba't ibang pagmimina softwares. Maaari kang pumili mula sa listahan sa ibaba para sa kung anong algorithm ang gusto mong minahin depende sa kung paano ang pag-setup ng iyong rig o device."
+    'tl': "Ang Myriad ay sumusuporta sa isang maliit na iba't ibang pagmimina softwares. Maaari kang pumili mula sa listahan sa ibaba para sa kung anong algorithm ang gusto mong minahin depende sa kung paano ang pag-setup ng iyong rig o device.",
+    'tr': "Piyasadaki bir çok farklı madencilik yazılımı destekler. Madencilik ekipmanınızın veya cihazınızın nasıl kurulduğuna bağlı olarak, kullanmak istediğiniz algoritmayı aşağıdaki listeden seçebilirsiniz."
   },
   'mine-mining-pools-title': {
     'ar': "حمامات التعدين",
     'da': "Mining pools",
     'de': "Mining-Pools",
     'es': "Pools mineras",
+    'fa': "تجمیع‌گاه‌ها",
     'fr': "Pools minières",
     'it': "Mining Pools",
     'ja': "鉱山プール",
     'ko': "광업 수영장",
+    'ku': "Hewzên madenvaniyê",
     'nl': "Mining Pools",
     'pl': "Pule wydobywcze",
     'pt': "Pools de mineração",
@@ -710,17 +831,20 @@ const Localizations = {
     'zh_CN': "采矿池",
     'zh_TW': "採礦池",
     'eo': "Elfosistaroj",
-    'tl': "Pagmimina Pool"
+    'tl': "Pagmimina Pool",
+    'tr': "Madencilik Havuzları"
   },
   'mine-mining-pools-text1': {
     'ar': "يمكنك الألغام لا تعد ولا تحصى من خلال عدد من حمامات السباحة. إذا كنت لا تعرف ما تجمع التعدين هو، يمكنك معرفة المزيد هنا. لقد أدرجت حمامات التي تدعم حاليا التعدين ودمج التعدين من لا تعد ولا تحصى أدناه.",
     'da': "Du kan min Myriad gennem en række puljer. Hvis du ikke ved, hvad en minedrift er, kan du lære mere her. Vi har opregnet de puljer, der i øjeblikket understøtter minedrift og sammenfletning af Myriad minedrift nedenfor.",
     'de': "Myriad kann mit Hilfe von Pools gemined werden. Wenn Sie nicht wissen, was ein Mining-Pool ist, können Sie hier mehr erfahren. Wir haben die Pools aufgelistet, die derzeit das Mining und Merge-Mining von Myriad unterstützen.",
     'es': "Puedes extraer Myriad a través de varias pools. Si no sabe qué es un grupo de minería, puede", 
+    'fa': "میریاد را می‌توانید از «تجمیع‌گاه» (pool) های مختلفی استخراج کنید. اگر نمی‌دانید تجمیع‌گاه چیست، می‌توانید ",
     'fr': "Vous pouvez exploiter Myriad à travers un certain nombre de pools. Si vous ne savez pas ce qu'est un pool minier, vous pouvez en ",
     'it': "Ci sono diverse Pools a disposizione per minare Myriad. Se non sai cos'è una Pool abbiamo elencato qui sotto le Pool che attualmente supportano il mining ed il merged mining con Myriad.", 
     'ja': "あなたは多くのプールを通じてMyriadを鉱山することができます。鉱山プールが何であるかわからない場合は、ここで詳細を知ることができます。以下のMyriadのマイニングとマージをサポートしているプールをリストアップしました。",
     'ko': "당신은 많은 수영장을 통해 무수한 사람을 살 수 있습니다. 광업 수영장이 무엇인지 모르는 경우 여기에서 자세히 알아볼 수 있습니다. 아래 Myriad의 마이닝 및 병합을 현재 지원하는 풀을 나열했습니다.",
+    'ku': "Tu dikarî bi alîkariya hewzên bêhesab madenvaniya Myriad-ê bikî. Eger tu nizanibî ku madenvaniya hewzê çi ye ji vir dikarî zêdetir hîn bibî. Em vêga hewzên ku piştgiriyê didin madenvanî û yekkirina madenvaniyê ya ji Myriad-ê lîste kirin.",
     'nl': "U kunt Myriad minen via een van deze mining pools. Als u niet weet wat een mining pool is, kunt u hier meer informatie vinden. De Mining-Pools die Myriad mining ondersteunen, staan hieronder vermeld.",
     'pl': "Możesz wydobywać Myriad przez wiele basenów. Jeśli nie wiesz, co to jest basen górniczy, możesz dowiedzieć się więcej tutaj. Poniżej wymieniliśmy pule, które obecnie obsługują wydobywanie i scalanie Myriad.",
     'pt': "Você pode mina Myriad através de uma série de pools. Se você não sabe o que é um grupo de mineração, você pode aprender mais aqui. Nós listamos as pools que atualmente oferecem suporte a mineração e mescla a mineração da Myriad abaixo.",
@@ -729,17 +853,20 @@ const Localizations = {
     'zh_CN': "你可以通过一些池来挖掘Myriad。如果你不知道矿池是什么，你可以在这里了解更多。我们在下面列出了当前支持挖掘和合并Myriad挖掘的池。",
     'zh_TW': "你可以通過一些池來挖掘Myriad。如果你不知道礦池是什麼，你可以在這裡了解更多。我們在下面列出了當前支持挖掘和合併Myriad挖掘的池。",
     'eo': "Oni povas elfosi Miriadon kun multe da elfosistaroj. Se vi ne scias kion estas elfosistaro, vi povas ",
-    'tl': "Maaari mong minahin yung Myriad sa pamamagitan ng maraming pools. Kung hindi mo alam kung ano ang isang pool ng pagmimina, maaari kang matuto nang higit pa dito. Inilista namin ang mga pool na kasalukuyang sumusuporta sa pagmimina at pagsasama ng pagmimina ng Myriad sa ibaba."
+    'tl': "Maaari mong minahin yung Myriad sa pamamagitan ng maraming pools. Kung hindi mo alam kung ano ang isang pool ng pagmimina, maaari kang matuto nang higit pa dito. Inilista namin ang mga pool na kasalukuyang sumusuporta sa pagmimina at pagsasama ng pagmimina ng Myriad sa ibaba.",
+    'tr': "Sayısız havuz yardımı ile sağlanabilir. Madencilik havuzunun ne olduğunu bilmiyorsanız, burada daha fazla bilgi edinebilirsiniz. Şu anda Myriad Mining ve Merge Mining'i destekleyen havuzları listeledik."
   },
   'mine-mining-pools-learn-more': {
     'ar': "",
     'da': "",
     'de': "",
     'es': "obtener más información aquí.",
+    'fa': "در این صفحه",
     'fr': "apprendre plus ici.",
     'it': "",
     'ja': "",
     'ko': "",
+    'ku': "Madenvaniya hewzê zêdetir hîn bibe",
     'nl': "",
     'pl': "",
     'pt': "",
@@ -748,17 +875,20 @@ const Localizations = {
     'zh_CN': "",
     'zh_TW': "",
     'eo': "lerni pli ĉi tie.",
-    'tl': ""
+    'tl': "",
+    'tr': "Akvaryum Havuzculuğu"
   },
   'mine-mining-pools-text2': {
     'ar': "",
     'da': "",
     'de': "",
     'es': "Hemos enumerado los grupos que actualmente son compatibles con la minería y la fusión de minería de Myriad a continuación.",
+    'fa': " درباره آن مطالعه کنید. ما برایتان فهرستی از تجمیع‌گاه‌هایی که از استخراج عادی و چندگانه‌ی میریاد پشتیبانی می‌کنند را تهیه کرده‌ایم.",
     'fr': "Nous avons listé les pools qui supportent actuellement l'exploitation minière et fusionner l'exploitation minière de Myriad ci-dessous.",
     'it': "",
     'ja': "",
     'ko': "",
+    'ku': "Me hewzên ku niha piştgiriyê didin madenvaniyê li jêr lîste kir û madenvaniya Myriad-ê kir yek. ",
     'nl': "",
     'pl': "",
     'pt': "",
@@ -767,17 +897,20 @@ const Localizations = {
     'zh_CN': "",
     'zh_TW': "",
     'eo': "Ni listis ĉi-sube la elfosistarojn kiuj nuntempe subtenas la elfosadon kaj kunelfosadon de Myriad.",
-    'tl': ""
+    'tl': "",
+    'tr': "Şu anda madenciliği destekleyen havuzları listeledik ve aşağıdaki Myriad madenciiliği birleştirdik."
   },
   'mine-available-mining-software-title': {
     'ar': "برامج التعدين المتاحة",
     'da': "Tilgængelig Minedrift Software",
     'de': "Verfügbare Mining-Software",
     'es': "Software de Minería Disponible",
+    'fa': "نرم‌افزارهای موجود برای استخراج",
     'fr': "Logiciel d'extraction Disponible",
     'it': "Software di Mining Disponibile",
     'ja': "利用可能なマイニングソフトウェア",
     'ko': "사용 가능한 마이닝 소프트웨어",
+    'ku': "Nivîsbariyên Madenvaniyê yên Berdest",
     'nl': "Beschikbare Mining-Software",
     'pl': "Dostępne Oprogramowanie Górnicze",
     'pt': "Software de Mineração Disponível",
@@ -786,7 +919,8 @@ const Localizations = {
     'zh_CN': "可用的挖掘软件",
     'zh_TW': "可用的挖掘軟件",
     'eo': "Elfosilaj softvaroj disponeblaj",
-    'tl': "Available Mining Software"
+    'tl': "Available Mining Software",
+    'tr': "Mevcut madencilik yazılımlar"
 
   },
   'mine-sha256d-text': {
@@ -794,10 +928,12 @@ const Localizations = {
     'da': "Du må bruge enhver SHA256d kompatibel ASIC",
     'de': "Sie können einen SHA256d-kompatiblen ASIC verwenden",
     'es': "Puede usar cualquier ASIC compatible con SHA256d",
+    'fa': "برای تمام تراشه‌های ASIC سازگار با الگوریتم SHA256d",
     'fr': "Vous pouvez utiliser n'importe quel ASIC compatible SHA256d",
     'it': "È possibile utilizzare qualsiasi SHA256d compatibile con ASIC", 
     'ja': "任意のSHA256d互換ASICを使用できます",
     'ko': "SHA256d 호환 ASIC를 사용할 수 있습니다",
+    'ku': "Tu dikarî ASICek hevahengî 'SHA256d'ê bi kar bînî",
     'nl': "U kunt elke SHA256d compatibele ASIC gebruiken",
     'pl': "Możesz używać dowolnego ASIC zgodnego ze standardem SHA256d",
     'pt': "Você pode usar qualquer ASIC compatível com SHA256d",
@@ -806,17 +942,20 @@ const Localizations = {
     'zh_CN': "您可以使用任何SHA256d兼容的ASIC",
     'zh_TW': "您可以使用任何SHA256d兼容的ASIC",
     'eo': "Eblas elfosi Miriadon je la algoritmo SHA256d per ĉiuspeca aparato speciala por elfosi SHA256d",
-    'tl': "Maaari mong gamitin ang anumang SHA256d na compatible sa ASIC"
+    'tl': "Maaari mong gamitin ang anumang SHA256d na compatible sa ASIC",
+    'tr': "SHA256d uyumlu bir ASIC kullanabilirsiniz"
   },
   'mine-scrypt-text': {
     'ar': "يمكنك استخدام أي Scrypt أسيك متوافق",
     'da': "Du må bruge enhver Scrypt kompatibel ASIC",
     'de': "Sie können einen Scrypt-kompatiblen ASIC verwenden",
     'es': "Puede usar cualquier ASIC compatible con Scrypt",
+    'fa': "برای تمام تراشه‌های ASIC سازگار با الگوریتم Scrypt",
     'fr': "Vous pouvez utiliser n'importe quel ASIC compatible Scrypt",
     'it': "È possibile utilizzare qualsiasi Scrypt compatibile con ASIC", 
     'ja': "任意のScrypt互換ASICを使用できます",
     'ko': "Scrypt 호환 ASIC를 사용할 수 있습니다",
+    'ku': "Tu dikarî ASICek hevahengê 'Scrypt'ê bi kar bînî",
     'nl': "U kunt elke Scrypt compatibele ASIC gebruiken",
     'pl': "Możesz używać dowolnego ASIC zgodnego ze standardem Scrypt",
     'pt': "Você pode usar qualquer ASIC compatível com Scrypt",
@@ -825,17 +964,20 @@ const Localizations = {
     'zh_CN': "您可以使用任何Scrypt兼容的ASIC",
     'zh_TW': "您可以使用任何Scrypt兼容的ASIC",
     'eo': "Eblas elfosi per ĉiu speco de speciala aparato por elfosado de Scrypt",
-    'tl': "Maaari mong gamitin ang anumang SHA256d na compatible sa ASIC"
+    'tl': "Maaari mong gamitin ang anumang SHA256d na compatible sa ASIC",
+    'tr': "Scrypt uyumlu bir ASIC kullanabilirsiniz"
   },
   'mine-groestl-text': {
     'ar': "يمكنك استخدام أي Myr-Groestl أسيك متوافق",
     'da': "Du må bruge enhver Myr-Groestl kompatibel ASIC",
     'de': "Sie können einen Myr-Groestl-kompatiblen ASIC verwenden",
     'es': "Puede usar cualquier ASIC compatible con Myr-Groestl",
+    'fa': "اگر می‌خواهید از الگوریتم Myr-Groestl استفاده کنید، چند انتخاب دارید:",
     'fr': "Vous pouvez utiliser n'importe quel ASIC compatible Myr-Groestl",
     'it': "È possibile utilizzare qualsiasi Myr-Groestl compatibile con ASIC",
     'ja': "任意のMyr-Groestl互換ASICを使用できます",
     'ko': "Myr-Groestl 호환 ASIC를 사용할 수 있습니다",
+    'ku': "Tu dikarî ASICek hevahengê Myr-Groestlê bi kar bînî",
     'nl': "U kunt elke Myr-Groestl compatibele ASIC gebruiken",
     'pl': "Możesz używać dowolnego ASIC zgodnego ze standardem Myr-Groestl",
     'pt': "Você pode usar qualquer ASIC compatível com Myr-Groestl",
@@ -844,17 +986,20 @@ const Localizations = {
     'zh_CN': "您可以使用任何Myr-Groestl兼容的ASIC",
     'zh_TW': "您可以使用任何Myr-Groestl兼容的ASIC",
     'eo': "Eblas elfosi per ĉiu speco de speciala aparato por elfosado de Myr-Groestl",
-    'tl': "Maaari mong gamitin ang anumang SHA256d na compatible sa ASIC"
+    'tl': "Maaari mong gamitin ang anumang SHA256d na compatible sa ASIC",
+    'tr': "Myr-Groestl uyumlu bir ASIC kullanabilirsiniz"
   },
   'mine-skein-text': {
     'ar': "يمكنك استخدام أي Skein أسيك متوافق",
     'da': "Du må bruge enhver Skein kompatibel ASIC",
     'de': "Sie können einen Skein-kompatiblen ASIC verwenden",
     'es': "Puede usar cualquier ASIC compatible con Skein",
+    'fa': "اگر می‌خواهید از الگوریتم Skein استفاده کنید، چند انتخاب دارید:",
     'fr': "Vous pouvez utiliser n'importe quel ASIC compatible Skein",
     'it': "È possibile utilizzare qualsiasi Skein compatibile con ASIC",
     'ja': "任意のSkein互換ASICを使用できます",
     'ko': "Skein 호환 ASIC를 사용할 수 있습니다",
+    'ku': "Tu dikarî ASICek ku bi Skeinê re li hev were bi kar bînî",
     'nl': "U kunt elke Skein compatibele ASIC gebruiken",
     'pl': "Możesz używać dowolnego ASIC zgodnego ze standardem Skein",
     'pt': "Você pode usar qualquer ASIC compatível com Skein",
@@ -863,41 +1008,52 @@ const Localizations = {
     'zh_CN': "您可以使用任何Skein兼容的ASIC",
     'zh_TW': "您可以使用任何Skein兼容的ASIC",
     'eo': "Eblas elfosi per ĉiu speco de speciala aparato por elfosado de Skein",
-    'tl': "Kung ikaw ay gumagamit ng Skein, mayroon kang ilang mga pagpipilian"
+    'tl': "Kung ikaw ay gumagamit ng Skein, mayroon kang ilang mga pagpipilian",
+    'tr': "Skein uyumlu bir ASIC kullanabilirsiniz"
   },
   'mine-yescrypt-text': {
-    'eo': "Rekomendite por ĉefprocesora elfosado"
+    'eo': "Rekomendite por ĉefprocesora elfosado",
+    'fa': "مناسب برای استخراج از طریق پردازنده مرکزی"
   },
   'mine-view-windows-binaries-button': {
-    'eo': "Vindozaj duumaj dosieroj"
+    'eo': "Vindozaj duumaj dosieroj",
+    'fa': "برنامه‌های ویندوز"
   },
   'mine-view-github-source-button': {
-    'eo': "Fontkodo ĉe GitHub"
+    'eo': "Fontkodo ĉe GitHub",
+    'fa': "کدهای منبع در گیت‌هاب"
   },
   'mine-miner-sgminer': {
-    'eo': "sgminer por elfosi per OpenCL-a grafiksprocesoro"
+    'eo': "sgminer por elfosi per OpenCL-a grafiksprocesoro",
+    'fa': "sgminer برای استخراج از طریق پردازنده‌های گرافیکی OpenCL"
   },
   'mine-miner-ccminer': {
-    'eo': "ccminer por elfosi per CUDA-a grafiksprocesoro"
+    'eo': "ccminer por elfosi per CUDA-a grafiksprocesoro",
+    'fa': "ccminer برای استخراج از طریق پردازنده های گرافیکی CUDA"
   },
   'mine-miner-cpuminer-multi': {
-    'eo': "cpuminer-multi por elfosi ĉefprocesore"
+    'eo': "cpuminer-multi por elfosi ĉefprocesore",
+    'fa': "cpuminer-multi برای استخراج از طریق پردازنده مرکزی"
   },
   'mine-miner-cgminer': {
-    'eo': "cgminer por elfosi per OpenCL-a grafiksprocesoro"
+    'eo': "cgminer por elfosi per OpenCL-a grafiksprocesoro",
+    'fa': "cgminer برای استخراج از طریق پردازنده‌های گرافیکی OpenCL"
   },
    'mine-miner-cpuminer-multi-optimized': {
-    'eo': "cpuminer-multi optimumigite por elfosi ĉefprocesore je yescrypt"
+    'eo': "cpuminer-multi optimumigite por elfosi ĉefprocesore je yescrypt",
+    'fa': "cpuminer-multi بهینه‌سازی‌شده برای استخراج از طریق پردازنده مرکزی با استفاده از yescrypt"
   },
   'mine-suggested-command-line-text': {
     'ar': "سطر الأوامر المقترح",
     'da': "Foreslået Kommandolinje",
     'de': "Vorgeschlagene Kommandozeile",
     'es': "Línea de Comando Sugerida",
+    'fa': "سطر دستور پیشنهادی",
     'fr': "Ligne de Commande Suggérée",
     'it': "Riga di Comando Suggerita",
     'ja': "推奨コマンドライン",
     'ko': "제안 된 명령 줄",
+    'ku': "Rêzika fermanê ya pêşniyarkirî",
     'nl': "Voorgestelde Opdrachtregel",
     'pl': "Sugerowana Linia Poleceń",
     'pt': "Linha de Comando Sugerida",
@@ -906,17 +1062,20 @@ const Localizations = {
     'zh_CN': "建议的命令行",
     'zh_TW': "建議的命令行",
     'eo': "Komandlineoj sugestitaj",
-    'tl': "Iminungkahing Command Line"
+    'tl': "Iminungkahing Command Line",
+    'tr': "Önerilen Komut Satırı"
   },
   'mine-available-mining-pools-title': {
     'ar': "برك التعدين المتاحة",
     'da': "Tilgængelige Minedrift Puljer",
     'de': "Verfügbare Miningpools",
     'es': "Grupos de Minería Disponibles",
+    'fa': "تجمیع‌گاه‌های قابل استفاده",
     'fr': "Pools Miniers Disponibles",
     'it': "Mining Pool Disponibili", 
     'ja': "利用可能な採掘プール",
     'ko': "사용 가능한 마이닝 풀",
+    'ku': "Hewzên Madenvaniyê yên Berdest",
     'nl': "Beschikbare Mining-Pools",
     'pl': "Dostępne Pule Wydobywcze",
     'pt': "Associações de Mineração Disponíveis",
@@ -925,17 +1084,20 @@ const Localizations = {
     'zh_CN': "可用的采矿池",
     'zh_TW': "可用的採礦池",
     'eo': "Elfosistaroj alireblaj",
-    'tl': "Magagamit Mining-Pools"
+    'tl': "Magagamit Mining-Pools",
+    'tr': "Mevcut madencilik havuzları"
   },
   'mine-p2pool-nodes-text': {
     'ar': "P2Pool العقد",
     'da': "P2Pool noder",
     'de': "P2Pool Knoten",
     'es': "Nodos P2Pool",
+    'fa': "گره‌های P2Pool",
     'fr': "Noeuds P2Pool",
     'it': "Nodi P2Pool",
     'ja': "P2Poolノード",
     'ko': "P2Pool 노드",
+    'ku': "Girêkên P2Pool",
     'nl': "P2Pool nodes",
     'pl': "Węzły P2Pool",
     'pt': "Nó P2Pool",
@@ -944,17 +1106,20 @@ const Localizations = {
     'zh_CN': "P2Pool节点",
     'zh_TW': "P2Pool節點",
     'eo': "Nodoj de P2Pool",
-    'tl': "P2Pool Nodes"
+    'tl': "P2Pool Nodes",
+    'tr': "P2Pool düğümü"
   },
   'mine-pool-url-text': {
     'ar': "عنوان ورل للجمع",
     'da': "Pool-URL",
     'de': "Pool-URL",
     'es': "Pool URL",
+    'fa': "نشانی تجمیع‌گاه",
     'fr': "Pool URL",
     'it': "URL della pool",
     'ja': "プールのURL",
     'ko': "풀 URL",
+    'ku': "URLya Hewzê",
     'nl': "Pool-URL",
     'pl': "URL puli",
     'pt': "URL da associação",
@@ -963,17 +1128,20 @@ const Localizations = {
     'zh_CN': "池网址",
     'zh_TW': "池網址",
     'eo': "Elfosistara ligilo",
-    'tl': "Pool-URL"
+    'tl': "Pool-URL",
+    'tr': "Bağlantı Havuzları"
   },
   'mine-run-your-own-node-text': {
     'ar': "تشغيل عقدة الخاصة بك",
     'da': "Kør din egen knudepunkt",
     'de': "Führen Sie Ihren eigenen Knoten aus",
     'es': "Ejecuta tu propio nodo",
+    'fa': "راه‌اندازی تجمیع‌گاه جدید",
     'fr': "Exécutez votre propre noeud",
     'it': "Esegui il tuo nodo",
     'ja': "自分のノードを実行する",
     'ko': "나만의 노드 실행",
+    'ku': "Girêka xwe bide şixulandin",
     'nl': "Voer uw eigen nodes uit",
     'pl': "Uruchom swój własny węzeł",
     'pt': "Execute seu próprio nó",
@@ -982,17 +1150,20 @@ const Localizations = {
     'zh_CN': "运行你自己的节点",
     'zh_TW': "運行你自己的節點",
     'eo': "Starigi propran nodon",
-    'tl': "Upang mapasiyahan"
+    'tl': "Upang mapasiyahan",
+    'tr': "Kendi Bağlantını Kullan"
   },
   'mine-view-p2pool-instructions-button': {
     'ar': "عرض تعليمات P2Pool",
     'da': "Se P2Pool instruktioner",
     'de': "Zeigen Sie P2Pool-Anweisungen an",
     'es': "Ver las instrucciones de P2Pool",
+    'fa': "مشاهده راهنما برای P2Pool",
     'fr': "Voir les instructions P2Pool",
     'it': "Visualizza le istruzioni di P2Pool",
     'ja': "P2Poolの指示を表示する",
     'ko': "P2Pool 지침보기",
+    'ku': "Dîrektîvên P2Pool Bibîne",
     'nl': "Bekijk P2Pool-instructies",
     'pl': "Zobacz instrukcje P2Pool",
     'pt': "Ver instruções P2Pool",
@@ -1001,17 +1172,20 @@ const Localizations = {
     'zh_CN': "查看P2Pool指令",
     'zh_TW': "查看P2Pool指令",
     'eo': "Vidi instrukciojn pri P2Pool",
-    'tl': "Tingnan ang mga pagtuturo ng P2pool"
+    'tl': "Tingnan ang mga pagtuturo ng P2pool",
+    'tr': "P2Pool talimatlarını görüntüle"
   },
   'mine-other-pools-text': {
     'ar': "حمامات أخرى",
     'da': "Andre Pools",
     'de': "Andere Pools",
     'es': "Otras pools",
+    'fa': "سایر تجمیع‌گاه‌ها",
     'fr': "Autres pools",
     'it': "Altre pools",
     'ja': "その他のプール",
     'ko': "기타 풀",
+    'ku': "Hewzên din",
     'nl': "Andere pools",
     'pl': "Inne baseny",
     'pt': "Outras Pools",
@@ -1020,20 +1194,24 @@ const Localizations = {
     'zh_CN': "其他游泳池",
     'zh_TW': "其他游泳池",
     'eo': "Aliaj elfosistaroj",
-    'tl': "Iba pa Pools"
+    'tl': "Iba pa Pools",
+    'tr': "Diğer Havuzlar"
   },
   'mine-pool-yescrypt-myriadcoin-tk': {
-    'eo': "Yescrypt: Myriadcoin.tk Elfosistaro (kunelfosante kun Unitus)"
+    'eo': "Yescrypt: Myriadcoin.tk Elfosistaro (kunelfosante kun Unitus)",
+    'fa': "Yescrypt: تجمیع‌گاه Myriadcoin.tk (با استخراج چندگانه Unitus)"
   },
   'mine-merge-mining-pools-text': {
     'ar': "دمج تجمع التعدين",
     'da': "Flette Mining Pools",
     'de': "Mining-Pools zusammenführen",
     'es': "Fusionar pools mineras",
+    'fa': "تجمیع‌گاه‌های استخراج چندگانه",
     'fr': "Fusionner les pools miniers",
     'it': "Unisci pool di miniere",
     'ja': "鉱山プールの合併",
     'ko': "채광 풀 병합",
+    'ku': "Yekbûna Madenvaniya Hewzê",
     'nl': "Merge mining",
     'pl': "Połącz baseny wydobywcze",
     'pt': "Mesclar Pools Minerais",
@@ -1042,17 +1220,20 @@ const Localizations = {
     'zh_CN': "合并挖掘池",
     'zh_TW': "合併挖掘池",
     'eo': "Kunelfosistaroj",
-    'tl': " Pagsamahin ang Pagmimina"
+    'tl': " Pagsamahin ang Pagmimina",
+    'tr': "Madencilik havuzlarını birleştir"
   },
   'mine-view-pool-details-button': {
     'ar': "عرض تفاصيل بركة",
     'da': "Se Pool Detaljer",
     'de': "Pooldetails anzeigen",
     'es': "Ver detalles de la pool",
+    'fa': "مشاهده جزئیات تجمیع‌گاه",
     'fr': "Afficher les détails de la pool",
     'it': "Visualizza dettagli pool",
     'ja': "プールの詳細を表示",
     'ko': "풀 세부 정보보기",
+    'ku': "Dêtayên hewzê bibîne",
     'nl': "Bekijk poolgegevens",
     'pl': "Wyświetl szczegóły puli",
     'pt': "Ver detalhes da pool",
@@ -1061,17 +1242,20 @@ const Localizations = {
     'zh_CN': "查看游泳池细节",
     'zh_TW': "查看游泳池細節",
     'eo': "Vidi detalojn pri la elfosistaro",
-    'tl': "tingnan ang mga detalye ng pool"
+    'tl': "tingnan ang mga detalye ng pool",
+    'tr': "Havuz ayrıntılarını göster"
   },
   'resources-section-header': {
     'ar': "مصادر",
     'da': "Ressourcer",
     'de': "Ressourcen",
     'es': "Recursos",
+    'fa': "دسترسی‌ها",
     'fr': "Ressources",
     'it': "Risorse",
     'ja': "リソース",
     'ko': "자원",
+    'ku': "Çavkanî",
     'nl': "Middelen",
     'pl': "Zasoby",
     'pt': "Recursos",
@@ -1080,7 +1264,8 @@ const Localizations = {
     'zh_CN': "资源",
     'zh_TW': "資源",
     'eo': "Rimedoj",
-    'tl': "Ressources"
+    'tl': "Ressources",
+    'tr': "Kaynaklar"
 
   },
   'resources-information-title': {
@@ -1088,10 +1273,12 @@ const Localizations = {
     'da': "Information",
     'de': "Information",
     'es': "Información",
+    'fa': "اطلاعات",
     'fr': "Information",
     'it': "Informazione",
     'ja': "情報",
     'ko': "정보",
+    'ku': "Agahî",
     'nl': "Informatie",
     'pl': "Informacja",
     'pt': "Em formação",
@@ -1100,17 +1287,20 @@ const Localizations = {
     'zh_CN': "信息",
     'zh_TW': "信息",
     'eo': "Informoj",
-    'tl': "Impormasyon"
+    'tl': "Impormasyon",
+    'tr': "Bilgi"
   },
   'resources-social-title': {
     'ar': "اجتماعي",
     'da': "Social",
     'de': "Sozial",
     'es': "Social",
+    'fa': "شبکه‌های اجتماعی",
     'fr': "Social",
     'it': "Social",
     'ja': "ソーシャル",
     'ko': "사회적인",
+    'ku': "Sosyal",
     'nl': "sociaal",
     'pl': "Społeczny",
     'pt': "Social",
@@ -1119,17 +1309,20 @@ const Localizations = {
     'zh_CN': "社会",
     'zh_TW': "社會",
     'eo': "Amikumi",
-    'tl': "Impormasyon"
+    'tl': "Impormasyon",
+    'tr': "Sosyal"
   },
   'resources-other-title': {
     'ar': "آخر",
     'da': "Andet",
     'de': "Andere",
     'es': "Otro",
+    'fa': "سایر",
     'fr': "Autre",
     'it': "Altro",
     'ja': "その他",
     'ko': "다른",
+    'ku': "Yên din",
     'nl': "anders",
     'pl': "Inny",
     'pt': "De outros",
@@ -1138,17 +1331,20 @@ const Localizations = {
     'zh_CN': "其他",
     'zh_TW': "其他",
     'eo': "Aliaj",
-    'tl': "Iba pa"
+    'tl': "Iba pa",
+    'tr': "Diğerleri"
   },
   'resources-cryptoid-explorer-button': {
     'ar': "المستكشف كريبتواد",
     'da': "Kryptoid explorer",
     'de': "Cryptoid Explorer",
     'es': "Explorador criptoideo",
+    'fa': "جستجوگر CryptoID",
     'fr': "Cryptoid explorer",
     'it': "Cryptoid explorer",
     'ja': "クリプトイドエクスプローラ",
     'ko': "크립토이드 탐색기",
+    'ku': "Lêkolînera CryptoID",
     'nl': "Cryptoide explorer",
     'pl': "Cryptoid explorer",
     'pt': "Explorador criptoideo",
@@ -1157,17 +1353,20 @@ const Localizations = {
     'zh_CN': "Cryptoid资源管理器",
     'zh_TW': "Cryptoid資源管理器",
     'eo': "Blokesplorilo de CryptoID",
-    'tl': "Cryptoid Explorer"
+    'tl': "Cryptoid Explorer",
+    'tr': "Kripto Trayıcıları"
   },
   'resources-insight-explorer-button': {
     'ar': "إنزيت إكسبلورر",
     'da': "Insight explorer",
     'de': "Insight Explorer",
     'es': "Explorador de Insight",
+    'fa': "جستجوگر Insight",
     'fr': "Insight explorer",
     'it': "Insight explorer",
     'ja': "Insight Explorer",
     'ko': "통찰력 탐색기",
+    'ku': "Insight Explorer",
     'nl': "Verkenner",
     'pl': "Eksplorator Insight",
     'pt': "Insight explorer",
@@ -1176,17 +1375,20 @@ const Localizations = {
     'zh_CN': "Insight Explorer",
     'zh_TW': "Insight Explorer",
     'eo': "Esplorilo de Insight",
-    'tl': "Insight Explorer"
+    'tl': "Insight Explorer",
+    'tr': "Gezgin Tarayıcıları"
   },
   'resources-abe-explorer-1-button': {
     'ar': "أبي إكسبلورر 1 (myralicious.com)",
     'da': "Abe Explorer 1 (myralicious.com)",
     'de': "Abe Explorer 1 (myralicious.com)",
     'es': "Abe Explorer 1 (myralicious.com)",
+    'fa': "جستجوگر Abe 1",
     'fr': "Abe Explorer 1 (myralicious.com)",
     'it': "Abe Explorer 1 (myralicious.com)",
     'ja': "Abe Explorer 1（myralicious.com）",
     'ko': "아베 익스플로러 1 (myralicious.com)",
+    'ku': "Abe Explorer 1 (myralicious.com)",
     'nl': "Abe Explorer 1 (myralicious.com)",
     'pl': "Abe Explorer 1 (myralicious.com)",
     'pt': "Abe Explorer 1 (myralicious.com)",
@@ -1195,17 +1397,20 @@ const Localizations = {
     'zh_CN': "安倍资源管理器1（myralicious.com）",
     'zh_TW': "安倍資源管理器1（myralicious.com）",
     'eo': "Esplorilo de Abe 1 (myralicious.com)",
-    'tl': "Abe Explorer 1 (myralicious.com)"
+    'tl': "Abe Explorer 1 (myralicious.com)",
+    'tr': "Abe Explorer 1 (myralicious.com)"
   },
   'resources-abe-explorer-2-button': {
     'ar': "أبي إكسبلورر 2 (myralicious.com)",
     'da': "Abe Explorer 2 (myralicious.com)",
     'de': "Abe Explorer 2 (myralicious.com)",
     'es': "Abe Explorer 2 (myralicious.com)",
+    'fa': "جستجوگر Abe 2",
     'fr': "Abe Explorer 2 (myralicious.com)",
     'it': "Abe Explorer 2 (myralicious.com)",
     'ja': "Abe Explorer 2（myralicious.com）",
     'ko': "아베 익스플로러 2 (myralicious.com)",
+    'ku': "Abe Explorer 2 (myralicious.com)",
     'nl': "Abe Explorer 2 (myralicious.com)",
     'pl': "Abe Explorer 2 (myralicious.com)",
     'pt': "Abe Explorer 2 (myralicious.com)",
@@ -1214,17 +1419,20 @@ const Localizations = {
     'zh_CN': "安倍资源管理器2（myralicious.com）",
     'zh_TW': "安倍資源管理器2（myralicious.com）",
     'eo': "Esplorilo de Abe 2（myralicious.com)",
-    'tl': "Abe Explorer 2 (myralicious.com)"
+    'tl': "Abe Explorer 2 (myralicious.com)",
+    'tr': "Abe Explorer 2 (myralicious.com)"
   },
   'resources-network-status-button': {
     'ar': "حالة الشبكة",
     'da': "Netværksstatus",
     'de': "Netzwerkstatus",
     'es': "Estado de la Red",
+    'fa': "وضعیت شبکه",
     'fr': "L'état du Réseau",
     'it': "Stato Della Rete",
     'ja': "ネットワークステータス",
     'ko': "네트워크 상태",
+    'ku': "Rewşa Torê",
     'nl': "Netwerk Status",
     'pl': "Status Sieci",
     'pt': "Status da Rede",
@@ -1233,17 +1441,20 @@ const Localizations = {
     'zh_CN': "网络状态",
     'zh_TW': "網絡狀態",
     'eo': "Reta stato",
-    'tl': "Katayuan ng network"
+    'tl': "Katayuan ng network",
+    'tr': "Ağ Durumu"
   },
   'resources-reddit-button': {
     'ar': "Reddit",
     'da': "Reddit",
     'de': "Reddit",
     'es': "Reddit",
+    'fa': "Reddit",
     'fr': "Reddit",
     'it': "Reddit",
     'ja': "Reddit",
     'ko': "Reddit",
+    'ku': "Reddit",
     'nl': "Reddit",
     'pl': "Reddit",
     'pt': "Reddit",
@@ -1252,74 +1463,86 @@ const Localizations = {
     'zh_CN': "Reddit",
     'zh_TW': "Reddit",
     'eo': "Reddit",
-    'tl': "Reddit"
+    'tl': "Reddit",
+    'tr': "Reddit"
   },
   'resources-discord-button': {
-    "ar":"خادم الخلاف",
-    "da":"Discord Server",
-    "de":"Discord Server",
-    "es":"Servidor Discordia",
-    "fr":"Discord Server",
-    "it":"Discord Server",
-    "ja":"Discord Server",
-    "ko":"불화 서버",
-    "nl":"Discord Server",
-    "pl":"Serwer Discord",
-    "pt":"Servidor Discord",
-    "ro":"Discord Server",
-    "ru":"Discord Server",
-    "zh_CN":"不和服务器",
-    "zh_TW":"不和服務器",
-    "eo":"Servilo de Discord",
-    "tl": "Discord Server"
+    'ar': "خادم الخلاف",
+    'da': "Discord Server",
+    'de': "Discord Server",
+    'es': "Servidor Discordia",
+    'fa': "سرور Discord",
+    'fr': "Discord Server",
+    'it': "Discord Server",
+    'ja': "Discord Server",
+    'ko': "불화 서버",
+    'ku': "Serverên Discordê",
+    'nl': "Discord Server",
+    'pl': "Serwer Discord",
+    'pt': "Servidor Discord",
+    'ro': "Discord Server",
+    'ru': "Discord Server",
+    'zh_CN': "不和服务器",
+    'zh_TW': "不和服務器",
+    'eo': "Servilo de Discord",
+    'tl': "Discord Server",
+    'tr': "Anlaşmalı Sunucu"
   },
   'resources-slack-button': {
-    "ar":"قناة سلاك",
-    "da":"Slack Channel",
-    "de":"Slack-Kanal",
-    "es":"Slack Channel",
-    "fr":"Slack Channel",
-    "it":"Slack Channel",
-    "ja":"スラックチャンネル",
-    "ko":"슬랙 채널",
-    "nl":"Slack Channel",
-    "pl":"Slack Channel",
-    "pt":"Slack Channel",
-    "ro":"Slack Channel",
-    "ru":"Слабый канал",
-    "zh_CN":"松弛通道",
-    "zh_TW":"鬆弛通道",
-    "eo":"Kanalo de Slack",
-    "tl": "Slack Channel"
+    'ar': "قناة سلاك",
+    'da': "Slack Channel",
+    'de': "Slack-Kanal",
+    'es': "Slack Channel",
+    'fa': "کانال Slack",
+    'fr': "Slack Channel",
+    'it': "Slack Channel",
+    'ja': "スラックチャンネル",
+    'ko': "슬랙 채널",
+    'ku': "Kanala Slackê",
+    'nl': "Slack Channel",
+    'pl': "Slack Channel",
+    'pt': "Slack Channel",
+    'ro': "Slack Channel",
+    'ru': "Слабый канал",
+    'zh_CN': "松弛通道",
+    'zh_TW': "鬆弛通道",
+    'eo': "Kanalo de Slack",
+    'tl': "Slack Channel",
+    'tr': "Rahat Kanal"
   },
   'resources-telegram-button': {
-    "ar":"Telegram",
-    "da":"Telegram",
-    "de":"Telegram",
-    "es":"Telegram",
-    "fr":"Telegram",
-    "it":"Telegram",
-    "ja":"Telegram",
-    "ko":"Telegram",
-    "nl":"Telegram",
-    "pl":"Telegram",
-    "pt":"Telegram",
-    "ro":"Telegram",
-    "ru":"Telegram",
-    "zh_CN":"Telegram",
-    "zh_TW":"Telegram",
-    "eo":"Telegramo",
-    "tl": "Telegram ENG/PH"
+    'ar': "Telegram",
+    'da': "Telegram",
+    'de': "Telegram",
+    'es': "Telegram",
+    'fa': "تلگرام",
+    'fr': "Telegram",
+    'it': "Telegram",
+    'ja': "Telegram",
+    'ko': "Telegram",
+    'ku': "Telegram",
+    'nl': "Telegram",
+    'pl': "Telegram",
+    'pt': "Telegram",
+    'ro': "Telegram",
+    'ru': "Telegram",
+    'zh_CN': "Telegram",
+    'zh_TW': "Telegram",
+    'eo': "Telegramo",
+    'tl': "Telegram ENG/PH",
+    'tr': "Telegram"
   },
   'resources-bitcointalk-thread-button': {
     'ar': "بيتكوين نقاش الموضوع",
     'da': "BitcoinTalk Tråd",
     'de': "BitcoinTalk Beitrag",
     'es': "BitcoinTalk Thread",
+    'fa': "موضوع گفتگو در انجمن BitcoinTalk",
     'fr': "BitcoinTalk Thread",
     'it': "BitcoinTalk Thread",
     'ja': "Bitcoin Talkスレッド",
     'ko': "Bitcoin 토크 스레드",
+    'ku': "Mijara BitcoinTalkê",
     'nl': "Bitcoin heeft discussie gevoerd",
     'pl': "BitcoinTalk Thread",
     'pt': "BitcoinTalk Thread",
@@ -1328,17 +1551,20 @@ const Localizations = {
     'zh_CN': "比特币谈话线程",
     'zh_TW': "比特幣談話線程",
     'eo': "Fadeno ĉe BitcoinTalk",
-    'tl': "BitcoinTalk Thread"
+    'tl': "BitcoinTalk Thread",
+    'tr': "BitcoinTalk katkısı"
   },
   'resources-twitter-button': {
     'ar': "Twitter",
     'da': "Twitter",
     'de': "Twitter",
     'es': "Twitter",
+    'fa': "توییتر",
     'fr': "Twitter",
     'it': "Twitter",
     'ja': "Twitter",
     'ko': "Twitter",
+    'ku': "Twitter",
     'nl': "Twitter",
     'pl': "Twitter",
     'pt': "Twitter",
@@ -1347,17 +1573,20 @@ const Localizations = {
     'zh_CN': "Twitter",
     'zh_TW': "Twitter",
     'eo': "Tvitero",
-    'tl': "Twitter"
+    'tl': "Twitter",
+    'tr': "Twitter"
   },
   'resources-facebook-button': {
     'ar': "Facebook",
     'da': "Facebook",
     'de': "Facebook",
     'es': "Facebook",
+    'fa': "فیسبوک",
     'fr': "Facebook",
     'it': "Facebook",
     'ja': "Facebook",
     'ko': "Facebook",
+    'ku': "Facebook",
     'nl': "Facebook",
     'pl': "Facebook",
     'pt': "Facebook",
@@ -1366,17 +1595,20 @@ const Localizations = {
     'zh_CN': "Facebook的",
     'zh_TW': "Facebook的",
     'eo': "Fejsbuko",
-    'tl': "Facebook"
+    'tl': "Facebook",
+    'tr': "Facebook"
   },
   'resources-irc-channel-button': {
     'ar': "قناة الدردشة عبر الإنترنت",
     'da': "IRC Kanal",
     'de': "IRC Channel",
     'es': "Canal de Chat de Retransmisión de Internet",
+    'fa': "کانال IRC",
     'fr': "IRC Channel",
     'it': "IRC channel",
     'ja': "インターネット中継チャットチャンネル",
     'ko': "인터넷 중계 채팅 채널",
+    'ku': "Kanala IRCyê",
     'nl': "Chat-Kanaal via Internet",
     'pl': "Kanał Czatu Internetowego",
     'pt': "IRC channel",
@@ -1385,17 +1617,20 @@ const Localizations = {
     'zh_CN': "互联网中继聊天频道",
     'zh_TW': "互聯網中繼聊天頻道",
     'eo': "Kanalo de IRC",
-    'tl': "IRC Channel"
+    'tl': "IRC Channel",
+    'tr': "IRC Kanal"
   },
   'resources-faucet-button': {
     'ar': "صنبور",
     'da': "Vandhane",
     'de': "Faucet",
     'es': "Faucet",
+    'fa': "برداشت‌گاه عمومی (فاسِت)",
     'fr': "Faucet",
     'it': "Faucet",
     'ja': "蛇口",
     'ko': "수도꼭지",
+    'ku': "Faucet",
     'nl': "Faucet",
     'pl': "Faucet",
     'pt': "Faucet",
@@ -1404,17 +1639,20 @@ const Localizations = {
     'zh_CN': "龙头",
     'zh_TW': "龍頭",
     'eo': "Krano",
-    'tl': "Faucet"
+    'tl': "Faucet",
+    'tr': "Tap"
   },
   'resources-coinmarketcap-button': {
     'ar': "CoinMarketCap",
     'da': "CoinMarketCap",
     'de': "CoinMarketCap",
     'es': "CoinMarketCap",
+    'fa': "CoinMarketCap",
     'fr': "CoinMarketCap",
     'it': "CoinMarketCap",
     'ja': "CoinMarketCap",
     'ko': "CoinMarketCap",
+    'ku': "CoinMarketCap",
     'nl': "CoinMarketCap",
     'pl': "CoinMarketCap",
     'pt': "CoinMarketCap",
@@ -1423,17 +1661,20 @@ const Localizations = {
     'zh_CN': "CoinMarketCap",
     'zh_TW': "CoinMarketCap",
     'eo': "CoinMarketCap",
-    'tl': "CoinMarketCap"
+    'tl': "CoinMarketCap",
+    'tr': "CoinMarketCap"
   },
   'resources-testnet-information-button': {
     'ar': "معلومات شبكة الاختبار",
     'da': "Test Netværksoplysninger",
     'de': "TestNet Information",
     'es': "TestNet Information",
+    'fa': "درباره تست‌نت",
     'fr': "TestNet Information",
     'it': "TestNet Information",
     'ja': "ネットワーク情報をテストする",
     'ko': "네트워크 정보 테스트",
+    'ku': "Agahiyên TestNetê",
     'nl': "TestNet informatie",
     'pl': "TestNet Information",
     'pt': "TestNet Information",
@@ -1442,17 +1683,20 @@ const Localizations = {
     'zh_CN': "测试网络信息",
     'zh_TW': "測試網絡信息",
     'eo': "Pri la testreto",
-    'tl': "TestNet Information"
+    'tl': "TestNet Information",
+    'tr': "Test Bilgi"
   },
   'resources-cryptapus-myriad-page-button': {
     'ar': "Cryptap.us صفحة لا حصر لها",
     'da': "Cryptap.us Myriad Page",
     'de': "Cryptap.us Myriad Seite",
     'es': "Cryptap.us Myriad Page",
+    'fa': "صفحه میریاد در Cryptap.us",
     'fr': "Cryptap.us Myriad Page",
     'it': "Cryptap.us Myriad Page",
     'ja': "Cryptap.us Myriad Page",
     'ko': "무수한 페이지 Cryptap.us",
+    'ku': "Rûpela Myriadê ser Cryptap.us",
     'nl': "Cryptap.us Myriad Pagina",
     'pl': "Cryptap.us Myriad Page",
     'pt': "Cryptap.us Myriad Page",
@@ -1461,18 +1705,20 @@ const Localizations = {
     'zh_CN': "Cryptap.us Myriad页面",
     'zh_TW': "Cryptap.us Myriad頁面",
     'eo': "Cryptap.us Paĝo de Myriad",
-    'tl': "Cryptap.us Myriad Page"
-
+    'tl': "Cryptap.us Myriad Page",
+    'tr': "Cryptap.us Myriad Sayfası"
   },
   'reddit-irc-myrbot-information-button': {
     'ar': "رديت / إيرك ميربوت المعلومات",
     'da': "Reddit / IRC myrbot information",
     'de': "Reddit / IRC Myrbot Informationen",
     'es': "Reddit / IRC myrbot información",
+    'fa': "درباره روبات Reddit/IRC (Myrbot)",
     'fr': "Informations sur Reddit / IRC myrbot",
     'it': "Informazioni su myrbot Reddit / IRC",
     'ja': "Reddit / IRC myrbot情報",
     'ko': "Reddit / IRC myrbot 정보",
+    'ku': "Agahiyên Reddit / IRC myrbot",
     'nl': "Reddit / IRC myrbot-informatie",
     'pl': "Informacje o myrbot Reddit / IRC",
     'pt': "Informação do myrbot do Reddit / IRC",
@@ -1481,6 +1727,7 @@ const Localizations = {
     'zh_CN': "Reddit / IRC myrbot信息",
     'zh_TW': "Reddit / IRC myrbot信息",
     'eo': "Pri Reddit / IRC myrbot (donacsenda roboto)",
-    'tl': "Reddit / IRC myrbot"
+    'tl': "Reddit / IRC myrbot",
+    'tr': "Reddit / IRC myrbot bilgi"
   }
-};
+}
