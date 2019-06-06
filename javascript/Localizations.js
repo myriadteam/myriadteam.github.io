@@ -1851,5 +1851,28 @@ const Localizations = {
     'zh_CN': "Reddit / IRC myrbot信息",
     'zh_TW': "Reddit / IRC myrbot信息"
   }
+  'Woocommerce-Payment-Plugin-button': {
+    'ar': "Woocommerce Paymeny Plugin",
+    'ca': "Plugin De Pagament Per Woocommerce",
+    'da': "Woocommerce Payment Plugin",
+    'de': "Woocommerce Payment Plugin",
+    'eo': "Woocommerce Payment Plugin",
+    'es': "Woocommerce Payment Plugin",
+    'fa': "Woocommerce Payment Plugin",
+    'fr': "Woocommerce Payment Plugin",
+    'it': "Woocommerce Payment Plugin",
+    'ja': "Woocommerce Payment Plugin",
+    'ko': "Woocommerce Payment Plugin",
+    'ku': "Woocommerce Payment Plugin",
+    'nl': "Woocommerce Betaal Plugin",
+    'pl': "Woocommerce Payment Plugin",
+    'pt': "Woocommerce Payment Plugin",
+    'ro': "Woocommerce Payment Plugin",
+    'ru': "Woocommerce платежный плагин",
+    'tl': "Woocommerce Payment Plugin",
+    'tr': "Woocommerce Payment Plugin",
+    'zh_CN': "Woocommerce支付插件",
+    'zh_TW': "Woocommerce支付插件"
+  }
 
 }
