@@ -1850,7 +1850,7 @@ const Localizations = {
     'tr': "Reddit / IRC myrbot bilgi",
     'zh_CN': "Reddit / IRC myrbot信息",
     'zh_TW': "Reddit / IRC myrbot信息"
-  }
+  },
   'Woocommerce-Payment-Plugin-button': {
     'ar': "Woocommerce Paymeny Plugin",
     'ca': "Plugin De Pagament Per Woocommerce",
@@ -1874,5 +1874,4 @@ const Localizations = {
     'zh_CN': "Woocommerce支付插件",
     'zh_TW': "Woocommerce支付插件"
   }
-
 }
