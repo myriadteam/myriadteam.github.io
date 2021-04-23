@@ -1,479 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0" />
-    <meta name="description" content="" />
 
-    <title localization="page-title">Myriad. A Coin For Everyone</title>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0" />
+  <meta name="description" content="" />
 
-    <link href="./css/app.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <title localization="page-title">Myriad. A Coin For Everyone</title>
 
-    <script type="text/javascript" src="./dependencies/jquery.min.js"></script>
-    <script type="text/javascript" src="./dependencies/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./dependencies/url.min.js"></script>
-    <script type="text/javascript" src="./javascript/Localizations.js"></script>
-    <script type="text/javascript" src="./javascript/Main.js"></script>
-  </head>
-  <body>
-    <div id="header" class="container-fluid">
-  <div class="row">
-    <div class="col-xs-2">
-      <a href="/">
-        <img src="./images/logo-icon.png" class="visible-xs visible-sm visible-md" height="60px" />
-        <img src="./images/logo.png" class="visible-lg" height="60px" />
-      </a>
-    </div>
+  <link href="./css/app.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 
-    <div class="col-xs-10 text-right">
-      <a href="#" class="btn btn-shark view-section hidden-xs" section="why-myriad" localization="header-why-myriad-button">Why Myriad?</a>
-	  
-<!-- new code for members, merchants and road map top bar link >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-	  
-	  <a href="#" class="btn btn-shark view-section" section="Members" localization="header-wallets-button">Members</a>
-	  	  <a href="#" class="btn btn-shark view-section" section="Merchants" localization="header-wallets-button">Merchants</a>
+  <script type="text/javascript" src="./dependencies/jquery.min.js"></script>
+  <script type="text/javascript" src="./dependencies/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./dependencies/url.min.js"></script>
+  <script type="text/javascript" src="./javascript/Localizations.js"></script>
+  <script type="text/javascript" src="./javascript/Main.js"></script>
+</head>
 
-	  
-<!-- end new code for members, merchants and road map top bar link >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->	 
-	  
-      <a href="#" class="btn btn-shark view-section" section="wallets" localization="header-wallets-button">Wallets</a>
-      <a href="#" class="btn btn-shark view-section" section="buy" localization="header-buy-button">Buy</a>
-      <a href="#" class="btn btn-shark view-section hidden-xs" section="mine" localization="header-mine-button">Mine</a>
-      <a href="#" class="btn btn-shark view-section hidden-xs hidden-sm" section="resources" localization="header-resources-button">Resources</a>
-      <a href="#" class="btn btn-wisteria dropdown-toggle open-language-dropdown" data-toggle="dropdown"><span localization="header-language-button">English</span> <i class="ion-arrow-down-b hidden-xs"></i></a>
-      <div class="dropdown-menu language-dropdown">
-        <div class="row">
-          <div class="col-xs-6">
-            <a href="./?lang=zh_CN">简体中文</a>
-            <a href="./?lang=eo">Esperanto</a>
-            <a href="./?lang=fa">فارسی</a>
-            <a href="./?lang=es">Español</a>
-            <a href="./?lang=ca">Catalan</a>
-            <a href="./?lang=nl">Nederlands</a>
-            <a href="./?lang=ko">한국의</a>
-            <a href="./?lang=pl">Polski</a>
-            <a href="./?lang=ja">日本語</a>
-            <a href="./?lang=pt">Português</a>
-            <a href="./?lang=ar">العربية</a>
-          </div>
-
-          <div class="col-xs-6">
-            <a href="./?lang=en">English</a>
-            <a href="./?lang=da">Dansk</a>
-            <a href="./?lang=ru">Русский</a>
-            <a href="./?lang=zh_TW">繁體中文</a>
-            <a href="./?lang=it">Italiano</a>
-            <a href="./?lang=fr">Français</a>
-            <a href="./?lang=de">Deutsch</a>
-            <a href="./?lang=ro">Română</a>
-            <a href="./?lang=tl">Tagalog</a>
-            <a href="./?lang=ku">Kurmanji</a>
-            <a href="./?lang=tr">Türkçe</a>
-          </div>
-        </div>
+<body>
+  <div id="header" class="container-fluid">
+    <div class="row">
+      <div class="col-xs-2">
+        <a href="/">
+          <img src="./images/logo-icon.png" class="visible-xs visible-sm visible-md" height="60px" />
+          <img src="./images/logo.png" class="visible-lg" height="60px" />
+        </a>
       </div>
-    </div>
-  </div>
-</div>
 
-<div id="hero" class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12 col-lg-8 col-lg-push-2 text-center">
-      <h1 localization="hero-title">A Coin For Everyone.</h1>
-
-      <a href="#" class="download-wallet btn btn-shark view-section" section="wallets" localization="hero-download-wallet-button">Download a Myriad Wallet</a>
-      <br />
-      <a href="#" class="download-wallet btn btn-shark view-section" section="mine" localization="hero-start-mining-button">Start Mining Myriad</a>
-    </div>
-  </div>
-
-  <div class="learn-more-wrapper">
-    <a href="#" class="learn-more view-section" section="why-myriad"><i class="ion-arrow-down-b"></i></a>
-  </div>
-</div>
-
-<div id="main" class="container-fluid">
-  <div id="why-myriad" class="section section-1 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="why-myriad-section-header">Why Myriad?</h1>
-    </div>
-
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-		
-			
-<!-- new code for video >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-		<p><iframe width="100%" height="415" src="https://www.youtube.com/embed/JWfxr5cQJug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</p>
-					<p> &nbsp </p>	
-<!-- end new code for video >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->			
-					
+      <div class="col-xs-10 text-right">
+        <a href="#" class="btn btn-shark view-section hidden-xs" section="why-myriad"
+          localization="header-why-myriad-button">Why Myriad?</a>
+        <a href="#" class="btn btn-shark view-section" section="Members"
+          localization="header-members-button">Members</a>
+        <a href="#" class="btn btn-shark view-section" section="Merchants"
+          localization="header-merchants-button">Merchants</a>
+        <a href="#" class="btn btn-shark view-section" section="wallets"
+          localization="header-wallets-button">Wallets</a>
+        <a href="#" class="btn btn-shark view-section" section="buy" localization="header-buy-button">Buy</a>
+        <a href="#" class="btn btn-shark view-section hidden-xs" section="mine"
+          localization="header-mine-button">Mine</a>
+        <a href="#" class="btn btn-shark view-section hidden-xs hidden-sm" section="resources"
+          localization="header-resources-button">Resources</a>
+        <a href="#" class="btn btn-wisteria dropdown-toggle open-language-dropdown" data-toggle="dropdown"><span
+            localization="header-language-button">English</span> <i class="ion-arrow-down-b hidden-xs"></i></a>
+        <div class="dropdown-menu language-dropdown">
           <div class="row">
-            <div class="col-xs-12 col-sm-4">
-              <div class="info-group text-center">
-                <h5 class="color-smalt-blue" localization="why-myriad-multi-algorithm-title">Multi-Algorithm</h5>
-                <p localization="why-myriad-multi-algorithm-text">Myriad is the first currency to support 5 algorithms, catering for ASIC, GPU and CPU mining. Currently, those algorithms consist of <b>SHA256d</b>, <b>Scrypt</b>, <b>Myr-Groestl</b>, <b>Argon2d</b> and <b>Yescrypt</b>.<br /><br />Myriad's multi algorithm approach offers exceptional 51% resistance because a range of different hardware is needed to find 51% of the blocks.</p>
-              </div>
+            <div class="col-xs-6">
+              <a href="./?lang=zh_CN">简体中文</a>
+              <a href="./?lang=eo">Esperanto</a>
+              <a href="./?lang=fa">فارسی</a>
+              <a href="./?lang=es">Español</a>
+              <a href="./?lang=ca">Catalan</a>
+              <a href="./?lang=nl">Nederlands</a>
+              <a href="./?lang=ko">한국의</a>
+              <a href="./?lang=pl">Polski</a>
+              <a href="./?lang=ja">日本語</a>
+              <a href="./?lang=pt">Português</a>
+              <a href="./?lang=ar">العربية</a>
             </div>
 
-            <div class="col-xs-12 col-sm-4 text-center">
-              <div class="info-group">
-                <h5 class="color-coral-tree" localization="why-myriad-merge-mining-title">Merge Mining</h5>
-                <p localization="why-myriad-merge-mining-text">Merge mining is allowed on the <b>SHA256d</b> and <b>Scrypt</b> algorithms. This has enabled Myriad to take advantage of the huge hashrates currently in use by coins using these algorithms.<br /><br />Merge Mining, or AuxPow, allows the work being done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's blockchain.</p>
-              </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4 text-center">
-              <div class="info-group last">
-                <h5 class="color-purple-mountains-majesty" localization="why-myriad-distribution-title">Distribution</h5>
-                <p localization="why-myriad-distribution-text">Myriad was released to the wild on February 23, 2014 at 18:30 UTC. The <a href="https://xmy-blockbook1.coinid.org/block/cb41589c918fba1beccca8bc6b34b2b928b4f9888595d7664afd6ec60a576291" target="_blank">first mined block</a> came 4 minutes later, thus establishing that there was no premine.<br /><br />The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48 weeks). Total supply is approximately 2 billion MYR. Target block time is 60 seconds, or 300 seconds per algorithm.</p>
-              </div>
+            <div class="col-xs-6">
+              <a href="./?lang=en">English</a>
+              <a href="./?lang=da">Dansk</a>
+              <a href="./?lang=ru">Русский</a>
+              <a href="./?lang=zh_TW">繁體中文</a>
+              <a href="./?lang=it">Italiano</a>
+              <a href="./?lang=fr">Français</a>
+              <a href="./?lang=de">Deutsch</a>
+              <a href="./?lang=ro">Română</a>
+              <a href="./?lang=tl">Tagalog</a>
+              <a href="./?lang=ku">Kurmanji</a>
+              <a href="./?lang=tr">Türkçe</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
-  
 
-<!-- new code for members page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  <div id="hero" class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-lg-8 col-lg-push-2 text-center">
+        <h1 localization="hero-title">A Coin For Everyone.</h1>
+
+        <a href="#" class="download-wallet btn btn-shark view-section" section="wallets"
+          localization="hero-download-wallet-button">Download a Myriad Wallet</a>
+        <br />
+        <a href="#" class="download-wallet btn btn-shark view-section" section="mine"
+          localization="hero-start-mining-button">Start Mining Myriad</a>
+      </div>
+    </div>
+
+    <div class="learn-more-wrapper">
+      <a href="#" class="learn-more view-section" section="why-myriad"><i class="ion-arrow-down-b"></i></a>
+    </div>
+  </div>
+
+  <div id="main" class="container-fluid">
+    <div id="why-myriad" class="section section-1 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="why-myriad-section-header">Why Myriad?</h1>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <p><iframe width="100%" height="415" src="https://www.youtube.com/embed/JWfxr5cQJug"
+                title="YouTube video player - What is Myriad" frameborder="0"
+                allow="accelerometer; clipboard-write; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></p>
+            <p> &nbsp </p>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <div class="info-group text-center">
+                  <h5 class="color-smalt-blue" localization="why-myriad-multi-algorithm-title">Multi-Algorithm</h5>
+                  <p localization="why-myriad-multi-algorithm-text">Myriad is the first currency to support 5
+                    algorithms, catering for ASIC, GPU and CPU mining. Currently, those algorithms consist of
+                    <b>SHA256d</b>, <b>Scrypt</b>, <b>Myr-Groestl</b>, <b>Argon2d</b> and
+                    <b>Yescrypt</b>.<br /><br />Myriad's multi algorithm approach offers exceptional 51% resistance
+                    because a range of different hardware is needed to find 51% of the blocks.</p>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 text-center">
+                <div class="info-group">
+                  <h5 class="color-coral-tree" localization="why-myriad-merge-mining-title">Merge Mining</h5>
+                  <p localization="why-myriad-merge-mining-text">Merge mining is allowed on the <b>SHA256d</b> and
+                    <b>Scrypt</b> algorithms. This has enabled Myriad to take advantage of the huge hashrates currently
+                    in use by coins using these algorithms.<br /><br />Merge Mining, or AuxPow, allows the work being
+                    done for a parent coin (such as Bitcoin or Litecoin) to be used to find valid blocks on Myriad's
+                    blockchain.</p>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 text-center">
+                <div class="info-group last">
+                  <h5 class="color-purple-mountains-majesty" localization="why-myriad-distribution-title">Distribution
+                  </h5>
+                  <p localization="why-myriad-distribution-text">Myriad was released to the wild on February 23, 2014 at
+                    18:30 UTC. The <a
+                      href="https://xmy-blockbook1.coinid.org/block/cb41589c918fba1beccca8bc6b34b2b928b4f9888595d7664afd6ec60a576291"
+                      target="_blank">first mined block</a> came 4 minutes later, thus establishing that there was no
+                    premine.<br /><br />The initial reward was 1,000 MYR, halving every 967,680 blocks (approximately 48
+                    weeks). Total supply is approximately 2 billion MYR. Target block time is 60 seconds, or 300 seconds
+                    per algorithm.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Members" class="section section-2 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="members-section-header">Members</h1>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <div class="info-group text-left">
+                  <div class="platform">
+                    <h6 localization="coders-desktop-title">Coders</h6>
+                    <p>8bitcoder - Creator</p>
+                    <p>cryptapus - Developer</p>
+                  </div>
+                  <div class="platform">
+                    <h6 localization="credits-desktop-title">Credits</h6>
+                    <p>nzsquirrell</p>
+                    <p>_WLC_</p>
+                    <p>jwinterm</p>
+                    <p>voridor</p>
+                    <p>nickbo7</p>
+                    <p>ahmedbohdi</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <div class="info-group text-left">
+                  <div class="platform">
+                    <h6 localization="marketing-desktop-title">Marketing</h6>
+                    <p>keepmyshirt</p>
+                    <p>Ed Leed</p>
+                    <p>Vivas</p>
+                    <p>Myriad_Angel</p>
+                    <p>roarde</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-3">
+                <div class="info-group">
+                  <h5>Discord 700+</h5>
+                  <div class="platform">
+                    <a href="https://discordapp.com/invite/A873Xkx"><img src="images/discord.jpg"
+                        style="width:100%; height:100%;"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <div class="info-group last">
+                  <h5>Reddit 4.0k</h5>
+                  <div class="platform">
+                    <a href="https://www.reddit.com/r/myriadcoin/"><img src="images/cy.jpg"
+                        style="width:100%; height:100%"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- new code for Merchants page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-
-<div id="Members" class="section section-2 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="wallets-section-header">Members</h1>
-	  
-    </div>
-
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-3">
-              <div class="info-group text-left">
-                <h5 localization="wallets-desktop-title">Coders</h5>
-
-                <div class="platform">
-<p>
-<b>  8bitcoder - Creator</b> : 
-<p>.................................... </p>
-<p>
-<b>cryptapus -  Developer </b>
-<p>.................................... </p>
-<p>
- <h5 localization="wallets-desktop-title">Credits</h5>
- <p>
-<b>- nzsquirrell</b>
-
-<p>
-<b>- _WLC_</b>
-
-<p>
-<b>- jwinterm</b>
-
-<p>
-<b>- voridor</b>
-
-<p>
-<b>- nickbo7</b>
-	
-<p>
-<b>- ahmedbohdi</b>
-<p>___________________________</p>
- </div>
+    <div id="Merchants" class="section section-3 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="merchants-tools-section-header">Merchants - Tools</h1>
+      </div>
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <div class="info-group text-left">
+                  <div class="platform">
+                    <h6>Drapis.com</h6>
+                    <a href="https://www.drapis.com/" target="_blank"><img src="images/drapis.jpg"
+                        style="width:100%; height:100%"></a>
+                    <h6>Web Wallet</h6>
+                    <a href="https://jswallet.github.io/" target="_blank"><img src="images/trader 12.jpg"
+                        style="width:100%; height:100%"></a>
+                  </div>
+                </div>
               </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-3 text-left">
-              <div class="info-group">
-                <h5 localization="wallets-mobile-title">Marketing</h5>
-
-                 <div class="platform">
-				 
-<p>
-<b>keepmyshirt</b>
-<p>.................................... </p>
-<p>
-<b>Ed Leed</b>
-<p>.................................... </p>
-<p>
-<b>Vivas</b>
-<p>.................................... </p>
-<p>
-<b>Myriad_Angel</b>
-<p>.................................... </p>
-<p>
-<b>roarde</b>
-<p>___________________________</p>
-					</div>
+              <div class="col-xs-12 col-sm-3 text-left">
+                <div class="info-group">
+                  <div class="platform">
+                    <h6>thecryptobill.com</h6>
+                    <a href="https://thecryptobill.com/" target="_blank"><img src="images/trader 1.jpg"
+                        style="width:100%; height:100%"></a>
+                    <h6>StreamLabs</h6>
+                    <a href="https://streamlabs.com/" target="_blank"><img src="images/trader5.jpg"
+                        style="width:100%; height:100%"></a>
+                    <h6>Coinid App</h6>
+                    <a href="https://coinid.org/" target="_blank"><img src="images/trader8.jpg"
+                        style="width:100%; height:100%"></a>
+                  </div>
+                </div>
               </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-3 text-left">
-              <div class="info-group">
-                <h5 localization="wallets-source-title">Discord 700+</h5>
-
-                 <div class="platform">
-                 
-				<a href="https://discordapp.com/invite/A873Xkx"><img src="images/discord.jpg" style="width:100%; height:100%;" ></a>
-               </div>    
+              <div class="col-xs-12 col-sm-3 text-center">
+                <div class="info-group">
+                  <div class="platform">
+                    <h6>CaveOut</h6>
+                    <a href="http://caveout.co.uk/" target="_blank"><img src="images/trader 2.jpg"
+                        style="width:100%; height:100%"></a>
+                    <h6>Million Myriad</h6>
+                    <a href="https://millionmyriad.wixsite.com/mijnsite/hold" target="_blank"><img
+                        src="images/trader6.jpg" style="width:100%; height:100%"></a>
+                    <h6>Woocommerce Payment Plugin</h6>
+                    <a href="https://wordpress.org/plugins/nomiddleman-crypto-payments-for-woocommerce/"
+                      target="_blank"><img src="images/trader9.jpg" style="width:100%; height:100%"></a>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 text-left">
-              <div class="info-group last">
-                <h5 localization="wallets-other-title">Reddit 3.7k</h5>
-
-                 <div class="platform">
-					<a href="https://www.reddit.com/r/myriadcoin/"><img src="images/cy.jpg" style="width:100%; height:100%" ></a>
-					</div>
-
+              <div class="col-xs-12 col-sm-3 text-center">
+                <div class="info-group last">
+                  <div class="platform">
+                    <h6>Shop</h6>
+                    <a href="https://shop.spreadshirt.com/myriad-keepmyshirt/" target="_blank"><img
+                        src="images/trader 4.jpg" style="width:100%; height:100%"></a>
+                    <h6>Blockfolio App</h6>
+                    <a href="https://blockfolio.com/coin/XMY" target="_blank"><img src="images/trader8.png"
+                        style="width:100%; height:100%"></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
-<!-- End code for new members page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
+    <!-- new code for Roadmap page  -->
+    <!-- End code for new Roadmap page -->
 
-<!-- new code for Merchants page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-
-
-<div id="Merchants" class="section section-3 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="wallets-section-header">Merchants - Tools</h1>
-    </div>
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-3">
-              <div class="info-group text-left">
- <div class="platform">
-  <b>  Drapis.com</b> :
-<p> &nbsp </p>			   
-	<a href="https://www.drapis.com/"><img src="images/drapis.jpg" style="width:100%; height:100%" ></a>
-	<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-	 <b>  Star Vape Wervik (Belgium)</b> :
-<p> &nbsp </p>			   
-	<a href=""><img src="images/star vape.jpg" style="width:100%; height:100%" ></a>
-<p> &nbsp </p>			   
-<p> &nbsp </p>			   
-	 <b>  Web Wallet</b> :
-<p> &nbsp </p>			   
-	<a href="https://jswallet.github.io/"><img src="images/trader 12.jpg" style="width:100%; height:100%" ></a>
-                       </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 text-left">
-              <div class="info-group">
-                 <div class="platform">
-<p>
-<b>thecryptobill.com</b> : 
-<p> &nbsp </p>
-	<a href="https://thecryptobill.com/"><img src="images/trader 1.jpg" style="width:100%; height:100%" ></a>
-<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-<b>  StreamLabs</b> :
-<p> &nbsp </p>			   
-	<a href="http://cryptips.org/"><img src="images/trader5.jpg" style="width:100%; height:100%" ></a>
-<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-<b> Coinid App</b> :
-<p> &nbsp </p>			   
-	<a href="https://coinid.org/"><img src="images/trader8.jpg" style="width:100%; height:100%" ></a>
-			 
-			 	<p> &nbsp </p>			   
-	
-	<p> &nbsp </p>	
-	
-	 <b>Trezor.io</b>:
-<p> &nbsp </p>			   
-	<a href="https://trezor.io/coins/#XMY"><img src="images/trader 15.jpg" style="width:100%; height:100%" ></a>
-
-		</div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 text-center">
-              <div class="info-group">
-
-                 <div class="platform">
-			         <b>  CaveOut</b> : 
-					 <p> &nbsp </p>
-	<a href="http://caveout.co.uk/"><img src="images/trader 2.jpg" style="width:100%; height:100%" ></a>
-
-<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-		
-	 <b>  Million Myriad</b> :
-<p> &nbsp </p>			   
-	<a href="https://millionmyriad.wixsite.com/mijnsite/hold"><img src="images/trader6.jpg" style="width:100%; height:100%" ></a>
-<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-	
-	 <b>Woocommerce Payment Plugin</b>:
-<p> &nbsp </p>			   
-	<a href="https://wordpress.org/plugins/nomiddleman-crypto-payments-for-woocommerce/"><img src="images/trader9.jpg" style="width:100%; height:100%" ></a>
-<p> &nbsp </p>			   
-	<p> &nbsp </p>	
-	 <b>DYNX.IO </b>:
-<p> &nbsp </p>			   
-	<a href="https://www.dynx.io/"><img src="images/trader 14.jpg" style="width:100%; height:100%" ></a>
-</div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 text-center">
-              <div class="info-group last">
-    
-
-                 <div class="platform">
-                			
-				         <b> Shop  </b> : 
-						 <p> &nbsp </p>
-	<a href="https://shop.spreadshirt.com/myriad-keepmyshirt/"><img src="images/trader 4.jpg" style="width:100%; height:100%" ></a>
-					
-					
-					<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-	
-	
-	
-	 <b> Blockfolio App</b> :
-<p> &nbsp </p>			   
-	<a href=""><img src="images/trader8.png" style="width:100%; height:100%" ></a>
-
-<p> &nbsp </p>			   
-	<p> &nbsp </p>			   
-	
-	
-	
-	 <b>Nutty.one</b>:
-<p> &nbsp </p>			   
-	<a href="https://myriad.nutty.one/"><img src="images/trader 11.jpg" style="width:100%; height:100%" ></a>
-
-		   
-
-
-
-
-					</div>
-
-               					
-				
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="wallets" class="section section-2 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="wallets-section-header">Wallets</h1>
       </div>
-    </div>
-  </div>
 
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <div class="info-group text-center">
+                  <h5 localization="wallets-desktop-title">Desktop</h5>
+                  <div class="platform">
+                    <h6 localization="wallets-desktop-windows">Windows</h6>
+                    <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win32.zip"
+                      class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> 32-bit ZIP</a>
+                    <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win32-setup.exe"
+                      class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> <span
+                        localization="wallets-desktop-x86-installer">32-bit Installer</span></a>
+                    <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win64.zip"
+                      class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> 64-bit ZIP</a>
+                    <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win64-setup.exe"
+                      class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> <span
+                        localization="wallets-desktop-x64-installer">64-bit Installer</a>
+                  </div>
 
-<!-- End code for new Merchants page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+                  <div class="platform">
+                    <h6>Mac OSX</h6>
+                    <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-osx.dmg"
+                      class="btn btn-shark" target="_blank"><i class="ion-social-apple hidden-sm"></i> OSX DMG</a>
+                  </div>
 
-
-<!-- new code for Roadmap page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-
-
-
-
-<!-- End code for new Roadmap page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-
-
-  
-  
-  
-
-  <div id="wallets" class="section section-2 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="wallets-section-header">Wallets</h1>
-    </div>
-
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-3">
-              <div class="info-group text-center">
-                <h5 localization="wallets-desktop-title">Desktop</h5>
-
-                <div class="platform">
-                       <h6 localization="wallets-desktop-windows">Windows</h6>
-                       <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win32.zip" class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> 32-bit ZIP</a>
-                       <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win32-setup.exe" class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> <span localization="wallets-desktop-x86-installer">32-bit Installer</span></a>
-                  <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win64.zip" class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> 64-bit ZIP</a>
-                  <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-win64-setup.exe" class="btn btn-shark" target="_blank"><i class="ion-social-windows hidden-sm"></i> <span localization="wallets-desktop-x64-installer">64-bit Installer</a>
-                </div>
-
-                <div class="platform">
-                       <h6>Mac OSX</h6>
-                  <a href="https://github.com/myriadteam/myriadcoin/releases/download/v0.18.1.0/myriadcoin-0.18.1.0-osx.dmg" class="btn btn-shark" target="_blank"><i class="ion-social-apple hidden-sm"></i> OSX DMG</a>
-                </div>
-
-                <div class="platform">
-                       <h6 localization="wallets-desktop-other">Other Builds<h6>
-                       <a href="https://github.com/myriadteam/myriadcoin/releases/tag/v0.18.1.0" class="btn btn-shark" target="_blank"><i class="ion-social-github hidden-sm"></i> <span localization="wallets-desktop-github">View on GitHub</span></a>
+                  <div class="platform">
+                    <h6 localization="wallets-desktop-other">Other Builds<h6>
+                        <a href="https://github.com/myriadteam/myriadcoin/releases/tag/v0.18.1.0" class="btn btn-shark"
+                          target="_blank"><i class="ion-social-github hidden-sm"></i> <span
+                            localization="wallets-desktop-github">View on GitHub</span></a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-xs-12 col-sm-3 text-center">
-              <div class="info-group">
-                <h5 localization="wallets-mobile-title">Mobile</h5>
-
-                <div class="platform">
-                  <h6>Android/Apple Mobile</h6>
-                  <a href="https://play.google.com/store/apps/details?id=org.coinid.wallet.xmy" class="btn btn-shark" target="_blank"><i class="ion-social-android hidden-sm"></i> <span localization="wallets-mobile-android-coinid">CoinID (Google Play Store)</span></a>
-                  <a href="https://itunes.apple.com/us/app/myriad-wallet-for-coinid/id1434967792" class="btn btn-shark" target="_blank"><i class="ion-social-android hidden-sm"></i> <span localization="wallets-mobile-android-hash-engineering">CoinID (Apple Store)</span></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.myralicious.wlc.myriadjs" class="btn btn-shark" target="_blank"><i class="ion-social-android hidden-sm"></i>jswallet webview (Google Play)</a>
+              <div class="col-xs-12 col-sm-3 text-center">
+                <div class="info-group">
+                  <h5 localization="wallets-mobile-title">Mobile</h5>
+                  <div class="platform">
+                    <h6>Android/Apple Mobile</h6>
+                    <a href="https://play.google.com/store/apps/details?id=org.coinid.wallet.xmy" class="btn btn-shark"
+                      target="_blank"><i class="ion-social-android hidden-sm"></i> <span
+                        localization="wallets-mobile-android-coinid">CoinID (Google Play Store)</span></a>
+                    <a href="https://itunes.apple.com/us/app/myriad-wallet-for-coinid/id1434967792"
+                      class="btn btn-shark" target="_blank"><i class="ion-social-android hidden-sm"></i> <span
+                        localization="wallets-mobile-android-hash-engineering">CoinID (Apple Store)</span></a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-xs-12 col-sm-3 text-center">
-              <div class="info-group">
-                <h5 localization="wallets-source-title">Source</h5>
-
-                <div class="platform">
-                  <h6>GitHub</h6>
-                  <a href="https://github.com/myriadteam/myriadcoin/archive/v0.18.1.0.zip" class="btn btn-shark" target="_blank"><i class="ion-social-github hidden-sm"></i> <span localization="wallets-source-zip">Source Code</span> <span class="hidden-xs hidden-sm hidden-md">zip (0.18.1.0)</span></a>
-                  <a href="https://github.com/myriadteam/myriadcoin" class="btn btn-shark" target="_blank"><i class="ion-social-github hidden-sm"></i> <span localization="wallets-source-git-repo">Git Repository</span></a>
+              <div class="col-xs-12 col-sm-3 text-center">
+                <div class="info-group">
+                  <h5 localization="wallets-source-title">Source</h5>
+                  <div class="platform">
+                    <h6>GitHub</h6>
+                    <a href="https://github.com/myriadteam/myriadcoin/archive/v0.18.1.0.zip" class="btn btn-shark"
+                      target="_blank"><i class="ion-social-github hidden-sm"></i> <span
+                        localization="wallets-source-zip">Source Code</span> <span
+                        class="hidden-xs hidden-sm hidden-md">zip (0.18.1.0)</span></a>
+                    <a href="https://github.com/myriadteam/myriadcoin" class="btn btn-shark" target="_blank"><i
+                        class="ion-social-github hidden-sm"></i> <span localization="wallets-source-git-repo">Git
+                        Repository</span></a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-xs-12 col-sm-3 text-center">
-              <div class="info-group last">
-                <h5 localization="wallets-other-title">Other</h5>
+              <div class="col-xs-12 col-sm-3 text-center">
+                <div class="info-group last">
+                  <h5 localization="wallets-other-title">Other</h5>
+                  <div class="platform">
+                    <h6>JSWallet</h6>
+                    <a href="https://jswallet.github.io" class="btn btn-shark" target="_blank"><i
+                        class="ion-code hidden-sm"></i> <span localization="wallets-other-download">Download</span></a>
+                  </div>
 
-                <div class="platform">
-                  <h6>JSWallet</h6>
-                  <a href="https://jswallet.github.io" class="btn btn-shark" target="_blank"><i class="ion-code hidden-sm"></i> <span localization="wallets-other-download">Download</span></a>
-                </div>
+                  <div class="platform">
+                    <h6 localization="wallets-other-brain">Brain Wallet</h6>
+                    <a href="https://cryptapus.org/myr/brainwallet" class="btn btn-shark" target="_blank"><i
+                        class="ion-happy hidden-sm"></i> <span localization="wallets-other-download">Download</span></a>
+                  </div>
 
-                <div class="platform">
-                      <h6 localization="wallets-other-brain">Brain Wallet</h6>
-                  <a href="https://cryptapus.org/myr/brainwallet" class="btn btn-shark" target="_blank"><i class="ion-happy hidden-sm"></i> <span localization="wallets-other-download">Download</span></a>
-                </div>
-
-                <div class="platform">
+                  <div class="platform">
                     <h6 localization="wallets-other-paper">Paper Wallet</h6>
-                  <a href="https://myriadcoinpaperwallet.github.io" class="btn btn-shark" target="_blank"><i class="ion-document-text hidden-sm"></i> <span localization="wallets-other-download">Download</span></a>
+                    <a href="https://myriadcoinpaperwallet.github.io" class="btn btn-shark" target="_blank"><i
+                        class="ion-document-text hidden-sm"></i> <span
+                        localization="wallets-other-download">Download</span></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -481,34 +392,388 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="buy" class="section section-3 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="buy-section-header">Buy</h1>
-    </div>
+    <div id="buy" class="section section-3 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="buy-section-header">Buy</h1>
+      </div>
 
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-5">
-              <div class="info-group text-center">
-                <div class="coinmarketcap-currency-widget" data-currencyid="182" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-5">
+                <div class="info-group text-center">
+                  <div class="coinmarketcap-currency-widget" data-currencyid="182" data-base="USD" data-secondary="BTC"
+                    data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD"
+                    data-statsticker="false"></div>
+                </div>
               </div>
-            </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-7 text-center">
-              <div class="info-group last">
-                <h5 localization="buy-exchanges-title">Exchanges</h5>
-                <!-- Disabling exchange text pending edit and translation
+              <div class="col-xs-12 col-sm-6 col-md-7 text-center">
+                <div class="info-group last">
+                  <h5 localization="buy-exchanges-title">Exchanges</h5>
+                  <!-- Disabling exchange text pending edit and translation
                   <p localization="buy-exchanges-text">You can acquire Myriad from any of the following popular exchanges. Coming in 2018, you can expect to see Myriad available through more large exchanges as it continues to grow.</p>
                 -->
-                <div class="row">
-                    <div class="col-xs-12 col-md-12">
-                        <a href="https://bittrex.com/Market/Index?MarketName=BTC-XMY" class="btn btn-wisteria" target="_blank">Bittrex</a>
-                        <a href="https://dovewallet.com/trade/spot/xmy-btc" class="btn btn-wisteria" target="_blank">Dove Wallet</a>
+                  <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                      <a href="https://bittrex.com/Market/Index?MarketName=BTC-XMY" class="btn btn-wisteria"
+                        target="_blank">Bittrex</a>
+                      <a href="https://dovewallet.com/trade/spot/xmy-btc" class="btn btn-wisteria" target="_blank">Dove
+                        Wallet</a>
+                      <a href="https://www.cexz.ca/trading/xmybtc" class="btn btn-wisteria" target="_blank">CexZ</a>
                     </div>
+
+                    <div class="col-xs-12 col-md-6">
+                      <a href="https://www.litebit.eu/en/buy/myriadcoin" class="btn btn-wisteria"
+                        target="_blank">Litebit</a>
+                      <a href="https://freiexchange.com/market/XMY/BTC" class="btn btn-wisteria" target="_blank">Frei
+                        Exchange</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mine" class="section section-4 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="mine-section-header">Mine</h1>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <div class="info-group text-center">
+                  <h5 localization="mine-getting-started-title">Getting Started</h5>
+                  <p> <span localization="mine-getting-started-text1">To mine Myriad, you'll need to first</span>
+                    <a href="#wallets"><span localization="hero-download-wallet-button">download a wallet</span></a>.
+                    <span localization="mine-getting-started-text2">Then, one of the listed mining softwares and fire
+                      away! If you need a little help, you can</span>
+                    <a href="https://www.youtube.com/watch?v=9rKeBKQJ1aI" target="_blank"><span
+                        localization="mine-mining-youtube-tutorial">watch this YouTube tutorial.</span></a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 text-center">
+                <div class="info-group">
+                  <h5 localization="mine-mining-software-title">Mining Software</h5>
+                  <p localization="mine-mining-software-text">Myriad supports a handful of different mining softwares.
+                    You can choose from the list below for what algorithm you want to mine with depending on how your
+                    mining rig or device is setup.</p>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 text-center">
+                <div class="info-group last">
+                  <h5 localization="mine-mining-pools-title">Mining Pools</h5>
+                  <p> <span localization="mine-mining-pools-text1">You can mine Myriad through a number of pools. If you
+                      don't know what a mining pool is, you can </span>
+                    <a href="https://en.wikipedia.org/wiki/Mining_pool" target="_blank"><span
+                        localization="mine-mining-pools-learn-more">learn more here.</span></a>
+                    <span localization="mine-mining-pools-text2">We've listed the pools that currently support mining
+                      and merge mining of Myriad below.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-5 col-sm-push-1 margin-top-20">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="info-group">
+              <h5 class="text-center" localization="mine-available-mining-software-title">Available Mining Software</h5>
+
+              <div class="platform">
+                <h6>SHA256d</h6>
+                <p localization="mine-sha256d-text">You may use any SHA256d compatible ASIC</p>
+              </div>
+
+              <div class="platform">
+                <h6>Scrypt</h6>
+                <p localization="mine-scrypt-text">You may use any Scrypt compatible ASIC</p>
+              </div>
+
+              <div class="platform">
+                <h6>Myr-Groestl</h6>
+                <p localization="mine-groestl-text">If you mine using Myr-Groestl, you have a few options.</p>
+
+                <div class="mining-software">
+                  <h6 localization="mine-miner-sgminer">sgminer for OpenCL GPU mining</h6>
+                  <a href="https://bitcointalk.org/index.php?topic=632503.0" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-bitcoin"></i><span
+                      localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
+                  <a href="https://github.com/sgminer-dev/sgminer" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-github"></i><span localization="mine-view-github-source-button">Github
+                      Source</span></a>
+
+                  <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
+                  <p class="well code">sgminer --algorithm myriadcoin-groestl --no-extranonce -o {pool-URL} -O
+                    Username:Password</p>
+                </div>
+
+                <div class="mining-software">
+                  <h6 localization="mine-miner-ccminer">ccminer for CUDA GPU mining</h6>
+                  <a href="https://bitcointalk.org/?topic=770064" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-bitcoin"></i><span
+                      localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
+                  <a href="https://github.com/tpruvot/ccminer/releases/latest" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-windows"></i><span localization="mine-view-windows-binaries-button">Windows
+                      Binaries</span></a>
+                  <a href="https://github.com/tpruvot/ccminer" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-github"></i><span localization="mine-view-github-source-button">Github
+                      Source</span></a>
+
+                  <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
+                  <p class="well code">ccminer -a myr-gr -o {pool-URL} -O Username:Password</p>
+                </div>
+
+                <div class="mining-software">
+                  <h6 localization="mine-miner-cpuminer-multi">cpuminer-multi for CPU mining</h6>
+                  <a href="https://bitcointalk.org/?topic=841401" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-bitcoin"></i><span
+                      localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
+                  <a href="https://github.com/tpruvot/cpuminer-multi/releases/latest" class="btn btn-shark"
+                    target="_blank"><i class="ion-social-windows"></i><span
+                      localization="mine-view-windows-binaries-button">Windows Binaries</span></a>
+                  <a href="https://github.com/tpruvot/cpuminer-multi" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-github"></i><span localization="mine-view-github-source-button">Github
+                      Source</span></a>
+
+                  <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
+                  <p class="well code">cpuminer -a myr-gr -o {pool-URL} -O Username:Password</p>
+                </div>
+              </div>
+
+              <div class="platform">
+                <h6>Argon2D</h6>
+                <p localization="mine-yescrypt-text">Recommended algo for CPU miners.</p>
+                <div class="mining-software">
+                  <h6 localization="mine-miner-cpuminer-opt">CPUMiner-opt</h6>
+                  <a href="https://github.com/JayDDee/cpuminer-opt/releases" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-bitcoin"></i><span
+                      localization="resources-bitcointalk-thread-button">cpuminer-opt on github</span></a>
+
+                  <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
+                  <p class="well code">cpuminer -a argon2d4096 -o {pool-URL} -u username -p password</p>
+                </div>
+              </div>
+
+              <div class="platform">
+                <h6>Yescrypt</h6>
+                <div class="mining-software">
+                  <h6 localization="mine-miner-cpuminer-opt">CPUMiner-opt</h6>
+                  <a href="https://github.com/JayDDee/cpuminer-opt/releases" class="btn btn-shark" target="_blank"><i
+                      class="ion-social-bitcoin"></i><span
+                      localization="resources-bitcointalk-thread-button">cpuminer-opt on github</span></a>
+
+                  <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
+                  <p class="well code">cpuminer -a yescrypt -o {pool-URL} -u username -p password</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-5 col-sm-push-1 margin-top-20">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="info-group last">
+              <h5 class="text-center" localization="mine-available-mining-pools-title">Available Mining Pools</h5>
+
+              <div class="platform">
+                <h6 localization="mine-p2pool-nodes-text">P2Pool nodes</h6>
+
+                <div class="mining-pool">
+                  <h6>Myr-Groestl: New Zealand</h6>
+                  <p localization="mine-pool-url-text">Pool URL</p>
+                  <p class="well code">nz.nutty.one:5545</p>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Skein: New Zealand</h6>
+                  <p localization="mine-pool-url-text">Pool URL</p>
+                  <p class="well code">nz.nutty.one:5589</p>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Yescrypt</h6>
+                  <p class="well code">yescrypt.easymine.online:6000</p>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Argon2d4096</h6>
+                  <p class="well code">p2p-spb.xyz:6002</p>
+                </div>
+
+                <div class="mining-pool">
+                  <h6 localization="mine-run-your-own-node-text">Run Your Own Node</h6>
+                  <a href="https://github.com/nzsquirrell/p2pool-myriad" class="btn btn-shark" target="_blank"><i
+                      class="ion-network"></i> <span localization="mine-view-p2pool-instructions-button">View P2Pool
+                      Instructions</span></a>
+                </div>
+              </div>
+
+              <div class="platform">
+                <h6 localization="mine-other-pools-text">Other Pools</h6>
+                <div class="mining-pool">
+                  <h6>SHA256d: Miningfield</h6>
+                  <p localization="mine-pool-url-text">Pool URL</p>
+                  <p class="well code">myrsha256.miningfield.com</p>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Myr-Groestl: Mining Pool Hub</h6>
+                  <a href="https://myriadcoin-groestl.miningpoolhub.com/" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Yescrypt: Mining Pool Hub</h6>
+                  <a href="https://myriadcoin-yescrypt.miningpoolhub.com/" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6 localization="mine-pool-yescrypt-myriadcoin-tk">Yescrypt: Myriadcoin.tk Pool (with Unitus
+                    merged-mining)</h6>
+                  <p>Pool URL</p>
+                  <p class="well code">myriadcoin.tk</p>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Yescrypt: Pokemongomongo.tk Pool</h6>
+                  <a href="http://pokemongomongo.tk" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Argon2d4096: Pokemongomongo.tk Pool</h6>
+                  <a href="http://pokemongomongo.tk" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+              </div>
+
+              <div class="platform">
+                <h6 localization="mine-merge-mining-pools-text">Merge Mining Pools</h6>
+
+                <div class="mining-pool">
+                  <h6>Scrypt/SHA256/Argon2d4096/Myriad-Groestl/Yescrypt: Zergpool - Mining Site</h6>
+                  <a href="http://www.zergpool.com/" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Argon2d4096/Myriad-Groestl/Yescrypt: zpool - The miners multipool</h6>
+                  <a href="http://www.zpool.ca/" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Sha265/Scrypt/Yescrypt: Block Masters - Mining Site</h6>
+                  <a href="http://blockmasters.co" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Myriad-Groestl/Scrypt/Yescrypt: ahashpool - Site</h6>
+                  <a href="http://ahashpool.com" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>Myriad-Groestl/Yescrypt: Mining-Dutch</h6>
+                  <a href="https://www.mining-dutch.nl/pools/myriadcoin.php" class="btn btn-shark" target="_blank"
+                    localization="mine-view-pool-details-button">View Pool Details</a>
+                </div>
+
+                <div class="mining-pool">
+                  <h6>SHA256/Scrypt: Mining-Dutch</h6>
+                  <a href="https://prohashing.com/explorer/Myriadcoin/1bec9256362a816bcc9cffff23b4e316f0525a9cb8a979dc9ae5f8dcc3fa2955"
+                    class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool
+                    Details</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="resources" class="section section-5 row">
+      <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
+        <h1 class="title" localization="resources-section-header">Resources</h1>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="panel">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <div class="info-group text-center">
+                  <h5 class="color-smalt-blue" localization="resources-information-title">Information</h5>
+                  <a href="https://github.com/myriadteam" class="btn btn-wisteria" target="_blank"
+                    localization="resources-github-button">GitHub</a>
+                  <a href="https://chainz.cryptoid.info/xmy/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-cryptoid-explorer-button">CryptoID Explorer</a>
+                  <a href="https://myralicious.com" class="btn btn-wisteria" target="_blank"
+                    localization="resources-blockbook-explorer-button">Myralicious Blog</a>
+                  <a href="https://cryptapus.org/myr/myrstat" class="btn btn-wisteria" target="_blank"
+                    localization="resources-myrstat-explorer-button">Simple Statistics</a>
+                  <a href="https://cryptapus.org/myr/minerstats/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-minerstats-explorer-button">Active Miners</a>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4">
+                <div class="info-group text-center">
+                  <h5 class="color-smalt-blue" localization="resources-social-title">Social</h5>
+                  <a href="https://www.reddit.com/r/myriadcoin/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-reddit-button">Reddit</a>
+                  <a href="https://discordapp.com/invite/gGATpw6" class="btn btn-wisteria" target="_blank"
+                    localization="resources-discord-button">Discord Server</a>
+                  <a href="https://t.me/Myriadcoinofficial" class="btn btn-wisteria" target="_blank"
+                    localization="resources-telegram-button">Telegram</a>
+                  <a href="https://bitcointalk.org/index.php?topic=483515.0" class="btn btn-wisteria" target="_blank"
+                    localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</a>
+                  <a href="https://twitter.com/myriadcoin" class="btn btn-wisteria" target="_blank"
+                    localization="resources-twitter-button">Twitter</a>
+                  <a href="https://www.facebook.com/themyriadplatform/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-facebook-button">Facebook</a>
+                  <a href="http://webchat.freenode.net/?nick=myriad-..&channels=%23myriadcoin" class="btn btn-wisteria"
+                    target="_blank" localization="resources-irc-channel-button">IRC Channel</a>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4">
+                <div class="info-group text-center last">
+                  <h5 class="color-smalt-blue" localization="resources-other-title">Other</h5>
+                  <a href="https://cryptapus.org/myr/faucet/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-faucet-button">Faucet</a>
+                  <a href="http://coinmarketcap.com/currencies/myriadcoin/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-coinmarketcap-button">Coinmarketcap</a>
+                  <a href="https://www.reddit.com/r/myriadcoin/comments/47pww5/testnet_nodes_and_faucet/"
+                    class="btn btn-wisteria" target="_blank" localization="resources-testnet-information-button">Testnet
+                    Information</a>
+                  <a href="https://cryptapus.org/myr/" class="btn btn-wisteria" target="_blank"
+                    localization="resources-cryptapus-myriad-page-button">Cryptap.us Myriad page</a>
+                  <a href="https://www.reddit.com/r/myrbot/wiki/index" class="btn btn-wisteria" target="_blank"
+                    localization="reddit-irc-myrbot-information-button">Reddit/IRC myrbot information</a>
+                  <a href="https://wordpress.org/plugins/nomiddleman-crypto-payments-for-woocommerce"
+                    class="btn btn-wisteria" target="_blank"
+                    localization="Woocommerce-Payment-Plugin-button">Woocommerce Payment Plugin</a>
                 </div>
               </div>
             </div>
@@ -518,305 +783,39 @@
     </div>
   </div>
 
-  <div id="mine" class="section section-4 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="mine-section-header">Mine</h1>
-    </div>
+  <div id="footer" class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5 col-sm-push-6 social-links">
+        <a href="https://github.com/myriadteam" class="social-link-github" target="_blank">
+          <i class="ion-social-github"></i>
+        </a>
 
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-4">
-              <div class="info-group text-center">
-                <h5 localization="mine-getting-started-title">Getting Started</h5>
-                <p> <span localization="mine-getting-started-text1">To mine Myriad, you'll need to first</span>
-                    <a href="#wallets"><span localization="hero-download-wallet-button">download a wallet</span></a>.
-                    <span localization="mine-getting-started-text2">Then, one of the listed mining softwares and fire away! If you need a little help, you can</span>
-                    <a href="https://www.youtube.com/watch?v=961LFNZjLlY"<span localization="mine-mining-youtube-tutorial">watch this YouTube tutorial.</span></a>
-                </p>
-              </div>
-            </div>
+        <a href="https://www.reddit.com/r/myriadcoin/" class="social-link-reddit" target="_blank">
+          <i class="ion-social-reddit"></i>
+        </a>
 
-            <div class="col-xs-12 col-sm-4 text-center">
-              <div class="info-group">
-                <h5 localization="mine-mining-software-title">Mining Software</h5>
-                <p localization="mine-mining-software-text">Myriad supports a handful of different mining softwares. You can choose from the list below for what algorithm you want to mine with depending on how your mining rig or device is setup.</p>
-              </div>
-            </div>
+        <a href="https://bitcointalk.org/index.php?topic=483515.0" class="social-link-bitcoin" target="_blank">
+          <i class="ion-social-bitcoin"></i>
+        </a>
 
-            <div class="col-xs-12 col-sm-4 text-center">
-              <div class="info-group last">
-                <h5 localization="mine-mining-pools-title">Mining Pools</h5>
-                <p> <span localization="mine-mining-pools-text1">You can mine Myriad through a number of pools. If you don't know what a mining pool is, you can </span>
-                    <a href="https://en.wikipedia.org/wiki/Mining_pool"<span localization="mine-mining-pools-learn-more">learn more here.</span></a>
-                    <span localization="mine-mining-pools-text2">We've listed the pools that currently support mining and merge mining of Myriad below.</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <a href="https://twitter.com/myriadcoin" class="social-link-twitter" target="_blank">
+          <i class="ion-social-twitter"></i>
+        </a>
+
+        <a href="https://www.facebook.com/themyriadplatform/" class="social-link-facebook" target="_blank">
+          <i class="ion-social-facebook"></i>
+        </a>
+      </div>
+
+      <div class="col-xs-12 col-sm-5 col-sm-pull-4 legal">
+        <p class="copyright">&copy; Myriad</p>
       </div>
     </div>
+    <div>
 
-    <div class="col-xs-12 col-sm-5 col-sm-push-1 margin-top-20">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="info-group">
-            <h5 class="text-center" localization="mine-available-mining-software-title">Available Mining Software</h5>
+      <!-- Coin Market Cap Widget -->
+      <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
 
-            <div class="platform">
-              <h6>SHA256d</h6>
-              <p localization="mine-sha256d-text">You may use any SHA256d compatible ASIC</p>
-            </div>
+</body>
 
-            <div class="platform">
-              <h6>Scrypt</h6>
-              <p localization="mine-scrypt-text">You may use any Scrypt compatible ASIC</p>
-            </div>
-
-            <div class="platform">
-              <h6>Myr-Groestl</h6>
-              <p localization="mine-groestl-text">If you mine using Myr-Groestl, you have a few options.</p>
-
-              <div class="mining-software">
-                <h6 localization="mine-miner-sgminer">sgminer for OpenCL GPU mining</h6>
-                <a href="https://bitcointalk.org/index.php?topic=632503.0" class="btn btn-shark" target="_blank"><i class="ion-social-bitcoin"></i><span localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
-                <a href="https://www.nicehash.com/index.jsp?p=software#amdgpu" class="btn btn-shark" target="_blank"><i class="ion-social-windows"></i><span localization="mine-view-windows-binaries-button">Windows Binaries</span></a>
-                <a href="https://github.com/sgminer-dev/sgminer" class="btn btn-shark" target="_blank"><i class="ion-social-github"></i><span localization="mine-view-github-source-button">Github Source</span></a>
-
-                <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
-                <p class="well code">sgminer --algorithm myriadcoin-groestl --no-extranonce -o {pool-URL} -O Username:Password</p>
-              </div>
-
-              <div class="mining-software">
-                      <h6 localization="mine-miner-ccminer">ccminer for CUDA GPU mining</h6>
-                <a href="https://bitcointalk.org/?topic=770064" class="btn btn-shark" target="_blank"><i class="ion-social-bitcoin"></i><span localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
-                <a href="https://github.com/tpruvot/ccminer/releases/latest" class="btn btn-shark" target="_blank"><i class="ion-social-windows"></i><span localization="mine-view-windows-binaries-button">Windows Binaries</span></a>
-                <a href="https://github.com/tpruvot/ccminer" class="btn btn-shark" target="_blank"><i class="ion-social-github"></i><span localization="mine-view-github-source-button">Github Source</span></a>
-
-                <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
-                <p class="well code">ccminer -a myr-gr -o {pool-URL} -O Username:Password</p>
-              </div>
-
-              <div class="mining-software">
-                     <h6 localization="mine-miner-cpuminer-multi">cpuminer-multi for CPU mining</h6>
-                <a href="https://bitcointalk.org/?topic=841401" class="btn btn-shark" target="_blank"><i class="ion-social-bitcoin"></i><span localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
-                <a href="https://github.com/tpruvot/cpuminer-multi/releases/latest" class="btn btn-shark" target="_blank"><i class="ion-social-windows"></i><span localization="mine-view-windows-binaries-button">Windows Binaries</span></a>
-                <a href="https://github.com/tpruvot/cpuminer-multi" class="btn btn-shark" target="_blank"><i class="ion-social-github"></i><span localization="mine-view-github-source-button">Github Source</span></a>
-
-                <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
-                <p class="well code">cpuminer -a myr-gr -o {pool-URL} -O Username:Password</p>
-              </div>
-            </div>
-
-            <div class="platform">
-              <h6>Argon2D</h6>
-              <p localization="mine-yescrypt-text">Recommended algo for CPU miners.</p>
-              <div class="mining-software">
-                     <h6 localization="mine-miner-cpuminer-opt">CPUMiner-opt</h6>
-                <a href="https://github.com/JayDDee/cpuminer-opt/releases" class="btn btn-shark" target="_blank"><i class="ion-social-bitcoin"></i><span localization="resources-bitcointalk-thread-button">cpuminer-opt on github</span></a>
-
-                <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
-                <p class="well code">cpuminer -a argon2d4096 -o {pool-URL} -u username -p password</p>
-              </div>
-            </div>
-
-            <div class="platform">
-              <h6>Yescrypt</h6>
-              <div class="mining-software">
-                     <h6 localization="mine-miner-cpuminer-multi-optimized">CPUMiner Multi optimized</h6>
-                <a href="https://bitcointalk.org/index.php?topic=1326803.0" class="btn btn-shark" target="_blank"><i class="ion-social-bitcoin"></i><span localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</span></a>
-
-                <p localization="mine-suggested-command-line-text">Suggested Command Line</p>
-                <p class="well code">cpuminer -a yescrypt -o {pool-URL} -u username -p password</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-5 col-sm-push-1 margin-top-20">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="info-group last">
-            <h5 class="text-center" localization="mine-available-mining-pools-title">Available Mining Pools</h5>
-
-            <div class="platform">
-              <h6 localization="mine-p2pool-nodes-text">P2Pool nodes</h6>
-
-              <div class="mining-pool">
-                <h6>Myr-Groestl: New Zealand</h6>
-                <p localization="mine-pool-url-text">Pool URL</p>
-                <p class="well code">nz.nutty.one:5545</p>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Skein: New Zealand</h6>
-                <p localization="mine-pool-url-text">Pool URL</p>
-                <p class="well code">nz.nutty.one:5589</p>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Yescrypt</h6>
-                <p class="well code">yescrypt.easymine.online:6000</p>
-              </div>
-
-              <div class="mining-pool">
-                <h6 localization="mine-run-your-own-node-text">Run Your Own Node</h6>
-                <a href="https://github.com/nzsquirrell/p2pool-myriad" class="btn btn-shark" target="_blank"><i class="ion-network"></i> <span localization="mine-view-p2pool-instructions-button">View P2Pool Instructions</span></a>
-              </div>
-            </div>
-
-            <div class="platform">
-              <h6 localization="mine-other-pools-text">Other Pools</h6>
-              <div class="mining-pool">
-                <h6>SHA256d: Miningfield</h6>
-                <p localization="mine-pool-url-text">Pool URL</p>
-                <p class="well code">myrsha256.miningfield.com</p>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Myr-Groestl: Miners-pool eu</h6>
-                <a href="https://www.miners-pool.eu/pools/myriadcoin-groestl" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Myr-Groestl: Mining Pool Hub</h6>
-                <a href="https://myriadcoin-groestl.miningpoolhub.com/" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Yescrypt: Miners-pool eu</h6>
-                <a href="https://www.miners-pool.eu/pools/myriadcoin-yescrypt" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-
-              <div class="mining-pool">
-                     <h6 localization="mine-pool-yescrypt-myriadcoin-tk">Yescrypt: Myriadcoin.tk Pool (with Unitus merged-mining)</h6>
-                <p>Pool URL</p>
-                <p class="well code">myriadcoin.tk</p>
-              </div>
-
-              <div class="mining-pool">
-               <h6 localization="mine-pool-yescrypt-pokemongomongo-tk">Yescrypt: Pokemongomongo.tk Pool </h6>
-                <a href="http://pokemongomongo.tk" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Argon2d: Pokemongomongo.tk Pool</h6>
-                <a href="http://pokemongomongo.tk" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-             </div>
-
-            <div class="platform">
-              <h6 localization="mine-merge-mining-pools-text">Merge Mining Pools</h6>
-
-              <div class="mining-pool">
-                <h6>SHA256d: zpool - The miners multipool</h6>
-                <a href="http://www.zpool.ca/" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-
-              <div class="mining-pool">
-                <h6>SHA256d: MultiPool</h6>
-                <a href="https://www.multipool.us/" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-
-              <div class="mining-pool">
-                <h6>Scrypt: zpool - The miners multipool</h6>
-                <a href="http://www.zpool.ca/" class="btn btn-shark" target="_blank" localization="mine-view-pool-details-button">View Pool Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="resources" class="section section-5 row">
-    <div class="col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 text-center">
-      <h1 class="title" localization="resources-section-header">Resources</h1>
-    </div>
-
-    <div class="col-xs-12 col-sm-10 col-sm-push-1">
-      <div class="panel">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-4">
-              <div class="info-group text-center">
-                <h5 class="color-smalt-blue" localization="resources-information-title">Information</h5>
-                <a href="https://github.com/myriadteam" class="btn btn-wisteria" target="_blank" localization="resources-github-button">GitHub</a>
-                <a href="https://chainz.cryptoid.info/xmy/" class="btn btn-wisteria" target="_blank" localization="resources-cryptoid-explorer-button">CryptoID Explorer</a>
-                <a href="https://blockbook.myralicious.com" class="btn btn-wisteria" target="_blank" localization="resources-blockbook-explorer-button">Myralicious Explorer</a>
-                <a href="https://cryptapus.org/myr/myrstat" class="btn btn-wisteria" target="_blank" localization="resources-myrstat-explorer-button">Simple Statistics</a>
-                <a href="https://cryptapus.org/myr/minerstats/" class="btn btn-wisteria" target="_blank" localization="resources-minerstats-explorer-button">Active Miners</a>
-              </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <div class="info-group text-center">
-                <h5 class="color-smalt-blue" localization="resources-social-title">Social</h5>
-                <a href="https://www.reddit.com/r/myriadcoin/" class="btn btn-wisteria" target="_blank" localization="resources-reddit-button">Reddit</a>
-                <a href="https://discordapp.com/invite/gGATpw6" class="btn btn-wisteria" target="_blank" localization="resources-discord-button">Discord Server</a>
-                <a href="https://slack.myralicious.com" class="btn btn-wisteria" target="_blank" localization="resources-slack-button">Slack Channel</a>
-                <a href="https://t.me/Myriadcoinofficial" class="btn btn-wisteria" target="_blank" localization="resources-telegram-button">Telegram</a>
-                <a href="https://bitcointalk.org/index.php?topic=483515.0" class="btn btn-wisteria" target="_blank" localization="resources-bitcointalk-thread-button">BitcoinTalk Thread</a>
-                <a href="https://twitter.com/myriadcoin" class="btn btn-wisteria" target="_blank" localization="resources-twitter-button">Twitter</a>
-                <a href="https://www.facebook.com/themyriadplatform/" class="btn btn-wisteria" target="_blank" localization="resources-facebook-button">Facebook</a>
-                <a href="http://webchat.freenode.net/?nick=myriad-..&channels=%23myriadcoin" class="btn btn-wisteria" target="_blank" localization="resources-irc-channel-button">IRC Channel</a>
-              </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-              <div class="info-group text-center last">
-                <h5 class="color-smalt-blue" localization="resources-other-title">Other</h5>
-                <a href="https://cryptapus.org/myr/faucet/" class="btn btn-wisteria" target="_blank" localization="resources-faucet-button">Faucet</a>
-                <a href="http://coinmarketcap.com/currencies/myriadcoin/" class="btn btn-wisteria" target="_blank" localization="resources-coinmarketcap-button">Coinmarketcap</a>
-                <a href="https://www.reddit.com/r/myriadcoin/comments/47pww5/testnet_nodes_and_faucet/" class="btn btn-wisteria" target="_blank" localization="resources-testnet-information-button">Testnet Information</a>
-                <a href="https://cryptapus.org/myr/" class="btn btn-wisteria" target="_blank" localization="resources-cryptapus-myriad-page-button">Cryptap.us Myriad page</a>
-                <a href="https://www.reddit.com/r/myrbot/wiki/index" class="btn btn-wisteria" target="_blank" localization="reddit-irc-myrbot-information-button">Reddit/IRC myrbot information</a>
-                <a href="https://wordpress.org/plugins/nomiddleman-crypto-payments-for-woocommerce" class="btn btn-wisteria" target="_blank" localization="Woocommerce-Payment-Plugin-button">Woocommerce Payment Plugin</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="footer" class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12 col-sm-5 col-sm-push-6 social-links">
-      <a href="https://github.com/myriadteam" class="social-link-github" target="_blank">
-        <i class="ion-social-github"></i>
-      </a>
-
-      <a href="https://www.reddit.com/r/myriadcoin/" class="social-link-reddit" target="_blank">
-        <i class="ion-social-reddit"></i>
-      </a>
-
-      <a href="https://bitcointalk.org/index.php?topic=483515.0" class="social-link-bitcoin" target="_blank">
-        <i class="ion-social-bitcoin"></i>
-      </a>
-
-      <a href="https://twitter.com/myriadcoin" class="social-link-twitter" target="_blank">
-        <i class="ion-social-twitter"></i>
-      </a>
-
-      <a href="https://www.facebook.com/themyriadplatform/" class="social-link-facebook" target="_blank">
-        <i class="ion-social-facebook"></i>
-      </a>
-    </div>
-
-    <div class="col-xs-12 col-sm-5 col-sm-pull-4 legal">
-      <p class="copyright">&copy; Myriad</p>
-    </div>
-  </div>
-<div>
-
-<!-- Coin Market Cap Widget -->
-<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-
-  </body>
 </html>
