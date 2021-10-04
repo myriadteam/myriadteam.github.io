@@ -1,0 +1,83 @@
+.pools__container {
+    height: 100%;
+    width: 100vw;
+    background: #ffffff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pools__header {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk-Medium';
+    position: relative;
+}
+
+.p2pool__container, .merge__container, .other__container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pool__subheaders {
+    margin-bottom: 15px;
+    font-family: 'Space Grotesk-Bold';
+}
+
+.p2pool__boxes, .merge__boxes, .other__boxes {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.pools {
+    height: auto;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #e6e6fa;
+    border-radius: 10px;
+}
+
+.pool__type {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    background: #483d8b;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.pool__cmd {
+    height: auto;
+    width: 100%;
+    background: #ffffff;
+    color: #6a5acd;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 770px) {
+    .pools {
+        margin-bottom: 30px;
+    }
+}

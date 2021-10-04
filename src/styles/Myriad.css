@@ -1,0 +1,28 @@
+.myriad__container {
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 45px;
+    background: #000000;
+    color: #e6e6fa;
+}
+
+.myriad__container h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 770px) {
+    .myriad__container {
+        height: 100%;
+    }
+    
+    iframe {
+        height: 50vh;
+        width: 100%;
+    }
+}

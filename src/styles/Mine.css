@@ -1,0 +1,164 @@
+.mine__container {
+    height: 100%;
+    width: 100vw;
+    background: #fff;
+    color: #6a5acd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 95px 10px 10px 10px;
+}
+
+.mine__header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk-Medium';
+    font-size: 45px;
+    position: relative;
+    top: 5px;
+    color: #000;
+}
+
+.mine__intro {
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    height: auto;
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.intro__title {
+    font-family: 'Space Grotesk-Bold';
+    font-size: 20px;
+    color: #000;
+}
+
+.sub__titles {
+    font-family: 'Space Grotesk-Bold';
+    font-size: 18px;
+    color: #000;
+}
+
+.mine__subheader {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk-Medium';
+    position: relative;
+    color: #000;
+}
+
+.mine__box1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+}
+
+.mine__box1 div {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.mine__box2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.box2__header {
+    text-align: center;
+}
+
+.box2__container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-flow: wrap;
+}
+
+.box2__subboxes {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background: #e6e6fa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box2__links {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #483d8b;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.cmd__sub {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #ffffff;
+    color: #6a5acd;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.mine__box3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width: 770px) {
+    .mine__intro {
+        flex-direction: column;
+    }
+
+    .intro {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .box2__subboxes {
+        margin-bottom: 30px;
+    }
+}

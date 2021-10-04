@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url('./fonts/Nexa\ Bold.otf');
+}
+
+@font-face {
+  font-family: 'Space Grotesk-Regular';
+  src: url('./fonts/SpaceGrotesk-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Space Grotesk-Medium';
+  src: url('./fonts/SpaceGrotesk-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Space Grotesk-Bold';
+  src: url('./fonts/SpaceGrotesk-Bold.ttf');
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  font-family: 'Space Grotesk-Regular';
+  display: inline-block;
+  overflow-anchor: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
