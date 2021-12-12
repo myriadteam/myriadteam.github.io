@@ -17,6 +17,16 @@ $(function() {
     });
   }
 
+  // set lang to whole document
+  $('html').attr('lang', language);
+
+  // set rtl or ltr depending on the language load (arabic, persian, kurdish)
+  const rtlLangs = ['ar', 'fa', 'ku'];
+  $('html').attr('dir', 'ltr');
+  if ($.inArray(language, rtlLangs) > -1) {
+    $('html').attr('dir', 'rtl');
+  }
+
   // scroll functionality
   $('.view-section').click(function(e) {
     e.preventDefault();
